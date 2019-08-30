@@ -1,3 +1,4 @@
+#%%
 #++++++++++++++++++++++++++++++++++++++++++++++
 # Before running the script, edit 
 # 'SET HYPERPARAMETERS' 
@@ -23,6 +24,7 @@ import pandas as pd
 import networkx as nx
 import math
 import collections
+from collections import OrderedDict
 
 ## DECOMPOSITION
 from sklearn.decomposition import NMF
@@ -32,9 +34,21 @@ from scipy.linalg import svd
 from ibm_watson import NaturalLanguageUnderstandingV1 as NaLaUn
 from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions,ConceptsOptions,EntitiesOptions,KeywordsOptions,RelationsOptions,SyntaxOptions
 
-### Presentation
+### Presentation / apps
 from matplotlib import pyplot as plt
 import seaborn as sns
+
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
+import dash_table
+import dash_table.FormatTemplate as FormatTemplate
+from dash_table.Format import Sign
+from dash.dependencies import Input, Output
+
+import plotly.graph_objs as go
+import plotly.graph_objects as go
+import plotly.figure_factory as ff
 
 ## GENERAL FUNCTIONS 
 ### NORMALIZATION
@@ -340,24 +354,155 @@ for dctn in dian.items():
 # ARCHETYPAL ANALYSIS
 ##############
 
-df = pd.DataFrame()
+# df = pd.DataFrame()
 
-for key in df_dic:
-    dfx = df_dic[key]['concepts'].copy()
-    dfx['dictation'] = key
-    df = df.append(dfx,sort=True)
+# for key in df_dic:
+#     dfx = df_dic[key]['concepts'].copy()
+#     dfx['dictation'] = key
+#     df = df.append(dfx,sort=True)
 
-mat = df.pivot('dictation','text','relevance')
-m = mat.fillna(0)
+# mat = df.pivot('dictation','text','relevance')
+# m = mat.fillna(0)
 
-archetypes = {}
+# archetypes = {}
 
-n = 10 # Select number of Archetypes
-mar = Archetypes(m,n)
-archetypes[n] = {}
-for i in range(n):
-    archetypes[n][i] = mar.f.iloc[i].sort_values(ascending=False)[:20]
-    print(str(i+1)+' of '+str(n))
-    print(archetypes[n][i])
-    print('\n')
+# n = 10     # Select number of Archetypes
+# mar = Archetypes(m,n) 
+# archetypes[n] = {}
+# for i in range(n):
+#     archetypes[n][i] = mar.f.iloc[i].sort_values(ascending=False)
+
+
+def archs(typ,n=6):
+    if not 'archetype' in globals():
+        global archetype
+        archetype = {}
+    if not typ in archetype.keys():
+        archetype[typ] = {}
+    if not n in archetype[typ].keys():
+        archetype[typ][n] = {}
+        df = pd.DataFrame()
+        for key in df_dic:
+            dfx = df_dic[key][typ].copy()
+            dfx['dictation'] = key
+            df = df.append(dfx,sort=True)
+        if typ is 'entities':
+            df = df[df['type']=='HealthCondition']
+            df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
+            df['relevance'] = df['rel0'] * df['confidence']
+        mat = df.pivot('dictation','text','relevance')
+        m = mat.fillna(0)
+        archetype[typ][n] = Archetypes(m,n)
+#         mar = Archetypes(m,n) 
+#         for i in range(n):
+#             archetype[typ][n][i] = mar.f.iloc[i].sort_values(ascending=False)
+    return archetype[typ][n]
+
+
+aaa = archs('entities',6).f.T.iloc[:10]
+
+
+#%%
+
+## DASH/PLOTLY  WEB APP
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+application = app.server
+app.title = 'IBM Watson – Natural Language Understanding'
+
+app.layout = html.Div(
+    html.Div([
+        html.Div([
+            html.H1(children='DICTATION-NLU',
+                    className = "nine columns",
+                    style={
+                    'margin-top': 20,
+                    'margin-right': 20
+                    },
+            ),
+            
+            dcc.Markdown(children='''
+                        Workspace for experiments with creating ontology in a domain such as medical dictation.
+
+                        Process:
+                        - Dictations are analyzed by IBM Watson Natural Language Understanding. 
+                        - Output variables: keywords, entities, concepts and categories.
+                        - Variable sets are clustered, using NMF Non-zero Matrix Factorization
+                        - Dictations and variables are mapped onto the clusters
+                        ''',
+                    className = 'nine columns')
+        ], className = "row"),
+
+        html.Div(
+            [
+                html.Div(
+                    [
+                        html.Label('#Archetypes', style={'font-weight' : 'bold'}),
+                        dcc.Dropdown(
+                            id = 'NoA',
+                            options=[{'label':k,'value':k} for k in range(2,12)],
+                            value = 6,
+                            multi = False
+                        ) 
+                    ],
+                    className = 'one columns offset-by-one',
+                    style={'margin-top': '30'}
+                ),
+                html.Div(
+                    [
+                        html.Label('Variables', style={'font-weight' : 'bold'}),
+                        dcc.RadioItems(
+                            id = 'Var',
+                            options=[
+                                {'label': 'Keywords'  ,'value': 'keywords'},
+                                {'label': 'Entities'  ,'value': 'entities'},
+                                {'label': 'Concepts'  ,'value': 'concepts'},
+                                {'label': 'Categories','value': 'categories'},
+                            ],
+                            value = 'entities',
+                        ) 
+                    ],
+                    className = 'two columns',
+                    style={'margin-top': '30'}
+                ),
+            ], className="row"
+        ),
+        html.Div([
+            html.Div([
+                dcc.Graph(
+                    id='example-graph'
+                )
+            ])
+        ])
+    ])
+)
+
+@app.callback(
+    dash.dependencies.Output('example-graph', 'figure'),
+    [dash.dependencies.Input('Var', 'value'),
+     dash.dependencies.Input('NoA', 'value')]
+)
+
+def arch_heatmap(typ, n):
+    variables = (typ,n)
+    f = archs(typ,n).f.T.iloc[:6]
+    fig = go.Figure(
+                    go.Heatmap( z = f,
+                                y = f.index,
+                                x = f.columns,
+                                xgap = 1,
+                                ygap = 1,
+                    ),
+                    layout = go.Layout( xaxis={'type': 'category'},
+                                        yaxis={'type': 'category'},
+                                        font=dict(color="black",size=20)
+                    )
+    ) 
+    return fig
+
+    #%%
+
+if __name__ == '__main__':
+    app.run_server(port=8080, debug=True)
+
 
