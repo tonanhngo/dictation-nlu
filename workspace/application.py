@@ -49,6 +49,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
+from plotly.subplots import make_subplots
 
 ## GENERAL FUNCTIONS 
 ### NORMALIZATION
@@ -354,25 +355,6 @@ for dctn in dian.items():
 # ARCHETYPAL ANALYSIS
 ##############
 
-# df = pd.DataFrame()
-
-# for key in df_dic:
-#     dfx = df_dic[key]['concepts'].copy()
-#     dfx['dictation'] = key
-#     df = df.append(dfx,sort=True)
-
-# mat = df.pivot('dictation','text','relevance')
-# m = mat.fillna(0)
-
-# archetypes = {}
-
-# n = 10     # Select number of Archetypes
-# mar = Archetypes(m,n) 
-# archetypes[n] = {}
-# for i in range(n):
-#     archetypes[n][i] = mar.f.iloc[i].sort_values(ascending=False)
-
-
 def archs(typ,n=6):
     if not 'archetype' in globals():
         global archetype
@@ -399,7 +381,7 @@ def archs(typ,n=6):
     return archetype[typ][n]
 
 
-aaa = archs('entities',6).f.T.iloc[:10]
+aaa = archs('entities',6).f.T.iloc[:10]   ## WTF? App crashes when this row is removed.
 
 
 #%%
@@ -422,17 +404,43 @@ app.layout = html.Div(
             ),
             
             dcc.Markdown(children='''
-                        Workspace for experiments with creating ontology in a domain such as medical dictation.
-
-                        Process:
-                        - Dictations are analyzed by IBM Watson Natural Language Understanding. 
-                        - Output variables: keywords, entities, concepts and categories.
-                        - Variable sets are clustered, using NMF Non-zero Matrix Factorization
-                        - Dictations and variables are mapped onto the clusters
+                        Archetypal Analysis of Medical Dictations. Process:
+                        1. **Natural Language Understanding**:
+                            - Dictations are analyzed by IBM Watson Natural Language Understanding. 
+                            - Output variables: keywords, entities, concepts and categories.
+                        2. **Archetypal Analysis**:
+                            - Create Archetypes: Cluster data over variables, using NMF Non-zero Matrix Factorization
+                            - *Try using TSNE*
+                            - Dictations and variables are mapped onto the Archetypes/clusters
                         ''',
                     className = 'nine columns')
         ], className = "row"),
-
+        html.Div([
+            html.H2(children='ARCHETYPES:VARIABLES',
+                    className = "nine columns",
+                    style={
+                    'margin-top': 20,
+                    'margin-right': 20
+                    },
+            )
+        ], className = "row"),
+        html.Div(
+                    [
+                        html.Label('Variables', style={'font-weight' : 'bold'}),
+                        dcc.Dropdown(
+                            id = 'Var',
+                            options=[
+                                {'label': 'Keywords'  ,'value': 'keywords'},
+                                {'label': 'Entities'  ,'value': 'entities'},
+                                {'label': 'Concepts'  ,'value': 'concepts'},
+                                {'label': 'Categories','value': 'categories'},
+                            ],
+                            value = 'entities',
+                        ) 
+                    ],
+                    className = 'two columns',
+                    style={'margin-top': '30'}
+                ),
         html.Div(
             [
                 html.Div(
@@ -450,19 +458,15 @@ app.layout = html.Div(
                 ),
                 html.Div(
                     [
-                        html.Label('Variables', style={'font-weight' : 'bold'}),
-                        dcc.RadioItems(
-                            id = 'Var',
-                            options=[
-                                {'label': 'Keywords'  ,'value': 'keywords'},
-                                {'label': 'Entities'  ,'value': 'entities'},
-                                {'label': 'Concepts'  ,'value': 'concepts'},
-                                {'label': 'Categories','value': 'categories'},
-                            ],
-                            value = 'entities',
+                        html.Label('Cut at', style={'font-weight' : 'bold'}),
+                        dcc.Dropdown(
+                            id = 'Threshold',
+                            options=[{'label':str(k)+'%','value':k/100} for k in range(1,99)],
+                            value = 0.1,
+                            multi = False
                         ) 
                     ],
-                    className = 'two columns',
+                    className = 'one columns offset-by-one',
                     style={'margin-top': '30'}
                 ),
             ], className="row"
@@ -470,7 +474,15 @@ app.layout = html.Div(
         html.Div([
             html.Div([
                 dcc.Graph(
-                    id='example-graph'
+                    id='variables-heatmap'
+                )
+            ])
+        ]),
+        html.Div([
+            html.Div([
+                html.Label('DICTATIONS MAPPED ONTO ARCHETYPES', style={'font-size':34}),
+                dcc.Graph(
+                    id='dictations-heatmap'
                 )
             ])
         ])
@@ -478,26 +490,60 @@ app.layout = html.Div(
 )
 
 @app.callback(
-    dash.dependencies.Output('example-graph', 'figure'),
+    dash.dependencies.Output('variables-heatmap', 'figure'),
     [dash.dependencies.Input('Var', 'value'),
-     dash.dependencies.Input('NoA', 'value')]
+     dash.dependencies.Input('NoA', 'value'),
+     dash.dependencies.Input('Threshold', 'value')]
 )
 
-def arch_heatmap(typ, n):
-    variables = (typ,n)
-    f = archs(typ,n).f.T.iloc[:6]
-    fig = go.Figure(
-                    go.Heatmap( z = f,
-                                y = f.index,
-                                x = f.columns,
-                                xgap = 1,
-                                ygap = 1,
-                    ),
-                    layout = go.Layout( xaxis={'type': 'category'},
-                                        yaxis={'type': 'category'},
-                                        font=dict(color="black",size=20)
-                    )
-    ) 
+def arch_heatmap_variables(typ, n, thresh):
+    variables = (typ,n,thresh)
+    arc_f = archs(typ,n).f.T 
+    def f(i):
+        arc = arc_f.sort_values(by=i,ascending=False)
+        thr = arc[i].max() * thresh 
+        arc_show = arc[arc[i] >= thr]
+        return arc_show.sort_values(by=i,ascending=True)
+
+    maxrows = int(n//3)
+    cols = 3
+
+    fig = make_subplots(rows=maxrows, cols=cols, horizontal_spacing=0.2)  
+    for i in range(n):
+        fig.add_trace( go.Heatmap(  z = f(i),
+                                    y = f(i).index,
+                                    x = f(i).columns,
+                                    xgap = 1,
+                                    ygap = 1,
+                        ), col = i%cols +1,row = int(i//cols)+1
+            )
+    fig.update_layout(height=400*maxrows, width=1200, title_text="Subplots")
+    return fig
+
+@app.callback(
+    dash.dependencies.Output('dictations-heatmap', 'figure'),
+    [dash.dependencies.Input('Var', 'value'),
+     dash.dependencies.Input('NoA', 'value'),
+     dash.dependencies.Input('Threshold', 'value')]
+)
+
+def arch_heatmap_dictations(typ, n, thresh):
+    variables = (typ,n,thresh)
+    arc_o = archs(typ,n).o 
+    def f(i):
+        arc = arc_o.iloc[[0]]
+        return arc
+
+    fig = make_subplots(rows=n+1, cols=1, horizontal_spacing=0.2)  
+    for i in range(3):
+        fig.add_trace( go.Heatmap(  z = f(i),
+                                    y = f(i).index,
+                                    x = f(i).columns,
+                                    xgap = 1,
+                                    ygap = 1,
+                        ), col = 1,row = i+1
+            )
+    fig.update_layout(height=2400, width=1200, title_text="Subplots")
     return fig
 
     #%%
