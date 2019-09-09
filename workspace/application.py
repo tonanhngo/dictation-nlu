@@ -25,6 +25,8 @@ import networkx as nx
 import math
 import collections
 from collections import OrderedDict
+from collections import namedtuple
+DottedDict = namedtuple
 
 ## DECOMPOSITION
 from sklearn.decomposition import NMF
@@ -287,10 +289,10 @@ NLU['apikey']         = apikey
 NLU['apiurl']         = apiurl
 NLU['version']        = '2019-07-12'
 NLU['features']       = Features(
-                        categories= CategoriesOptions(limit=4),
-                        concepts  = ConceptsOptions(limit=20),
-                        entities  = EntitiesOptions(limit=20),
-                        keywords  = KeywordsOptions(limit=20),
+                        categories= CategoriesOptions(),
+                        concepts  = ConceptsOptions(),
+                        entities  = EntitiesOptions(),
+                        keywords  = KeywordsOptions(),
                         relations = RelationsOptions(),
                         syntax    = SyntaxOptions()
                         )
@@ -355,14 +357,13 @@ for dctn in dian.items():
 # ARCHETYPAL ANALYSIS
 ##############
 
-def archs(typ,n=6):
-    if not 'archetype' in globals():
-        global archetype
-        archetype = {}
-    if not typ in archetype.keys():
-        archetype[typ] = {}
-    if not n in archetype[typ].keys():
-        archetype[typ][n] = {}
+
+archetypes_dic = {}
+def archetypes(typ='entities',n_archs=6):
+    if typ not in archetypes_dic.keys():
+        archetypes_dic[typ] = {}
+    if n_archs not in archetypes_dic[typ].keys():
+        archetypes_dic[typ][n_archs] = {}
         df = pd.DataFrame()
         for key in df_dic:
             dfx = df_dic[key][typ].copy()
@@ -372,17 +373,25 @@ def archs(typ,n=6):
             df = df[df['type']=='HealthCondition']
             df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
             df['relevance'] = df['rel0'] * df['confidence']
-        mat = df.pivot('dictation','text','relevance')
-        m = mat.fillna(0)
-        archetype[typ][n] = Archetypes(m,n)
-#         mar = Archetypes(m,n) 
-#         for i in range(n):
-#             archetype[typ][n][i] = mar.f.iloc[i].sort_values(ascending=False)
-    return archetype[typ][n]
+        mat = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+        archetypes_dic[typ][n_archs] = Archetypes(mat,n_archs)
+    return archetypes_dic[typ][n_archs]
 
 
-aaa = archs('entities',6).f.T.iloc[:10]   ## WTF? App crashes when this row is removed.
 
+def display_archetype(typ = 'entities' , n_archs = 6, arch_nr = 0, var = 'variables', threshold = 0.1):
+    if var is 'variables':
+        arc = archetypes(typ,n_archs).f.T.sort_values(by=arch_nr,ascending = False)
+        result = arc[
+                    arc[arch_nr] >= (threshold * arc[arch_nr][0])
+                 ]
+        return result
+    elif var is 'dictations':
+        arc = sns.clustermap(archetypes(typ,n_archs).o).data2d
+        return arc
+
+    
+  
 
 #%%
 
@@ -435,7 +444,7 @@ app.layout = html.Div(
                                 {'label': 'Concepts'  ,'value': 'concepts'},
                                 {'label': 'Categories','value': 'categories'},
                             ],
-                            value = 'entities',
+                            value = 'keywords',
                         ) 
                     ],
                     className = 'two columns',
@@ -448,7 +457,7 @@ app.layout = html.Div(
                         html.Label('#Archetypes', style={'font-weight' : 'bold'}),
                         dcc.Dropdown(
                             id = 'NoA',
-                            options=[{'label':k,'value':k} for k in range(2,12)],
+                            options=[{'label':k,'value':k} for k in range(2,100)],
                             value = 6,
                             multi = False
                         ) 
@@ -477,15 +486,15 @@ app.layout = html.Div(
                     id='variables-heatmap'
                 )
             ])
-        ]),
-        html.Div([
-            html.Div([
-                html.Label('DICTATIONS MAPPED ONTO ARCHETYPES', style={'font-size':34}),
-                dcc.Graph(
-                    id='dictations-heatmap'
-                )
-            ])
         ])
+        # html.Div([
+        #     html.Div([
+        #         html.Label('DICTATIONS MAPPED ONTO ARCHETYPES', style={'font-size':34}),
+        #         dcc.Graph(
+        #             id='dictations-heatmap'
+        #         )
+        #     ])
+        # ])
     ])
 )
 
@@ -496,20 +505,16 @@ app.layout = html.Div(
      dash.dependencies.Input('Threshold', 'value')]
 )
 
-def arch_heatmap_variables(typ, n, thresh):
-    variables = (typ,n,thresh)
-    arc_f = archs(typ,n).f.T 
+def arch_heatmap_variables(typ, n_archs, threshold):
+    variables = (typ,n_archs,threshold)
+
     def f(i):
-        arc = arc_f.sort_values(by=i,ascending=False)
-        thr = arc[i].max() * thresh 
-        arc_show = arc[arc[i] >= thr]
-        return arc_show.sort_values(by=i,ascending=True)
+        return display_archetype(arch_nr=i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
 
-    maxrows = int(n//3)
+    maxrows = int(1+ n_archs//3)
     cols = 3
-
     fig = make_subplots(rows=maxrows, cols=cols, horizontal_spacing=0.2)  
-    for i in range(n):
+    for i in range(n_archs):
         fig.add_trace( go.Heatmap(  z = f(i),
                                     y = f(i).index,
                                     x = f(i).columns,
@@ -520,33 +525,7 @@ def arch_heatmap_variables(typ, n, thresh):
     fig.update_layout(height=400*maxrows, width=1200, title_text="Subplots")
     return fig
 
-@app.callback(
-    dash.dependencies.Output('dictations-heatmap', 'figure'),
-    [dash.dependencies.Input('Var', 'value'),
-     dash.dependencies.Input('NoA', 'value'),
-     dash.dependencies.Input('Threshold', 'value')]
-)
-
-def arch_heatmap_dictations(typ, n, thresh):
-    variables = (typ,n,thresh)
-    arc_o = archs(typ,n).o 
-    def f(i):
-        arc = arc_o.iloc[[0]]
-        return arc
-
-    fig = make_subplots(rows=n+1, cols=1, horizontal_spacing=0.2)  
-    for i in range(3):
-        fig.add_trace( go.Heatmap(  z = f(i),
-                                    y = f(i).index,
-                                    x = f(i).columns,
-                                    xgap = 1,
-                                    ygap = 1,
-                        ), col = 1,row = i+1
-            )
-    fig.update_layout(height=2400, width=1200, title_text="Subplots")
-    return fig
-
-    #%%
+#%%
 
 if __name__ == '__main__':
     app.run_server(port=8080, debug=True)
