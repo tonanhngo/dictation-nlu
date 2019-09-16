@@ -297,6 +297,132 @@ NLU['features']       = Features(
                         syntax    = SyntaxOptions()
                         )
 
+##### CLASS OBJECT FOR ARCHETYPAL ANALYSIS (UNDER CONSTRUCTION). ORIGINAL FUNCIONGIN BELOW CLASS OBJECT ########
+
+class DocumentArchetypes:
+    '''
+    DocumentArchetypes performs Archetypal Analysis on a corpus consisting of a set of documents, for example a set 
+    of articles, books, news stories or medical dictations.
+    
+    Input parameters:
+    
+    PATH            - Dictionary with paths to I/O
+    PATH['data']    - Directory for input text files. Example: './data/input_texts/'
+    PATH['results'] - Directory for output.           Example: './data/output_nlu/'
+    
+    NLU                   - Dictionary with information for running Watson NLU
+    NLU['apikey']         - apikey for running Watson NLU
+    NLU['apiurl']         - URL for Watson NLU API
+    NLU['version']        - Watson NLU version, e.g. '2019-07-12'
+    NLU['features']       - Features requested from Watson NLU for each document in the set, e.g. 
+                                Features(
+                                categories= CategoriesOptions(),
+                                concepts  = ConceptsOptions(),
+                                entities  = EntitiesOptions(),
+                                keywords  = KeywordsOptions(),
+                                relations = RelationsOptions(),
+                                syntax    = SyntaxOptions()
+                                )
+
+    Attributes:
+
+        
+        self.PATH 
+    
+        
+    '''
+    from ibm_watson import NaturalLanguageUnderstandingV1 as NaLaUn
+    from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions,ConceptsOptions,EntitiesOptions,KeywordsOptions,RelationsOptions,SyntaxOptions
+    
+    def __init__(self, PATH, NLU):
+        self.PATH = PATH
+        self.NLU  = NLU
+        self.nlu_model  = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['apiurl'])  #Local Natural Language Understanding object
+        self.archetypes_dic = {}
+        
+        ################
+        ## PREPARE DATA 
+        ################
+        self.filenames = os.listdir(self.PATH['data']) 
+        self.dictation_dic = {}            #dictionary for dictation files
+        for name in self.filenames:
+            self.dictation_dic[name.replace('.txt','')] = open(self.PATH['data']+name).read()
+        
+        ###############################
+        ## PERFORM WATSON NLU ANALYSIS
+        ###############################
+        
+        self.watson = {}    #Dictionary with Watson-NLU results for each dictation
+        
+        self.watson_pkl = PATH['results']+'all_dictations_nlu.pkl'  
+        pkl_exists = os.path.exists(self.watson_pkl)
+
+        if pkl_exists:
+            self.watson = pickle.load( open( self.watson_pkl, "rb" ) )
+
+        else: #perform nlu-analysis on dictations
+            for item in list(self.dictation_dic.items()):
+                lbl  = item[0]
+                text = item[1]
+                self.watson[lbl] = self.nlu_model.analyze(text = text, features=NLU['features'])
+                f = open(PATH['results']+str(lbl)+'_nlu.pkl','wb')
+                pickle.dump(self.watson[lbl],f)
+                f.close()
+
+            f = open(self.watson_pkl,'wb')
+            pickle.dump(self.watson,f)
+            f.close() 
+
+        # Copy Watson NLU results to Pandas Dataframes
+        self.watson_nlu = {}
+        for dctn in self.watson.items():
+            self.watson_nlu[dctn[0]] = {}
+            for item in list(dctn[1].result.items()):
+                self.watson_nlu[dctn[0]][item[0]]=pd.DataFrame(list(item[1]))
+
+
+    ##############
+    # ARCHETYPAL ANALYSIS
+    ##############
+
+    def archetypes(self,typ='entities',n_archs=6,bootstrap = False, bootstrap_frac = 0.5):
+        hyperparam = (n_archs,bootstrap,bootstrap_frac)
+        if typ not in self.archetypes_dic.keys():
+            self.archetypes_dic[typ] = {}
+        if hyperparam not in self.archetypes_dic[typ].keys():
+            self.archetypes_dic[typ][hyperparam] = {}
+            df = pd.DataFrame()
+            for key in self.watson_nlu:
+                dfx = self.watson_nlu[key][typ].copy()
+                dfx['dictation'] = key
+                df = df.append(dfx,sort=True)
+            if typ is 'entities':
+                df = df[df['type']=='HealthCondition']
+                df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
+                df['relevance'] = df['rel0'] * df['confidence']
+            mat = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+            self.archetypes_dic[typ][hyperparam] = Archetypes(mat,n_archs,bootstrap = bootstrap, bootstrap_frac = bootstrap_frac)
+        return self.archetypes_dic[typ][hyperparam]
+
+
+    def display_archetype(self,typ = 'entities' , n_archs = 6, arch_nr = 0, var = 'variables', threshold = 0.1):
+        if var is 'variables':
+            arc = self.archetypes(typ,n_archs).f.T.sort_values(by=arch_nr,ascending = False)
+            result = arc[
+                        arc[arch_nr] >= (threshold * arc[arch_nr][0])
+                     ]
+            return result
+        elif var is 'dictations':
+            arc = sns.clustermap(archetypes(typ,n_archs).o).data2d
+            return arc
+
+                
+
+
+
+
+#####  ORIGINAL DRAFT - PACKAGED AS A CLASS HERE ABOVE ##################### 
+
 nlu = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['apiurl'])  #Local Natural Language Understanding object
 
 ################
@@ -486,17 +612,14 @@ app.layout = html.Div(
                     id='variables-heatmap'
                 )
             ])
-        ])
+        ]),
         # html.Div([
-        #     html.Div([
-        #         html.Label('DICTATIONS MAPPED ONTO ARCHETYPES', style={'font-size':34}),
-        #         dcc.Graph(
-        #             id='dictations-heatmap'
-        #         )
-        #     ])
+        #     html.H3('DICTATIONS MAPPED ONTO ARCHETYPES'),
+        #     dcc.Graph(id='dictations')
         # ])
-    ])
+     ])
 )
+
 
 @app.callback(
     dash.dependencies.Output('variables-heatmap', 'figure'),
@@ -524,6 +647,24 @@ def arch_heatmap_variables(typ, n_archs, threshold):
             )
     fig.update_layout(height=400*maxrows, width=1200, title_text="Subplots")
     return fig
+
+
+
+# @app.callback(
+#     dash.dependencies.Output('dictations', 'figure'),
+#     [dash.dependencies.Input('Var', 'value'),
+#      dash.dependencies.Input('NoA', 'value'),
+#      dash.dependencies.Input('Threshold', 'value')]
+# )
+
+# def arch_heatmap_dictations(typ, n_archs, threshold):
+#     variables = (typ,n_archs,threshold)
+#     f = archetypes(typ,n_archs).o
+#     fig = go.Heatmap(   z = f
+#             )
+#     return fig
+
+
 
 #%%
 
