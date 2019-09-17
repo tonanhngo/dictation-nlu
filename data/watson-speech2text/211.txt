@@ -1,0 +1,2381 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 25.02,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "the"
+            }
+          ],
+          "end_time": 25.26
+        },
+        {
+          "start_time": 25.26,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "indication"
+            }
+          ],
+          "end_time": 25.85
+        },
+        {
+          "start_time": 25.85,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "for"
+            }
+          ],
+          "end_time": 25.96
+        },
+        {
+          "start_time": 25.96,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "this"
+            }
+          ],
+          "end_time": 26.1
+        },
+        {
+          "start_time": 26.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "study"
+            }
+          ],
+          "end_time": 26.47
+        },
+        {
+          "start_time": 26.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 26.63
+        },
+        {
+          "start_time": 26.63,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "rule"
+            }
+          ],
+          "end_time": 26.83
+        },
+        {
+          "start_time": 26.83,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "out"
+            }
+          ],
+          "end_time": 26.93
+        },
+        {
+          "start_time": 26.93,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "endocarditis"
+            }
+          ],
+          "end_time": 27.65
+        },
+        {
+          "start_time": 27.65,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "and"
+            }
+          ],
+          "end_time": 27.79
+        },
+        {
+          "start_time": 27.79,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "tricuspid"
+            }
+          ],
+          "end_time": 28.17
+        },
+        {
+          "start_time": 28.17,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "regurgitation"
+            }
+          ],
+          "end_time": 28.74
+        },
+        {
+          "start_time": 28.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "procedure"
+            }
+          ],
+          "end_time": 29.39
+        },
+        {
+          "start_time": 29.39,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "for"
+            }
+          ],
+          "end_time": 29.71
+        },
+        {
+          "start_time": 30.22,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "PD"
+            }
+          ],
+          "end_time": 30.48
+        },
+        {
+          "start_time": 30.48,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "echocardiogram"
+            }
+          ],
+          "end_time": 31.14
+        },
+        {
+          "start_time": 31.14,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "with"
+            }
+          ],
+          "end_time": 31.29
+        },
+        {
+          "start_time": 31.29,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "doppler"
+            }
+          ],
+          "end_time": 31.63
+        },
+        {
+          "start_time": 31.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 31.74
+        },
+        {
+          "start_time": 31.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "color"
+            }
+          ],
+          "end_time": 31.94
+        },
+        {
+          "start_time": 31.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "flow"
+            }
+          ],
+          "end_time": 32.13
+        },
+        {
+          "start_time": 32.13,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "image"
+            },
+            {
+              "confidence": 0.16,
+              "word": "into"
+            }
+          ],
+          "end_time": 32.42
+        },
+        {
+          "start_time": 32.42,
+          "alternatives": [
+            {
+              "confidence": 0.35,
+              "word": "because"
+            },
+            {
+              "confidence": 0.19,
+              "word": "to"
+            },
+            {
+              "confidence": 0.15,
+              "word": "pay"
+            }
+          ],
+          "end_time": 32.58
+        },
+        {
+          "start_time": 33.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 33.26
+        },
+        {
+          "start_time": 33.26,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "study"
+            }
+          ],
+          "end_time": 33.71
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.88,
+          "transcript": "the %HESITATION are %HESITATION the indication for this study is rule out endocarditis and tricuspid regurgitation procedure for PD echocardiogram with doppler and color flow image because the quality of the study "
+        },
+        {
+          "transcript": "the %HESITATION are %HESITATION the indication for this study is rule out endocarditis and tricuspid regurgitation procedure for PD echocardiogram with doppler and color flow image to the quality of the study "
+        },
+        {
+          "transcript": "the %HESITATION are %HESITATION the indication for this study is rule out endocarditis and tricuspid regurgitation procedure for PD echocardiogram with doppler and color flow into the quality of the study "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 34.58,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "is"
+            }
+          ],
+          "end_time": 34.74
+        },
+        {
+          "start_time": 34.74,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "technically"
+            }
+          ],
+          "end_time": 35.12
+        },
+        {
+          "start_time": 35.12,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "difficult"
+            }
+          ],
+          "end_time": 35.63
+        },
+        {
+          "start_time": 35.63,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "due"
+            }
+          ],
+          "end_time": 35.75
+        },
+        {
+          "start_time": 35.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 35.85
+        },
+        {
+          "start_time": 35.85,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "poor"
+            }
+          ],
+          "end_time": 36.12
+        },
+        {
+          "start_time": 36.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "imaging"
+            }
+          ],
+          "end_time": 36.45
+        },
+        {
+          "start_time": 36.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "windows"
+            }
+          ],
+          "end_time": 36.78
+        },
+        {
+          "start_time": 36.78,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "period"
+            }
+          ],
+          "end_time": 37.13
+        },
+        {
+          "start_time": 37.72,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 38.04
+        },
+        {
+          "start_time": 38.04,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 38.48
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "is technically difficult due to poor imaging windows period %HESITATION paragraph "
+        },
+        {
+          "transcript": "it's technically difficult due to poor imaging windows period %HESITATION paragraph "
+        },
+        {
+          "transcript": "technically difficult due to poor imaging windows period %HESITATION paragraph "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 40.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 40.55
+        },
+        {
+          "start_time": 40.55,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "measurements"
+            }
+          ],
+          "end_time": 41.05
+        },
+        {
+          "start_time": 41.05,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 41.17
+        },
+        {
+          "start_time": 41.17,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "interventricular"
+            },
+            {
+              "confidence": 0.38,
+              "word": "intraventricular"
+            }
+          ],
+          "end_time": 41.73
+        },
+        {
+          "start_time": 41.73,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "septum"
+            }
+          ],
+          "end_time": 42.0
+        },
+        {
+          "start_time": 42.0,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "zero"
+            }
+          ],
+          "end_time": 42.16
+        },
+        {
+          "start_time": 42.16,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "point"
+            }
+          ],
+          "end_time": 42.36
+        },
+        {
+          "start_time": 42.36,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "eight"
+            }
+          ],
+          "end_time": 42.53
+        },
+        {
+          "start_time": 42.53,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 43.01
+        },
+        {
+          "start_time": 43.01,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "lefty"
+            }
+          ],
+          "end_time": 43.34
+        },
+        {
+          "start_time": 43.34,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "postal"
+            }
+          ],
+          "end_time": 43.74
+        },
+        {
+          "start_time": 43.74,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "zero"
+            }
+          ],
+          "end_time": 43.93
+        },
+        {
+          "start_time": 43.93,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "point"
+            }
+          ],
+          "end_time": 44.19
+        },
+        {
+          "start_time": 44.19,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "eight"
+            }
+          ],
+          "end_time": 44.37
+        },
+        {
+          "start_time": 44.37,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 44.95
+        },
+        {
+          "start_time": 45.58,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "let's"
+            },
+            {
+              "confidence": 0.1,
+              "word": "Leslie"
+            }
+          ],
+          "end_time": 45.75
+        },
+        {
+          "start_time": 45.75,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "see"
+            }
+          ],
+          "end_time": 45.85
+        },
+        {
+          "start_time": 46.5,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "point"
+            }
+          ],
+          "end_time": 46.81
+        },
+        {
+          "start_time": 46.81,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "oh"
+            }
+          ],
+          "end_time": 46.9
+        },
+        {
+          "start_time": 46.9,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 47.46
+        },
+        {
+          "start_time": 47.46,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "your"
+            }
+          ],
+          "end_time": 47.64
+        },
+        {
+          "start_time": 47.64,
+          "alternatives": [
+            {
+              "confidence": 0.41,
+              "word": "exams"
+            },
+            {
+              "confidence": 0.29,
+              "word": "exam"
+            }
+          ],
+          "end_time": 48.08
+        },
+        {
+          "start_time": 48.08,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "two"
+            }
+          ],
+          "end_time": 48.23
+        },
+        {
+          "start_time": 48.23,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "point"
+            }
+          ],
+          "end_time": 48.48
+        },
+        {
+          "start_time": 48.48,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "five"
+            }
+          ],
+          "end_time": 48.72
+        },
+        {
+          "start_time": 48.72,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 49.27
+        },
+        {
+          "start_time": 49.82,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "left"
+            }
+          ],
+          "end_time": 50.15
+        },
+        {
+          "start_time": 50.15,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "in"
+            }
+          ],
+          "end_time": 50.24
+        },
+        {
+          "start_time": 50.24,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "the"
+            }
+          ],
+          "end_time": 50.3
+        },
+        {
+          "start_time": 50.3,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "past"
+            }
+          ],
+          "end_time": 50.61
+        },
+        {
+          "start_time": 50.61,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "is"
+            }
+          ],
+          "end_time": 50.68
+        },
+        {
+          "start_time": 50.68,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "four"
+            }
+          ],
+          "end_time": 50.85
+        },
+        {
+          "start_time": 50.85,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "point"
+            }
+          ],
+          "end_time": 51.08
+        },
+        {
+          "start_time": 51.08,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "four"
+            }
+          ],
+          "end_time": 51.27
+        },
+        {
+          "start_time": 51.27,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 51.8
+        },
+        {
+          "start_time": 51.8,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "since"
+            }
+          ],
+          "end_time": 51.99
+        },
+        {
+          "start_time": 51.99,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "this"
+            },
+            {
+              "confidence": 0.15,
+              "word": "census"
+            }
+          ],
+          "end_time": 52.17
+        },
+        {
+          "start_time": 52.17,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "is"
+            }
+          ],
+          "end_time": 52.28
+        },
+        {
+          "start_time": 52.28,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "three"
+            }
+          ],
+          "end_time": 52.46
+        },
+        {
+          "start_time": 52.46,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "point"
+            }
+          ],
+          "end_time": 52.76
+        },
+        {
+          "start_time": 52.76,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "oh"
+            }
+          ],
+          "end_time": 52.86
+        },
+        {
+          "start_time": 52.86,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 53.56
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.75,
+          "transcript": "the measurements %HESITATION interventricular septum zero point eight centimeters lefty postal zero point eight centimeters let's see to Dennis three point oh centimeters your exams two point five centimeters left in the past is four point four centimeters since this is three point oh centimeters "
+        },
+        {
+          "transcript": "the measurements %HESITATION interventricular septum zero point eight centimeters lefty postal zero point eight centimeters let's see today is three point oh centimeters your exams two point five centimeters left in the past is four point four centimeters since this is three point oh centimeters "
+        },
+        {
+          "transcript": "the measurements %HESITATION interventricular septum zero point eight centimeters lefty postal zero point eight centimeters let's see to Dennis three point oh centimeters your exam is two point five centimeters left in the past is four point four centimeters since this is three point oh centimeters "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 54.4,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 54.56
+        },
+        {
+          "start_time": 54.56,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "of"
+            }
+          ],
+          "end_time": 54.65
+        },
+        {
+          "start_time": 54.65,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "the"
+            }
+          ],
+          "end_time": 54.74
+        },
+        {
+          "start_time": 54.74,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "findings"
+            }
+          ],
+          "end_time": 55.23
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "%HESITATION of the findings "
+        },
+        {
+          "transcript": "%HESITATION the findings "
+        },
+        {
+          "transcript": "%HESITATION got the findings "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 60.14,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 60.35
+        },
+        {
+          "start_time": 60.35,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "left"
+            }
+          ],
+          "end_time": 60.6
+        },
+        {
+          "start_time": 60.6,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "ventricle"
+            }
+          ],
+          "end_time": 60.92
+        },
+        {
+          "start_time": 60.92,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "is"
+            }
+          ],
+          "end_time": 61.0
+        },
+        {
+          "start_time": 61.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "normal"
+            }
+          ],
+          "end_time": 61.2
+        },
+        {
+          "start_time": 61.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "size"
+            }
+          ],
+          "end_time": 61.42
+        },
+        {
+          "start_time": 61.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 61.51
+        },
+        {
+          "start_time": 61.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "systolic"
+            }
+          ],
+          "end_time": 61.91
+        },
+        {
+          "start_time": 61.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "function"
+            }
+          ],
+          "end_time": 62.28
+        },
+        {
+          "start_time": 62.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "estimated"
+            }
+          ],
+          "end_time": 62.68
+        },
+        {
+          "start_time": 62.68,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ejection"
+            }
+          ],
+          "end_time": 62.99
+        },
+        {
+          "start_time": 62.99,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "fraction"
+            }
+          ],
+          "end_time": 63.3
+        },
+        {
+          "start_time": 63.3,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "sixty"
+            }
+          ],
+          "end_time": 63.59
+        },
+        {
+          "start_time": 63.59,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "percent"
+            }
+          ],
+          "end_time": 63.94
+        },
+        {
+          "start_time": 64.0,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "next"
+            }
+          ],
+          "end_time": 64.26
+        },
+        {
+          "start_time": 64.26,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "number"
+            }
+          ],
+          "end_time": 64.52
+        },
+        {
+          "start_time": 65.14,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "the"
+            }
+          ],
+          "end_time": 65.24
+        },
+        {
+          "start_time": 65.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 65.38
+        },
+        {
+          "start_time": 65.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ventricle"
+            }
+          ],
+          "end_time": 65.81
+        },
+        {
+          "start_time": 65.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 66.01
+        },
+        {
+          "start_time": 66.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "atrium"
+            }
+          ],
+          "end_time": 66.47
+        },
+        {
+          "start_time": 66.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 66.65
+        },
+        {
+          "start_time": 66.65,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "left"
+            }
+          ],
+          "end_time": 66.82
+        },
+        {
+          "start_time": 66.82,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "teacher"
+            },
+            {
+              "confidence": 0.13,
+              "word": "each"
+            }
+          ],
+          "end_time": 67.07
+        },
+        {
+          "start_time": 68.07,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "pericardium"
+            }
+          ],
+          "end_time": 68.57
+        },
+        {
+          "start_time": 68.57,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "is"
+            }
+          ],
+          "end_time": 68.66
+        },
+        {
+          "start_time": 68.66,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "normal"
+            }
+          ],
+          "end_time": 68.87
+        },
+        {
+          "start_time": 68.87,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "size"
+            }
+          ],
+          "end_time": 69.15
+        },
+        {
+          "start_time": 69.15,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "if"
+            },
+            {
+              "confidence": 0.14,
+              "word": "and"
+            }
+          ],
+          "end_time": 69.37
+        },
+        {
+          "start_time": 69.37,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "confusion"
+            }
+          ],
+          "end_time": 69.9
+        },
+        {
+          "start_time": 69.9,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "period"
+            }
+          ],
+          "end_time": 70.26
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.86,
+          "transcript": "%HESITATION left ventricle is normal size and systolic function estimated ejection fraction sixty percent next number the right ventricle right atrium and left teacher known appearance for next the pericardium is normal size if confusion period "
+        },
+        {
+          "transcript": "%HESITATION left ventricle is normal size and systolic function estimated ejection fraction sixty percent next number the right ventricle right atrium and left teacher known a transfer next the pericardium is normal size if confusion period "
+        },
+        {
+          "transcript": "%HESITATION left ventricle is normal size and systolic function estimated ejection fraction is sixty percent next number the right ventricle right atrium and left teacher known appearance for next the pericardium is normal size if confusion period "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 74.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 74.77
+        },
+        {
+          "start_time": 74.77,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "number"
+            }
+          ],
+          "end_time": 75.09
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "next number "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 77.1,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 77.53
+        },
+        {
+          "start_time": 77.65,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "much"
+            }
+          ],
+          "end_time": 77.89
+        },
+        {
+          "start_time": 77.89,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "of"
+            }
+          ],
+          "end_time": 77.98
+        },
+        {
+          "start_time": 77.98,
+          "alternatives": [
+            {
+              "confidence": 0.39,
+              "word": "I"
+            },
+            {
+              "confidence": 0.3,
+              "word": "our"
+            },
+            {
+              "confidence": 0.15,
+              "word": "all"
+            }
+          ],
+          "end_time": 78.08
+        },
+        {
+          "start_time": 78.11,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "was"
+            }
+          ],
+          "end_time": 78.26
+        },
+        {
+          "start_time": 79.05,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "sabemos"
+            }
+          ],
+          "end_time": 79.44
+        },
+        {
+          "start_time": 79.44,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "stenosis"
+            }
+          ],
+          "end_time": 79.97
+        },
+        {
+          "start_time": 79.97,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "regurgitation"
+            }
+          ],
+          "end_time": 80.55
+        },
+        {
+          "start_time": 80.55,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "predictions"
+            }
+          ],
+          "end_time": 81.04
+        },
+        {
+          "start_time": 81.04,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "aortic"
+            }
+          ],
+          "end_time": 81.34
+        },
+        {
+          "start_time": 81.34,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "valve"
+            }
+          ],
+          "end_time": 81.54
+        },
+        {
+          "start_time": 81.54,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "is"
+            }
+          ],
+          "end_time": 81.63
+        },
+        {
+          "start_time": 81.63,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "normal"
+            }
+          ],
+          "end_time": 81.84
+        },
+        {
+          "start_time": 84.04,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "or"
+            }
+          ],
+          "end_time": 84.24
+        },
+        {
+          "start_time": 84.24,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "regurgitation"
+            }
+          ],
+          "end_time": 84.87
+        },
+        {
+          "start_time": 84.87,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "predictions"
+            }
+          ],
+          "end_time": 85.35
+        },
+        {
+          "start_time": 85.35,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "are"
+            },
+            {
+              "confidence": 0.32,
+              "word": "for"
+            }
+          ],
+          "end_time": 85.43
+        },
+        {
+          "start_time": 85.43,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "consultants"
+            }
+          ],
+          "end_time": 85.99
+        },
+        {
+          "start_time": 85.99,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "with"
+            }
+          ],
+          "end_time": 86.28
+        },
+        {
+          "start_time": 86.72,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "mild"
+            }
+          ],
+          "end_time": 87.06
+        },
+        {
+          "start_time": 87.06,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "regurgitation"
+            }
+          ],
+          "end_time": 87.73
+        },
+        {
+          "start_time": 87.73,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "period"
+            }
+          ],
+          "end_time": 88.16
+        },
+        {
+          "start_time": 88.61,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "next"
+            }
+          ],
+          "end_time": 88.87
+        },
+        {
+          "start_time": 88.87,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "number"
+            }
+          ],
+          "end_time": 89.1
+        },
+        {
+          "start_time": 89.1,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "catheter"
+            }
+          ],
+          "end_time": 89.55
+        },
+        {
+          "start_time": 89.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "noted"
+            }
+          ],
+          "end_time": 89.89
+        },
+        {
+          "start_time": 89.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 90.01
+        },
+        {
+          "start_time": 90.01,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "there"
+            },
+            {
+              "confidence": 0.13,
+              "word": "the"
+            }
+          ],
+          "end_time": 90.34
+        },
+        {
+          "start_time": 90.39,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 90.71
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.76,
+          "transcript": "%HESITATION much of I was normal pants with no sabemos stenosis regurgitation predictions aortic valve is normal No significant assist or regurgitation predictions are consultants with mild regurgitation period next number catheter noted in there %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION much of I was normal pants with no sabemos stenosis regurgitation predictions aortic valve is normal No significant missus or regurgitation predictions are consultants with mild regurgitation period next number catheter noted in there %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION much of I was normal pants with no sabemos stenosis regurgitation predictions aortic valve is normal No significant assist or regurgitation predictions are consultants with mild regurgitation period next number catheter noted in there are %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 92.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 92.34
+        },
+        {
+          "start_time": 92.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "atrium"
+            }
+          ],
+          "end_time": 92.75
+        },
+        {
+          "start_time": 92.75,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "period"
+            }
+          ],
+          "end_time": 93.25
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "right atrium period "
+        },
+        {
+          "transcript": "right atrium period I "
+        },
+        {
+          "transcript": "right atrium period %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 94.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 95.2
+        },
+        {
+          "start_time": 95.2,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "number"
+            }
+          ],
+          "end_time": 95.61
+        },
+        {
+          "start_time": 95.64,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 96.0
+        },
+        {
+          "start_time": 96.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 96.19
+        },
+        {
+          "start_time": 96.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "intracardiac"
+            }
+          ],
+          "end_time": 96.61
+        },
+        {
+          "start_time": 96.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thrombus"
+            }
+          ],
+          "end_time": 96.91
+        },
+        {
+          "start_time": 96.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vegetations"
+            }
+          ],
+          "end_time": 97.5
+        },
+        {
+          "start_time": 97.5,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "masses"
+            }
+          ],
+          "end_time": 97.87
+        },
+        {
+          "start_time": 97.87,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "seen"
+            }
+          ],
+          "end_time": 98.23
+        },
+        {
+          "start_time": 98.23,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "period"
+            }
+          ],
+          "end_time": 98.68
+        },
+        {
+          "start_time": 99.39,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 99.56
+        },
+        {
+          "start_time": 99.56,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "next"
+            }
+          ],
+          "end_time": 99.83
+        },
+        {
+          "start_time": 100.59,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "study"
+            }
+          ],
+          "end_time": 100.89
+        },
+        {
+          "start_time": 100.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "due"
+            }
+          ],
+          "end_time": 101.02
+        },
+        {
+          "start_time": 101.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 101.11
+        },
+        {
+          "start_time": 101.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "poor"
+            }
+          ],
+          "end_time": 101.33
+        },
+        {
+          "start_time": 101.33,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "imaging"
+            }
+          ],
+          "end_time": 101.65
+        },
+        {
+          "start_time": 101.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "windows"
+            }
+          ],
+          "end_time": 102.01
+        },
+        {
+          "start_time": 102.01,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "period"
+            }
+          ],
+          "end_time": 102.38
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "next number %HESITATION no intracardiac thrombus vegetations masses seen period %HESITATION next or technically difficult study due to poor imaging windows period "
+        },
+        {
+          "transcript": "next number %HESITATION no intracardiac thrombus vegetations masses seen period %HESITATION next number technically difficult study due to poor imaging windows period "
+        },
+        {
+          "transcript": "next number %HESITATION no intracardiac thrombus vegetations masses seen period %HESITATION next are technically difficult study due to poor imaging windows period "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 103.31,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 103.79
+        },
+        {
+          "start_time": 103.79,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 104.0
+        },
+        {
+          "start_time": 104.0,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "conclusions"
+            }
+          ],
+          "end_time": 104.73
+        },
+        {
+          "start_time": 105.19,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 105.42
+        },
+        {
+          "start_time": 105.42,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "number"
+            }
+          ],
+          "end_time": 105.7
+        },
+        {
+          "start_time": 105.7,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "one"
+            }
+          ],
+          "end_time": 105.99
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.91,
+          "transcript": "paragraph %HESITATION conclusions %HESITATION number one "
+        },
+        {
+          "transcript": "%HESITATION of %HESITATION conclusions %HESITATION number one "
+        },
+        {
+          "transcript": "paragraph %HESITATION conclusiones %HESITATION number one "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 106.98,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 107.57
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.96,
+          "transcript": "%HESITATION "
+        },
+        {
+          "transcript": "um "
+        },
+        {
+          "transcript": "%HESITATION I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 110.4,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "technically"
+            }
+          ],
+          "end_time": 110.73
+        },
+        {
+          "start_time": 110.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "difficult"
+            }
+          ],
+          "end_time": 111.04
+        },
+        {
+          "start_time": 111.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "study"
+            }
+          ],
+          "end_time": 111.34
+        },
+        {
+          "start_time": 111.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "due"
+            }
+          ],
+          "end_time": 111.47
+        },
+        {
+          "start_time": 111.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 111.56
+        },
+        {
+          "start_time": 111.56,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "poor"
+            }
+          ],
+          "end_time": 111.74
+        },
+        {
+          "start_time": 111.74,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "imaging"
+            }
+          ],
+          "end_time": 112.0
+        },
+        {
+          "start_time": 112.0,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "windows"
+            }
+          ],
+          "end_time": 112.26
+        },
+        {
+          "start_time": 112.26,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "for"
+            },
+            {
+              "confidence": 0.21,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 112.4
+        },
+        {
+          "start_time": 112.4,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "number"
+            }
+          ],
+          "end_time": 112.59
+        },
+        {
+          "start_time": 112.59,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "two"
+            },
+            {
+              "confidence": 0.21,
+              "word": "to"
+            }
+          ],
+          "end_time": 113.0
+        },
+        {
+          "start_time": 113.7,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "preserved"
+            },
+            {
+              "confidence": 0.17,
+              "word": "preserve"
+            }
+          ],
+          "end_time": 114.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.86,
+          "transcript": "technically difficult study due to poor imaging windows for number two preserved "
+        },
+        {
+          "transcript": "technically difficult study due to poor imaging windows for number to preserve "
+        },
+        {
+          "transcript": "technically difficult study due to poor imaging windows number two preserved "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 117.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "preserved"
+            }
+          ],
+          "end_time": 118.35
+        },
+        {
+          "start_time": 118.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "left"
+            }
+          ],
+          "end_time": 118.53
+        },
+        {
+          "start_time": 118.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ventricular"
+            }
+          ],
+          "end_time": 118.86
+        },
+        {
+          "start_time": 118.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "systolic"
+            }
+          ],
+          "end_time": 119.29
+        },
+        {
+          "start_time": 119.29,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "function"
+            }
+          ],
+          "end_time": 119.55
+        },
+        {
+          "start_time": 119.63,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "number"
+            }
+          ],
+          "end_time": 119.8
+        },
+        {
+          "start_time": 119.81,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "three"
+            }
+          ],
+          "end_time": 120.01
+        },
+        {
+          "start_time": 120.01,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "mild"
+            }
+          ],
+          "end_time": 120.25
+        },
+        {
+          "start_time": 120.25,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "tricuspid"
+            }
+          ],
+          "end_time": 120.63
+        },
+        {
+          "start_time": 120.63,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "regurgitation"
+            }
+          ],
+          "end_time": 121.12
+        },
+        {
+          "start_time": 121.12,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "period"
+            }
+          ],
+          "end_time": 121.46
+        },
+        {
+          "start_time": 122.06,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 122.32
+        },
+        {
+          "start_time": 122.32,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "next"
+            }
+          ],
+          "end_time": 122.69
+        },
+        {
+          "start_time": 122.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 123.13
+        },
+        {
+          "start_time": 123.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 123.35
+        },
+        {
+          "start_time": 123.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "intracardiac"
+            }
+          ],
+          "end_time": 123.76
+        },
+        {
+          "start_time": 123.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thrombus"
+            }
+          ],
+          "end_time": 124.1
+        },
+        {
+          "start_time": 124.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vegetations"
+            }
+          ],
+          "end_time": 124.63
+        },
+        {
+          "start_time": 124.63,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "masses"
+            },
+            {
+              "confidence": 0.34,
+              "word": "mass"
+            }
+          ],
+          "end_time": 124.95
+        },
+        {
+          "start_time": 124.95,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "seen"
+            }
+          ],
+          "end_time": 125.17
+        },
+        {
+          "start_time": 125.79,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "end"
+            }
+          ],
+          "end_time": 125.93
+        },
+        {
+          "start_time": 125.93,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "dictation"
+            }
+          ],
+          "end_time": 126.32
+        },
+        {
+          "start_time": 126.32,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "thank"
+            }
+          ],
+          "end_time": 126.49
+        },
+        {
+          "start_time": 126.49,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "you"
+            }
+          ],
+          "end_time": 126.63
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.79,
+          "transcript": "preserved left ventricular systolic function number three mild tricuspid regurgitation period %HESITATION next number no intracardiac thrombus vegetations mass is seen to progress end dictation thank you "
+        },
+        {
+          "transcript": "preserved left ventricular systolic function number three mild tricuspid regurgitation period %HESITATION next number no intracardiac thrombus vegetations masses seen pure progress end dictation thank you "
+        },
+        {
+          "transcript": "preserved left ventricular systolic function number three mild tricuspid regurgitation period %HESITATION next number no intracardiac thrombus vegetations masses seen to progress end dictation thank you "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}
