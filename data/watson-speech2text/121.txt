@@ -1,0 +1,5116 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 6.84,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "ms"
+            },
+            {
+              "confidence": 0.23,
+              "word": "miss"
+            }
+          ],
+          "end_time": 7.02
+        },
+        {
+          "start_time": 7.02,
+          "alternatives": [
+            {
+              "confidence": 0.49,
+              "word": "browner"
+            },
+            {
+              "confidence": 0.35,
+              "word": "brown"
+            }
+          ],
+          "end_time": 7.39
+        },
+        {
+          "start_time": 7.88,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "on"
+            }
+          ],
+          "end_time": 8.03
+        },
+        {
+          "start_time": 8.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rounds"
+            }
+          ],
+          "end_time": 8.33
+        },
+        {
+          "start_time": 8.33,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "she"
+            }
+          ],
+          "end_time": 8.42
+        },
+        {
+          "start_time": 8.42,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "has"
+            }
+          ],
+          "end_time": 8.52
+        },
+        {
+          "start_time": 8.52,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "been"
+            }
+          ],
+          "end_time": 8.77
+        },
+        {
+          "start_time": 8.77,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "readmitted"
+            }
+          ],
+          "end_time": 9.28
+        },
+        {
+          "start_time": 10.56,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "after"
+            }
+          ],
+          "end_time": 10.91
+        },
+        {
+          "start_time": 10.91,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "an"
+            }
+          ],
+          "end_time": 10.99
+        },
+        {
+          "start_time": 10.99,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "acute"
+            }
+          ],
+          "end_time": 11.32
+        },
+        {
+          "start_time": 11.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "care"
+            }
+          ],
+          "end_time": 11.52
+        },
+        {
+          "start_time": 11.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hospital"
+            }
+          ],
+          "end_time": 12.09
+        },
+        {
+          "start_time": 12.09,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "stay"
+            }
+          ],
+          "end_time": 12.58
+        },
+        {
+          "start_time": 13.15,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "where"
+            }
+          ],
+          "end_time": 13.65
+        },
+        {
+          "start_time": 13.68,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 13.87
+        },
+        {
+          "start_time": 13.87,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "she"
+            }
+          ],
+          "end_time": 14.13
+        },
+        {
+          "start_time": 14.13,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "was"
+            }
+          ],
+          "end_time": 14.41
+        },
+        {
+          "start_time": 14.41,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 14.56
+        },
+        {
+          "start_time": 14.56,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "noted"
+            }
+          ],
+          "end_time": 14.91
+        },
+        {
+          "start_time": 14.91,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "to"
+            }
+          ],
+          "end_time": 14.99
+        },
+        {
+          "start_time": 14.99,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "have"
+            }
+          ],
+          "end_time": 15.26
+        },
+        {
+          "start_time": 15.26,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "increasing"
+            }
+          ],
+          "end_time": 15.93
+        },
+        {
+          "start_time": 16.57,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 17.05
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "ms browner is seen today on rounds she has been readmitted port after an acute care hospital stay where %HESITATION she was %HESITATION noted to have increasing %HESITATION "
+        },
+        {
+          "transcript": "ms browner seen today on rounds she has been readmitted port after an acute care hospital stay where %HESITATION she was %HESITATION noted to have increasing %HESITATION "
+        },
+        {
+          "transcript": "ms browner is seen today on rounds she has been readmitted port after an acute care hospital stay where she was %HESITATION noted to have increasing %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 20.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lethargy"
+            }
+          ],
+          "end_time": 20.82
+        },
+        {
+          "start_time": 20.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 21.01
+        },
+        {
+          "start_time": 21.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tailbone"
+            }
+          ],
+          "end_time": 21.58
+        },
+        {
+          "start_time": 21.58,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "pain"
+            }
+          ],
+          "end_time": 22.09
+        },
+        {
+          "start_time": 22.57,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 22.71
+        },
+        {
+          "start_time": 22.71,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "the"
+            }
+          ],
+          "end_time": 22.81
+        },
+        {
+          "start_time": 22.81,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "patient"
+            }
+          ],
+          "end_time": 23.46
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.97,
+          "transcript": "lethargy and tailbone pain %HESITATION the patient "
+        },
+        {
+          "transcript": "lethargy and tailbone pain the patient "
+        },
+        {
+          "transcript": "lethargy and tailbone pain of the patient "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 26.67,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.1,
+              "word": "how"
+            }
+          ],
+          "end_time": 26.81
+        },
+        {
+          "start_time": 26.81,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "was"
+            }
+          ],
+          "end_time": 27.18
+        },
+        {
+          "start_time": 27.18,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 27.48
+        },
+        {
+          "start_time": 27.48,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "evaluated"
+            }
+          ],
+          "end_time": 28.45
+        },
+        {
+          "start_time": 28.51,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 28.78
+        },
+        {
+          "start_time": 28.78,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "felt"
+            }
+          ],
+          "end_time": 29.09
+        },
+        {
+          "start_time": 29.09,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "to"
+            }
+          ],
+          "end_time": 29.2
+        },
+        {
+          "start_time": 29.2,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "have"
+            }
+          ],
+          "end_time": 29.63
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.75,
+          "transcript": "was %HESITATION evaluated %HESITATION felt to have "
+        },
+        {
+          "transcript": "%HESITATION was %HESITATION evaluated %HESITATION felt to have "
+        },
+        {
+          "transcript": "%HESITATION was %HESITATION %HESITATION evaluated %HESITATION felt to have "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 52.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "altered"
+            }
+          ],
+          "end_time": 52.93
+        },
+        {
+          "start_time": 52.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "mental"
+            }
+          ],
+          "end_time": 53.16
+        },
+        {
+          "start_time": 53.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "status"
+            }
+          ],
+          "end_time": 53.6
+        },
+        {
+          "start_time": 53.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "this"
+            }
+          ],
+          "end_time": 53.77
+        },
+        {
+          "start_time": 53.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "may"
+            }
+          ],
+          "end_time": 53.9
+        },
+        {
+          "start_time": 53.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "have"
+            }
+          ],
+          "end_time": 54.02
+        },
+        {
+          "start_time": 54.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "been"
+            }
+          ],
+          "end_time": 54.18
+        },
+        {
+          "start_time": 54.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 54.23
+        },
+        {
+          "start_time": 54.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "medication"
+            }
+          ],
+          "end_time": 55.04
+        },
+        {
+          "start_time": 55.41,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "effect"
+            },
+            {
+              "confidence": 0.18,
+              "word": "affect"
+            }
+          ],
+          "end_time": 55.97
+        },
+        {
+          "start_time": 55.97,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 56.18
+        },
+        {
+          "start_time": 56.18,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "No"
+            }
+          ],
+          "end_time": 56.42
+        },
+        {
+          "start_time": 56.42,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "CNS"
+            }
+          ],
+          "end_time": 57.0
+        },
+        {
+          "start_time": 57.0,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "issues"
+            }
+          ],
+          "end_time": 57.37
+        },
+        {
+          "start_time": 57.37,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "were"
+            }
+          ],
+          "end_time": 57.52
+        },
+        {
+          "start_time": 57.52,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "noted"
+            }
+          ],
+          "end_time": 58.06
+        },
+        {
+          "start_time": 58.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 58.7
+        },
+        {
+          "start_time": 58.7,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "patient"
+            }
+          ],
+          "end_time": 59.33
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.9,
+          "transcript": "altered mental status this may have been a medication effect %HESITATION No CNS issues were noted the patient "
+        },
+        {
+          "transcript": "altered mental status this may have been a medication affect %HESITATION No CNS issues were noted the patient "
+        },
+        {
+          "transcript": "altered mental status this may have been a medication effect %HESITATION no CNS issues were noted the patient "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 60.88,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 61.31
+        },
+        {
+          "start_time": 61.31,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 61.48
+        },
+        {
+          "start_time": 61.48,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "noted"
+            }
+          ],
+          "end_time": 61.8
+        },
+        {
+          "start_time": 61.8,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "to"
+            }
+          ],
+          "end_time": 61.88
+        },
+        {
+          "start_time": 61.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "have"
+            }
+          ],
+          "end_time": 62.08
+        },
+        {
+          "start_time": 62.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "small"
+            }
+          ],
+          "end_time": 62.47
+        },
+        {
+          "start_time": 62.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "intracranial"
+            }
+          ],
+          "end_time": 63.06
+        },
+        {
+          "start_time": 63.06,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "hemorrhage"
+            }
+          ],
+          "end_time": 63.7
+        },
+        {
+          "start_time": 65.23,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "did"
+            }
+          ],
+          "end_time": 65.42
+        },
+        {
+          "start_time": 65.42,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "see"
+            }
+          ],
+          "end_time": 65.63
+        },
+        {
+          "start_time": 65.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 65.73
+        },
+        {
+          "start_time": 65.73,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "patient"
+            }
+          ],
+          "end_time": 66.27
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.91,
+          "transcript": "was %HESITATION noted to have small intracranial hemorrhage nerds or surgery did see the patient "
+        },
+        {
+          "transcript": "was %HESITATION noted to have small intracranial hemorrhage A nurse or surgery did see the patient "
+        },
+        {
+          "transcript": "was %HESITATION noted to have small intracranial hemorrhage nurture surgery did see the patient "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 70.81,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 71.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "%HESITATION "
+        },
+        {
+          "transcript": "%HESITATION the "
+        },
+        {
+          "transcript": "%HESITATION is "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 72.31,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "she"
+            }
+          ],
+          "end_time": 72.41
+        },
+        {
+          "start_time": 72.41,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 72.53
+        },
+        {
+          "start_time": 72.53,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "also"
+            }
+          ],
+          "end_time": 72.83
+        },
+        {
+          "start_time": 72.83,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "noted"
+            }
+          ],
+          "end_time": 73.13
+        },
+        {
+          "start_time": 73.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 73.2
+        },
+        {
+          "start_time": 73.2,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "have"
+            }
+          ],
+          "end_time": 73.53
+        },
+        {
+          "start_time": 73.53,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "a"
+            }
+          ],
+          "end_time": 73.64
+        },
+        {
+          "start_time": 73.79,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "history"
+            }
+          ],
+          "end_time": 74.3
+        },
+        {
+          "start_time": 74.3,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "of"
+            }
+          ],
+          "end_time": 74.49
+        },
+        {
+          "start_time": 74.49,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 74.72
+        },
+        {
+          "start_time": 74.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "triple"
+            }
+          ],
+          "end_time": 75.11
+        },
+        {
+          "start_time": 75.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 75.21
+        },
+        {
+          "start_time": 75.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "repair"
+            }
+          ],
+          "end_time": 75.63
+        },
+        {
+          "start_time": 75.63,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "with"
+            }
+          ],
+          "end_time": 75.86
+        },
+        {
+          "start_time": 75.86,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "endoleak"
+            }
+          ],
+          "end_time": 76.71
+        },
+        {
+          "start_time": 76.71,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.17,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 77.42
+        },
+        {
+          "start_time": 77.42,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "treated"
+            }
+          ],
+          "end_time": 77.88
+        },
+        {
+          "start_time": 77.88,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "medically"
+            }
+          ],
+          "end_time": 78.43
+        },
+        {
+          "start_time": 78.86,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "the"
+            }
+          ],
+          "end_time": 78.97
+        },
+        {
+          "start_time": 78.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "patient"
+            }
+          ],
+          "end_time": 79.37
+        },
+        {
+          "start_time": 79.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "has"
+            }
+          ],
+          "end_time": 79.52
+        },
+        {
+          "start_time": 79.52,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "reverted"
+            }
+          ],
+          "end_time": 79.99
+        },
+        {
+          "start_time": 79.99,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "to"
+            }
+          ],
+          "end_time": 80.14
+        },
+        {
+          "start_time": 80.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 80.29
+        },
+        {
+          "start_time": 80.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "normal"
+            }
+          ],
+          "end_time": 80.64
+        },
+        {
+          "start_time": 80.64,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "medical"
+            }
+          ],
+          "end_time": 81.03
+        },
+        {
+          "start_time": 81.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "status"
+            }
+          ],
+          "end_time": 81.54
+        },
+        {
+          "start_time": 81.54,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "without"
+            }
+          ],
+          "end_time": 82.11
+        },
+        {
+          "start_time": 82.56,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 82.88
+        },
+        {
+          "start_time": 82.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "further"
+            }
+          ],
+          "end_time": 83.29
+        },
+        {
+          "start_time": 83.29,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "intervention"
+            }
+          ],
+          "end_time": 83.94
+        },
+        {
+          "start_time": 84.49,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 84.67
+        },
+        {
+          "start_time": 84.67,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "and"
+            }
+          ],
+          "end_time": 84.92
+        },
+        {
+          "start_time": 84.92,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "has"
+            }
+          ],
+          "end_time": 85.16
+        },
+        {
+          "start_time": 85.16,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "now"
+            }
+          ],
+          "end_time": 85.57
+        },
+        {
+          "start_time": 85.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 85.88
+        },
+        {
+          "start_time": 85.88,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "been"
+            },
+            {
+              "confidence": 0.11,
+              "word": "bin"
+            }
+          ],
+          "end_time": 86.33
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.97,
+          "transcript": "she was also noted to have a history of %HESITATION triple a repair with endoleak treated medically the patient has reverted to a normal medical status without %HESITATION further intervention %HESITATION and has now %HESITATION been "
+        },
+        {
+          "transcript": "she was also noted to have a history of %HESITATION triple a repair with endoleak treated medically the patient has reverted to a normal medical status without %HESITATION further intervention %HESITATION and has now %HESITATION bin "
+        },
+        {
+          "transcript": "she was also noted to have a history of %HESITATION triple a repair with endoleak %HESITATION treated medically the patient has reverted to a normal medical status without %HESITATION further intervention %HESITATION and has now %HESITATION been "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 87.3,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 87.97
+        },
+        {
+          "start_time": 88.0,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "readmitted"
+            }
+          ],
+          "end_time": 88.52
+        },
+        {
+          "start_time": 88.52,
+          "alternatives": [
+            {
+              "confidence": 0.32,
+              "word": "the"
+            },
+            {
+              "confidence": 0.23,
+              "word": "to"
+            },
+            {
+              "confidence": 0.16,
+              "word": "that"
+            }
+          ],
+          "end_time": 88.65
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.86,
+          "transcript": "%HESITATION readmitted the "
+        },
+        {
+          "transcript": "%HESITATION readmitted to "
+        },
+        {
+          "transcript": "%HESITATION readmitted that "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 90.1,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "she"
+            }
+          ],
+          "end_time": 90.27
+        },
+        {
+          "start_time": 90.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "has"
+            }
+          ],
+          "end_time": 90.37
+        },
+        {
+          "start_time": 90.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "been"
+            }
+          ],
+          "end_time": 90.53
+        },
+        {
+          "start_time": 90.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "started"
+            }
+          ],
+          "end_time": 90.93
+        },
+        {
+          "start_time": 90.93,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "on"
+            }
+          ],
+          "end_time": 91.15
+        },
+        {
+          "start_time": 91.15,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 91.62
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.97,
+          "transcript": "she has been started on %HESITATION "
+        },
+        {
+          "transcript": "she has been started on %HESITATION I "
+        },
+        {
+          "transcript": "she has been started on %HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 92.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Norco"
+            }
+          ],
+          "end_time": 93.07
+        },
+        {
+          "start_time": 93.07,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "for"
+            }
+          ],
+          "end_time": 93.29
+        },
+        {
+          "start_time": 93.29,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "pain"
+            }
+          ],
+          "end_time": 93.73
+        },
+        {
+          "start_time": 93.73,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "and"
+            }
+          ],
+          "end_time": 93.83
+        },
+        {
+          "start_time": 93.83,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "prescription"
+            }
+          ],
+          "end_time": 94.4
+        },
+        {
+          "start_time": 94.4,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "will"
+            }
+          ],
+          "end_time": 94.54
+        },
+        {
+          "start_time": 94.54,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "be"
+            }
+          ],
+          "end_time": 94.71
+        },
+        {
+          "start_time": 94.71,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "needed"
+            }
+          ],
+          "end_time": 95.28
+        },
+        {
+          "start_time": 95.65,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "she"
+            }
+          ],
+          "end_time": 95.84
+        },
+        {
+          "start_time": 95.84,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "says"
+            }
+          ],
+          "end_time": 96.11
+        },
+        {
+          "start_time": 96.11,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "that"
+            },
+            {
+              "confidence": 0.12,
+              "word": "it"
+            }
+          ],
+          "end_time": 96.24
+        },
+        {
+          "start_time": 96.24,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "it"
+            }
+          ],
+          "end_time": 96.34
+        },
+        {
+          "start_time": 96.34,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "is"
+            }
+          ],
+          "end_time": 96.44
+        },
+        {
+          "start_time": 96.44,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "helping"
+            }
+          ],
+          "end_time": 96.8
+        },
+        {
+          "start_time": 96.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "her"
+            }
+          ],
+          "end_time": 96.92
+        },
+        {
+          "start_time": 96.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pain"
+            }
+          ],
+          "end_time": 97.29
+        },
+        {
+          "start_time": 97.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "she"
+            }
+          ],
+          "end_time": 97.46
+        },
+        {
+          "start_time": 97.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 97.68
+        },
+        {
+          "start_time": 97.68,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "dialyzed"
+            }
+          ],
+          "end_time": 98.26
+        },
+        {
+          "start_time": 98.26,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "in"
+            }
+          ],
+          "end_time": 98.33
+        },
+        {
+          "start_time": 98.33,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "the"
+            }
+          ],
+          "end_time": 98.42
+        },
+        {
+          "start_time": 98.42,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "hospital"
+            }
+          ],
+          "end_time": 99.01
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.96,
+          "transcript": "Norco for pain and prescription will be needed she says that it is helping her pain she was dialyzed in the hospital "
+        },
+        {
+          "transcript": "Norco for pain and prescription will be needed she says it is helping her pain she was dialyzed in the hospital "
+        },
+        {
+          "transcript": "Norco for pain prescription will be needed she says that it is helping her pain she was dialyzed in the hospital "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 99.93,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "medication"
+            },
+            {
+              "confidence": 0.2,
+              "word": "medical"
+            }
+          ],
+          "end_time": 100.5
+        },
+        {
+          "start_time": 100.6,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "for"
+            }
+          ],
+          "end_time": 100.71
+        },
+        {
+          "start_time": 100.71,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "installation"
+            }
+          ],
+          "end_time": 101.25
+        },
+        {
+          "start_time": 101.25,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "disease"
+            }
+          ],
+          "end_time": 101.5
+        },
+        {
+          "start_time": 101.5,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "on"
+            }
+          ],
+          "end_time": 101.61
+        },
+        {
+          "start_time": 101.61,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "dialysis"
+            }
+          ],
+          "end_time": 102.35
+        },
+        {
+          "start_time": 102.6,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "history"
+            }
+          ],
+          "end_time": 102.91
+        },
+        {
+          "start_time": 102.91,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "of"
+            }
+          ],
+          "end_time": 102.99
+        },
+        {
+          "start_time": 102.99,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "triple"
+            }
+          ],
+          "end_time": 103.41
+        },
+        {
+          "start_time": 103.41,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "a"
+            }
+          ],
+          "end_time": 103.71
+        },
+        {
+          "start_time": 103.71,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "with"
+            }
+          ],
+          "end_time": 104.05
+        },
+        {
+          "start_time": 104.57,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 104.71
+        },
+        {
+          "start_time": 104.71,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "Indo"
+            }
+          ],
+          "end_time": 105.32
+        },
+        {
+          "start_time": 105.85,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "league"
+            }
+          ],
+          "end_time": 106.3
+        },
+        {
+          "start_time": 107.01,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 107.54
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.78,
+          "transcript": "medication for installation disease on dialysis history of triple a with %HESITATION Indo league %HESITATION "
+        },
+        {
+          "transcript": "medication and for installation disease on dialysis history of triple a with %HESITATION Indo league %HESITATION "
+        },
+        {
+          "transcript": "medication it for installation disease on dialysis history of triple a with %HESITATION Indo league %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 109.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "history"
+            }
+          ],
+          "end_time": 109.79
+        },
+        {
+          "start_time": 109.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 109.86
+        },
+        {
+          "start_time": 109.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hypertension"
+            }
+          ],
+          "end_time": 110.49
+        },
+        {
+          "start_time": 110.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "history"
+            }
+          ],
+          "end_time": 110.73
+        },
+        {
+          "start_time": 110.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 110.79
+        },
+        {
+          "start_time": 110.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "diabetes"
+            }
+          ],
+          "end_time": 111.36
+        },
+        {
+          "start_time": 111.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "history"
+            }
+          ],
+          "end_time": 111.63
+        },
+        {
+          "start_time": 111.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 111.73
+        },
+        {
+          "start_time": 111.73,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "anemia"
+            }
+          ],
+          "end_time": 112.42
+        },
+        {
+          "start_time": 112.82,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "history"
+            }
+          ],
+          "end_time": 113.27
+        },
+        {
+          "start_time": 113.27,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "of"
+            }
+          ],
+          "end_time": 113.55
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "history of hypertension history of diabetes history of anemia history of "
+        },
+        {
+          "transcript": "history of hypertension history of diabetes history of anemia history of %HESITATION "
+        },
+        {
+          "transcript": "history of hypertension history of diabetes history of anemia history of of "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 115.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 116.04
+        },
+        {
+          "start_time": 116.04,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "pain"
+            }
+          ],
+          "end_time": 116.5
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "chronic pain "
+        },
+        {
+          "transcript": "chronic pain I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 118.01,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "social"
+            }
+          ],
+          "end_time": 118.47
+        },
+        {
+          "start_time": 118.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "history"
+            }
+          ],
+          "end_time": 118.7
+        },
+        {
+          "start_time": 118.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "patient"
+            }
+          ],
+          "end_time": 119.05
+        },
+        {
+          "start_time": 119.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "does"
+            }
+          ],
+          "end_time": 119.18
+        },
+        {
+          "start_time": 119.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "not"
+            }
+          ],
+          "end_time": 119.39
+        },
+        {
+          "start_time": 119.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "smoke"
+            }
+          ],
+          "end_time": 119.69
+        },
+        {
+          "start_time": 119.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 119.77
+        },
+        {
+          "start_time": 119.77,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "drink"
+            }
+          ],
+          "end_time": 120.08
+        },
+        {
+          "start_time": 120.56,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 120.91
+        },
+        {
+          "start_time": 121.03,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "she"
+            }
+          ],
+          "end_time": 121.68
+        },
+        {
+          "start_time": 121.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lives"
+            }
+          ],
+          "end_time": 122.07
+        },
+        {
+          "start_time": 122.07,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "with"
+            }
+          ],
+          "end_time": 122.25
+        },
+        {
+          "start_time": 122.25,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "family"
+            }
+          ],
+          "end_time": 122.58
+        },
+        {
+          "start_time": 122.58,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "members"
+            }
+          ],
+          "end_time": 122.92
+        },
+        {
+          "start_time": 122.92,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "family"
+            }
+          ],
+          "end_time": 123.25
+        },
+        {
+          "start_time": 123.25,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "history"
+            }
+          ],
+          "end_time": 123.63
+        },
+        {
+          "start_time": 124.23,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 124.6
+        },
+        {
+          "start_time": 124.6,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "patient"
+            }
+          ],
+          "end_time": 125.16
+        },
+        {
+          "start_time": 125.16,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 125.4
+        },
+        {
+          "start_time": 125.44,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "is"
+            }
+          ],
+          "end_time": 125.63
+        },
+        {
+          "start_time": 125.63,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "not"
+            }
+          ],
+          "end_time": 125.82
+        },
+        {
+          "start_time": 125.82,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "curve"
+            }
+          ],
+          "end_time": 126.13
+        },
+        {
+          "start_time": 126.13,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "age"
+            }
+          ],
+          "end_time": 126.38
+        },
+        {
+          "start_time": 126.38,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "and"
+            }
+          ],
+          "end_time": 126.48
+        },
+        {
+          "start_time": 126.48,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "presentation"
+            }
+          ],
+          "end_time": 127.34
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "social history patient does not smoke or drink %HESITATION she lives with family members family history %HESITATION patient %HESITATION is not curve age and presentation "
+        },
+        {
+          "transcript": "social history patient does not smoke or drink %HESITATION she lives with family members family history %HESITATION patient %HESITATION is not curves age and presentation "
+        },
+        {
+          "transcript": "social history patient does not smoke or drink %HESITATION she lives with family members family history %HESITATION patient %HESITATION is not curve's age and presentation "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 132.09,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "allergies"
+            }
+          ],
+          "end_time": 132.74
+        },
+        {
+          "start_time": 132.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 132.89
+        },
+        {
+          "start_time": 132.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "known"
+            }
+          ],
+          "end_time": 133.13
+        },
+        {
+          "start_time": 133.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "drug"
+            }
+          ],
+          "end_time": 133.41
+        },
+        {
+          "start_time": 133.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "allergies"
+            }
+          ],
+          "end_time": 133.84
+        },
+        {
+          "start_time": 133.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "medication"
+            }
+          ],
+          "end_time": 134.48
+        },
+        {
+          "start_time": 134.48,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "list"
+            }
+          ],
+          "end_time": 134.83
+        },
+        {
+          "start_time": 135.38,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 135.7
+        },
+        {
+          "start_time": 135.7,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "notable"
+            }
+          ],
+          "end_time": 136.24
+        },
+        {
+          "start_time": 136.24,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "for"
+            }
+          ],
+          "end_time": 136.8
+        },
+        {
+          "start_time": 137.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "amitriptyline"
+            }
+          ],
+          "end_time": 138.09
+        },
+        {
+          "start_time": 138.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "atorvastatin"
+            }
+          ],
+          "end_time": 139.53
+        },
+        {
+          "start_time": 139.57,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "calcium"
+            }
+          ],
+          "end_time": 140.15
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "allergies no known drug allergies medication list %HESITATION notable for amitriptyline atorvastatin calcium "
+        },
+        {
+          "transcript": "allergies no known drug allergies medication lists %HESITATION notable for amitriptyline atorvastatin calcium "
+        },
+        {
+          "transcript": "allergies no known drug allergies medication list %HESITATION notable for amitriptyline atorvastatin calcium I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 142.33,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "supplement"
+            }
+          ],
+          "end_time": 142.99
+        },
+        {
+          "start_time": 142.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "clopidogrel"
+            }
+          ],
+          "end_time": 143.77
+        },
+        {
+          "start_time": 143.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Flonase"
+            }
+          ],
+          "end_time": 144.32
+        },
+        {
+          "start_time": 144.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hydralazine"
+            }
+          ],
+          "end_time": 145.03
+        },
+        {
+          "start_time": 145.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Norco"
+            }
+          ],
+          "end_time": 145.66
+        },
+        {
+          "start_time": 146.44,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "Keppra"
+            }
+          ],
+          "end_time": 147.0
+        },
+        {
+          "start_time": 147.03,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "Lyrica"
+            }
+          ],
+          "end_time": 147.71
+        },
+        {
+          "start_time": 147.74,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "metoprolol"
+            }
+          ],
+          "end_time": 148.67
+        },
+        {
+          "start_time": 148.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ProAir"
+            }
+          ],
+          "end_time": 149.28
+        },
+        {
+          "start_time": 149.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Sensipar"
+            }
+          ],
+          "end_time": 150.12
+        },
+        {
+          "start_time": 150.54,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "Tylenol"
+            }
+          ],
+          "end_time": 151.0
+        },
+        {
+          "start_time": 151.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vitamin"
+            }
+          ],
+          "end_time": 151.37
+        },
+        {
+          "start_time": 151.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "D."
+            }
+          ],
+          "end_time": 151.5
+        },
+        {
+          "start_time": 151.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "three"
+            }
+          ],
+          "end_time": 151.72
+        },
+        {
+          "start_time": 151.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 151.85
+        },
+        {
+          "start_time": 151.85,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Zofran"
+            }
+          ],
+          "end_time": 152.35
+        },
+        {
+          "start_time": 152.35,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "please"
+            }
+          ],
+          "end_time": 152.58
+        },
+        {
+          "start_time": 152.58,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "and"
+            }
+          ],
+          "end_time": 152.79
+        },
+        {
+          "start_time": 152.79,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "and"
+            }
+          ],
+          "end_time": 153.08
+        },
+        {
+          "start_time": 153.28,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "in"
+            }
+          ],
+          "end_time": 153.43
+        },
+        {
+          "start_time": 153.43,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "medical"
+            }
+          ],
+          "end_time": 153.77
+        },
+        {
+          "start_time": 153.77,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "history"
+            }
+          ],
+          "end_time": 153.98
+        },
+        {
+          "start_time": 153.98,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "please"
+            }
+          ],
+          "end_time": 154.2
+        },
+        {
+          "start_time": 154.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "add"
+            }
+          ],
+          "end_time": 154.35
+        },
+        {
+          "start_time": 154.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "seizure"
+            }
+          ],
+          "end_time": 154.66
+        },
+        {
+          "start_time": 154.66,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "disorder"
+            }
+          ],
+          "end_time": 155.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "supplement clopidogrel Flonase hydralazine Norco Keppra Lyrica metoprolol ProAir Sensipar Tylenol vitamin D. three and Zofran please and and in medical history please add seizure disorder "
+        },
+        {
+          "transcript": "supplement clopidogrel Flonase hydralazine Norco Keppra Lyrica metoprolol ProAir Sensipar Tylenol vitamin D. three and Zofran plays and and in medical history please add seizure disorder "
+        },
+        {
+          "transcript": "supplement clopidogrel Flonase hydralazine Norco Keppra Lyrica metoprolol ProAir Sensipar Tylenol vitamin D. three and Zofran pleasant and in medical history please add seizure disorder "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 156.02,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 156.39
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.97,
+          "transcript": "%HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 157.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 157.72
+        },
+        {
+          "start_time": 157.72,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "hypertension"
+            }
+          ],
+          "end_time": 158.39
+        },
+        {
+          "start_time": 158.39,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "if"
+            },
+            {
+              "confidence": 0.12,
+              "word": "of"
+            }
+          ],
+          "end_time": 158.49
+        },
+        {
+          "start_time": 158.49,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "not"
+            }
+          ],
+          "end_time": 158.71
+        },
+        {
+          "start_time": 158.71,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "mentioned"
+            }
+          ],
+          "end_time": 159.17
+        },
+        {
+          "start_time": 159.48,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "review"
+            }
+          ],
+          "end_time": 159.75
+        },
+        {
+          "start_time": 159.75,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "of"
+            }
+          ],
+          "end_time": 159.84
+        },
+        {
+          "start_time": 159.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "systems"
+            }
+          ],
+          "end_time": 160.25
+        },
+        {
+          "start_time": 160.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "patient"
+            }
+          ],
+          "end_time": 160.58
+        },
+        {
+          "start_time": 160.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "denies"
+            }
+          ],
+          "end_time": 160.87
+        },
+        {
+          "start_time": 160.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chest"
+            }
+          ],
+          "end_time": 161.19
+        },
+        {
+          "start_time": 161.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pain"
+            }
+          ],
+          "end_time": 161.44
+        },
+        {
+          "start_time": 161.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "she"
+            }
+          ],
+          "end_time": 161.61
+        },
+        {
+          "start_time": 161.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "denies"
+            }
+          ],
+          "end_time": 161.95
+        },
+        {
+          "start_time": 161.95,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "cough"
+            }
+          ],
+          "end_time": 162.42
+        },
+        {
+          "start_time": 162.64,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "she"
+            }
+          ],
+          "end_time": 162.81
+        },
+        {
+          "start_time": 162.81,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "is"
+            }
+          ],
+          "end_time": 162.9
+        },
+        {
+          "start_time": 162.9,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "at"
+            }
+          ],
+          "end_time": 163.06
+        },
+        {
+          "start_time": 163.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "baseline"
+            }
+          ],
+          "end_time": 163.56
+        },
+        {
+          "start_time": 163.56,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "mental"
+            }
+          ],
+          "end_time": 163.84
+        },
+        {
+          "start_time": 163.84,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "status"
+            }
+          ],
+          "end_time": 164.25
+        },
+        {
+          "start_time": 164.25,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "she"
+            }
+          ],
+          "end_time": 164.43
+        },
+        {
+          "start_time": 164.43,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "denies"
+            }
+          ],
+          "end_time": 164.83
+        },
+        {
+          "start_time": 164.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "any"
+            }
+          ],
+          "end_time": 165.01
+        },
+        {
+          "start_time": 165.01,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "headache"
+            }
+          ],
+          "end_time": 165.53
+        },
+        {
+          "start_time": 165.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "she"
+            }
+          ],
+          "end_time": 166.06
+        },
+        {
+          "start_time": 166.06,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "denies"
+            }
+          ],
+          "end_time": 166.62
+        },
+        {
+          "start_time": 166.62,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 166.83
+        },
+        {
+          "start_time": 166.86,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "melodramatic"
+            }
+          ],
+          "end_time": 167.6
+        },
+        {
+          "start_time": 168.58,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "diarrhea"
+            }
+          ],
+          "end_time": 169.1
+        },
+        {
+          "start_time": 169.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 169.24
+        },
+        {
+          "start_time": 169.24,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "constipation"
+            }
+          ],
+          "end_time": 170.21
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.9,
+          "transcript": "and hypertension if not mentioned review of systems patient denies chest pain she denies cough she is at baseline mental status she denies any headache she denies %HESITATION melodramatic UCS she denies diarrhea or constipation "
+        },
+        {
+          "transcript": "and hypertension if not mentioned review of systems patient denies chest pain she denies cough she is at baseline mental status she denies any headache she denies %HESITATION melodramatic usually %HESITATION she denies diarrhea or constipation "
+        },
+        {
+          "transcript": "and hypertension if not mentioned review of systems patient denies chest pain she denies cough she is at baseline mental status she denies any headache she denies %HESITATION melodramatic use the %HESITATION she denies diarrhea or constipation "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 174.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "review"
+            }
+          ],
+          "end_time": 174.45
+        },
+        {
+          "start_time": 174.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 174.58
+        },
+        {
+          "start_time": 174.58,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "systems"
+            }
+          ],
+          "end_time": 175.23
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "review of systems "
+        },
+        {
+          "transcript": "review of systems I "
+        },
+        {
+          "transcript": "review of systems %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 176.68,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "otherwise"
+            }
+          ],
+          "end_time": 177.38
+        },
+        {
+          "start_time": 177.41,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "negative"
+            }
+          ],
+          "end_time": 178.06
+        },
+        {
+          "start_time": 178.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "physical"
+            }
+          ],
+          "end_time": 178.71
+        },
+        {
+          "start_time": 178.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "exam"
+            }
+          ],
+          "end_time": 179.4
+        },
+        {
+          "start_time": 179.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vital"
+            }
+          ],
+          "end_time": 180.33
+        },
+        {
+          "start_time": 180.33,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "signs"
+            }
+          ],
+          "end_time": 180.8
+        },
+        {
+          "start_time": 180.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "blood"
+            }
+          ],
+          "end_time": 181.07
+        },
+        {
+          "start_time": 181.07,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 181.6
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "otherwise negative physical exam vital signs blood pressure "
+        },
+        {
+          "transcript": "hi otherwise negative physical exam vital signs blood pressure "
+        },
+        {
+          "transcript": "%HESITATION otherwise negative physical exam vital signs blood pressure "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 186.84,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "one"
+            }
+          ],
+          "end_time": 187.07
+        },
+        {
+          "start_time": 187.07,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "fifty"
+            }
+          ],
+          "end_time": 187.33
+        },
+        {
+          "start_time": 187.33,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "four"
+            },
+            {
+              "confidence": 0.25,
+              "word": "for"
+            }
+          ],
+          "end_time": 187.55
+        },
+        {
+          "start_time": 187.55,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "over"
+            }
+          ],
+          "end_time": 187.73
+        },
+        {
+          "start_time": 187.73,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "eighty"
+            }
+          ],
+          "end_time": 187.89
+        },
+        {
+          "start_time": 187.89,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "five"
+            }
+          ],
+          "end_time": 188.26
+        },
+        {
+          "start_time": 188.26,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "pulse"
+            }
+          ],
+          "end_time": 188.47
+        },
+        {
+          "start_time": 188.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "seventy"
+            }
+          ],
+          "end_time": 188.75
+        },
+        {
+          "start_time": 188.75,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "five"
+            }
+          ],
+          "end_time": 189.28
+        },
+        {
+          "start_time": 189.37,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "she"
+            }
+          ],
+          "end_time": 189.6
+        },
+        {
+          "start_time": 189.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 189.7
+        },
+        {
+          "start_time": 189.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "afebrile"
+            }
+          ],
+          "end_time": 190.39
+        },
+        {
+          "start_time": 190.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "HEENT"
+            }
+          ],
+          "end_time": 191.25
+        },
+        {
+          "start_time": 191.61,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "no"
+            }
+          ],
+          "end_time": 191.75
+        },
+        {
+          "start_time": 191.75,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "JVD"
+            }
+          ],
+          "end_time": 192.16
+        },
+        {
+          "start_time": 192.16,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "noted"
+            }
+          ],
+          "end_time": 192.47
+        },
+        {
+          "start_time": 192.5,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "heart"
+            }
+          ],
+          "end_time": 192.7
+        },
+        {
+          "start_time": 192.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "regular"
+            }
+          ],
+          "end_time": 192.97
+        },
+        {
+          "start_time": 192.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rate"
+            }
+          ],
+          "end_time": 193.12
+        },
+        {
+          "start_time": 193.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 193.21
+        },
+        {
+          "start_time": 193.21,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "rhythm"
+            }
+          ],
+          "end_time": 193.47
+        },
+        {
+          "start_time": 193.5,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "lungs"
+            }
+          ],
+          "end_time": 193.88
+        },
+        {
+          "start_time": 193.88,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "no"
+            }
+          ],
+          "end_time": 193.99
+        },
+        {
+          "start_time": 193.99,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "wheezes"
+            }
+          ],
+          "end_time": 194.23
+        },
+        {
+          "start_time": 194.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 194.31
+        },
+        {
+          "start_time": 194.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rhonchi"
+            }
+          ],
+          "end_time": 194.6
+        },
+        {
+          "start_time": 194.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "are"
+            }
+          ],
+          "end_time": 194.75
+        },
+        {
+          "start_time": 194.75,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "noted"
+            }
+          ],
+          "end_time": 195.3
+        },
+        {
+          "start_time": 195.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "abdomen"
+            }
+          ],
+          "end_time": 196.08
+        },
+        {
+          "start_time": 196.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 196.22
+        },
+        {
+          "start_time": 196.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "soft"
+            }
+          ],
+          "end_time": 196.75
+        },
+        {
+          "start_time": 196.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nondistended"
+            }
+          ],
+          "end_time": 197.48
+        },
+        {
+          "start_time": 197.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nontender"
+            }
+          ],
+          "end_time": 198.15
+        },
+        {
+          "start_time": 198.15,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "with"
+            }
+          ],
+          "end_time": 198.38
+        },
+        {
+          "start_time": 198.38,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "positive"
+            }
+          ],
+          "end_time": 198.82
+        },
+        {
+          "start_time": 198.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bowel"
+            }
+          ],
+          "end_time": 199.0
+        },
+        {
+          "start_time": 199.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sounds"
+            }
+          ],
+          "end_time": 199.28
+        },
+        {
+          "start_time": 199.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "times"
+            }
+          ],
+          "end_time": 199.56
+        },
+        {
+          "start_time": 199.56,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "four"
+            }
+          ],
+          "end_time": 200.0
+        },
+        {
+          "start_time": 200.53,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 201.11
+        },
+        {
+          "start_time": 201.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 201.24
+        },
+        {
+          "start_time": 201.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "edema"
+            }
+          ],
+          "end_time": 201.6
+        },
+        {
+          "start_time": 201.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 201.69
+        },
+        {
+          "start_time": 201.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "clubbing"
+            }
+          ],
+          "end_time": 201.98
+        },
+        {
+          "start_time": 201.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 202.04
+        },
+        {
+          "start_time": 202.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cyanosis"
+            }
+          ],
+          "end_time": 202.59
+        },
+        {
+          "start_time": 202.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 202.69
+        },
+        {
+          "start_time": 202.69,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "the"
+            }
+          ],
+          "end_time": 202.75
+        },
+        {
+          "start_time": 202.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 203.15
+        },
+        {
+          "start_time": 203.15,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "noticed"
+            }
+          ],
+          "end_time": 203.62
+        },
+        {
+          "start_time": 203.62,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "can"
+            }
+          ],
+          "end_time": 203.82
+        },
+        {
+          "start_time": 203.82,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "no"
+            }
+          ],
+          "end_time": 203.98
+        },
+        {
+          "start_time": 203.98,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "rashes"
+            }
+          ],
+          "end_time": 204.45
+        },
+        {
+          "start_time": 204.45,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "noted"
+            }
+          ],
+          "end_time": 204.88
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "one fifty four over eighty five pulse seventy five she is afebrile HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft nondistended nontender with positive bowel sounds times four extremities no edema or clubbing or cyanosis of the extremities noticed can no rashes noted "
+        },
+        {
+          "transcript": "one fifty four over eighty five pulse seventy five she is afebrile HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft nondistended nontender with positive bowel sounds times four extremities no edema or clubbing or cyanosis of extremities noticed can no rashes noted "
+        },
+        {
+          "transcript": "one fifty for over eighty five pulse seventy five she is afebrile HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft nondistended nontender with positive bowel sounds times four extremities no edema or clubbing or cyanosis of the extremities noticed can no rashes noted "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 206.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "assessment"
+            }
+          ],
+          "end_time": 207.11
+        },
+        {
+          "start_time": 207.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 207.34
+        },
+        {
+          "start_time": 207.34,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "one"
+            }
+          ],
+          "end_time": 207.96
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "assessment number one "
+        },
+        {
+          "transcript": "assessment number one I "
+        },
+        {
+          "transcript": "assessment number one he "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 208.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "history"
+            }
+          ],
+          "end_time": 209.17
+        },
+        {
+          "start_time": 209.17,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "of"
+            }
+          ],
+          "end_time": 209.35
+        },
+        {
+          "start_time": 209.35,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 209.47
+        },
+        {
+          "start_time": 209.47,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "fall"
+            }
+          ],
+          "end_time": 209.95
+        },
+        {
+          "start_time": 209.95,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "next"
+            }
+          ],
+          "end_time": 210.27
+        },
+        {
+          "start_time": 210.48,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "of"
+            }
+          ],
+          "end_time": 210.59
+        },
+        {
+          "start_time": 210.59,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "altered"
+            }
+          ],
+          "end_time": 210.88
+        },
+        {
+          "start_time": 210.88,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "mental"
+            }
+          ],
+          "end_time": 211.07
+        },
+        {
+          "start_time": 211.07,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "status"
+            }
+          ],
+          "end_time": 211.43
+        },
+        {
+          "start_time": 211.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "unclear"
+            }
+          ],
+          "end_time": 211.93
+        },
+        {
+          "start_time": 211.93,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "etiology"
+            }
+          ],
+          "end_time": 212.68
+        },
+        {
+          "start_time": 213.28,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "next"
+            }
+          ],
+          "end_time": 213.57
+        },
+        {
+          "start_time": 213.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 213.93
+        },
+        {
+          "start_time": 214.3,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "history"
+            }
+          ],
+          "end_time": 214.63
+        },
+        {
+          "start_time": 214.63,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "of"
+            }
+          ],
+          "end_time": 214.71
+        },
+        {
+          "start_time": 214.71,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "abnormal"
+            }
+          ],
+          "end_time": 215.57
+        },
+        {
+          "start_time": 216.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "imaging"
+            }
+          ],
+          "end_time": 216.81
+        },
+        {
+          "start_time": 216.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "study"
+            }
+          ],
+          "end_time": 217.2
+        },
+        {
+          "start_time": 217.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 217.35
+        },
+        {
+          "start_time": 217.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 217.61
+        },
+        {
+          "start_time": 217.61,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 218.04
+        },
+        {
+          "start_time": 218.07,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "brain"
+            }
+          ],
+          "end_time": 218.78
+        },
+        {
+          "start_time": 219.02,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "with"
+            }
+          ],
+          "end_time": 219.21
+        },
+        {
+          "start_time": 219.21,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "a"
+            }
+          ],
+          "end_time": 219.27
+        },
+        {
+          "start_time": 219.27,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "small"
+            }
+          ],
+          "end_time": 219.63
+        },
+        {
+          "start_time": 219.63,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "sub"
+            }
+          ],
+          "end_time": 219.93
+        },
+        {
+          "start_time": 219.93,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "centimeter"
+            }
+          ],
+          "end_time": 220.56
+        },
+        {
+          "start_time": 220.56,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "six"
+            }
+          ],
+          "end_time": 220.98
+        },
+        {
+          "start_time": 221.03,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "small"
+            }
+          ],
+          "end_time": 221.39
+        },
+        {
+          "start_time": 221.39,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "six"
+            }
+          ],
+          "end_time": 221.84
+        },
+        {
+          "start_time": 221.87,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "millimeter"
+            }
+          ],
+          "end_time": 222.34
+        },
+        {
+          "start_time": 222.34,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "focus"
+            }
+          ],
+          "end_time": 222.72
+        },
+        {
+          "start_time": 222.72,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "of"
+            }
+          ],
+          "end_time": 222.84
+        },
+        {
+          "start_time": 222.84,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "hyperdensity"
+            }
+          ],
+          "end_time": 223.59
+        },
+        {
+          "start_time": 224.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 224.28
+        },
+        {
+          "start_time": 224.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 224.44
+        },
+        {
+          "start_time": 224.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "left"
+            }
+          ],
+          "end_time": 224.7
+        },
+        {
+          "start_time": 224.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "parietal"
+            }
+          ],
+          "end_time": 225.15
+        },
+        {
+          "start_time": 225.15,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lobe"
+            }
+          ],
+          "end_time": 225.65
+        },
+        {
+          "start_time": 226.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "which"
+            }
+          ],
+          "end_time": 226.28
+        },
+        {
+          "start_time": 226.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 226.45
+        },
+        {
+          "start_time": 226.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "new"
+            }
+          ],
+          "end_time": 226.9
+        },
+        {
+          "start_time": 226.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 227.17
+        },
+        {
+          "start_time": 227.17,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "may"
+            }
+          ],
+          "end_time": 227.28
+        },
+        {
+          "start_time": 227.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "reflect"
+            }
+          ],
+          "end_time": 227.74
+        },
+        {
+          "start_time": 227.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "small"
+            }
+          ],
+          "end_time": 228.02
+        },
+        {
+          "start_time": 228.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "parenchymal"
+            }
+          ],
+          "end_time": 228.64
+        },
+        {
+          "start_time": 228.64,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "hemorrhage"
+            }
+          ],
+          "end_time": 229.29
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "history of %HESITATION fall next ridge of altered mental status unclear etiology next number history of abnormal imaging study of the %HESITATION brain with a small sub centimeter six small six millimeter focus of hyperdensity in the left parietal lobe which is new and may reflect small parenchymal hemorrhage "
+        },
+        {
+          "transcript": "history of %HESITATION fall next race of altered mental status unclear etiology next number history of abnormal imaging study of the %HESITATION brain with a small sub centimeter six small six millimeter focus of hyperdensity in the left parietal lobe which is new and may reflect small parenchymal hemorrhage "
+        },
+        {
+          "transcript": "history of fall next ridge of altered mental status unclear etiology next number history of abnormal imaging study of the %HESITATION brain with a small sub centimeter six small six millimeter focus of hyperdensity in the left parietal lobe which is new and may reflect small parenchymal hemorrhage "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 231.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "patient"
+            }
+          ],
+          "end_time": 231.99
+        },
+        {
+          "start_time": 231.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 232.11
+        },
+        {
+          "start_time": 232.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "evaluated"
+            }
+          ],
+          "end_time": 232.69
+        },
+        {
+          "start_time": 232.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "by"
+            }
+          ],
+          "end_time": 232.91
+        },
+        {
+          "start_time": 232.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 233.05
+        },
+        {
+          "start_time": 233.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "neurosurgery"
+            }
+          ],
+          "end_time": 233.72
+        },
+        {
+          "start_time": 233.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "while"
+            }
+          ],
+          "end_time": 233.94
+        },
+        {
+          "start_time": 233.94,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "there"
+            }
+          ],
+          "end_time": 234.29
+        },
+        {
+          "start_time": 234.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 234.93
+        },
+        {
+          "start_time": 234.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 235.2
+        },
+        {
+          "start_time": 235.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "end"
+            }
+          ],
+          "end_time": 235.44
+        },
+        {
+          "start_time": 235.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "stage"
+            }
+          ],
+          "end_time": 235.71
+        },
+        {
+          "start_time": 235.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "renal"
+            }
+          ],
+          "end_time": 235.92
+        },
+        {
+          "start_time": 235.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "disease"
+            }
+          ],
+          "end_time": 236.27
+        },
+        {
+          "start_time": 236.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "on"
+            }
+          ],
+          "end_time": 236.41
+        },
+        {
+          "start_time": 236.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "dialysis"
+            }
+          ],
+          "end_time": 237.02
+        },
+        {
+          "start_time": 237.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 237.23
+        },
+        {
+          "start_time": 237.23,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "number"
+            }
+          ],
+          "end_time": 237.51
+        },
+        {
+          "start_time": 237.89,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "history"
+            }
+          ],
+          "end_time": 238.21
+        },
+        {
+          "start_time": 238.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 238.3
+        },
+        {
+          "start_time": 238.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 238.73
+        },
+        {
+          "start_time": 238.73,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "pain"
+            }
+          ],
+          "end_time": 239.09
+        },
+        {
+          "start_time": 239.09,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "next"
+            }
+          ],
+          "end_time": 239.37
+        },
+        {
+          "start_time": 239.37,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "roster"
+            }
+          ],
+          "end_time": 239.71
+        },
+        {
+          "start_time": 239.71,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "threye"
+            },
+            {
+              "confidence": 0.15,
+              "word": "thrive"
+            }
+          ],
+          "end_time": 240.01
+        },
+        {
+          "start_time": 240.48,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "hyperlipidemia"
+            }
+          ],
+          "end_time": 241.19
+        },
+        {
+          "start_time": 241.19,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "next"
+            }
+          ],
+          "end_time": 241.37
+        },
+        {
+          "start_time": 241.37,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "number"
+            }
+          ],
+          "end_time": 241.53
+        },
+        {
+          "start_time": 241.53,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "hypertension"
+            }
+          ],
+          "end_time": 242.3
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.91,
+          "transcript": "patient was evaluated by a neurosurgery while there next number end stage renal disease on dialysis next number history of chronic pain next roster threye district number hyperlipidemia next number hypertension "
+        },
+        {
+          "transcript": "patient was evaluated by a neurosurgery while there next number end stage renal disease on dialysis next number history of chronic pain next roster threye destruction hyperlipidemia next number hypertension "
+        },
+        {
+          "transcript": "patient was evaluated by a neurosurgery while there next number end stage renal disease on dialysis next number history of chronic pain next rosters rightist extra hyperlipidemia next number hypertension "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 244.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 244.74
+        },
+        {
+          "start_time": 244.74,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "number"
+            }
+          ],
+          "end_time": 245.0
+        },
+        {
+          "start_time": 245.0,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 245.18
+        },
+        {
+          "start_time": 245.18,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "debility"
+            }
+          ],
+          "end_time": 245.82
+        },
+        {
+          "start_time": 245.82,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "plan"
+            }
+          ],
+          "end_time": 246.27
+        },
+        {
+          "start_time": 246.27,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "resume"
+            }
+          ],
+          "end_time": 246.87
+        },
+        {
+          "start_time": 246.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 247.43
+        },
+        {
+          "start_time": 247.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "here"
+            }
+          ],
+          "end_time": 247.83
+        },
+        {
+          "start_time": 247.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "monitor"
+            }
+          ],
+          "end_time": 248.42
+        },
+        {
+          "start_time": 248.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 248.94
+        },
+        {
+          "start_time": 248.94,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "alleviate"
+            }
+          ],
+          "end_time": 249.6
+        },
+        {
+          "start_time": 249.6,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 250.04
+        },
+        {
+          "start_time": 250.27,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "falls"
+            }
+          ],
+          "end_time": 250.78
+        },
+        {
+          "start_time": 250.78,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "as"
+            }
+          ],
+          "end_time": 251.0
+        },
+        {
+          "start_time": 251.0,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "able"
+            }
+          ],
+          "end_time": 251.55
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "next number %HESITATION debility plan resume therapy here monitor and alleviate %HESITATION falls as able "
+        },
+        {
+          "transcript": "next number %HESITATION debility plan resume therapy here monitor and alleviate %HESITATION %HESITATION falls as able "
+        },
+        {
+          "transcript": "next number %HESITATION debility plan resume therapy here monitor and alleviate the falls as able "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 252.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "continue"
+            }
+          ],
+          "end_time": 252.75
+        },
+        {
+          "start_time": 252.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "adequate"
+            }
+          ],
+          "end_time": 253.11
+        },
+        {
+          "start_time": 253.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pain"
+            }
+          ],
+          "end_time": 253.34
+        },
+        {
+          "start_time": 253.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "control"
+            }
+          ],
+          "end_time": 253.8
+        },
+        {
+          "start_time": 253.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Norco"
+            }
+          ],
+          "end_time": 254.13
+        },
+        {
+          "start_time": 254.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "prescription"
+            }
+          ],
+          "end_time": 254.76
+        },
+        {
+          "start_time": 254.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "will"
+            }
+          ],
+          "end_time": 254.93
+        },
+        {
+          "start_time": 254.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "be"
+            }
+          ],
+          "end_time": 255.06
+        },
+        {
+          "start_time": 255.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "written"
+            }
+          ],
+          "end_time": 255.4
+        },
+        {
+          "start_time": 255.4,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "today"
+            }
+          ],
+          "end_time": 256.04
+        },
+        {
+          "start_time": 256.39,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 256.57
+        },
+        {
+          "start_time": 256.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "if"
+            }
+          ],
+          "end_time": 256.82
+        },
+        {
+          "start_time": 256.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "it"
+            }
+          ],
+          "end_time": 256.98
+        },
+        {
+          "start_time": 256.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "makes"
+            }
+          ],
+          "end_time": 257.24
+        },
+        {
+          "start_time": 257.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "her"
+            }
+          ],
+          "end_time": 257.34
+        },
+        {
+          "start_time": 257.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lethargic"
+            }
+          ],
+          "end_time": 258.02
+        },
+        {
+          "start_time": 258.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "this"
+            }
+          ],
+          "end_time": 258.19
+        },
+        {
+          "start_time": 258.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "will"
+            }
+          ],
+          "end_time": 258.37
+        },
+        {
+          "start_time": 258.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "need"
+            }
+          ],
+          "end_time": 258.55
+        },
+        {
+          "start_time": 258.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 258.63
+        },
+        {
+          "start_time": 258.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "be"
+            }
+          ],
+          "end_time": 258.77
+        },
+        {
+          "start_time": 258.77,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "stopped"
+            }
+          ],
+          "end_time": 259.44
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 1.0,
+          "transcript": "continue adequate pain control Norco prescription will be written today %HESITATION if it makes her lethargic this will need to be stopped "
+        },
+        {
+          "transcript": "continue adequate pain control Norco prescription will be written today %HESITATION if it makes her lethargic this will need to be stopped I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 264.77,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 265.06
+        },
+        {
+          "start_time": 265.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "continue"
+            }
+          ],
+          "end_time": 265.62
+        },
+        {
+          "start_time": 265.62,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 266.09
+        },
+        {
+          "start_time": 266.73,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "dialysis"
+            }
+          ],
+          "end_time": 267.41
+        },
+        {
+          "start_time": 267.41,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "care"
+            }
+          ],
+          "end_time": 267.77
+        },
+        {
+          "start_time": 267.77,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "I"
+            }
+          ],
+          "end_time": 267.88
+        },
+        {
+          "start_time": 267.88,
+          "alternatives": [
+            {
+              "confidence": 0.43,
+              "word": "appreciate"
+            },
+            {
+              "confidence": 0.3,
+              "word": "prefer"
+            },
+            {
+              "confidence": 0.11,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 268.22
+        },
+        {
+          "start_time": 268.22,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "the"
+            }
+          ],
+          "end_time": 268.29
+        },
+        {
+          "start_time": 268.29,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "cause"
+            }
+          ],
+          "end_time": 268.57
+        },
+        {
+          "start_time": 268.81,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "this"
+            }
+          ],
+          "end_time": 269.12
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.86,
+          "transcript": "%HESITATION continue %HESITATION dialysis care I appreciate the cause this "
+        },
+        {
+          "transcript": "%HESITATION continue %HESITATION dialysis care I prefer the cause this "
+        },
+        {
+          "transcript": "%HESITATION continue %HESITATION dialysis care I appreciate the cause of the this "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 269.96,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "ending"
+            },
+            {
+              "confidence": 0.28,
+              "word": "end"
+            }
+          ],
+          "end_time": 270.21
+        },
+        {
+          "start_time": 270.21,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "this"
+            }
+          ],
+          "end_time": 270.37
+        },
+        {
+          "start_time": 270.37,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "dictation"
+            }
+          ],
+          "end_time": 270.98
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.79,
+          "transcript": "ending this dictation "
+        },
+        {
+          "transcript": "end in this dictation "
+        },
+        {
+          "transcript": "and in this dictation "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}
