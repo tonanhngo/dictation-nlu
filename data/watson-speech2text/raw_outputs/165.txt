@@ -1,0 +1,5992 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 13.92,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "transaction"
+            }
+          ],
+          "end_time": 14.69
+        },
+        {
+          "start_time": 15.28,
+          "alternatives": [
+            {
+              "confidence": 0.47,
+              "word": "common"
+            },
+            {
+              "confidence": 0.25,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 15.53
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.75,
+          "transcript": "transaction common "
+        },
+        {
+          "transcript": "transaction %HESITATION and "
+        },
+        {
+          "transcript": "transaction %HESITATION in "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 18.12,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 18.92
+        },
+        {
+          "start_time": 19.55,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 19.76
+        },
+        {
+          "start_time": 19.76,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 20.27
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.8,
+          "transcript": "%HESITATION %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 21.34,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "the"
+            }
+          ],
+          "end_time": 21.76
+        },
+        {
+          "start_time": 21.76,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 22.24
+        },
+        {
+          "start_time": 22.53,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "long"
+            }
+          ],
+          "end_time": 22.73
+        },
+        {
+          "start_time": 22.73,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "term"
+            }
+          ],
+          "end_time": 22.95
+        },
+        {
+          "start_time": 22.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nursing"
+            }
+          ],
+          "end_time": 23.46
+        },
+        {
+          "start_time": 23.46,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "home"
+            }
+          ],
+          "end_time": 23.94
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "the %HESITATION long term nursing home "
+        },
+        {
+          "transcript": "he %HESITATION long term nursing home "
+        },
+        {
+          "transcript": "D. %HESITATION long term nursing home "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 29.27,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "no"
+            }
+          ],
+          "end_time": 29.5
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.48,
+          "transcript": "B. consoles %HESITATION supplies %HESITATION normal %HESITATION "
+        },
+        {
+          "transcript": "B. consoles %HESITATION supplies %HESITATION no no %HESITATION "
+        },
+        {
+          "transcript": "B. consoles %HESITATION white %HESITATION normal %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 31.34,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "transfusions"
+            }
+          ],
+          "end_time": 32.23
+        },
+        {
+          "start_time": 32.23,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "is"
+            }
+          ],
+          "end_time": 32.4
+        },
+        {
+          "start_time": 32.4,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 32.74
+        },
+        {
+          "start_time": 33.63,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 34.0
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.58,
+          "transcript": "transfusions is thanks lead long %HESITATION %HESITATION infiltrate "
+        },
+        {
+          "transcript": "transfusions is thanks lead normal %HESITATION infiltrate "
+        },
+        {
+          "transcript": "transfusions is thanks lead long %HESITATION %HESITATION infiltrates "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 36.06,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "next"
+            }
+          ],
+          "end_time": 36.4
+        },
+        {
+          "start_time": 36.4,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "is"
+            }
+          ],
+          "end_time": 36.57
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.83,
+          "transcript": "next is "
+        },
+        {
+          "transcript": "next to "
+        },
+        {
+          "transcript": "next in "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 37.45,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.19,
+              "word": "our"
+            }
+          ],
+          "end_time": 37.6
+        },
+        {
+          "start_time": 37.6,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "E."
+            }
+          ],
+          "end_time": 37.91
+        },
+        {
+          "start_time": 37.91,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "T."
+            }
+          ],
+          "end_time": 38.34
+        },
+        {
+          "start_time": 39.38,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "overall"
+            }
+          ],
+          "end_time": 39.88
+        },
+        {
+          "start_time": 40.49,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "the"
+            }
+          ],
+          "end_time": 40.59
+        },
+        {
+          "start_time": 40.59,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "patient"
+            }
+          ],
+          "end_time": 41.08
+        },
+        {
+          "start_time": 41.08,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "needing"
+            }
+          ],
+          "end_time": 41.62
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.49,
+          "transcript": "%HESITATION E. T. platform overall the patient needing "
+        },
+        {
+          "transcript": "our E. T. platform overall the patient needing "
+        },
+        {
+          "transcript": "%HESITATION E. T. platform overall location needing "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 43.38,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "well"
+            },
+            {
+              "confidence": 0.12,
+              "word": "will"
+            }
+          ],
+          "end_time": 43.54
+        },
+        {
+          "start_time": 43.54,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "has"
+            }
+          ],
+          "end_time": 43.78
+        },
+        {
+          "start_time": 43.78,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "a"
+            }
+          ],
+          "end_time": 43.84
+        },
+        {
+          "start_time": 43.84,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "past"
+            }
+          ],
+          "end_time": 44.15
+        },
+        {
+          "start_time": 44.15,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "medical"
+            }
+          ],
+          "end_time": 44.52
+        },
+        {
+          "start_time": 44.52,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "history"
+            }
+          ],
+          "end_time": 44.96
+        },
+        {
+          "start_time": 44.96,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "is"
+            }
+          ],
+          "end_time": 45.08
+        },
+        {
+          "start_time": 45.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "significant"
+            }
+          ],
+          "end_time": 45.87
+        },
+        {
+          "start_time": 45.87,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "for"
+            }
+          ],
+          "end_time": 46.42
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "well has a past medical history is significant for "
+        },
+        {
+          "transcript": "well has a past medical history significant for "
+        },
+        {
+          "transcript": "will has a past medical history is significant for "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 47.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 47.82
+        },
+        {
+          "start_time": 47.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "atrial"
+            }
+          ],
+          "end_time": 48.28
+        },
+        {
+          "start_time": 48.28,
+          "alternatives": [
+            {
+              "confidence": 0.48,
+              "word": "solution"
+            },
+            {
+              "confidence": 0.39,
+              "word": "fibrillation"
+            }
+          ],
+          "end_time": 49.31
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.35,
+          "transcript": "chronic atrial fibrillation cerebrovascular all "
+        },
+        {
+          "transcript": "chronic atrial fibrillation cerebrovascular "
+        },
+        {
+          "transcript": "chronic atrial solution syndrome pastoral "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 55.41,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 55.93
+        },
+        {
+          "start_time": 57.17,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "weeks"
+            }
+          ],
+          "end_time": 57.62
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.62,
+          "transcript": "sample %HESITATION %HESITATION accident four weeks %HESITATION "
+        },
+        {
+          "transcript": "sample %HESITATION %HESITATION accident for weeks %HESITATION "
+        },
+        {
+          "transcript": "simple %HESITATION %HESITATION accident four weeks %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 64.77,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 65.13
+        },
+        {
+          "start_time": 65.23,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "is"
+            }
+          ],
+          "end_time": 65.62
+        },
+        {
+          "start_time": 65.78,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 66.39
+        },
+        {
+          "start_time": 66.49,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "to"
+            }
+          ],
+          "end_time": 66.67
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.6,
+          "transcript": "%HESITATION is %HESITATION to stop and then "
+        },
+        {
+          "transcript": "%HESITATION is %HESITATION to stop the man "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION to stop and then "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 70.87,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "history"
+            }
+          ],
+          "end_time": 71.22
+        },
+        {
+          "start_time": 71.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 71.38
+        },
+        {
+          "start_time": 71.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "coronary"
+            }
+          ],
+          "end_time": 71.91
+        },
+        {
+          "start_time": 71.91,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "artery"
+            }
+          ],
+          "end_time": 72.31
+        },
+        {
+          "start_time": 72.31,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "disease"
+            }
+          ],
+          "end_time": 73.3
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.58,
+          "transcript": "history of coronary artery disease "
+        },
+        {
+          "transcript": "history of coronary artery disease I "
+        },
+        {
+          "transcript": "history of coronary artery disease please "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.29,
+          "transcript": "HEENT connected page Pressey passes you "
+        },
+        {
+          "transcript": "and he connected page Pressey passes you "
+        },
+        {
+          "transcript": "sandy connected page Pressey passes you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 78.76,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "history"
+            },
+            {
+              "confidence": 0.23,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 79.35
+        },
+        {
+          "start_time": 79.35,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "of"
+            },
+            {
+              "confidence": 0.13,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 79.6
+        },
+        {
+          "start_time": 84.64,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "hi"
+            }
+          ],
+          "end_time": 84.86
+        },
+        {
+          "start_time": 85.0,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "I'm"
+            }
+          ],
+          "end_time": 85.08
+        },
+        {
+          "start_time": 85.08,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "sorry"
+            }
+          ],
+          "end_time": 85.44
+        },
+        {
+          "start_time": 85.44,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "he"
+            }
+          ],
+          "end_time": 85.54
+        },
+        {
+          "start_time": 85.54,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "said"
+            }
+          ],
+          "end_time": 85.85
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.4,
+          "transcript": "history of %HESITATION communist disease to the office places passes essentially hi I'm sorry he said hypertension "
+        },
+        {
+          "transcript": "history of %HESITATION communist disease to the office faces passes essentially hi I'm sorry he said hypertension "
+        },
+        {
+          "transcript": "history of %HESITATION communist disease two the office places passes essentially hi I'm sorry he said hypertension "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 88.99,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "thank"
+            },
+            {
+              "confidence": 0.12,
+              "word": "combine"
+            }
+          ],
+          "end_time": 89.24
+        },
+        {
+          "start_time": 89.24,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "you"
+            }
+          ],
+          "end_time": 89.34
+        },
+        {
+          "start_time": 90.81,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "history"
+            }
+          ],
+          "end_time": 91.15
+        },
+        {
+          "start_time": 91.15,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "on"
+            }
+          ],
+          "end_time": 91.37
+        },
+        {
+          "start_time": 91.37,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "on"
+            }
+          ],
+          "end_time": 91.55
+        },
+        {
+          "start_time": 91.55,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "it"
+            }
+          ],
+          "end_time": 91.71
+        },
+        {
+          "start_time": 92.5,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "and"
+            }
+          ],
+          "end_time": 92.62
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.38,
+          "transcript": "thank you for calling aspen disease with history on on it patient and not "
+        },
+        {
+          "transcript": "thank you for calling me Aspin disease with history on on it patient and not "
+        },
+        {
+          "transcript": "thank you for calling Aspin disease with history on on it patient and not "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 94.36,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 94.91
+        },
+        {
+          "start_time": 95.32,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 95.97
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.69,
+          "transcript": "%HESITATION %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION is an email "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 98.87,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 99.29
+        },
+        {
+          "start_time": 99.29,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "history"
+            }
+          ],
+          "end_time": 99.65
+        },
+        {
+          "start_time": 99.65,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "of"
+            }
+          ],
+          "end_time": 99.76
+        },
+        {
+          "start_time": 99.82,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 100.17
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.54,
+          "transcript": "%HESITATION history of %HESITATION is fine patient is that "
+        },
+        {
+          "transcript": "%HESITATION history of %HESITATION is fine patient "
+        },
+        {
+          "transcript": "%HESITATION history of %HESITATION is fine patient at "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 103.64,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "history"
+            },
+            {
+              "confidence": 0.15,
+              "word": "Serena"
+            }
+          ],
+          "end_time": 103.98
+        },
+        {
+          "start_time": 105.38,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "next"
+            }
+          ],
+          "end_time": 105.84
+        },
+        {
+          "start_time": 105.84,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "is"
+            }
+          ],
+          "end_time": 105.96
+        },
+        {
+          "start_time": 106.5,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 106.82
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.39,
+          "transcript": "history officials next is %HESITATION the %HESITATION "
+        },
+        {
+          "transcript": "history officials next is the %HESITATION the %HESITATION "
+        },
+        {
+          "transcript": "history officials next is he %HESITATION the %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 108.21,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 108.62
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.51,
+          "transcript": "%HESITATION Paul "
+        },
+        {
+          "transcript": "%HESITATION all "
+        },
+        {
+          "transcript": "%HESITATION fall "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 110.32,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "period"
+            }
+          ],
+          "end_time": 110.77
+        },
+        {
+          "start_time": 113.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "patient"
+            }
+          ],
+          "end_time": 113.97
+        },
+        {
+          "start_time": 113.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "had"
+            }
+          ],
+          "end_time": 114.14
+        },
+        {
+          "start_time": 114.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 114.19
+        },
+        {
+          "start_time": 114.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cough"
+            }
+          ],
+          "end_time": 114.64
+        },
+        {
+          "start_time": 114.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "that"
+            }
+          ],
+          "end_time": 115.1
+        },
+        {
+          "start_time": 115.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "had"
+            }
+          ],
+          "end_time": 115.32
+        },
+        {
+          "start_time": 115.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "persisted"
+            }
+          ],
+          "end_time": 116.14
+        },
+        {
+          "start_time": 116.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "for"
+            }
+          ],
+          "end_time": 116.27
+        },
+        {
+          "start_time": 116.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 116.37
+        },
+        {
+          "start_time": 116.37,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "past"
+            }
+          ],
+          "end_time": 116.75
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.83,
+          "transcript": "period welcome to the patient because reportedly patient had a cough that had persisted for the past "
+        },
+        {
+          "transcript": "period welcome to phone the patient because reportedly patient had a cough that had persisted for the past "
+        },
+        {
+          "transcript": "period welcome to follow the patient because reportedly patient had a cough that had persisted for the past "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 117.6,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "we"
+            }
+          ],
+          "end_time": 117.87
+        },
+        {
+          "start_time": 118.21,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "according"
+            }
+          ],
+          "end_time": 118.72
+        },
+        {
+          "start_time": 118.72,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "to"
+            }
+          ],
+          "end_time": 119.07
+        },
+        {
+          "start_time": 121.04,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "the"
+            }
+          ],
+          "end_time": 121.33
+        },
+        {
+          "start_time": 121.81,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "also"
+            },
+            {
+              "confidence": 0.18,
+              "word": "so"
+            }
+          ],
+          "end_time": 122.21
+        },
+        {
+          "start_time": 122.82,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "has"
+            }
+          ],
+          "end_time": 122.97
+        },
+        {
+          "start_time": 122.97,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "a"
+            }
+          ],
+          "end_time": 123.04
+        },
+        {
+          "start_time": 124.16,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 124.58
+        },
+        {
+          "start_time": 124.66,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "for"
+            }
+          ],
+          "end_time": 124.98
+        },
+        {
+          "start_time": 124.98,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "today"
+            }
+          ],
+          "end_time": 125.14
+        },
+        {
+          "start_time": 125.24,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "and"
+            },
+            {
+              "confidence": 0.13,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 125.64
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.67,
+          "transcript": "we according to %HESITATION patients passes to the patient also has a decrease %HESITATION thanks for today and "
+        },
+        {
+          "transcript": "we according to %HESITATION patients passes to the patient also has a decreased %HESITATION thanks for today and "
+        },
+        {
+          "transcript": "we according to %HESITATION patients passes to the patient so as a decrease %HESITATION thanks for today and "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 126.5,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "normal"
+            },
+            {
+              "confidence": 0.14,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 126.88
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.22,
+          "transcript": "normal create "
+        },
+        {
+          "transcript": "normal clean "
+        },
+        {
+          "transcript": "%HESITATION create "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 128.87,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "patient"
+            }
+          ],
+          "end_time": 129.49
+        },
+        {
+          "start_time": 129.49,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "unable"
+            }
+          ],
+          "end_time": 129.91
+        },
+        {
+          "start_time": 129.91,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "to"
+            }
+          ],
+          "end_time": 130.08
+        },
+        {
+          "start_time": 130.08,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "be"
+            }
+          ],
+          "end_time": 130.38
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.9,
+          "transcript": "patient unable to be "
+        },
+        {
+          "transcript": "the patient is unable to be "
+        },
+        {
+          "transcript": "patient is unable to be "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 131.25,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 131.69
+        },
+        {
+          "start_time": 131.79,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "inconvenient"
+            }
+          ],
+          "end_time": 132.82
+        },
+        {
+          "start_time": 132.85,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 133.35
+        },
+        {
+          "start_time": 133.58,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "and"
+            }
+          ],
+          "end_time": 133.85
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.79,
+          "transcript": "%HESITATION inconvenient %HESITATION and history normal "
+        },
+        {
+          "transcript": "%HESITATION inconvenient %HESITATION and history %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION inconvenient %HESITATION and history is normal "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 137.69,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "history"
+            }
+          ],
+          "end_time": 138.18
+        },
+        {
+          "start_time": 138.72,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 139.03
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.59,
+          "transcript": "me too history %HESITATION disease "
+        },
+        {
+          "transcript": "me too history %HESITATION is popping disease "
+        },
+        {
+          "transcript": "me too history %HESITATION disease thank you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 141.76,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "patient"
+            },
+            {
+              "confidence": 0.4,
+              "word": "patient's"
+            }
+          ],
+          "end_time": 142.14
+        },
+        {
+          "start_time": 142.18,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "nurse"
+            }
+          ],
+          "end_time": 142.79
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.54,
+          "transcript": "patient's nurse "
+        },
+        {
+          "transcript": "patient nurse "
+        },
+        {
+          "transcript": "patients nurse "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 143.79,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "past"
+            }
+          ],
+          "end_time": 144.12
+        },
+        {
+          "start_time": 144.12,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "medical"
+            }
+          ],
+          "end_time": 144.48
+        },
+        {
+          "start_time": 144.48,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "history"
+            }
+          ],
+          "end_time": 145.03
+        },
+        {
+          "start_time": 145.68,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 145.93
+        },
+        {
+          "start_time": 145.97,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "mention"
+            }
+          ],
+          "end_time": 146.66
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.84,
+          "transcript": "past medical history %HESITATION mention "
+        },
+        {
+          "transcript": "past medical history on mention "
+        },
+        {
+          "transcript": "past medical history %HESITATION mansion "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 148.84,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "past"
+            }
+          ],
+          "end_time": 149.13
+        },
+        {
+          "start_time": 149.13,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "surgical"
+            }
+          ],
+          "end_time": 149.62
+        },
+        {
+          "start_time": 149.62,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "history"
+            }
+          ],
+          "end_time": 150.12
+        },
+        {
+          "start_time": 153.83,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "feud"
+            }
+          ],
+          "end_time": 154.38
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.59,
+          "transcript": "past surgical history %HESITATION policies CC four extension the feud "
+        },
+        {
+          "transcript": "past surgical history %HESITATION policy CC four extension the feud "
+        },
+        {
+          "transcript": "past surgical history %HESITATION policies sixty four extension the feud "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 156.16,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "One"
+            },
+            {
+              "confidence": 0.21,
+              "word": "one"
+            }
+          ],
+          "end_time": 156.34
+        },
+        {
+          "start_time": 156.34,
+          "alternatives": [
+            {
+              "confidence": 0.34,
+              "word": "knows"
+            },
+            {
+              "confidence": 0.22,
+              "word": "domino's"
+            },
+            {
+              "confidence": 0.2,
+              "word": "nose"
+            }
+          ],
+          "end_time": 156.61
+        },
+        {
+          "start_time": 156.61,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "instrumentation"
+            }
+          ],
+          "end_time": 157.77
+        },
+        {
+          "start_time": 157.93,
+          "alternatives": [
+            {
+              "confidence": 0.47,
+              "word": "thanks"
+            },
+            {
+              "confidence": 0.11,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 158.23
+        },
+        {
+          "start_time": 158.43,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "patient"
+            }
+          ],
+          "end_time": 158.97
+        },
+        {
+          "start_time": 159.08,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "form"
+            },
+            {
+              "confidence": 0.12,
+              "word": "forms"
+            }
+          ],
+          "end_time": 159.51
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.25,
+          "transcript": "domino's instrumentation patient form "
+        },
+        {
+          "transcript": "One nose instrumentation patient form "
+        },
+        {
+          "transcript": "One knows instrumentation patient form "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 163.01,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "economy"
+            }
+          ],
+          "end_time": 163.6
+        },
+        {
+          "start_time": 165.46,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "social"
+            }
+          ],
+          "end_time": 166.0
+        },
+        {
+          "start_time": 166.0,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "history"
+            }
+          ],
+          "end_time": 166.54
+        },
+        {
+          "start_time": 167.07,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "patient"
+            },
+            {
+              "confidence": 0.41,
+              "word": "can"
+            }
+          ],
+          "end_time": 167.62
+        },
+        {
+          "start_time": 167.62,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "call"
+            }
+          ],
+          "end_time": 167.85
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.52,
+          "transcript": "economy history non contributing social history patient call "
+        },
+        {
+          "transcript": "economy history one contributing social history patient call "
+        },
+        {
+          "transcript": "economy history nine contributing social history patient call "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 170.06,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "no"
+            }
+          ],
+          "end_time": 170.38
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.52,
+          "transcript": "no tenemos home "
+        },
+        {
+          "transcript": "no tenemos for home "
+        },
+        {
+          "transcript": "no tenemos sent home "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 174.42,
+          "alternatives": [
+            {
+              "confidence": 0.48,
+              "word": "One"
+            },
+            {
+              "confidence": 0.3,
+              "word": "one"
+            }
+          ],
+          "end_time": 174.78
+        },
+        {
+          "start_time": 174.81,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 175.22
+        },
+        {
+          "start_time": 175.89,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "a"
+            }
+          ],
+          "end_time": 176.07
+        },
+        {
+          "start_time": 176.07,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "tune"
+            }
+          ],
+          "end_time": 176.79
+        },
+        {
+          "start_time": 176.79,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "fall"
+            }
+          ],
+          "end_time": 177.19
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.43,
+          "transcript": "One %HESITATION noting this is a tune fall to "
+        },
+        {
+          "transcript": "one %HESITATION noting this is a tune fall to "
+        },
+        {
+          "transcript": "One %HESITATION noting this is a tune fall two "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 178.65,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "patient"
+            }
+          ],
+          "end_time": 179.12
+        },
+        {
+          "start_time": 179.35,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "email"
+            }
+          ],
+          "end_time": 179.8
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.49,
+          "transcript": "patient email %HESITATION status to quickly and one "
+        },
+        {
+          "transcript": "patient email current status to quickly and one "
+        },
+        {
+          "transcript": "the patient email %HESITATION status to quickly and one "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 183.5,
+          "alternatives": [
+            {
+              "confidence": 0.32,
+              "word": "this"
+            },
+            {
+              "confidence": 0.25,
+              "word": "Holmes"
+            },
+            {
+              "confidence": 0.12,
+              "word": "is"
+            }
+          ],
+          "end_time": 183.65
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.37,
+          "transcript": "Holmes has since seen "
+        },
+        {
+          "transcript": "%HESITATION is has since seen "
+        },
+        {
+          "transcript": "this has since seen "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 186.84,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "alcohol"
+            }
+          ],
+          "end_time": 187.45
+        },
+        {
+          "start_time": 187.53,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "use"
+            }
+          ],
+          "end_time": 188.08
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.71,
+          "transcript": "alcohol use "
+        },
+        {
+          "transcript": "alcohol abuse "
+        },
+        {
+          "transcript": "alcohol %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 192.96,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "yes"
+            }
+          ],
+          "end_time": 193.24
+        },
+        {
+          "start_time": 194.11,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "thank"
+            }
+          ],
+          "end_time": 194.36
+        },
+        {
+          "start_time": 194.36,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "you"
+            }
+          ],
+          "end_time": 194.5
+        },
+        {
+          "start_time": 194.76,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "history"
+            }
+          ],
+          "end_time": 195.14
+        },
+        {
+          "start_time": 195.14,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "all"
+            }
+          ],
+          "end_time": 195.33
+        },
+        {
+          "start_time": 195.56,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "normal"
+            },
+            {
+              "confidence": 0.1,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 196.05
+        },
+        {
+          "start_time": 196.05,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "formation"
+            }
+          ],
+          "end_time": 196.63
+        },
+        {
+          "start_time": 197.12,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "potential"
+            }
+          ],
+          "end_time": 197.82
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.5,
+          "transcript": "yes %HESITATION thank you history all normal formation full potential "
+        },
+        {
+          "transcript": "yes %HESITATION thank you thanks for normal formation full potential "
+        },
+        {
+          "transcript": "AGS %HESITATION thank you history all normal formation full potential "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 199.26,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "tension"
+            },
+            {
+              "confidence": 0.34,
+              "word": "attention"
+            }
+          ],
+          "end_time": 199.66
+        },
+        {
+          "start_time": 199.69,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 200.11
+        },
+        {
+          "start_time": 200.53,
+          "alternatives": [
+            {
+              "confidence": 0.46,
+              "word": "on"
+            },
+            {
+              "confidence": 0.13,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 201.0
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.57,
+          "transcript": "tension %HESITATION staff on "
+        },
+        {
+          "transcript": "attention %HESITATION staff on "
+        },
+        {
+          "transcript": "tension %HESITATION staff %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 202.59,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "he"
+            }
+          ],
+          "end_time": 202.89
+        },
+        {
+          "start_time": 202.95,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 203.31
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.49,
+          "transcript": "he %HESITATION tendon to all or to to fall fall "
+        },
+        {
+          "transcript": "he %HESITATION tendon to all or to %HESITATION fall fall "
+        },
+        {
+          "transcript": "he %HESITATION tendon to all or two to four all "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 207.53,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "nearly"
+            },
+            {
+              "confidence": 0.14,
+              "word": "with"
+            }
+          ],
+          "end_time": 207.92
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.39,
+          "transcript": "nearly evening "
+        },
+        {
+          "transcript": "nearly bleeding "
+        },
+        {
+          "transcript": "with nearly evening "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 216.8,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "period"
+            },
+            {
+              "confidence": 0.17,
+              "word": "thank"
+            }
+          ],
+          "end_time": 217.3
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.23,
+          "transcript": "period "
+        },
+        {
+          "transcript": "hearing "
+        },
+        {
+          "transcript": "thank you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 224.51,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.11,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 224.92
+        },
+        {
+          "start_time": 224.97,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 225.43
+        },
+        {
+          "start_time": 225.63,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 225.87
+        },
+        {
+          "start_time": 226.27,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 226.67
+        },
+        {
+          "start_time": 227.36,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "thank"
+            }
+          ],
+          "end_time": 227.53
+        },
+        {
+          "start_time": 227.53,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "you"
+            }
+          ],
+          "end_time": 227.69
+        },
+        {
+          "start_time": 227.89,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "the"
+            }
+          ],
+          "end_time": 228.03
+        },
+        {
+          "start_time": 228.03,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "period"
+            }
+          ],
+          "end_time": 228.49
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.57,
+          "transcript": "%HESITATION %HESITATION %HESITATION thank you the period and physical exam home patient then "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION thank you the period and physical exam patient thank you "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION thank you the period and physical exam found patient thank you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 234.27,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "patient"
+            }
+          ],
+          "end_time": 234.8
+        },
+        {
+          "start_time": 234.8,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "is"
+            }
+          ],
+          "end_time": 235.06
+        },
+        {
+          "start_time": 235.06,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "in"
+            }
+          ],
+          "end_time": 235.15
+        },
+        {
+          "start_time": 235.15,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "no"
+            }
+          ],
+          "end_time": 235.29
+        },
+        {
+          "start_time": 235.29,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "distress"
+            }
+          ],
+          "end_time": 235.92
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.56,
+          "transcript": "remaining morning care patient is in no distress "
+        },
+        {
+          "transcript": "meaning morning care patient is in no distress "
+        },
+        {
+          "transcript": "reigning morning care patient is in no distress "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 237.21,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 237.47
+        },
+        {
+          "start_time": 238.79,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "the"
+            }
+          ],
+          "end_time": 238.99
+        },
+        {
+          "start_time": 238.99,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "machine"
+            }
+          ],
+          "end_time": 239.49
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.61,
+          "transcript": "%HESITATION called me seven the machine "
+        },
+        {
+          "transcript": "%HESITATION call me seven the machine "
+        },
+        {
+          "transcript": "%HESITATION quality seven the machine "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 240.52,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 241.25
+        },
+        {
+          "start_time": 241.87,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 242.17
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.36,
+          "transcript": "%HESITATION %HESITATION %HESITATION continue "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION %HESITATION T. "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION to T. "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 245.22,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 245.56
+        },
+        {
+          "start_time": 245.56,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "period"
+            }
+          ],
+          "end_time": 246.09
+        },
+        {
+          "start_time": 246.45,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "on"
+            },
+            {
+              "confidence": 0.26,
+              "word": "One"
+            }
+          ],
+          "end_time": 246.59
+        },
+        {
+          "start_time": 246.59,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "examination"
+            }
+          ],
+          "end_time": 247.55
+        },
+        {
+          "start_time": 247.55,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "no"
+            }
+          ],
+          "end_time": 247.88
+        },
+        {
+          "start_time": 248.77,
+          "alternatives": [
+            {
+              "confidence": 0.48,
+              "word": "of"
+            },
+            {
+              "confidence": 0.15,
+              "word": "by"
+            }
+          ],
+          "end_time": 248.85
+        },
+        {
+          "start_time": 250.52,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.23,
+              "word": "thank"
+            }
+          ],
+          "end_time": 250.95
+        },
+        {
+          "start_time": 251.1,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "is"
+            },
+            {
+              "confidence": 0.31,
+              "word": "you"
+            }
+          ],
+          "end_time": 251.23
+        },
+        {
+          "start_time": 251.23,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "four"
+            },
+            {
+              "confidence": 0.3,
+              "word": "for"
+            }
+          ],
+          "end_time": 251.48
+        },
+        {
+          "start_time": 251.52,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "point"
+            },
+            {
+              "confidence": 0.29,
+              "word": "calling"
+            }
+          ],
+          "end_time": 251.97
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.51,
+          "transcript": "%HESITATION period on examination no use of accessory muscles three %HESITATION is four point "
+        },
+        {
+          "transcript": "%HESITATION period on examination no use of accessory three %HESITATION is four point "
+        },
+        {
+          "transcript": "%HESITATION period on examination no use of accessory for free %HESITATION is four point "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 252.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vital"
+            }
+          ],
+          "end_time": 253.17
+        },
+        {
+          "start_time": 253.17,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "signs"
+            }
+          ],
+          "end_time": 253.91
+        },
+        {
+          "start_time": 253.98,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 254.38
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.52,
+          "transcript": "vital signs %HESITATION "
+        },
+        {
+          "transcript": "for calling %HESITATION "
+        },
+        {
+          "transcript": "vital signs %HESITATION I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 257.14,
+          "alternatives": [
+            {
+              "confidence": 0.39,
+              "word": "hi"
+            },
+            {
+              "confidence": 0.31,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 257.45
+        },
+        {
+          "start_time": 257.6,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "next"
+            }
+          ],
+          "end_time": 258.14
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.57,
+          "transcript": "hi next is %HESITATION "
+        },
+        {
+          "transcript": "hi next %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "next is %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 260.97,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "thank"
+            }
+          ],
+          "end_time": 261.26
+        },
+        {
+          "start_time": 261.26,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "you"
+            }
+          ],
+          "end_time": 261.36
+        },
+        {
+          "start_time": 262.01,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "thank"
+            },
+            {
+              "confidence": 0.25,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 262.39
+        },
+        {
+          "start_time": 262.39,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "you"
+            }
+          ],
+          "end_time": 262.45
+        },
+        {
+          "start_time": 263.06,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "for"
+            }
+          ],
+          "end_time": 263.57
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.77,
+          "transcript": "thank you thank you for "
+        },
+        {
+          "transcript": "thank you thanks for "
+        },
+        {
+          "transcript": "thank you %HESITATION thanks for "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 265.72,
+          "alternatives": [
+            {
+              "confidence": 0.49,
+              "word": "thanks"
+            },
+            {
+              "confidence": 0.22,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 265.95
+        },
+        {
+          "start_time": 267.53,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.16,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 267.8
+        },
+        {
+          "start_time": 268.02,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 268.23
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.27,
+          "transcript": "thanks for listening %HESITATION %HESITATION %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "thanks for listening to so %HESITATION "
+        },
+        {
+          "transcript": "thanks for patiently %HESITATION %HESITATION %HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 269.49,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 269.92
+        },
+        {
+          "start_time": 270.94,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "patient"
+            }
+          ],
+          "end_time": 271.49
+        },
+        {
+          "start_time": 271.55,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 271.9
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "thanks patient %HESITATION "
+        },
+        {
+          "transcript": "thanks bye patient %HESITATION "
+        },
+        {
+          "transcript": "thanks both patient %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 277.07,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "approximation"
+            }
+          ],
+          "end_time": 278.27
+        },
+        {
+          "start_time": 278.52,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "one"
+            }
+          ],
+          "end_time": 279.17
+        },
+        {
+          "start_time": 279.46,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "four"
+            }
+          ],
+          "end_time": 279.68
+        },
+        {
+          "start_time": 279.68,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "four"
+            }
+          ],
+          "end_time": 280.03
+        },
+        {
+          "start_time": 280.03,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "two"
+            }
+          ],
+          "end_time": 280.25
+        },
+        {
+          "start_time": 280.8,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "one"
+            },
+            {
+              "confidence": 0.1,
+              "word": "One"
+            }
+          ],
+          "end_time": 281.27
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.79,
+          "transcript": "approximation one four four two six one "
+        },
+        {
+          "transcript": "approximation one four four two two one "
+        },
+        {
+          "transcript": "approximation one four four two one "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 283.77,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.12,
+              "word": "three"
+            }
+          ],
+          "end_time": 283.96
+        },
+        {
+          "start_time": 283.96,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "one"
+            }
+          ],
+          "end_time": 284.41
+        },
+        {
+          "start_time": 284.56,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "one"
+            }
+          ],
+          "end_time": 284.89
+        },
+        {
+          "start_time": 284.89,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "one"
+            }
+          ],
+          "end_time": 285.28
+        },
+        {
+          "start_time": 285.28,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "point"
+            },
+            {
+              "confidence": 0.12,
+              "word": "current"
+            }
+          ],
+          "end_time": 285.77
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.59,
+          "transcript": "one one one point three "
+        },
+        {
+          "transcript": "three one one one point three "
+        },
+        {
+          "transcript": "one one one current he "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 287.43,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "the"
+            }
+          ],
+          "end_time": 287.52
+        },
+        {
+          "start_time": 287.52,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "saturation"
+            }
+          ],
+          "end_time": 288.56
+        },
+        {
+          "start_time": 288.76,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "ninety"
+            }
+          ],
+          "end_time": 289.19
+        },
+        {
+          "start_time": 289.19,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "nine"
+            }
+          ],
+          "end_time": 289.48
+        },
+        {
+          "start_time": 289.75,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "percent"
+            },
+            {
+              "confidence": 0.11,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 290.27
+        },
+        {
+          "start_time": 290.84,
+          "alternatives": [
+            {
+              "confidence": 0.4,
+              "word": "all"
+            },
+            {
+              "confidence": 0.27,
+              "word": "call"
+            },
+            {
+              "confidence": 0.19,
+              "word": "Paul"
+            }
+          ],
+          "end_time": 291.22
+        },
+        {
+          "start_time": 291.28,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "two"
+            },
+            {
+              "confidence": 0.12,
+              "word": "to"
+            }
+          ],
+          "end_time": 291.57
+        },
+        {
+          "start_time": 292.55,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "ninety"
+            }
+          ],
+          "end_time": 292.85
+        },
+        {
+          "start_time": 292.85,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "seven"
+            }
+          ],
+          "end_time": 293.3
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.57,
+          "transcript": "the saturation ninety nine percent all two ninety seven percent "
+        },
+        {
+          "transcript": "the saturation ninety nine percent call to ninety seven percent "
+        },
+        {
+          "transcript": "the saturation ninety nine percent all to ninety seven percent "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 296.16,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "eight"
+            }
+          ],
+          "end_time": 296.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.74,
+          "transcript": "and two two eighty eight "
+        },
+        {
+          "transcript": "and two to eighty eight "
+        },
+        {
+          "transcript": "nine to two eighty eight "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 297.31,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "ninety"
+            }
+          ],
+          "end_time": 297.68
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.22,
+          "transcript": "ninety seven thank "
+        },
+        {
+          "transcript": "ninety seven plan "
+        },
+        {
+          "transcript": "Matt is an thank "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 300.62,
+          "alternatives": [
+            {
+              "confidence": 0.47,
+              "word": "hearing"
+            },
+            {
+              "confidence": 0.33,
+              "word": "he"
+            }
+          ],
+          "end_time": 300.95
+        },
+        {
+          "start_time": 300.95,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "intently"
+            }
+          ],
+          "end_time": 301.66
+        },
+        {
+          "start_time": 301.69,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "anicteric"
+            }
+          ],
+          "end_time": 302.32
+        },
+        {
+          "start_time": 303.05,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "tension"
+            }
+          ],
+          "end_time": 303.65
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.58,
+          "transcript": "hearing intently anicteric connecting tension long "
+        },
+        {
+          "transcript": "hearing intently anicteric connecting tension low "
+        },
+        {
+          "transcript": "he intently anicteric connecting tension long "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 304.9,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "clearly"
+            }
+          ],
+          "end_time": 305.48
+        },
+        {
+          "start_time": 306.29,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "yeah"
+            }
+          ],
+          "end_time": 306.58
+        },
+        {
+          "start_time": 306.58,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "and"
+            },
+            {
+              "confidence": 0.13,
+              "word": "an"
+            },
+            {
+              "confidence": 0.11,
+              "word": "at"
+            }
+          ],
+          "end_time": 306.86
+        },
+        {
+          "start_time": 307.08,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "entry"
+            }
+          ],
+          "end_time": 307.76
+        },
+        {
+          "start_time": 307.76,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "except"
+            }
+          ],
+          "end_time": 308.24
+        },
+        {
+          "start_time": 308.24,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "for"
+            }
+          ],
+          "end_time": 308.42
+        },
+        {
+          "start_time": 308.42,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "decreased"
+            },
+            {
+              "confidence": 0.38,
+              "word": "the"
+            }
+          ],
+          "end_time": 308.52
+        },
+        {
+          "start_time": 308.85,
+          "alternatives": [
+            {
+              "confidence": 0.41,
+              "word": "breath"
+            },
+            {
+              "confidence": 0.19,
+              "word": "process"
+            }
+          ],
+          "end_time": 309.1
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.48,
+          "transcript": "clearly pathetic yeah and an entry except for decreased breath sounds thank you "
+        },
+        {
+          "transcript": "clearly pathetic yeah and an entry except for decreased breath sounds he is "
+        },
+        {
+          "transcript": "clearly tested yeah and an entry except for decreased breath sounds thank you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 313.02,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "next"
+            },
+            {
+              "confidence": 0.3,
+              "word": "thank"
+            }
+          ],
+          "end_time": 313.4
+        },
+        {
+          "start_time": 314.04,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "point"
+            }
+          ],
+          "end_time": 314.43
+        },
+        {
+          "start_time": 314.43,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "five"
+            }
+          ],
+          "end_time": 314.69
+        },
+        {
+          "start_time": 314.69,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "three"
+            }
+          ],
+          "end_time": 314.92
+        },
+        {
+          "start_time": 314.92,
+          "alternatives": [
+            {
+              "confidence": 0.4,
+              "word": "X."
+            },
+            {
+              "confidence": 0.29,
+              "word": "aspirin"
+            }
+          ],
+          "end_time": 315.17
+        },
+        {
+          "start_time": 316.18,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "within"
+            }
+          ],
+          "end_time": 316.44
+        },
+        {
+          "start_time": 316.44,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "normal"
+            }
+          ],
+          "end_time": 316.85
+        },
+        {
+          "start_time": 317.33,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "is"
+            },
+            {
+              "confidence": 0.26,
+              "word": "physical"
+            }
+          ],
+          "end_time": 317.84
+        },
+        {
+          "start_time": 318.47,
+          "alternatives": [
+            {
+              "confidence": 0.38,
+              "word": "for"
+            },
+            {
+              "confidence": 0.33,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 318.74
+        },
+        {
+          "start_time": 319.69,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "and"
+            }
+          ],
+          "end_time": 319.93
+        },
+        {
+          "start_time": 321.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 321.87
+        },
+        {
+          "start_time": 321.87,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "no"
+            }
+          ],
+          "end_time": 321.98
+        },
+        {
+          "start_time": 321.98,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "three"
+            }
+          ],
+          "end_time": 322.33
+        },
+        {
+          "start_time": 322.45,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "year"
+            }
+          ],
+          "end_time": 322.62
+        },
+        {
+          "start_time": 322.62,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "old"
+            }
+          ],
+          "end_time": 322.82
+        },
+        {
+          "start_time": 322.82,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "female"
+            },
+            {
+              "confidence": 0.15,
+              "word": "woman"
+            },
+            {
+              "confidence": 0.12,
+              "word": "albumin"
+            }
+          ],
+          "end_time": 323.15
+        },
+        {
+          "start_time": 324.16,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "yes"
+            }
+          ],
+          "end_time": 324.48
+        },
+        {
+          "start_time": 324.65,
+          "alternatives": [
+            {
+              "confidence": 0.47,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.18,
+              "word": "the"
+            }
+          ],
+          "end_time": 324.79
+        },
+        {
+          "start_time": 324.87,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "person"
+            }
+          ],
+          "end_time": 325.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.46,
+          "transcript": "next eighty two two point five three X. ray hospitalized within normal limits physical appointment for mobile phones and invent extremities no three albumin is normal yes person "
+        },
+        {
+          "transcript": "next eight eighty two point five three X. ray hospitalized within normal limits physical appointment for mobile phones and invent extremities no three albumin is normal yes person "
+        },
+        {
+          "transcript": "next eighty two two point five three X. ray hospitalized within normal limits physical appointment for mobile phones and tender extremities no three albumin is normal yes person "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.09,
+          "transcript": "excessive caffeine chef "
+        },
+        {
+          "transcript": "hi yes patient "
+        },
+        {
+          "transcript": "hi yes the chef "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.73,
+          "transcript": "stop following extremities "
+        },
+        {
+          "transcript": "without from extremities "
+        },
+        {
+          "transcript": "Postop from extremities "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 337.75,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.13,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 337.99
+        },
+        {
+          "start_time": 337.99,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "period"
+            },
+            {
+              "confidence": 0.13,
+              "word": "he"
+            }
+          ],
+          "end_time": 338.44
+        },
+        {
+          "start_time": 341.64,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "thirteen"
+            }
+          ],
+          "end_time": 342.02
+        },
+        {
+          "start_time": 342.02,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "point"
+            }
+          ],
+          "end_time": 342.42
+        },
+        {
+          "start_time": 342.42,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "six"
+            }
+          ],
+          "end_time": 342.69
+        },
+        {
+          "start_time": 344.43,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "six"
+            }
+          ],
+          "end_time": 344.71
+        },
+        {
+          "start_time": 344.82,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "point"
+            }
+          ],
+          "end_time": 345.1
+        },
+        {
+          "start_time": 345.1,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "four"
+            }
+          ],
+          "end_time": 345.65
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.51,
+          "transcript": "%HESITATION period %HESITATION to me ten seventy please see thirteen point six six management point four eighty six point four "
+        },
+        {
+          "transcript": "he is not on TV ten seventy please see thirteen point six six management point four eighty six point four "
+        },
+        {
+          "transcript": "%HESITATION period %HESITATION to me ten seventy please see thirteen point six sixteen experiments point four eighty six point four "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 346.61,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "he"
+            },
+            {
+              "confidence": 0.13,
+              "word": "the"
+            }
+          ],
+          "end_time": 347.3
+        },
+        {
+          "start_time": 350.15,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "point"
+            }
+          ],
+          "end_time": 350.44
+        },
+        {
+          "start_time": 350.44,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "six"
+            }
+          ],
+          "end_time": 350.82
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.57,
+          "transcript": "he dismissed thank you thanksgiving within point six "
+        },
+        {
+          "transcript": "he dismissed thank you thanksgiving within point six thank you "
+        },
+        {
+          "transcript": "he dismissed thank you thanksgiving with an point six "
+        }
+      ],
+      "final": true
+    },
+    {
+      "alternatives": [
+        {
+          "confidence": 0.46,
+          "transcript": "he said to "
+        },
+        {
+          "transcript": "next to "
+        },
+        {
+          "transcript": "thank you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 354.38,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 354.72
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.29,
+          "transcript": "%HESITATION period "
+        },
+        {
+          "transcript": "%HESITATION here in "
+        },
+        {
+          "transcript": "%HESITATION hearing aid "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 358.38,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "sodium"
+            }
+          ],
+          "end_time": 359.01
+        },
+        {
+          "start_time": 359.05,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "one"
+            }
+          ],
+          "end_time": 359.32
+        },
+        {
+          "start_time": 359.32,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "forty"
+            }
+          ],
+          "end_time": 359.6
+        },
+        {
+          "start_time": 359.6,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "two"
+            }
+          ],
+          "end_time": 359.79
+        },
+        {
+          "start_time": 359.79,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "potassium"
+            }
+          ],
+          "end_time": 360.6
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.83,
+          "transcript": "sodium one forty two potassium "
+        },
+        {
+          "transcript": "sodium is one forty two potassium "
+        },
+        {
+          "transcript": "sodium one thirty two potassium "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 362.84,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "three"
+            }
+          ],
+          "end_time": 363.19
+        },
+        {
+          "start_time": 363.19,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "point"
+            }
+          ],
+          "end_time": 363.8
+        },
+        {
+          "start_time": 364.3,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "three"
+            }
+          ],
+          "end_time": 364.88
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.97,
+          "transcript": "three point three "
+        },
+        {
+          "transcript": "the three point three "
+        },
+        {
+          "transcript": "three point three I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 368.4,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "four"
+            },
+            {
+              "confidence": 0.3,
+              "word": "call"
+            }
+          ],
+          "end_time": 368.81
+        },
+        {
+          "start_time": 368.81,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "eight"
+            }
+          ],
+          "end_time": 369.2
+        },
+        {
+          "start_time": 369.69,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "nine"
+            }
+          ],
+          "end_time": 370.28
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.7,
+          "transcript": "four eight one one nine "
+        },
+        {
+          "transcript": "four eight one nine nine "
+        },
+        {
+          "transcript": "four eight one nine "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 373.34,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "BMI"
+            }
+          ],
+          "end_time": 373.78
+        },
+        {
+          "start_time": 373.78,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "and"
+            }
+          ],
+          "end_time": 373.94
+        },
+        {
+          "start_time": 373.94,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "create"
+            }
+          ],
+          "end_time": 374.54
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "BMI and create "
+        },
+        {
+          "transcript": "BMI and create %HESITATION "
+        },
+        {
+          "transcript": "BMI and create a "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 375.73,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 376.01
+        },
+        {
+          "start_time": 376.01,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "five"
+            }
+          ],
+          "end_time": 376.35
+        },
+        {
+          "start_time": 376.35,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "three"
+            }
+          ],
+          "end_time": 376.5
+        },
+        {
+          "start_time": 376.5,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "point"
+            }
+          ],
+          "end_time": 376.89
+        },
+        {
+          "start_time": 376.89,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "one"
+            }
+          ],
+          "end_time": 377.08
+        },
+        {
+          "start_time": 377.08,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "point"
+            }
+          ],
+          "end_time": 377.52
+        },
+        {
+          "start_time": 377.52,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "two"
+            },
+            {
+              "confidence": 0.11,
+              "word": "three"
+            }
+          ],
+          "end_time": 377.67
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.81,
+          "transcript": "thirty five three point one point two with six "
+        },
+        {
+          "transcript": "thirty five three point one point two was six "
+        },
+        {
+          "transcript": "thirty five three point one point three with six "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 384.76,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "chest"
+            }
+          ],
+          "end_time": 385.15
+        },
+        {
+          "start_time": 385.15,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "X."
+            }
+          ],
+          "end_time": 385.32
+        },
+        {
+          "start_time": 385.32,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "three"
+            }
+          ],
+          "end_time": 385.67
+        },
+        {
+          "start_time": 385.67,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "point"
+            }
+          ],
+          "end_time": 386.13
+        },
+        {
+          "start_time": 386.33,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "thank"
+            }
+          ],
+          "end_time": 386.54
+        },
+        {
+          "start_time": 386.54,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "you"
+            }
+          ],
+          "end_time": 386.62
+        },
+        {
+          "start_time": 386.62,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "the"
+            }
+          ],
+          "end_time": 386.76
+        },
+        {
+          "start_time": 386.76,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "fusion"
+            }
+          ],
+          "end_time": 387.57
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.82,
+          "transcript": "chest X. three point thank you the fusion "
+        },
+        {
+          "transcript": "A chest X. three point thank you the fusion "
+        },
+        {
+          "transcript": "chest X. three point ninety the fusion "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 388.48,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 389.12
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "%HESITATION "
+        },
+        {
+          "transcript": "um "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 390.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "could"
+            }
+          ],
+          "end_time": 390.5
+        },
+        {
+          "start_time": 390.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "be"
+            }
+          ],
+          "end_time": 391.02
+        },
+        {
+          "start_time": 391.56,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "overlying"
+            }
+          ],
+          "end_time": 392.3
+        },
+        {
+          "start_time": 392.3,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "infiltrative"
+            }
+          ],
+          "end_time": 393.16
+        },
+        {
+          "start_time": 395.44,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "X."
+            }
+          ],
+          "end_time": 395.69
+        },
+        {
+          "start_time": 395.69,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "ray"
+            }
+          ],
+          "end_time": 395.93
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.65,
+          "transcript": "could be overlying infiltrative attention to process repeat chest X. ray "
+        },
+        {
+          "transcript": "could be overlying infiltrative intention to process repeat chest X. ray "
+        },
+        {
+          "transcript": "could be overlying infiltrative extension see process repeat chest X. ray "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 396.97,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "anemic"
+            },
+            {
+              "confidence": 0.11,
+              "word": "me"
+            }
+          ],
+          "end_time": 397.51
+        },
+        {
+          "start_time": 397.51,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.1,
+              "word": "rectal"
+            }
+          ],
+          "end_time": 398.22
+        },
+        {
+          "start_time": 398.22,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "patients"
+            }
+          ],
+          "end_time": 398.89
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.6,
+          "transcript": "anemic patients recommended "
+        },
+        {
+          "transcript": "anemic patients recomended "
+        },
+        {
+          "transcript": "let me rectal patients recommended "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 400.55,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "pain"
+            }
+          ],
+          "end_time": 400.99
+        },
+        {
+          "start_time": 401.75,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "assessment"
+            }
+          ],
+          "end_time": 402.27
+        },
+        {
+          "start_time": 402.27,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "and"
+            }
+          ],
+          "end_time": 402.37
+        },
+        {
+          "start_time": 402.37,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "plan"
+            }
+          ],
+          "end_time": 402.69
+        },
+        {
+          "start_time": 402.69,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "patient"
+            }
+          ],
+          "end_time": 403.31
+        },
+        {
+          "start_time": 405.63,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 406.28
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.57,
+          "transcript": "pain assessment and plan patient is since at %HESITATION microphones and currently fusion "
+        },
+        {
+          "transcript": "pain assessment and plan patient services at %HESITATION microphones and currently fusion "
+        },
+        {
+          "transcript": "pain assessment and plan patient is since as %HESITATION microphones and currently fusion "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 409.75,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 410.13
+        },
+        {
+          "start_time": 415.02,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "I'm"
+            }
+          ],
+          "end_time": 415.18
+        },
+        {
+          "start_time": 415.18,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "interested"
+            }
+          ],
+          "end_time": 415.71
+        },
+        {
+          "start_time": 415.71,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "in"
+            }
+          ],
+          "end_time": 415.91
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.51,
+          "transcript": "%HESITATION and present to be present content and consistent I'm interested in consistent all consisting of cough "
+        },
+        {
+          "transcript": "%HESITATION and present to be present content and consistent I'm interested in consistent all consisting cough "
+        },
+        {
+          "transcript": "%HESITATION and present to be present content and consistent I'm interested in consistent %HESITATION consisting of cough "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 423.04,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "period"
+            }
+          ],
+          "end_time": 423.79
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.15,
+          "transcript": "period "
+        },
+        {
+          "transcript": "here in "
+        },
+        {
+          "transcript": "Karen "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 425.46,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "sorry"
+            }
+          ],
+          "end_time": 425.74
+        },
+        {
+          "start_time": 426.13,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "the"
+            }
+          ],
+          "end_time": 426.25
+        },
+        {
+          "start_time": 426.25,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "patient"
+            }
+          ],
+          "end_time": 426.62
+        },
+        {
+          "start_time": 426.62,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "consented"
+            }
+          ],
+          "end_time": 427.19
+        },
+        {
+          "start_time": 427.19,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "who"
+            }
+          ],
+          "end_time": 427.39
+        },
+        {
+          "start_time": 427.39,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "presented"
+            }
+          ],
+          "end_time": 428.04
+        },
+        {
+          "start_time": 428.1,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "with"
+            }
+          ],
+          "end_time": 428.34
+        },
+        {
+          "start_time": 428.7,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "cough"
+            }
+          ],
+          "end_time": 429.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.7,
+          "transcript": "I'm sorry remove the patient consented who presented with cough "
+        },
+        {
+          "transcript": "and I'm sorry remove the patient consented who presented with cough "
+        },
+        {
+          "transcript": "I'm I'm sorry remove the patient consented who presented with cough "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 430.29,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "the"
+            }
+          ],
+          "end_time": 430.55
+        },
+        {
+          "start_time": 430.7,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "CBC"
+            }
+          ],
+          "end_time": 431.35
+        },
+        {
+          "start_time": 431.35,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "shows"
+            }
+          ],
+          "end_time": 431.85
+        },
+        {
+          "start_time": 431.97,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 432.14
+        },
+        {
+          "start_time": 432.14,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "is"
+            }
+          ],
+          "end_time": 432.55
+        },
+        {
+          "start_time": 432.65,
+          "alternatives": [
+            {
+              "confidence": 0.48,
+              "word": "embolization"
+            },
+            {
+              "confidence": 0.16,
+              "word": "location"
+            }
+          ],
+          "end_time": 433.34
+        },
+        {
+          "start_time": 433.34,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "of"
+            }
+          ],
+          "end_time": 433.48
+        },
+        {
+          "start_time": 433.48,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "the"
+            },
+            {
+              "confidence": 0.15,
+              "word": "active"
+            }
+          ],
+          "end_time": 433.74
+        },
+        {
+          "start_time": 434.35,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "white"
+            }
+          ],
+          "end_time": 434.72
+        },
+        {
+          "start_time": 434.81,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "count"
+            }
+          ],
+          "end_time": 435.56
+        },
+        {
+          "start_time": 435.66,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 436.21
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.69,
+          "transcript": "the CBC shows %HESITATION is embolization of the white count %HESITATION "
+        },
+        {
+          "transcript": "the CBC shows %HESITATION is location of the white count %HESITATION "
+        },
+        {
+          "transcript": "the CBC shows %HESITATION is embolization active white count %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 437.16,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "period"
+            }
+          ],
+          "end_time": 437.67
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.27,
+          "transcript": "period monitor the content of other possibilities "
+        },
+        {
+          "transcript": "period monitor the consent of other possibilities "
+        },
+        {
+          "transcript": "period honestly want to know about the possibilities "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 440.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pneumonia"
+            }
+          ],
+          "end_time": 441.45
+        },
+        {
+          "start_time": 441.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "particularly"
+            }
+          ],
+          "end_time": 442.27
+        },
+        {
+          "start_time": 442.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "aspiration"
+            }
+          ],
+          "end_time": 443.16
+        },
+        {
+          "start_time": 443.16,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "pneumonia"
+            }
+          ],
+          "end_time": 443.79
+        },
+        {
+          "start_time": 445.61,
+          "alternatives": [
+            {
+              "confidence": 0.41,
+              "word": "is"
+            },
+            {
+              "confidence": 0.2,
+              "word": "news"
+            }
+          ],
+          "end_time": 445.97
+        },
+        {
+          "start_time": 451.61,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "and"
+            }
+          ],
+          "end_time": 451.81
+        },
+        {
+          "start_time": 451.81,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "sepsis"
+            }
+          ],
+          "end_time": 452.51
+        },
+        {
+          "start_time": 452.54,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "which"
+            }
+          ],
+          "end_time": 452.66
+        },
+        {
+          "start_time": 452.66,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "is"
+            }
+          ],
+          "end_time": 452.77
+        },
+        {
+          "start_time": 452.77,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "sixty"
+            }
+          ],
+          "end_time": 453.12
+        },
+        {
+          "start_time": 453.12,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "four"
+            }
+          ],
+          "end_time": 453.34
+        },
+        {
+          "start_time": 453.34,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "pulse"
+            }
+          ],
+          "end_time": 453.58
+        },
+        {
+          "start_time": 454.25,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "two"
+            },
+            {
+              "confidence": 0.13,
+              "word": "you"
+            }
+          ],
+          "end_time": 454.47
+        },
+        {
+          "start_time": 455.11,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "heme"
+            },
+            {
+              "confidence": 0.23,
+              "word": "he"
+            }
+          ],
+          "end_time": 455.33
+        },
+        {
+          "start_time": 456.8,
+          "alternatives": [
+            {
+              "confidence": 0.4,
+              "word": "sick"
+            },
+            {
+              "confidence": 0.22,
+              "word": "a"
+            }
+          ],
+          "end_time": 457.01
+        },
+        {
+          "start_time": 457.91,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "for"
+            }
+          ],
+          "end_time": 458.2
+        },
+        {
+          "start_time": 458.2,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "improved"
+            }
+          ],
+          "end_time": 458.69
+        },
+        {
+          "start_time": 458.76,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "pulmonary"
+            }
+          ],
+          "end_time": 459.21
+        },
+        {
+          "start_time": 459.21,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "toilet"
+            }
+          ],
+          "end_time": 459.75
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.67,
+          "transcript": "pneumonia particularly aspiration pneumonia patient %HESITATION who is %HESITATION decided on antibiotics so since often cell culture and sepsis which is sixty four pulse sixty two heme is she with people very sick treatment for improved pulmonary toilet "
+        },
+        {
+          "transcript": "pneumonia particularly aspiration pneumonia patient %HESITATION who is %HESITATION decided on antibiotics with Zosyn often cell culture and sepsis which is sixty four pulse sixty two heme is she with people very sick treatment for improved pulmonary toilet "
+        },
+        {
+          "transcript": "pneumonia particularly aspiration pneumonia and patient %HESITATION who is %HESITATION decided on antibiotics so since often cell culture and sepsis which is sixty four pulse sixty two heme is she with people very sick treatment for improved pulmonary toilet "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 460.59,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "normal"
+            }
+          ],
+          "end_time": 460.86
+        },
+        {
+          "start_time": 460.86,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "office"
+            },
+            {
+              "confidence": 0.11,
+              "word": "all"
+            }
+          ],
+          "end_time": 461.28
+        },
+        {
+          "start_time": 461.28,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 461.68
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.63,
+          "transcript": "normal office %HESITATION "
+        },
+        {
+          "transcript": "normal all %HESITATION "
+        },
+        {
+          "transcript": "normal %HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 464.7,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.11,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 465.25
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.94,
+          "transcript": "%HESITATION "
+        },
+        {
+          "transcript": "the %HESITATION "
+        },
+        {
+          "transcript": "me %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 474.41,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.3,
+              "word": "okay"
+            }
+          ],
+          "end_time": 474.57
+        },
+        {
+          "start_time": 474.57,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "the"
+            },
+            {
+              "confidence": 0.23,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 474.68
+        },
+        {
+          "start_time": 474.68,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "period"
+            }
+          ],
+          "end_time": 475.12
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.67,
+          "transcript": "the period there "
+        },
+        {
+          "transcript": "okay period there "
+        },
+        {
+          "transcript": "the period that "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 476.34,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "next"
+            }
+          ],
+          "end_time": 476.76
+        },
+        {
+          "start_time": 476.76,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "is"
+            }
+          ],
+          "end_time": 476.89
+        },
+        {
+          "start_time": 476.89,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 477.25
+        },
+        {
+          "start_time": 477.25,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "atrial"
+            }
+          ],
+          "end_time": 477.67
+        },
+        {
+          "start_time": 477.67,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "fibrillation"
+            }
+          ],
+          "end_time": 478.46
+        },
+        {
+          "start_time": 478.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rate"
+            }
+          ],
+          "end_time": 478.68
+        },
+        {
+          "start_time": 478.68,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "controlled"
+            }
+          ],
+          "end_time": 479.3
+        },
+        {
+          "start_time": 479.3,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "patient"
+            }
+          ],
+          "end_time": 479.8
+        },
+        {
+          "start_time": 479.83,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "on"
+            }
+          ],
+          "end_time": 480.06
+        },
+        {
+          "start_time": 480.06,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "xarelto"
+            }
+          ],
+          "end_time": 480.58
+        },
+        {
+          "start_time": 480.58,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "for"
+            }
+          ],
+          "end_time": 480.93
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "next is chronic atrial fibrillation rate controlled patient on xarelto for "
+        },
+        {
+          "transcript": "next chronic atrial fibrillation rate controlled patient on xarelto for "
+        },
+        {
+          "transcript": "next is chronic atrial fibrillation rate controlled the patient on xarelto for "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 485.43,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "emission"
+            }
+          ],
+          "end_time": 486.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.7,
+          "transcript": "%HESITATION common thank light emission "
+        },
+        {
+          "transcript": "%HESITATION common tank light emission "
+        },
+        {
+          "transcript": "%HESITATION tendon tank light emission "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 489.85,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "thanks"
+            },
+            {
+              "confidence": 0.23,
+              "word": "thank"
+            }
+          ],
+          "end_time": 490.14
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.32,
+          "transcript": "thanks is a new patient which focuses instead "
+        },
+        {
+          "transcript": "thanks is a new patient which focuses Wednesday "
+        },
+        {
+          "transcript": "thanks is a new patient which focuses range yes "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 495.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 496.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.73,
+          "transcript": "next year %HESITATION "
+        },
+        {
+          "transcript": "next %HESITATION "
+        },
+        {
+          "transcript": "next is %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 502.09,
+          "alternatives": [
+            {
+              "confidence": 0.39,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.3,
+              "word": "some"
+            },
+            {
+              "confidence": 0.13,
+              "word": "mmhm"
+            },
+            {
+              "confidence": 0.12,
+              "word": "from"
+            }
+          ],
+          "end_time": 502.31
+        },
+        {
+          "start_time": 502.31,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "management"
+            }
+          ],
+          "end_time": 502.99
+        },
+        {
+          "start_time": 504.59,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "patient"
+            },
+            {
+              "confidence": 0.11,
+              "word": "and"
+            }
+          ],
+          "end_time": 505.09
+        },
+        {
+          "start_time": 506.52,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 506.71
+        },
+        {
+          "start_time": 506.8,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 507.1
+        },
+        {
+          "start_time": 507.27,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 507.59
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.42,
+          "transcript": "%HESITATION management seasons treatable patient nine thanks %HESITATION %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION management since it's reasonable patient nine thanks %HESITATION %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "%HESITATION management seasons treatable patient nine %HESITATION %HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 509.02,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "angina"
+            }
+          ],
+          "end_time": 509.94
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.49,
+          "transcript": "angina and concluded the "
+        },
+        {
+          "transcript": "angina yes and concluded the "
+        },
+        {
+          "transcript": "angina anemia and concluded the "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 513.41,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "thanks"
+            },
+            {
+              "confidence": 0.37,
+              "word": "thank"
+            }
+          ],
+          "end_time": 513.71
+        },
+        {
+          "start_time": 513.87,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "same"
+            }
+          ],
+          "end_time": 514.52
+        },
+        {
+          "start_time": 515.34,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 515.75
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.38,
+          "transcript": "thanks same next thanks "
+        },
+        {
+          "transcript": "thank you same next thanks "
+        },
+        {
+          "transcript": "thanks same thanks thanks "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 518.93,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "next"
+            }
+          ],
+          "end_time": 519.17
+        },
+        {
+          "start_time": 519.17,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "in"
+            }
+          ],
+          "end_time": 519.31
+        },
+        {
+          "start_time": 519.31,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "headline"
+            }
+          ],
+          "end_time": 519.93
+        },
+        {
+          "start_time": 519.96,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "quiescent"
+            }
+          ],
+          "end_time": 520.72
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.54,
+          "transcript": "next in headline quiescent "
+        },
+        {
+          "transcript": "this is in line quiescent "
+        },
+        {
+          "transcript": "next is in line quiescent "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 521.97,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "history"
+            }
+          ],
+          "end_time": 522.33
+        },
+        {
+          "start_time": 522.33,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "of"
+            }
+          ],
+          "end_time": 522.41
+        },
+        {
+          "start_time": 522.41,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "hypertension"
+            }
+          ],
+          "end_time": 523.25
+        },
+        {
+          "start_time": 525.67,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 525.94
+        },
+        {
+          "start_time": 526.21,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "women"
+            }
+          ],
+          "end_time": 526.55
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.46,
+          "transcript": "history of hypertension collection presentation in the side thanks for women to "
+        },
+        {
+          "transcript": "history of hypertension collection presentation in the site thanks for women to "
+        },
+        {
+          "transcript": "history of hypertension collection on presentation in the side thanks for women to "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 536.11,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "thank"
+            },
+            {
+              "confidence": 0.28,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 536.37
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.27,
+          "transcript": "thank you "
+        },
+        {
+          "transcript": "thanks you "
+        },
+        {
+          "transcript": "thanks to "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 542.67,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "yes"
+            }
+          ],
+          "end_time": 543.21
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.63,
+          "transcript": "yes "
+        },
+        {
+          "transcript": "yes it "
+        },
+        {
+          "transcript": "yes he "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 544.06,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "change"
+            }
+          ],
+          "end_time": 544.44
+        },
+        {
+          "start_time": 544.44,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "right"
+            }
+          ],
+          "end_time": 544.68
+        },
+        {
+          "start_time": 544.89,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 545.34
+        },
+        {
+          "start_time": 547.51,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "thank"
+            }
+          ],
+          "end_time": 547.73
+        },
+        {
+          "start_time": 547.73,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "you"
+            }
+          ],
+          "end_time": 547.8
+        },
+        {
+          "start_time": 547.8,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "ma'am"
+            }
+          ],
+          "end_time": 548.04
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.67,
+          "transcript": "change right %HESITATION procedure the patient thank you ma'am "
+        },
+        {
+          "transcript": "change right %HESITATION proceeding the patient thank you ma'am "
+        },
+        {
+          "transcript": "change right %HESITATION procedure patient patient thank you ma'am "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 551.22,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "the"
+            }
+          ],
+          "end_time": 551.35
+        },
+        {
+          "start_time": 551.35,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "condition"
+            }
+          ],
+          "end_time": 551.83
+        },
+        {
+          "start_time": 553.06,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "thank"
+            }
+          ],
+          "end_time": 553.32
+        },
+        {
+          "start_time": 553.32,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "you"
+            }
+          ],
+          "end_time": 553.59
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.58,
+          "transcript": "CF and transformation the condition thank you "
+        },
+        {
+          "transcript": "yes %HESITATION transmission the condition thank you "
+        },
+        {
+          "transcript": "yes and transformation the condition thank you "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}

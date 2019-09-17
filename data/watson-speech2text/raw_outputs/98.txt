@@ -1,0 +1,2528 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 8.35,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "seen"
+            }
+          ],
+          "end_time": 8.6
+        },
+        {
+          "start_time": 8.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "today"
+            }
+          ],
+          "end_time": 8.82
+        },
+        {
+          "start_time": 8.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "on"
+            }
+          ],
+          "end_time": 8.99
+        },
+        {
+          "start_time": 8.99,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "rounds"
+            }
+          ],
+          "end_time": 9.33
+        },
+        {
+          "start_time": 9.33,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "she"
+            },
+            {
+              "confidence": 0.31,
+              "word": "she's"
+            }
+          ],
+          "end_time": 9.43
+        },
+        {
+          "start_time": 9.43,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "said"
+            },
+            {
+              "confidence": 0.31,
+              "word": "had"
+            }
+          ],
+          "end_time": 9.64
+        },
+        {
+          "start_time": 9.65,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "episodes"
+            },
+            {
+              "confidence": 0.28,
+              "word": "episode"
+            }
+          ],
+          "end_time": 10.3
+        },
+        {
+          "start_time": 10.48,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "snoring"
+            }
+          ],
+          "end_time": 10.94
+        },
+        {
+          "start_time": 10.94,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "she"
+            }
+          ],
+          "end_time": 11.1
+        },
+        {
+          "start_time": 11.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "previously"
+            }
+          ],
+          "end_time": 11.64
+        },
+        {
+          "start_time": 11.64,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "had"
+            }
+          ],
+          "end_time": 11.95
+        },
+        {
+          "start_time": 11.95,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "a"
+            }
+          ],
+          "end_time": 12.12
+        },
+        {
+          "start_time": 12.39,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "C."
+            }
+          ],
+          "end_time": 12.64
+        },
+        {
+          "start_time": 12.64,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "pap"
+            }
+          ],
+          "end_time": 13.0
+        },
+        {
+          "start_time": 13.0,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "but"
+            }
+          ],
+          "end_time": 13.12
+        },
+        {
+          "start_time": 13.12,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "was"
+            }
+          ],
+          "end_time": 13.27
+        },
+        {
+          "start_time": 13.27,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "noncompliant"
+            }
+          ],
+          "end_time": 14.02
+        },
+        {
+          "start_time": 14.02,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "with"
+            }
+          ],
+          "end_time": 14.15
+        },
+        {
+          "start_time": 14.15,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "its"
+            }
+          ],
+          "end_time": 14.28
+        },
+        {
+          "start_time": 14.33,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "use"
+            }
+          ],
+          "end_time": 14.86
+        },
+        {
+          "start_time": 15.26,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 15.61
+        },
+        {
+          "start_time": 15.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 15.92
+        },
+        {
+          "start_time": 15.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "would"
+            }
+          ],
+          "end_time": 16.12
+        },
+        {
+          "start_time": 16.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "not"
+            }
+          ],
+          "end_time": 16.47
+        },
+        {
+          "start_time": 16.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 16.66
+        },
+        {
+          "start_time": 16.66,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "in"
+            }
+          ],
+          "end_time": 17.01
+        },
+        {
+          "start_time": 17.01,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "eventually"
+            }
+          ],
+          "end_time": 17.7
+        },
+        {
+          "start_time": 17.7,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 18.1
+        },
+        {
+          "start_time": 18.13,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 18.34
+        },
+        {
+          "start_time": 18.34,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "use"
+            }
+          ],
+          "end_time": 18.7
+        },
+        {
+          "start_time": 18.7,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "it"
+            },
+            {
+              "confidence": 0.11,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 18.9
+        },
+        {
+          "start_time": 19.29,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 19.68
+        },
+        {
+          "start_time": 19.68,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "she"
+            }
+          ],
+          "end_time": 20.19
+        },
+        {
+          "start_time": 20.61,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "snoring"
+            }
+          ],
+          "end_time": 21.05
+        },
+        {
+          "start_time": 21.05,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "is"
+            }
+          ],
+          "end_time": 21.2
+        },
+        {
+          "start_time": 21.2,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "affecting"
+            }
+          ],
+          "end_time": 21.61
+        },
+        {
+          "start_time": 21.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "her"
+            }
+          ],
+          "end_time": 21.7
+        },
+        {
+          "start_time": 21.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "roommate's"
+            }
+          ],
+          "end_time": 22.17
+        },
+        {
+          "start_time": 22.17,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "situation"
+            }
+          ],
+          "end_time": 22.86
+        },
+        {
+          "start_time": 23.36,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 23.61
+        },
+        {
+          "start_time": 23.61,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "there's"
+            }
+          ],
+          "end_time": 23.88
+        },
+        {
+          "start_time": 23.88,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "been"
+            }
+          ],
+          "end_time": 24.07
+        },
+        {
+          "start_time": 24.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "some"
+            }
+          ],
+          "end_time": 24.27
+        },
+        {
+          "start_time": 24.27,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "suggestion"
+            }
+          ],
+          "end_time": 24.89
+        },
+        {
+          "start_time": 24.89,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "that"
+            }
+          ],
+          "end_time": 25.07
+        },
+        {
+          "start_time": 25.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "breathe"
+            }
+          ],
+          "end_time": 25.49
+        },
+        {
+          "start_time": 25.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 25.73
+        },
+        {
+          "start_time": 25.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "strips"
+            }
+          ],
+          "end_time": 26.08
+        },
+        {
+          "start_time": 26.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "may"
+            }
+          ],
+          "end_time": 26.26
+        },
+        {
+          "start_time": 26.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "help"
+            }
+          ],
+          "end_time": 26.66
+        },
+        {
+          "start_time": 26.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "they"
+            }
+          ],
+          "end_time": 26.78
+        },
+        {
+          "start_time": 26.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "are"
+            }
+          ],
+          "end_time": 26.84
+        },
+        {
+          "start_time": 26.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "worth"
+            }
+          ],
+          "end_time": 27.26
+        },
+        {
+          "start_time": 27.41,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "trying"
+            }
+          ],
+          "end_time": 28.0
+        },
+        {
+          "start_time": 28.49,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "and"
+            }
+          ],
+          "end_time": 28.76
+        },
+        {
+          "start_time": 28.76,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "will"
+            }
+          ],
+          "end_time": 28.93
+        },
+        {
+          "start_time": 28.93,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "be"
+            }
+          ],
+          "end_time": 29.05
+        },
+        {
+          "start_time": 29.05,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "ordered"
+            }
+          ],
+          "end_time": 29.58
+        },
+        {
+          "start_time": 29.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 30.08
+        },
+        {
+          "start_time": 30.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "she"
+            }
+          ],
+          "end_time": 30.32
+        },
+        {
+          "start_time": 30.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "denies"
+            }
+          ],
+          "end_time": 30.73
+        },
+        {
+          "start_time": 30.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "any"
+            }
+          ],
+          "end_time": 31.06
+        },
+        {
+          "start_time": 31.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chills"
+            }
+          ],
+          "end_time": 31.41
+        },
+        {
+          "start_time": 31.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 31.49
+        },
+        {
+          "start_time": 31.49,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "sweats"
+            }
+          ],
+          "end_time": 31.82
+        },
+        {
+          "start_time": 31.82,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "she"
+            }
+          ],
+          "end_time": 31.96
+        },
+        {
+          "start_time": 31.96,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "denies"
+            }
+          ],
+          "end_time": 32.31
+        },
+        {
+          "start_time": 32.31,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "morning"
+            }
+          ],
+          "end_time": 32.63
+        },
+        {
+          "start_time": 32.63,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "headache"
+            }
+          ],
+          "end_time": 33.01
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "seen today on rounds she's had episodes with snoring she previously had a C. pap but was noncompliant with its use %HESITATION and would not %HESITATION in eventually %HESITATION %HESITATION use it %HESITATION she %HESITATION snoring is affecting her roommate's situation %HESITATION there's been some suggestion that breathe right strips may help they are worth trying and will be ordered %HESITATION she denies any chills or sweats she denies morning headache "
+        },
+        {
+          "transcript": "seen today on rounds she's had episodes with snoring she previously had a C. pap but was noncompliant with its use %HESITATION and would not %HESITATION in eventually %HESITATION use it %HESITATION she %HESITATION snoring is affecting her roommate's situation %HESITATION there's been some suggestion that breathe right strips may help they are worth trying and will be ordered %HESITATION she denies any chills or sweats she denies morning headache "
+        },
+        {
+          "transcript": "seen today on rounds she said episodes with snoring she previously had a C. pap but was noncompliant with its use %HESITATION and would not %HESITATION in eventually %HESITATION %HESITATION use it %HESITATION she %HESITATION snoring is affecting her roommate's situation %HESITATION there's been some suggestion that breathe right strips may help they are worth trying and will be ordered %HESITATION she denies any chills or sweats she denies morning headache "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 33.91,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "your"
+            }
+          ],
+          "end_time": 34.04
+        },
+        {
+          "start_time": 34.04,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "systems"
+            }
+          ],
+          "end_time": 34.59
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.86,
+          "transcript": "your systems "
+        },
+        {
+          "transcript": "U. of systems "
+        },
+        {
+          "transcript": "your Systems "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 35.56,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "otherwise"
+            }
+          ],
+          "end_time": 36.25
+        },
+        {
+          "start_time": 37.38,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "physical"
+            }
+          ],
+          "end_time": 37.84
+        },
+        {
+          "start_time": 37.84,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "exam"
+            }
+          ],
+          "end_time": 38.5
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "otherwise negative physical exam "
+        },
+        {
+          "transcript": "otherwise %HESITATION negative physical exam "
+        },
+        {
+          "transcript": "otherwise negative a physical exam "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 40.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vital"
+            }
+          ],
+          "end_time": 40.57
+        },
+        {
+          "start_time": 40.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "signs"
+            }
+          ],
+          "end_time": 41.17
+        },
+        {
+          "start_time": 41.17,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "blood"
+            }
+          ],
+          "end_time": 41.44
+        },
+        {
+          "start_time": 41.44,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 41.94
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "vital signs blood pressure "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 47.4,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "one"
+            }
+          ],
+          "end_time": 47.67
+        },
+        {
+          "start_time": 47.67,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "fifty"
+            }
+          ],
+          "end_time": 47.93
+        },
+        {
+          "start_time": 47.93,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "nine"
+            }
+          ],
+          "end_time": 48.14
+        },
+        {
+          "start_time": 48.14,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "over"
+            }
+          ],
+          "end_time": 48.34
+        },
+        {
+          "start_time": 48.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "eighty"
+            }
+          ],
+          "end_time": 48.5
+        },
+        {
+          "start_time": 48.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "two"
+            }
+          ],
+          "end_time": 48.73
+        },
+        {
+          "start_time": 48.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pulse"
+            }
+          ],
+          "end_time": 49.02
+        },
+        {
+          "start_time": 49.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ninety"
+            }
+          ],
+          "end_time": 49.26
+        },
+        {
+          "start_time": 49.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "respirations"
+            }
+          ],
+          "end_time": 49.78
+        },
+        {
+          "start_time": 49.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "eighteen"
+            }
+          ],
+          "end_time": 50.16
+        },
+        {
+          "start_time": 50.16,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "she"
+            }
+          ],
+          "end_time": 50.3
+        },
+        {
+          "start_time": 50.3,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "is"
+            }
+          ],
+          "end_time": 50.37
+        },
+        {
+          "start_time": 50.37,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "afebrile"
+            }
+          ],
+          "end_time": 51.13
+        },
+        {
+          "start_time": 51.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "HEENT"
+            }
+          ],
+          "end_time": 52.0
+        },
+        {
+          "start_time": 52.4,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "no"
+            }
+          ],
+          "end_time": 52.52
+        },
+        {
+          "start_time": 52.52,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "JVD"
+            }
+          ],
+          "end_time": 52.96
+        },
+        {
+          "start_time": 52.96,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "noted"
+            }
+          ],
+          "end_time": 53.3
+        },
+        {
+          "start_time": 53.33,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "heart"
+            }
+          ],
+          "end_time": 53.57
+        },
+        {
+          "start_time": 53.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "regular"
+            }
+          ],
+          "end_time": 53.84
+        },
+        {
+          "start_time": 53.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rate"
+            }
+          ],
+          "end_time": 54.01
+        },
+        {
+          "start_time": 54.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 54.1
+        },
+        {
+          "start_time": 54.1,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "rhythm"
+            }
+          ],
+          "end_time": 54.44
+        },
+        {
+          "start_time": 54.93,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "lungs"
+            }
+          ],
+          "end_time": 55.55
+        },
+        {
+          "start_time": 55.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 56.06
+        },
+        {
+          "start_time": 56.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "wheezes"
+            }
+          ],
+          "end_time": 56.51
+        },
+        {
+          "start_time": 56.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 56.69
+        },
+        {
+          "start_time": 56.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rhonchi"
+            }
+          ],
+          "end_time": 57.03
+        },
+        {
+          "start_time": 57.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "are"
+            }
+          ],
+          "end_time": 57.3
+        },
+        {
+          "start_time": 57.3,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "noted"
+            }
+          ],
+          "end_time": 57.95
+        },
+        {
+          "start_time": 58.46,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "abdomen"
+            }
+          ],
+          "end_time": 59.08
+        },
+        {
+          "start_time": 59.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 59.52
+        },
+        {
+          "start_time": 59.61,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "soft"
+            }
+          ],
+          "end_time": 60.24
+        },
+        {
+          "start_time": 60.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "obese"
+            }
+          ],
+          "end_time": 60.9
+        },
+        {
+          "start_time": 60.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nondistended"
+            }
+          ],
+          "end_time": 61.66
+        },
+        {
+          "start_time": 61.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nontender"
+            }
+          ],
+          "end_time": 62.47
+        },
+        {
+          "start_time": 62.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 63.1
+        },
+        {
+          "start_time": 63.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "positive"
+            }
+          ],
+          "end_time": 63.56
+        },
+        {
+          "start_time": 63.56,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bowel"
+            }
+          ],
+          "end_time": 63.78
+        },
+        {
+          "start_time": 63.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sounds"
+            }
+          ],
+          "end_time": 64.12
+        },
+        {
+          "start_time": 64.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "times"
+            }
+          ],
+          "end_time": 64.47
+        },
+        {
+          "start_time": 64.47,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "four"
+            }
+          ],
+          "end_time": 65.09
+        },
+        {
+          "start_time": 65.62,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 66.53
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "one fifty nine over eighty two pulse ninety respirations eighteen she is afebrile HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft obese nondistended nontender with positive bowel sounds times four extremities "
+        },
+        {
+          "transcript": "%HESITATION one fifty nine over eighty two pulse ninety respirations eighteen she is afebrile HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft obese nondistended nontender with positive bowel sounds times four extremities "
+        },
+        {
+          "transcript": "One fifty nine over eighty two pulse ninety respirations eighteen she is afebrile HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft obese nondistended nontender with positive bowel sounds times four extremities "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 67.4,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "no"
+            },
+            {
+              "confidence": 0.22,
+              "word": "No"
+            }
+          ],
+          "end_time": 67.58
+        },
+        {
+          "start_time": 67.58,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "edema"
+            }
+          ],
+          "end_time": 68.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "no edema "
+        },
+        {
+          "transcript": "No edema "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 69.85,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "she"
+            }
+          ],
+          "end_time": 70.01
+        },
+        {
+          "start_time": 70.01,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "has"
+            }
+          ],
+          "end_time": 70.15
+        },
+        {
+          "start_time": 70.15,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "trace"
+            }
+          ],
+          "end_time": 70.65
+        },
+        {
+          "start_time": 70.97,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "edema"
+            }
+          ],
+          "end_time": 71.43
+        },
+        {
+          "start_time": 71.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pretibially"
+            }
+          ],
+          "end_time": 72.12
+        },
+        {
+          "start_time": 72.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "skin"
+            }
+          ],
+          "end_time": 72.45
+        },
+        {
+          "start_time": 72.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 72.59
+        },
+        {
+          "start_time": 72.59,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "rashes"
+            }
+          ],
+          "end_time": 72.99
+        },
+        {
+          "start_time": 72.99,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "noted"
+            }
+          ],
+          "end_time": 73.25
+        },
+        {
+          "start_time": 73.28,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "neuro"
+            }
+          ],
+          "end_time": 73.47
+        },
+        {
+          "start_time": 73.47,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "no"
+            }
+          ],
+          "end_time": 73.57
+        },
+        {
+          "start_time": 73.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "focal"
+            }
+          ],
+          "end_time": 73.89
+        },
+        {
+          "start_time": 73.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "deficit"
+            }
+          ],
+          "end_time": 74.28
+        },
+        {
+          "start_time": 74.28,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "noted"
+            }
+          ],
+          "end_time": 74.8
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "living or make that sure she has trace edema pretibially skin no rashes noted neuro no focal deficit noted "
+        },
+        {
+          "transcript": "Amir make destroyed she has trace edema pretibially skin no rashes noted neuro no focal deficit noted "
+        },
+        {
+          "transcript": "Amir make that sure she has trace edema pretibially skin no rashes noted neuro no focal deficit noted "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 83.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "laboratory"
+            }
+          ],
+          "end_time": 84.18
+        },
+        {
+          "start_time": 84.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "recent"
+            }
+          ],
+          "end_time": 84.58
+        },
+        {
+          "start_time": 84.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Keppra"
+            }
+          ],
+          "end_time": 84.96
+        },
+        {
+          "start_time": 84.96,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "level"
+            }
+          ],
+          "end_time": 85.29
+        },
+        {
+          "start_time": 85.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 85.47
+        },
+        {
+          "start_time": 85.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "fifty"
+            }
+          ],
+          "end_time": 85.83
+        },
+        {
+          "start_time": 85.83,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "four"
+            }
+          ],
+          "end_time": 86.46
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "laboratory recent Keppra level was fifty four "
+        },
+        {
+          "transcript": "laboratory recent Keppra level was fifty for "
+        },
+        {
+          "transcript": "laboratory recent Keppra level was fifty four I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 89.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "recent"
+            }
+          ],
+          "end_time": 90.17
+        },
+        {
+          "start_time": 90.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "oxcarbazepine"
+            }
+          ],
+          "end_time": 91.53
+        },
+        {
+          "start_time": 91.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "level"
+            }
+          ],
+          "end_time": 91.86
+        },
+        {
+          "start_time": 91.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "fifteen"
+            }
+          ],
+          "end_time": 92.33
+        },
+        {
+          "start_time": 92.33,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 92.65
+        },
+        {
+          "start_time": 92.65,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "seven"
+            }
+          ],
+          "end_time": 93.24
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "recent oxcarbazepine level fifteen point seven "
+        },
+        {
+          "transcript": "recent oxcarbazepine level fifteen point seven I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 94.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "recent"
+            }
+          ],
+          "end_time": 94.96
+        },
+        {
+          "start_time": 94.96,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lipid"
+            }
+          ],
+          "end_time": 95.31
+        },
+        {
+          "start_time": 95.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "profile"
+            }
+          ],
+          "end_time": 96.19
+        },
+        {
+          "start_time": 96.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cholesterol"
+            }
+          ],
+          "end_time": 96.66
+        },
+        {
+          "start_time": 96.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 96.82
+        },
+        {
+          "start_time": 96.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 97.02
+        },
+        {
+          "start_time": 97.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "two"
+            }
+          ],
+          "end_time": 97.27
+        },
+        {
+          "start_time": 97.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "triglycerides"
+            }
+          ],
+          "end_time": 97.83
+        },
+        {
+          "start_time": 97.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 97.98
+        },
+        {
+          "start_time": 97.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 98.19
+        },
+        {
+          "start_time": 98.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "two"
+            }
+          ],
+          "end_time": 98.59
+        },
+        {
+          "start_time": 98.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "LDL"
+            }
+          ],
+          "end_time": 99.4
+        },
+        {
+          "start_time": 99.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "fifty"
+            }
+          ],
+          "end_time": 99.75
+        },
+        {
+          "start_time": 99.75,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "seven"
+            }
+          ],
+          "end_time": 100.39
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 1.0,
+          "transcript": "recent lipid profile cholesterol one thirty two triglycerides one thirty two LDL fifty seven "
+        },
+        {
+          "transcript": "recent lipid profile cholesterol one thirty two triglycerides one thirty two LDL fifty seven I "
+        },
+        {
+          "transcript": "recent lipid profile cholesterol one thirty two triglycerides one thirty two LDL fifty seven %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 101.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "recent"
+            }
+          ],
+          "end_time": 102.1
+        },
+        {
+          "start_time": 102.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hemoglobin"
+            }
+          ],
+          "end_time": 102.61
+        },
+        {
+          "start_time": 102.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "A."
+            }
+          ],
+          "end_time": 102.73
+        },
+        {
+          "start_time": 102.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 102.94
+        },
+        {
+          "start_time": 102.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "C."
+            }
+          ],
+          "end_time": 103.28
+        },
+        {
+          "start_time": 103.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "six"
+            }
+          ],
+          "end_time": 103.63
+        },
+        {
+          "start_time": 103.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 103.97
+        },
+        {
+          "start_time": 103.97,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "four"
+            }
+          ],
+          "end_time": 104.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "recent hemoglobin A. one C. six point four "
+        },
+        {
+          "transcript": "recent hemoglobin A. one C. six point for "
+        },
+        {
+          "transcript": "recent hemoglobin A. one C. six point four I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 107.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "recent"
+            }
+          ],
+          "end_time": 107.98
+        },
+        {
+          "start_time": 107.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "TSH"
+            }
+          ],
+          "end_time": 108.79
+        },
+        {
+          "start_time": 108.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "three"
+            }
+          ],
+          "end_time": 109.0
+        },
+        {
+          "start_time": 109.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 109.28
+        },
+        {
+          "start_time": 109.28,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "eight"
+            },
+            {
+              "confidence": 0.27,
+              "word": "eighty"
+            }
+          ],
+          "end_time": 109.48
+        },
+        {
+          "start_time": 109.48,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "two"
+            }
+          ],
+          "end_time": 109.9
+        },
+        {
+          "start_time": 110.58,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "assessment"
+            }
+          ],
+          "end_time": 111.1
+        },
+        {
+          "start_time": 111.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 111.34
+        },
+        {
+          "start_time": 111.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 111.65
+        },
+        {
+          "start_time": 111.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "obstructive"
+            }
+          ],
+          "end_time": 112.12
+        },
+        {
+          "start_time": 112.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 112.43
+        },
+        {
+          "start_time": 112.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "apnea"
+            }
+          ],
+          "end_time": 112.77
+        },
+        {
+          "start_time": 112.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "intolerant"
+            }
+          ],
+          "end_time": 113.36
+        },
+        {
+          "start_time": 113.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 113.45
+        },
+        {
+          "start_time": 113.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "CPAP"
+            }
+          ],
+          "end_time": 113.95
+        },
+        {
+          "start_time": 113.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 114.23
+        },
+        {
+          "start_time": 114.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 114.4
+        },
+        {
+          "start_time": 114.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hypertension"
+            }
+          ],
+          "end_time": 115.23
+        },
+        {
+          "start_time": 115.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "uncontrolled"
+            }
+          ],
+          "end_time": 116.28
+        },
+        {
+          "start_time": 116.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 116.51
+        },
+        {
+          "start_time": 116.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 116.7
+        },
+        {
+          "start_time": 116.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "seizure"
+            }
+          ],
+          "end_time": 117.08
+        },
+        {
+          "start_time": 117.08,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "disorder"
+            }
+          ],
+          "end_time": 117.55
+        },
+        {
+          "start_time": 117.58,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "next"
+            }
+          ],
+          "end_time": 117.78
+        },
+        {
+          "start_time": 117.78,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "number"
+            }
+          ],
+          "end_time": 117.93
+        },
+        {
+          "start_time": 117.93,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "diabetes"
+            }
+          ],
+          "end_time": 118.38
+        },
+        {
+          "start_time": 118.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "mellitus"
+            }
+          ],
+          "end_time": 118.62
+        },
+        {
+          "start_time": 118.62,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "type"
+            }
+          ],
+          "end_time": 118.89
+        },
+        {
+          "start_time": 118.89,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "two"
+            }
+          ],
+          "end_time": 119.31
+        },
+        {
+          "start_time": 119.48,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "well"
+            }
+          ],
+          "end_time": 119.8
+        },
+        {
+          "start_time": 119.8,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "controlled"
+            }
+          ],
+          "end_time": 120.38
+        },
+        {
+          "start_time": 120.41,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "next"
+            }
+          ],
+          "end_time": 120.62
+        },
+        {
+          "start_time": 120.62,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "number"
+            }
+          ],
+          "end_time": 120.81
+        },
+        {
+          "start_time": 120.81,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "hyperlipidemia"
+            }
+          ],
+          "end_time": 121.96
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "recent TSH three point eight two assessment number one obstructive sleep apnea intolerant of CPAP next number hypertension uncontrolled next number seizure disorder next number diabetes mellitus type two well controlled next number hyperlipidemia "
+        },
+        {
+          "transcript": "recent TSH three point eighty two assessment number one obstructive sleep apnea intolerant of CPAP next number hypertension uncontrolled next number seizure disorder next number diabetes mellitus type two well controlled next number hyperlipidemia "
+        },
+        {
+          "transcript": "recent TSH three point eight to assessment number one obstructive sleep apnea intolerant of CPAP next number hypertension uncontrolled next number seizure disorder next number diabetes mellitus type two well controlled next number hyperlipidemia "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 123.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "plan"
+            }
+          ],
+          "end_time": 123.98
+        },
+        {
+          "start_time": 123.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "trial"
+            }
+          ],
+          "end_time": 124.44
+        },
+        {
+          "start_time": 124.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 124.54
+        },
+        {
+          "start_time": 124.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "breathe"
+            }
+          ],
+          "end_time": 124.84
+        },
+        {
+          "start_time": 124.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 125.14
+        },
+        {
+          "start_time": 125.14,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "strips"
+            }
+          ],
+          "end_time": 125.66
+        },
+        {
+          "start_time": 125.66,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "continue"
+            }
+          ],
+          "end_time": 126.09
+        },
+        {
+          "start_time": 126.09,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "current"
+            }
+          ],
+          "end_time": 126.51
+        },
+        {
+          "start_time": 126.51,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "anti"
+            }
+          ],
+          "end_time": 126.96
+        },
+        {
+          "start_time": 127.08,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "convulsant"
+            }
+          ],
+          "end_time": 127.77
+        },
+        {
+          "start_time": 127.77,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "agents"
+            }
+          ],
+          "end_time": 128.35
+        },
+        {
+          "start_time": 128.95,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "will"
+            }
+          ],
+          "end_time": 129.16
+        },
+        {
+          "start_time": 129.16,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "need"
+            }
+          ],
+          "end_time": 129.37
+        },
+        {
+          "start_time": 129.37,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "additional"
+            }
+          ],
+          "end_time": 129.86
+        },
+        {
+          "start_time": 129.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "antihypertensive"
+            }
+          ],
+          "end_time": 130.77
+        },
+        {
+          "start_time": 130.77,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 131.31
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "plan trial of breathe right strips continue current anti convulsant agents will need additional antihypertensive therapy "
+        },
+        {
+          "transcript": "plan trial of breathe right strips continue current anti convulsants agents will need additional antihypertensive therapy "
+        },
+        {
+          "transcript": "plan trial of breathe right strips continue current anti convulsant Agence will need additional antihypertensive therapy "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 151.33,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "will"
+            }
+          ],
+          "end_time": 151.57
+        },
+        {
+          "start_time": 151.57,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "increase"
+            }
+          ],
+          "end_time": 152.16
+        },
+        {
+          "start_time": 152.16,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "norvasc"
+            }
+          ],
+          "end_time": 152.81
+        },
+        {
+          "start_time": 152.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 152.92
+        },
+        {
+          "start_time": 152.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "this"
+            }
+          ],
+          "end_time": 153.15
+        },
+        {
+          "start_time": 153.15,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "time"
+            }
+          ],
+          "end_time": 153.73
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "will increase norvasc at this time "
+        },
+        {
+          "transcript": "I will increase norvasc at this time "
+        },
+        {
+          "transcript": "will increase norvasc at this time I "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}

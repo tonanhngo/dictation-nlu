@@ -1,0 +1,7984 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 16.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "preoperative"
+            }
+          ],
+          "end_time": 17.4
+        },
+        {
+          "start_time": 17.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "diagnoses"
+            }
+          ],
+          "end_time": 18.19
+        },
+        {
+          "start_time": 18.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 18.63
+        },
+        {
+          "start_time": 18.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 18.87
+        },
+        {
+          "start_time": 18.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tear"
+            }
+          ],
+          "end_time": 19.08
+        },
+        {
+          "start_time": 19.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 19.32
+        },
+        {
+          "start_time": 19.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 19.8
+        },
+        {
+          "start_time": 19.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 20.26
+        },
+        {
+          "start_time": 20.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 20.57
+        },
+        {
+          "start_time": 20.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "impingement"
+            }
+          ],
+          "end_time": 21.36
+        },
+        {
+          "start_time": 21.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "acromioclavicular"
+            }
+          ],
+          "end_time": 22.26
+        },
+        {
+          "start_time": 22.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "joint"
+            }
+          ],
+          "end_time": 22.52
+        },
+        {
+          "start_time": 22.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arthritis"
+            }
+          ],
+          "end_time": 23.08
+        },
+        {
+          "start_time": 23.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 23.32
+        },
+        {
+          "start_time": 23.32,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 23.71
+        },
+        {
+          "start_time": 24.22,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "labeled"
+            }
+          ],
+          "end_time": 24.83
+        },
+        {
+          "start_time": 25.1,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "labeled"
+            }
+          ],
+          "end_time": 25.51
+        },
+        {
+          "start_time": 26.76,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "biceps"
+            }
+          ],
+          "end_time": 27.21
+        },
+        {
+          "start_time": 27.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 27.53
+        },
+        {
+          "start_time": 27.53,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "tear"
+            }
+          ],
+          "end_time": 27.78
+        },
+        {
+          "start_time": 27.78,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "right"
+            }
+          ],
+          "end_time": 28.03
+        },
+        {
+          "start_time": 28.03,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 28.43
+        },
+        {
+          "start_time": 28.43,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.15,
+              "word": "up"
+            },
+            {
+              "confidence": 0.11,
+              "word": "a"
+            }
+          ],
+          "end_time": 28.55
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.9,
+          "transcript": "preoperative diagnoses rotator cuff tear right shoulder right shoulder impingement acromioclavicular joint arthritis right shoulder labeled labeled elective right shoulder biceps tendon tear right shoulder %HESITATION period "
+        },
+        {
+          "transcript": "preoperative diagnoses rotator cuff tear right shoulder right shoulder impingement acromioclavicular joint arthritis right shoulder labeled labeled let care right shoulder biceps tendon tear right shoulder %HESITATION period "
+        },
+        {
+          "transcript": "preoperative diagnoses rotator cuff tear right shoulder right shoulder impingement acromioclavicular joint arthritis right shoulder labeled labeled elective right shoulder biceps tendon tear right shoulder up period "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 30.08,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "Postop"
+            },
+            {
+              "confidence": 0.12,
+              "word": "postoperative"
+            }
+          ],
+          "end_time": 30.59
+        },
+        {
+          "start_time": 30.59,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "diagnosis"
+            }
+          ],
+          "end_time": 31.37
+        },
+        {
+          "start_time": 31.37,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "same"
+            }
+          ],
+          "end_time": 31.95
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.73,
+          "transcript": "Postop diagnosis same "
+        },
+        {
+          "transcript": "postoperative diagnoses same "
+        },
+        {
+          "transcript": "postoperative diagnosis same "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 32.85,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 33.68
+        },
+        {
+          "start_time": 33.68,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "period"
+            }
+          ],
+          "end_time": 33.97
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.82,
+          "transcript": "%HESITATION period "
+        },
+        {
+          "transcript": "%HESITATION peered "
+        },
+        {
+          "transcript": "%HESITATION beard "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 35.08,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "procedure"
+            }
+          ],
+          "end_time": 35.82
+        },
+        {
+          "start_time": 36.06,
+          "alternatives": [
+            {
+              "confidence": 0.46,
+              "word": "what"
+            },
+            {
+              "confidence": 0.25,
+              "word": "well"
+            }
+          ],
+          "end_time": 36.52
+        },
+        {
+          "start_time": 36.6,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "I"
+            }
+          ],
+          "end_time": 36.77
+        },
+        {
+          "start_time": 36.77,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "scab"
+            }
+          ],
+          "end_time": 37.09
+        },
+        {
+          "start_time": 37.09,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 37.49
+        },
+        {
+          "start_time": 37.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 37.72
+        },
+        {
+          "start_time": 37.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "repair"
+            }
+          ],
+          "end_time": 37.99
+        },
+        {
+          "start_time": 37.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 38.21
+        },
+        {
+          "start_time": 38.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 38.66
+        },
+        {
+          "start_time": 38.75,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "biceps"
+            }
+          ],
+          "end_time": 39.16
+        },
+        {
+          "start_time": 39.16,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "tenodesis"
+            }
+          ],
+          "end_time": 39.77
+        },
+        {
+          "start_time": 39.77,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "right"
+            }
+          ],
+          "end_time": 39.99
+        },
+        {
+          "start_time": 39.99,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 40.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.84,
+          "transcript": "procedure what I scab rotator cuff repair right shoulder biceps tenodesis right shoulder "
+        },
+        {
+          "transcript": "procedure well I scab rotator cuff repair right shoulder biceps tenodesis right shoulder "
+        },
+        {
+          "transcript": "procedure woke I scab rotator cuff repair right shoulder biceps tenodesis right shoulder "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 41.31,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 41.69
+        },
+        {
+          "start_time": 41.74,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 42.04
+        },
+        {
+          "start_time": 42.07,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 42.38
+        },
+        {
+          "start_time": 42.38,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "extensive"
+            }
+          ],
+          "end_time": 42.98
+        },
+        {
+          "start_time": 42.98,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "right"
+            }
+          ],
+          "end_time": 43.2
+        },
+        {
+          "start_time": 43.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 43.51
+        },
+        {
+          "start_time": 43.51,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "synovitis"
+            }
+          ],
+          "end_time": 44.2
+        },
+        {
+          "start_time": 44.23,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "synovectomy"
+            }
+          ],
+          "end_time": 45.08
+        },
+        {
+          "start_time": 45.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arthroscopic"
+            }
+          ],
+          "end_time": 46.08
+        },
+        {
+          "start_time": 46.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "subacromial"
+            }
+          ],
+          "end_time": 46.63
+        },
+        {
+          "start_time": 46.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "decompression"
+            }
+          ],
+          "end_time": 47.35
+        },
+        {
+          "start_time": 47.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arthroscopic"
+            }
+          ],
+          "end_time": 47.87
+        },
+        {
+          "start_time": 47.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "distal"
+            }
+          ],
+          "end_time": 48.14
+        },
+        {
+          "start_time": 48.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "clavicle"
+            }
+          ],
+          "end_time": 48.56
+        },
+        {
+          "start_time": 48.56,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "resection"
+            }
+          ],
+          "end_time": 49.23
+        },
+        {
+          "start_time": 49.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "extensive"
+            }
+          ],
+          "end_time": 49.98
+        },
+        {
+          "start_time": 49.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "debridement"
+            }
+          ],
+          "end_time": 50.47
+        },
+        {
+          "start_time": 50.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 50.69
+        },
+        {
+          "start_time": 50.69,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 51.07
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "%HESITATION %HESITATION %HESITATION extensive right shoulder synovitis synovectomy arthroscopic subacromial decompression arthroscopic distal clavicle resection extensive debridement right shoulder "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION %HESITATION extensive right shoulder synovitis synovectomy arthroscopic subacromial decompression arthroscopic distal clavicle resection extensive debridement right shoulder "
+        },
+        {
+          "transcript": "%HESITATION %HESITATION %HESITATION extensive right shoulder synovitis synovectomy arthroscopic subacromial decompression arthroscopic distal clavicle resection extensive debridement right shoulder all "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 56.0,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "the"
+            }
+          ],
+          "end_time": 56.27
+        },
+        {
+          "start_time": 56.27,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "general"
+            }
+          ],
+          "end_time": 56.64
+        },
+        {
+          "start_time": 56.64,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "regional"
+            }
+          ],
+          "end_time": 57.04
+        },
+        {
+          "start_time": 57.04,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "block"
+            }
+          ],
+          "end_time": 57.43
+        },
+        {
+          "start_time": 57.43,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "anesthesia"
+            }
+          ],
+          "end_time": 58.04
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.83,
+          "transcript": "the general regional block anesthesia "
+        },
+        {
+          "transcript": "patient general regional block anesthesia "
+        },
+        {
+          "transcript": "the generals regional block anesthesia "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 60.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "complications"
+            }
+          ],
+          "end_time": 60.75
+        },
+        {
+          "start_time": 60.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "none"
+            }
+          ],
+          "end_time": 60.91
+        },
+        {
+          "start_time": 60.91,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "spasms"
+            }
+          ],
+          "end_time": 61.34
+        },
+        {
+          "start_time": 61.34,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "on"
+            },
+            {
+              "confidence": 0.21,
+              "word": "of"
+            }
+          ],
+          "end_time": 61.46
+        },
+        {
+          "start_time": 61.46,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "blood"
+            }
+          ],
+          "end_time": 61.68
+        },
+        {
+          "start_time": 61.68,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "loss"
+            }
+          ],
+          "end_time": 61.89
+        },
+        {
+          "start_time": 61.89,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "minimal"
+            }
+          ],
+          "end_time": 62.29
+        },
+        {
+          "start_time": 62.29,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "occasions"
+            },
+            {
+              "confidence": 0.13,
+              "word": "educations"
+            }
+          ],
+          "end_time": 62.88
+        },
+        {
+          "start_time": 62.88,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "the"
+            }
+          ],
+          "end_time": 63.12
+        },
+        {
+          "start_time": 63.15,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "patient"
+            }
+          ],
+          "end_time": 63.55
+        },
+        {
+          "start_time": 63.55,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "is"
+            }
+          ],
+          "end_time": 63.71
+        },
+        {
+          "start_time": 63.71,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "a"
+            }
+          ],
+          "end_time": 63.97
+        },
+        {
+          "start_time": 64.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "forty"
+            }
+          ],
+          "end_time": 64.86
+        },
+        {
+          "start_time": 64.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "two"
+            }
+          ],
+          "end_time": 65.05
+        },
+        {
+          "start_time": 65.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "year"
+            }
+          ],
+          "end_time": 65.28
+        },
+        {
+          "start_time": 65.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "old"
+            }
+          ],
+          "end_time": 65.45
+        },
+        {
+          "start_time": 65.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "male"
+            }
+          ],
+          "end_time": 65.62
+        },
+        {
+          "start_time": 65.62,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 65.73
+        },
+        {
+          "start_time": 65.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 66.1
+        },
+        {
+          "start_time": 66.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 66.3
+        },
+        {
+          "start_time": 66.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 66.59
+        },
+        {
+          "start_time": 66.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pain"
+            }
+          ],
+          "end_time": 66.94
+        },
+        {
+          "start_time": 67.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 67.79
+        },
+        {
+          "start_time": 67.79,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "weakness"
+            }
+          ],
+          "end_time": 68.33
+        },
+        {
+          "start_time": 68.64,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "after"
+            }
+          ],
+          "end_time": 68.95
+        },
+        {
+          "start_time": 68.95,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "failure"
+            }
+          ],
+          "end_time": 69.26
+        },
+        {
+          "start_time": 69.26,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "of"
+            }
+          ],
+          "end_time": 69.33
+        },
+        {
+          "start_time": 69.33,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nonoperative"
+            }
+          ],
+          "end_time": 69.92
+        },
+        {
+          "start_time": 69.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "treatment"
+            }
+          ],
+          "end_time": 70.35
+        },
+        {
+          "start_time": 70.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "after"
+            }
+          ],
+          "end_time": 70.57
+        },
+        {
+          "start_time": 70.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 70.91
+        },
+        {
+          "start_time": 70.91,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "station"
+            },
+            {
+              "confidence": 0.21,
+              "word": "session"
+            }
+          ],
+          "end_time": 71.31
+        },
+        {
+          "start_time": 71.31,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "with"
+            }
+          ],
+          "end_time": 71.46
+        },
+        {
+          "start_time": 71.46,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 71.53
+        },
+        {
+          "start_time": 71.53,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "patient"
+            }
+          ],
+          "end_time": 72.06
+        },
+        {
+          "start_time": 72.06,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "regarding"
+            }
+          ],
+          "end_time": 72.5
+        },
+        {
+          "start_time": 72.5,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "the"
+            }
+          ],
+          "end_time": 72.6
+        },
+        {
+          "start_time": 72.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "risks"
+            }
+          ],
+          "end_time": 72.82
+        },
+        {
+          "start_time": 72.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 72.94
+        },
+        {
+          "start_time": 72.94,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "benefits"
+            }
+          ],
+          "end_time": 73.54
+        },
+        {
+          "start_time": 74.24,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 75.15
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.93,
+          "transcript": "complications none spasms on blood loss minimal occasions the patient is a forty two year old male with chronic right shoulder pain and weakness after failure of nonoperative treatment after thirty station with the patient regarding the risks and benefits %HESITATION "
+        },
+        {
+          "transcript": "complications none spasms of blood loss minimal occasions the patient is a forty two year old male with chronic right shoulder pain and weakness after failure of nonoperative treatment after thirty station with the patient regarding the risks and benefits %HESITATION "
+        },
+        {
+          "transcript": "complications none spasms on blood loss minimal occasions the patient is a forty two year old male with chronic right shoulder pain and weakness after failure of nonoperative treatment after thirty session with the patient regarding the risks and benefits %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 76.44,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "of"
+            }
+          ],
+          "end_time": 76.96
+        },
+        {
+          "start_time": 76.96,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 77.12
+        },
+        {
+          "start_time": 77.15,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 77.99
+        },
+        {
+          "start_time": 78.89,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "surgery"
+            }
+          ],
+          "end_time": 79.29
+        },
+        {
+          "start_time": 79.29,
+          "alternatives": [
+            {
+              "confidence": 0.46,
+              "word": "wished"
+            },
+            {
+              "confidence": 0.19,
+              "word": "wish"
+            }
+          ],
+          "end_time": 79.49
+        },
+        {
+          "start_time": 79.49,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "to"
+            }
+          ],
+          "end_time": 79.57
+        },
+        {
+          "start_time": 79.57,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "proceed"
+            }
+          ],
+          "end_time": 79.96
+        },
+        {
+          "start_time": 79.96,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "procedure"
+            }
+          ],
+          "end_time": 80.32
+        },
+        {
+          "start_time": 80.32,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "patient"
+            }
+          ],
+          "end_time": 80.63
+        },
+        {
+          "start_time": 80.63,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "was"
+            },
+            {
+              "confidence": 0.13,
+              "word": "is"
+            }
+          ],
+          "end_time": 80.72
+        },
+        {
+          "start_time": 80.72,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "placed"
+            },
+            {
+              "confidence": 0.15,
+              "word": "place"
+            }
+          ],
+          "end_time": 81.02
+        },
+        {
+          "start_time": 81.18,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "just"
+            }
+          ],
+          "end_time": 81.36
+        },
+        {
+          "start_time": 81.36,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "excess"
+            }
+          ],
+          "end_time": 81.63
+        },
+        {
+          "start_time": 81.63,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "induction"
+            }
+          ],
+          "end_time": 81.98
+        },
+        {
+          "start_time": 82.05,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "general"
+            }
+          ],
+          "end_time": 82.29
+        },
+        {
+          "start_time": 82.29,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "anesthesia"
+            }
+          ],
+          "end_time": 82.8
+        },
+        {
+          "start_time": 82.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 83.0
+        },
+        {
+          "start_time": 83.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "regional"
+            }
+          ],
+          "end_time": 83.28
+        },
+        {
+          "start_time": 83.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "block"
+            }
+          ],
+          "end_time": 83.57
+        },
+        {
+          "start_time": 83.57,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "patient"
+            }
+          ],
+          "end_time": 83.91
+        },
+        {
+          "start_time": 83.91,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "place"
+            },
+            {
+              "confidence": 0.13,
+              "word": "placing"
+            }
+          ],
+          "end_time": 84.08
+        },
+        {
+          "start_time": 84.08,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "in"
+            }
+          ],
+          "end_time": 84.14
+        },
+        {
+          "start_time": 84.14,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "a"
+            }
+          ],
+          "end_time": 84.18
+        },
+        {
+          "start_time": 84.18,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "beach"
+            }
+          ],
+          "end_time": 84.35
+        },
+        {
+          "start_time": 84.35,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "chair"
+            }
+          ],
+          "end_time": 84.49
+        },
+        {
+          "start_time": 84.49,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "position"
+            }
+          ],
+          "end_time": 84.79
+        },
+        {
+          "start_time": 84.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "on"
+            }
+          ],
+          "end_time": 84.87
+        },
+        {
+          "start_time": 84.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 84.95
+        },
+        {
+          "start_time": 84.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "operating"
+            }
+          ],
+          "end_time": 85.32
+        },
+        {
+          "start_time": 85.32,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "table"
+            }
+          ],
+          "end_time": 85.75
+        },
+        {
+          "start_time": 86.07,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "the"
+            }
+          ],
+          "end_time": 86.19
+        },
+        {
+          "start_time": 86.19,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "right"
+            }
+          ],
+          "end_time": 86.42
+        },
+        {
+          "start_time": 86.42,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 86.66
+        },
+        {
+          "start_time": 86.66,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "and"
+            }
+          ],
+          "end_time": 86.75
+        },
+        {
+          "start_time": 86.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 86.88
+        },
+        {
+          "start_time": 86.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "upper"
+            }
+          ],
+          "end_time": 87.05
+        },
+        {
+          "start_time": 87.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "extremity"
+            }
+          ],
+          "end_time": 87.46
+        },
+        {
+          "start_time": 87.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 87.56
+        },
+        {
+          "start_time": 87.56,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "prepped"
+            }
+          ],
+          "end_time": 87.78
+        },
+        {
+          "start_time": 87.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 87.87
+        },
+        {
+          "start_time": 87.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "draped"
+            }
+          ],
+          "end_time": 88.04
+        },
+        {
+          "start_time": 88.04,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "free"
+            }
+          ],
+          "end_time": 88.14
+        },
+        {
+          "start_time": 88.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 88.21
+        },
+        {
+          "start_time": 88.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 88.29
+        },
+        {
+          "start_time": 88.29,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "usual"
+            }
+          ],
+          "end_time": 88.54
+        },
+        {
+          "start_time": 88.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sterile"
+            }
+          ],
+          "end_time": 88.81
+        },
+        {
+          "start_time": 88.81,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "fashion"
+            }
+          ],
+          "end_time": 89.29
+        },
+        {
+          "start_time": 89.29,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "the"
+            }
+          ],
+          "end_time": 89.37
+        },
+        {
+          "start_time": 89.37,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 89.81
+        },
+        {
+          "start_time": 89.9,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 90.24
+        },
+        {
+          "start_time": 90.24,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "degree"
+            }
+          ],
+          "end_time": 90.5
+        },
+        {
+          "start_time": 90.5,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "arthroscope"
+            }
+          ],
+          "end_time": 91.13
+        },
+        {
+          "start_time": 91.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 91.22
+        },
+        {
+          "start_time": 91.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "introduced"
+            }
+          ],
+          "end_time": 91.75
+        },
+        {
+          "start_time": 91.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "into"
+            }
+          ],
+          "end_time": 91.94
+        },
+        {
+          "start_time": 91.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 92.03
+        },
+        {
+          "start_time": 92.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "right"
+            }
+          ],
+          "end_time": 92.31
+        },
+        {
+          "start_time": 92.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 92.65
+        },
+        {
+          "start_time": 92.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "joint"
+            }
+          ],
+          "end_time": 93.01
+        },
+        {
+          "start_time": 93.66,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "via"
+            }
+          ],
+          "end_time": 93.9
+        },
+        {
+          "start_time": 93.9,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "standard"
+            }
+          ],
+          "end_time": 94.27
+        },
+        {
+          "start_time": 94.27,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "posterior"
+            }
+          ],
+          "end_time": 94.64
+        },
+        {
+          "start_time": 94.64,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "portal"
+            }
+          ],
+          "end_time": 94.96
+        },
+        {
+          "start_time": 94.96,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pump"
+            }
+          ],
+          "end_time": 95.21
+        },
+        {
+          "start_time": 95.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "inflow"
+            }
+          ],
+          "end_time": 95.53
+        },
+        {
+          "start_time": 95.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 95.68
+        },
+        {
+          "start_time": 95.68,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "used"
+            }
+          ],
+          "end_time": 95.92
+        },
+        {
+          "start_time": 95.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 96.01
+        },
+        {
+          "start_time": 96.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 96.1
+        },
+        {
+          "start_time": 96.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arthroscope"
+            }
+          ],
+          "end_time": 96.41
+        },
+        {
+          "start_time": 96.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cannula"
+            }
+          ],
+          "end_time": 96.83
+        },
+        {
+          "start_time": 96.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "gravity"
+            }
+          ],
+          "end_time": 97.26
+        },
+        {
+          "start_time": 97.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "outflow"
+            }
+          ],
+          "end_time": 97.53
+        },
+        {
+          "start_time": 97.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 97.66
+        },
+        {
+          "start_time": 97.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "established"
+            }
+          ],
+          "end_time": 98.13
+        },
+        {
+          "start_time": 98.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "via"
+            }
+          ],
+          "end_time": 98.22
+        },
+        {
+          "start_time": 98.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "an"
+            }
+          ],
+          "end_time": 98.29
+        },
+        {
+          "start_time": 98.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "accessory"
+            }
+          ],
+          "end_time": 98.77
+        },
+        {
+          "start_time": 98.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 99.08
+        },
+        {
+          "start_time": 99.08,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "portal"
+            }
+          ],
+          "end_time": 99.43
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.93,
+          "transcript": "of %HESITATION %HESITATION arts Copic surgery wished to proceed procedure patient was placed just excess induction of general anesthesia with regional block patient place in a beach chair position on the operating table the right shoulder and right upper extremity was prepped and draped free in the usual sterile fashion the paragraph thirty degree arthroscope was introduced into the right shoulder joint via standard posterior portal pump inflow was used with the arthroscope cannula gravity outflow was established via an accessory anterior portal "
+        },
+        {
+          "transcript": "of %HESITATION %HESITATION arts Copic surgery wish to proceed procedure patient was placed just excess induction of general anesthesia with regional block patient place in a beach chair position on the operating table the right shoulder and right upper extremity was prepped and draped free in the usual sterile fashion the paragraph thirty degree arthroscope was introduced into the right shoulder joint via standard posterior portal pump inflow was used with the arthroscope cannula gravity outflow was established via an accessory anterior portal "
+        },
+        {
+          "transcript": "of %HESITATION %HESITATION arts Copic surgery wished to proceed procedure patient was placed just excess induction general anesthesia with regional block patient place in a beach chair position on the operating table the right shoulder and right upper extremity was prepped and draped free in the usual sterile fashion the paragraph thirty degree arthroscope was introduced into the right shoulder joint via standard posterior portal pump inflow was used with the arthroscope cannula gravity outflow was established via an accessory anterior portal "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 100.61,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "status"
+            },
+            {
+              "confidence": 0.38,
+              "word": "static"
+            }
+          ],
+          "end_time": 101.0
+        },
+        {
+          "start_time": 101.0,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "lineament"
+            }
+          ],
+          "end_time": 101.47
+        },
+        {
+          "start_time": 101.47,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "joint"
+            }
+          ],
+          "end_time": 101.63
+        },
+        {
+          "start_time": 101.63,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "was"
+            }
+          ],
+          "end_time": 101.73
+        },
+        {
+          "start_time": 101.73,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "examined"
+            }
+          ],
+          "end_time": 102.26
+        },
+        {
+          "start_time": 102.26,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "the"
+            }
+          ],
+          "end_time": 102.33
+        },
+        {
+          "start_time": 102.33,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "articular"
+            }
+          ],
+          "end_time": 102.76
+        },
+        {
+          "start_time": 102.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cartilage"
+            }
+          ],
+          "end_time": 103.23
+        },
+        {
+          "start_time": 103.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 103.3
+        },
+        {
+          "start_time": 103.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 103.36
+        },
+        {
+          "start_time": 103.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "humeral"
+            }
+          ],
+          "end_time": 103.67
+        },
+        {
+          "start_time": 103.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "head"
+            }
+          ],
+          "end_time": 103.9
+        },
+        {
+          "start_time": 103.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 104.0
+        },
+        {
+          "start_time": 104.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 104.07
+        },
+        {
+          "start_time": 104.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "glenoid"
+            }
+          ],
+          "end_time": 104.44
+        },
+        {
+          "start_time": 104.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 104.57
+        },
+        {
+          "start_time": 104.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 104.66
+        },
+        {
+          "start_time": 104.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "excellent"
+            }
+          ],
+          "end_time": 104.98
+        },
+        {
+          "start_time": 104.98,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "condition"
+            }
+          ],
+          "end_time": 105.37
+        },
+        {
+          "start_time": 105.37,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "there"
+            },
+            {
+              "confidence": 0.16,
+              "word": "that"
+            }
+          ],
+          "end_time": 105.46
+        },
+        {
+          "start_time": 105.46,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "was"
+            }
+          ],
+          "end_time": 105.57
+        },
+        {
+          "start_time": 105.57,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "extensive"
+            }
+          ],
+          "end_time": 106.19
+        },
+        {
+          "start_time": 106.19,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "synovitis"
+            }
+          ],
+          "end_time": 106.76
+        },
+        {
+          "start_time": 106.76,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "present"
+            }
+          ],
+          "end_time": 107.2
+        },
+        {
+          "start_time": 107.62,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "Shaver"
+            }
+          ],
+          "end_time": 108.01
+        },
+        {
+          "start_time": 108.01,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "was"
+            }
+          ],
+          "end_time": 108.13
+        },
+        {
+          "start_time": 108.13,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "brought"
+            }
+          ],
+          "end_time": 108.41
+        },
+        {
+          "start_time": 108.41,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "in"
+            }
+          ],
+          "end_time": 108.62
+        },
+        {
+          "start_time": 108.62,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "and"
+            }
+          ],
+          "end_time": 108.73
+        },
+        {
+          "start_time": 108.73,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "thorough"
+            }
+          ],
+          "end_time": 109.04
+        },
+        {
+          "start_time": 109.04,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 109.45
+        },
+        {
+          "start_time": 109.45,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "synovectomy"
+            }
+          ],
+          "end_time": 109.98
+        },
+        {
+          "start_time": 109.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 110.09
+        },
+        {
+          "start_time": 110.09,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "performed"
+            }
+          ],
+          "end_time": 110.6
+        },
+        {
+          "start_time": 110.93,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "the"
+            }
+          ],
+          "end_time": 111.01
+        },
+        {
+          "start_time": 111.01,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "past"
+            },
+            {
+              "confidence": 0.15,
+              "word": "path"
+            }
+          ],
+          "end_time": 111.32
+        },
+        {
+          "start_time": 111.32,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "it"
+            },
+            {
+              "confidence": 0.15,
+              "word": "that"
+            }
+          ],
+          "end_time": 111.39
+        },
+        {
+          "start_time": 111.39,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "was"
+            }
+          ],
+          "end_time": 111.53
+        },
+        {
+          "start_time": 111.53,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "marked"
+            }
+          ],
+          "end_time": 111.9
+        },
+        {
+          "start_time": 111.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tearing"
+            }
+          ],
+          "end_time": 112.29
+        },
+        {
+          "start_time": 112.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 112.38
+        },
+        {
+          "start_time": 112.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 112.46
+        },
+        {
+          "start_time": 112.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "biceps"
+            }
+          ],
+          "end_time": 112.9
+        },
+        {
+          "start_time": 112.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 113.26
+        },
+        {
+          "start_time": 113.26,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "with"
+            }
+          ],
+          "end_time": 113.46
+        },
+        {
+          "start_time": 113.46,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "longitudinal"
+            }
+          ],
+          "end_time": 114.12
+        },
+        {
+          "start_time": 114.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "splitting"
+            }
+          ],
+          "end_time": 114.65
+        },
+        {
+          "start_time": 114.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 114.79
+        },
+        {
+          "start_time": 114.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "fraying"
+            }
+          ],
+          "end_time": 115.29
+        },
+        {
+          "start_time": 115.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 115.51
+        },
+        {
+          "start_time": 115.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 115.87
+        },
+        {
+          "start_time": 115.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 116.44
+        },
+        {
+          "start_time": 116.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 116.65
+        },
+        {
+          "start_time": 116.65,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "period"
+            }
+          ],
+          "end_time": 117.09
+        },
+        {
+          "start_time": 117.75,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 118.65
+        },
+        {
+          "start_time": 118.65,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "this"
+            }
+          ],
+          "end_time": 119.08
+        },
+        {
+          "start_time": 119.08,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 119.24
+        },
+        {
+          "start_time": 119.27,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 120.14
+        },
+        {
+          "start_time": 120.28,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "there"
+            }
+          ],
+          "end_time": 120.63
+        },
+        {
+          "start_time": 120.63,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "what"
+            },
+            {
+              "confidence": 0.13,
+              "word": "was"
+            }
+          ],
+          "end_time": 120.89
+        },
+        {
+          "start_time": 120.89,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "the"
+            }
+          ],
+          "end_time": 121.02
+        },
+        {
+          "start_time": 121.02,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "subscapularis"
+            }
+          ],
+          "end_time": 121.87
+        },
+        {
+          "start_time": 121.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 122.16
+        },
+        {
+          "start_time": 122.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 122.34
+        },
+        {
+          "start_time": 122.34,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "intact"
+            }
+          ],
+          "end_time": 122.79
+        },
+        {
+          "start_time": 122.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 122.88
+        },
+        {
+          "start_time": 122.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "supraspinatus"
+            }
+          ],
+          "end_time": 123.63
+        },
+        {
+          "start_time": 123.63,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 123.95
+        },
+        {
+          "start_time": 123.95,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "however"
+            }
+          ],
+          "end_time": 124.37
+        },
+        {
+          "start_time": 124.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "had"
+            }
+          ],
+          "end_time": 124.61
+        },
+        {
+          "start_time": 124.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "been"
+            }
+          ],
+          "end_time": 124.8
+        },
+        {
+          "start_time": 124.83,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "avulsed"
+            }
+          ],
+          "end_time": 125.48
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.94,
+          "transcript": "status lineament joint was examined the articular cartilage of the humeral head and the glenoid was in excellent condition there was extensive synovitis present Shaver was brought in and thorough anterior synovectomy was performed the past it was marked tearing of the biceps tendon with longitudinal splitting and fraying of the tendon %HESITATION period %HESITATION this %HESITATION %HESITATION there what the subscapularis tendon was intact the supraspinatus tendon however had been avulsed "
+        },
+        {
+          "transcript": "static lineament joint was examined the articular cartilage of the humeral head and the glenoid was in excellent condition there was extensive synovitis present Shaver was brought in and thorough anterior synovectomy was performed the past it was marked tearing of the biceps tendon with longitudinal splitting and fraying of the tendon %HESITATION period %HESITATION this %HESITATION %HESITATION there what the subscapularis tendon was intact the supraspinatus tendon however had been avulsed "
+        },
+        {
+          "transcript": "status lineament joint was examined the articular cartilage of the humeral head and the glenoid was in excellent condition there was extensive synovitis present Shaver was brought in and thorough anterior synovectomy was performed the path that was marked tearing of the biceps tendon with longitudinal splitting and fraying of the tendon %HESITATION period %HESITATION this %HESITATION %HESITATION there what the subscapularis tendon was intact the supraspinatus tendon however had been avulsed "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 126.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "off"
+            }
+          ],
+          "end_time": 126.8
+        },
+        {
+          "start_time": 126.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 126.97
+        },
+        {
+          "start_time": 126.97,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "the"
+            }
+          ],
+          "end_time": 127.34
+        },
+        {
+          "start_time": 127.37,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 128.21
+        },
+        {
+          "start_time": 128.71,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 128.92
+        },
+        {
+          "start_time": 128.92,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "greater"
+            }
+          ],
+          "end_time": 129.5
+        },
+        {
+          "start_time": 129.5,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 129.82
+        },
+        {
+          "start_time": 129.82,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "tuberosity"
+            }
+          ],
+          "end_time": 131.0
+        },
+        {
+          "start_time": 131.0,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 131.28
+        },
+        {
+          "start_time": 131.28,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "period"
+            }
+          ],
+          "end_time": 131.75
+        },
+        {
+          "start_time": 131.78,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "there"
+            }
+          ],
+          "end_time": 131.89
+        },
+        {
+          "start_time": 131.89,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "was"
+            },
+            {
+              "confidence": 0.11,
+              "word": "is"
+            }
+          ],
+          "end_time": 132.01
+        },
+        {
+          "start_time": 132.01,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "some"
+            }
+          ],
+          "end_time": 132.17
+        },
+        {
+          "start_time": 132.17,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "partial"
+            }
+          ],
+          "end_time": 132.58
+        },
+        {
+          "start_time": 132.58,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "thickness"
+            }
+          ],
+          "end_time": 132.88
+        },
+        {
+          "start_time": 132.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tearing"
+            }
+          ],
+          "end_time": 133.13
+        },
+        {
+          "start_time": 133.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 133.19
+        },
+        {
+          "start_time": 133.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 133.3
+        },
+        {
+          "start_time": 133.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "infraspinatus"
+            }
+          ],
+          "end_time": 134.02
+        },
+        {
+          "start_time": 134.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 134.39
+        },
+        {
+          "start_time": 134.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "this"
+            }
+          ],
+          "end_time": 134.55
+        },
+        {
+          "start_time": 134.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 134.72
+        },
+        {
+          "start_time": 134.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thoroughly"
+            }
+          ],
+          "end_time": 135.13
+        },
+        {
+          "start_time": 135.13,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "debrided"
+            }
+          ],
+          "end_time": 135.48
+        },
+        {
+          "start_time": 135.48,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "at"
+            },
+            {
+              "confidence": 0.12,
+              "word": "it"
+            }
+          ],
+          "end_time": 135.57
+        },
+        {
+          "start_time": 135.57,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "all"
+            }
+          ],
+          "end_time": 135.68
+        },
+        {
+          "start_time": 135.68,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "loose"
+            }
+          ],
+          "end_time": 135.87
+        },
+        {
+          "start_time": 135.87,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "unstable"
+            }
+          ],
+          "end_time": 136.23
+        },
+        {
+          "start_time": 136.23,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "tissue"
+            }
+          ],
+          "end_time": 136.52
+        },
+        {
+          "start_time": 136.52,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "was"
+            }
+          ],
+          "end_time": 136.68
+        },
+        {
+          "start_time": 136.68,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "removed"
+            }
+          ],
+          "end_time": 137.25
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "off of the anterior %HESITATION greater %HESITATION tuberosity %HESITATION period there was some partial thickness tearing of the infraspinatus tendon this was thoroughly debrided at all loose unstable tissue was removed "
+        },
+        {
+          "transcript": "off of the anterior greater %HESITATION tuberosity %HESITATION period there was some partial thickness tearing of the infraspinatus tendon this was thoroughly debrided at all loose unstable tissue was removed "
+        },
+        {
+          "transcript": "off of the anterior %HESITATION greater %HESITATION tuberosity %HESITATION period there is some partial thickness tearing of the infraspinatus tendon this was thoroughly debrided at all loose unstable tissue was removed "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 138.62,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 138.74
+        },
+        {
+          "start_time": 138.74,
+          "alternatives": [
+            {
+              "confidence": 0.47,
+              "word": "past"
+            },
+            {
+              "confidence": 0.44,
+              "word": "path"
+            }
+          ],
+          "end_time": 139.04
+        },
+        {
+          "start_time": 139.04,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "is"
+            },
+            {
+              "confidence": 0.15,
+              "word": "has"
+            },
+            {
+              "confidence": 0.11,
+              "word": "as"
+            }
+          ],
+          "end_time": 139.2
+        },
+        {
+          "start_time": 139.2,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "extensive"
+            }
+          ],
+          "end_time": 139.72
+        },
+        {
+          "start_time": 139.72,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "tearing"
+            }
+          ],
+          "end_time": 139.96
+        },
+        {
+          "start_time": 139.96,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "of"
+            }
+          ],
+          "end_time": 140.02
+        },
+        {
+          "start_time": 140.02,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "the"
+            }
+          ],
+          "end_time": 140.08
+        },
+        {
+          "start_time": 140.08,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "superior"
+            }
+          ],
+          "end_time": 140.45
+        },
+        {
+          "start_time": 140.45,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "labrum"
+            }
+          ],
+          "end_time": 140.8
+        },
+        {
+          "start_time": 140.8,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "which"
+            }
+          ],
+          "end_time": 140.95
+        },
+        {
+          "start_time": 140.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 141.09
+        },
+        {
+          "start_time": 141.09,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "debrided"
+            }
+          ],
+          "end_time": 141.45
+        },
+        {
+          "start_time": 141.45,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "at"
+            },
+            {
+              "confidence": 0.23,
+              "word": "of"
+            }
+          ],
+          "end_time": 141.54
+        },
+        {
+          "start_time": 141.54,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "the"
+            }
+          ],
+          "end_time": 141.67
+        },
+        {
+          "start_time": 141.67,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 142.12
+        },
+        {
+          "start_time": 142.18,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "inferior"
+            }
+          ],
+          "end_time": 142.47
+        },
+        {
+          "start_time": 142.47,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "labrum"
+            }
+          ],
+          "end_time": 142.84
+        },
+        {
+          "start_time": 142.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 143.0
+        },
+        {
+          "start_time": 143.0,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "intact"
+            }
+          ],
+          "end_time": 143.86
+        },
+        {
+          "start_time": 144.25,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 144.89
+        },
+        {
+          "start_time": 144.89,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "period"
+            }
+          ],
+          "end_time": 145.41
+        },
+        {
+          "start_time": 145.41,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "verifying"
+            }
+          ],
+          "end_time": 145.92
+        },
+        {
+          "start_time": 145.92,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "debridement"
+            }
+          ],
+          "end_time": 146.35
+        },
+        {
+          "start_time": 146.35,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "synovectomy"
+            }
+          ],
+          "end_time": 146.88
+        },
+        {
+          "start_time": 146.88,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 147.19
+        },
+        {
+          "start_time": 147.19,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 147.57
+        },
+        {
+          "start_time": 147.57,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 147.72
+        },
+        {
+          "start_time": 147.72,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "arthroscope"
+            }
+          ],
+          "end_time": 148.24
+        },
+        {
+          "start_time": 148.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 148.37
+        },
+        {
+          "start_time": 148.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "placed"
+            }
+          ],
+          "end_time": 148.68
+        },
+        {
+          "start_time": 148.68,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anteriorly"
+            }
+          ],
+          "end_time": 149.32
+        },
+        {
+          "start_time": 149.32,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "a"
+            }
+          ],
+          "end_time": 149.43
+        },
+        {
+          "start_time": 149.43,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "poster"
+            }
+          ],
+          "end_time": 149.84
+        },
+        {
+          "start_time": 149.84,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "synovectomy"
+            }
+          ],
+          "end_time": 150.57
+        },
+        {
+          "start_time": 150.57,
+          "alternatives": [
+            {
+              "confidence": 0.42,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.38,
+              "word": "I"
+            }
+          ],
+          "end_time": 150.73
+        },
+        {
+          "start_time": 150.73,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "was"
+            }
+          ],
+          "end_time": 150.91
+        },
+        {
+          "start_time": 150.91,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "performed"
+            }
+          ],
+          "end_time": 151.42
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "the path is extensive tearing of the superior labrum which was debrided at the anterior inferior labrum was intact %HESITATION period verifying debridement synovectomy anterior shoulder the arthroscope was placed anteriorly a poster synovectomy %HESITATION was performed a period "
+        },
+        {
+          "transcript": "the path is extensive tearing of the superior labrum which was debrided at the anterior inferior labrum was intact %HESITATION period verifying debridement synovectomy anterior shoulder the arthroscope was placed anteriorly a poster synovectomy I was performed a period "
+        },
+        {
+          "transcript": "the past is extensive tearing of the superior labrum which was debrided at the anterior inferior labrum was intact %HESITATION period verifying debridement synovectomy anterior shoulder the arthroscope was placed anteriorly a poster synovectomy %HESITATION was performed a period "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 153.29,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "new"
+            }
+          ],
+          "end_time": 153.42
+        },
+        {
+          "start_time": 153.42,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 154.29
+        },
+        {
+          "start_time": 154.29,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "the"
+            }
+          ],
+          "end_time": 154.4
+        },
+        {
+          "start_time": 154.4,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "arthroscope"
+            }
+          ],
+          "end_time": 154.82
+        },
+        {
+          "start_time": 154.82,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "was"
+            }
+          ],
+          "end_time": 154.94
+        },
+        {
+          "start_time": 154.94,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "then"
+            }
+          ],
+          "end_time": 155.12
+        },
+        {
+          "start_time": 155.12,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "placed"
+            }
+          ],
+          "end_time": 155.41
+        },
+        {
+          "start_time": 155.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 155.51
+        },
+        {
+          "start_time": 155.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 155.59
+        },
+        {
+          "start_time": 155.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "subacromial"
+            }
+          ],
+          "end_time": 156.2
+        },
+        {
+          "start_time": 156.2,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "space"
+            }
+          ],
+          "end_time": 156.55
+        },
+        {
+          "start_time": 156.55,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "in"
+            }
+          ],
+          "end_time": 156.76
+        },
+        {
+          "start_time": 156.76,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "accessory"
+            }
+          ],
+          "end_time": 157.21
+        },
+        {
+          "start_time": 157.21,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "lateral"
+            }
+          ],
+          "end_time": 157.53
+        },
+        {
+          "start_time": 157.53,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "portal"
+            }
+          ],
+          "end_time": 157.93
+        },
+        {
+          "start_time": 157.93,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "there"
+            }
+          ],
+          "end_time": 158.08
+        },
+        {
+          "start_time": 158.08,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 158.22
+        },
+        {
+          "start_time": 158.22,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "a"
+            }
+          ],
+          "end_time": 158.29
+        },
+        {
+          "start_time": 158.29,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "fairly"
+            }
+          ],
+          "end_time": 158.67
+        },
+        {
+          "start_time": 158.67,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "thick"
+            }
+          ],
+          "end_time": 158.89
+        },
+        {
+          "start_time": 158.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "subacromial"
+            }
+          ],
+          "end_time": 159.44
+        },
+        {
+          "start_time": 159.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bursitis"
+            }
+          ],
+          "end_time": 160.08
+        },
+        {
+          "start_time": 160.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 160.13
+        },
+        {
+          "start_time": 160.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bursa"
+            }
+          ],
+          "end_time": 160.41
+        },
+        {
+          "start_time": 160.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 160.55
+        },
+        {
+          "start_time": 160.55,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "resected"
+            }
+          ],
+          "end_time": 161.1
+        },
+        {
+          "start_time": 161.1,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 161.17
+        },
+        {
+          "start_time": 161.17,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "subacromial"
+            }
+          ],
+          "end_time": 161.79
+        },
+        {
+          "start_time": 161.79,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "periosteum"
+            }
+          ],
+          "end_time": 162.43
+        },
+        {
+          "start_time": 162.43,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 162.56
+        },
+        {
+          "start_time": 162.56,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "removed"
+            }
+          ],
+          "end_time": 162.9
+        },
+        {
+          "start_time": 163.44,
+          "alternatives": [
+            {
+              "confidence": 0.43,
+              "word": "status"
+            },
+            {
+              "confidence": 0.16,
+              "word": "is"
+            }
+          ],
+          "end_time": 163.87
+        },
+        {
+          "start_time": 164.65,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "hooking"
+            }
+          ],
+          "end_time": 164.94
+        },
+        {
+          "start_time": 164.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 165.09
+        },
+        {
+          "start_time": 165.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 165.21
+        },
+        {
+          "start_time": 165.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "acromion"
+            }
+          ],
+          "end_time": 165.72
+        },
+        {
+          "start_time": 165.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "so"
+            }
+          ],
+          "end_time": 165.86
+        },
+        {
+          "start_time": 165.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "an"
+            }
+          ],
+          "end_time": 165.93
+        },
+        {
+          "start_time": 165.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "acromioplasty"
+            }
+          ],
+          "end_time": 166.67
+        },
+        {
+          "start_time": 166.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 166.81
+        },
+        {
+          "start_time": 166.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "performed"
+            }
+          ],
+          "end_time": 167.46
+        },
+        {
+          "start_time": 167.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 168.01
+        },
+        {
+          "start_time": 168.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 168.13
+        },
+        {
+          "start_time": 168.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "Burr"
+            }
+          ],
+          "end_time": 168.32
+        },
+        {
+          "start_time": 168.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 168.43
+        },
+        {
+          "start_time": 168.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 168.51
+        },
+        {
+          "start_time": 168.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "posterior"
+            }
+          ],
+          "end_time": 168.92
+        },
+        {
+          "start_time": 168.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "portal"
+            }
+          ],
+          "end_time": 169.3
+        },
+        {
+          "start_time": 169.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "about"
+            }
+          ],
+          "end_time": 169.53
+        },
+        {
+          "start_time": 169.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "eight"
+            }
+          ],
+          "end_time": 169.71
+        },
+        {
+          "start_time": 169.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 169.8
+        },
+        {
+          "start_time": 169.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ten"
+            }
+          ],
+          "end_time": 170.04
+        },
+        {
+          "start_time": 170.04,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "millimeters"
+            }
+          ],
+          "end_time": 170.59
+        },
+        {
+          "start_time": 170.59,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "of"
+            }
+          ],
+          "end_time": 170.68
+        },
+        {
+          "start_time": 170.68,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "bone"
+            }
+          ],
+          "end_time": 170.97
+        },
+        {
+          "start_time": 170.97,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "was"
+            }
+          ],
+          "end_time": 171.11
+        },
+        {
+          "start_time": 171.11,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "removed"
+            }
+          ],
+          "end_time": 171.44
+        },
+        {
+          "start_time": 171.44,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "anteriorly"
+            }
+          ],
+          "end_time": 172.11
+        },
+        {
+          "start_time": 172.52,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "confirmation"
+            }
+          ],
+          "end_time": 173.05
+        },
+        {
+          "start_time": 173.05,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "of"
+            }
+          ],
+          "end_time": 173.11
+        },
+        {
+          "start_time": 173.11,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "a"
+            }
+          ],
+          "end_time": 173.17
+        },
+        {
+          "start_time": 173.17,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "smooth"
+            }
+          ],
+          "end_time": 173.45
+        },
+        {
+          "start_time": 173.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "flat"
+            }
+          ],
+          "end_time": 173.67
+        },
+        {
+          "start_time": 173.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "acromioplasty"
+            }
+          ],
+          "end_time": 174.44
+        },
+        {
+          "start_time": 174.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 174.58
+        },
+        {
+          "start_time": 174.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "made"
+            }
+          ],
+          "end_time": 174.76
+        },
+        {
+          "start_time": 174.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 174.86
+        },
+        {
+          "start_time": 174.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 174.92
+        },
+        {
+          "start_time": 174.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arthroscope"
+            }
+          ],
+          "end_time": 175.31
+        },
+        {
+          "start_time": 175.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 175.42
+        },
+        {
+          "start_time": 175.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 175.52
+        },
+        {
+          "start_time": 175.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lateral"
+            }
+          ],
+          "end_time": 175.85
+        },
+        {
+          "start_time": 175.85,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "post"
+            },
+            {
+              "confidence": 0.11,
+              "word": "poster"
+            }
+          ],
+          "end_time": 176.1
+        },
+        {
+          "start_time": 176.1,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "your"
+            }
+          ],
+          "end_time": 176.21
+        },
+        {
+          "start_time": 176.21,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "portal"
+            }
+          ],
+          "end_time": 176.69
+        },
+        {
+          "start_time": 176.69,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "hypertension"
+            }
+          ],
+          "end_time": 177.34
+        },
+        {
+          "start_time": 177.34,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "was"
+            }
+          ],
+          "end_time": 177.44
+        },
+        {
+          "start_time": 177.44,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "trying"
+            }
+          ],
+          "end_time": 177.62
+        },
+        {
+          "start_time": 177.62,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "to"
+            }
+          ],
+          "end_time": 177.69
+        },
+        {
+          "start_time": 177.69,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "the"
+            }
+          ],
+          "end_time": 177.8
+        },
+        {
+          "start_time": 177.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "AC"
+            }
+          ],
+          "end_time": 178.1
+        },
+        {
+          "start_time": 178.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "joint"
+            }
+          ],
+          "end_time": 178.37
+        },
+        {
+          "start_time": 178.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "which"
+            }
+          ],
+          "end_time": 178.5
+        },
+        {
+          "start_time": 178.5,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "was"
+            },
+            {
+              "confidence": 0.11,
+              "word": "is"
+            }
+          ],
+          "end_time": 178.64
+        },
+        {
+          "start_time": 178.64,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "quite"
+            }
+          ],
+          "end_time": 178.9
+        },
+        {
+          "start_time": 178.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arthritic"
+            }
+          ],
+          "end_time": 179.38
+        },
+        {
+          "start_time": 180.02,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "and"
+            }
+          ],
+          "end_time": 180.18
+        },
+        {
+          "start_time": 180.18,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "remaining"
+            }
+          ],
+          "end_time": 180.47
+        },
+        {
+          "start_time": 180.47,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "soft"
+            }
+          ],
+          "end_time": 180.79
+        },
+        {
+          "start_time": 180.79,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "tissues"
+            }
+          ],
+          "end_time": 181.13
+        },
+        {
+          "start_time": 181.13,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "off"
+            }
+          ],
+          "end_time": 181.26
+        },
+        {
+          "start_time": 181.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 181.36
+        },
+        {
+          "start_time": 181.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "end"
+            }
+          ],
+          "end_time": 181.47
+        },
+        {
+          "start_time": 181.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 181.53
+        },
+        {
+          "start_time": 181.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 181.59
+        },
+        {
+          "start_time": 181.59,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "clavicle"
+            }
+          ],
+          "end_time": 182.04
+        },
+        {
+          "start_time": 182.04,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "were"
+            }
+          ],
+          "end_time": 182.1
+        },
+        {
+          "start_time": 182.1,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "removed"
+            },
+            {
+              "confidence": 0.22,
+              "word": "remove"
+            }
+          ],
+          "end_time": 182.54
+        },
+        {
+          "start_time": 182.54,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "we"
+            }
+          ],
+          "end_time": 182.65
+        },
+        {
+          "start_time": 182.65,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "then"
+            }
+          ],
+          "end_time": 182.91
+        },
+        {
+          "start_time": 182.91,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "resected"
+            }
+          ],
+          "end_time": 183.48
+        },
+        {
+          "start_time": 183.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "approximately"
+            }
+          ],
+          "end_time": 184.01
+        },
+        {
+          "start_time": 184.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 184.16
+        },
+        {
+          "start_time": 184.16,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "centimeter"
+            }
+          ],
+          "end_time": 184.65
+        },
+        {
+          "start_time": 184.65,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "of"
+            }
+          ],
+          "end_time": 184.75
+        },
+        {
+          "start_time": 184.75,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "distal"
+            }
+          ],
+          "end_time": 185.06
+        },
+        {
+          "start_time": 185.06,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "clavicle"
+            }
+          ],
+          "end_time": 185.52
+        },
+        {
+          "start_time": 185.52,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "with"
+            }
+          ],
+          "end_time": 185.63
+        },
+        {
+          "start_time": 185.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 185.71
+        },
+        {
+          "start_time": 185.71,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "Burr"
+            }
+          ],
+          "end_time": 186.05
+        },
+        {
+          "start_time": 186.31,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "care"
+            }
+          ],
+          "end_time": 186.51
+        },
+        {
+          "start_time": 186.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 186.62
+        },
+        {
+          "start_time": 186.62,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "taken"
+            }
+          ],
+          "end_time": 186.86
+        },
+        {
+          "start_time": 186.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 186.95
+        },
+        {
+          "start_time": 186.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "protect"
+            }
+          ],
+          "end_time": 187.28
+        },
+        {
+          "start_time": 187.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 187.37
+        },
+        {
+          "start_time": 187.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "superior"
+            }
+          ],
+          "end_time": 188.09
+        },
+        {
+          "start_time": 188.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "acromioclavicular"
+            }
+          ],
+          "end_time": 189.13
+        },
+        {
+          "start_time": 189.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "soft"
+            }
+          ],
+          "end_time": 189.4
+        },
+        {
+          "start_time": 189.4,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "tissues"
+            }
+          ],
+          "end_time": 189.73
+        },
+        {
+          "start_time": 189.73,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "confirmation"
+            }
+          ],
+          "end_time": 190.24
+        },
+        {
+          "start_time": 190.24,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "of"
+            }
+          ],
+          "end_time": 190.36
+        },
+        {
+          "start_time": 190.36,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "complete"
+            }
+          ],
+          "end_time": 190.7
+        },
+        {
+          "start_time": 190.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "distal"
+            }
+          ],
+          "end_time": 190.98
+        },
+        {
+          "start_time": 190.98,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "claviculectomy"
+            }
+          ],
+          "end_time": 191.83
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.94,
+          "transcript": "new paragraph the arthroscope was then placed in the subacromial space in accessory lateral portal there was a fairly thick subacromial bursitis a bursa was resected the subacromial periosteum was removed status fairly significant hooking to the acromion so an acromioplasty was performed with the Burr in the posterior portal about eight to ten millimeters of bone was removed anteriorly confirmation of a smooth flat acromioplasty was made with the arthroscope in the lateral post your portal hypertension was trying to the AC joint which was quite arthritic and remaining soft tissues off the end of the clavicle were removed we then resected approximately one centimeter of distal clavicle with the Burr care was taken to protect the superior acromioclavicular soft tissues confirmation of complete distal claviculectomy "
+        },
+        {
+          "transcript": "new paragraph the arthroscope was then placed in the subacromial space in accessory lateral portal there was a fairly thick subacromial bursitis a bursa was resected the subacromial periosteum was removed status fairly significant hooking to the acromion so an acromioplasty was performed with the Burr in the posterior portal about eight to ten millimeters of bone was removed anteriorly confirmation of a smooth flat acromioplasty was made with the arthroscope in the lateral poster portal hypertension was trying to the AC joint which was quite arthritic and remaining soft tissues off the end of the clavicle were removed we then resected approximately one centimeter of distal clavicle with the Burr care was taken to protect the superior acromioclavicular soft tissues confirmation of complete distal claviculectomy "
+        },
+        {
+          "transcript": "new paragraph the arthroscope was then placed in the subacromial space in accessory lateral portal there was a fairly thick subacromial bursitis a bursa was resected the subacromial periosteum was removed status fairly significant hooking to the acromion so an acromioplasty was performed with the Burr in the posterior portal about eight to ten millimeters of bone was removed anteriorly confirmation of a smooth flat acromioplasty was made with the arthroscope in the lateral post your portal hypertension was trying to the AC joint which was quite arthritic and remaining soft tissues off the end of the clavicle removed we then resected approximately one centimeter of distal clavicle with the Burr care was taken to protect the superior acromioclavicular soft tissues confirmation of complete distal claviculectomy "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 192.67,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "was"
+            }
+          ],
+          "end_time": 192.82
+        },
+        {
+          "start_time": 192.82,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "made"
+            }
+          ],
+          "end_time": 193.13
+        },
+        {
+          "start_time": 193.13,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "with"
+            }
+          ],
+          "end_time": 193.28
+        },
+        {
+          "start_time": 193.28,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "the"
+            }
+          ],
+          "end_time": 193.37
+        },
+        {
+          "start_time": 193.37,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "arthroscope"
+            }
+          ],
+          "end_time": 193.97
+        },
+        {
+          "start_time": 193.97,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "in"
+            }
+          ],
+          "end_time": 194.1
+        },
+        {
+          "start_time": 194.1,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "all"
+            }
+          ],
+          "end_time": 194.36
+        },
+        {
+          "start_time": 194.36,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "portals"
+            }
+          ],
+          "end_time": 194.91
+        },
+        {
+          "start_time": 195.39,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "the"
+            }
+          ],
+          "end_time": 195.49
+        },
+        {
+          "start_time": 195.49,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "pair"
+            }
+          ],
+          "end_time": 195.73
+        },
+        {
+          "start_time": 195.73,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "of"
+            }
+          ],
+          "end_time": 195.85
+        },
+        {
+          "start_time": 195.85,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "any"
+            }
+          ],
+          "end_time": 196.04
+        },
+        {
+          "start_time": 196.04,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "remaining"
+            }
+          ],
+          "end_time": 196.46
+        },
+        {
+          "start_time": 196.46,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "bony"
+            }
+          ],
+          "end_time": 196.78
+        },
+        {
+          "start_time": 196.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 196.91
+        },
+        {
+          "start_time": 196.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "soft"
+            }
+          ],
+          "end_time": 197.13
+        },
+        {
+          "start_time": 197.13,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "tissue"
+            }
+          ],
+          "end_time": 197.36
+        },
+        {
+          "start_time": 197.36,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "debris"
+            }
+          ],
+          "end_time": 197.63
+        },
+        {
+          "start_time": 197.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 197.78
+        },
+        {
+          "start_time": 197.78,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "removed"
+            }
+          ],
+          "end_time": 198.14
+        },
+        {
+          "start_time": 198.14,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "attention"
+            }
+          ],
+          "end_time": 198.5
+        },
+        {
+          "start_time": 198.5,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 198.63
+        },
+        {
+          "start_time": 198.63,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "turned"
+            }
+          ],
+          "end_time": 198.82
+        },
+        {
+          "start_time": 198.82,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "to"
+            }
+          ],
+          "end_time": 198.88
+        },
+        {
+          "start_time": 198.88,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 198.98
+        },
+        {
+          "start_time": 198.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 199.4
+        },
+        {
+          "start_time": 199.4,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 199.78
+        },
+        {
+          "start_time": 200.22,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "we"
+            }
+          ],
+          "end_time": 200.38
+        },
+        {
+          "start_time": 200.38,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "confirmed"
+            }
+          ],
+          "end_time": 200.93
+        },
+        {
+          "start_time": 200.93,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "an"
+            }
+          ],
+          "end_time": 201.01
+        },
+        {
+          "start_time": 201.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "avulsion"
+            }
+          ],
+          "end_time": 201.54
+        },
+        {
+          "start_time": 201.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 201.63
+        },
+        {
+          "start_time": 201.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 201.71
+        },
+        {
+          "start_time": 201.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "supraspinatus"
+            }
+          ],
+          "end_time": 202.67
+        },
+        {
+          "start_time": 202.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 202.94
+        },
+        {
+          "start_time": 202.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 203.38
+        },
+        {
+          "start_time": 203.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 204.0
+        },
+        {
+          "start_time": 204.0,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "about"
+            }
+          ],
+          "end_time": 204.33
+        },
+        {
+          "start_time": 204.33,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "does"
+            },
+            {
+              "confidence": 0.18,
+              "word": "dose"
+            }
+          ],
+          "end_time": 204.61
+        },
+        {
+          "start_time": 204.72,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "one"
+            },
+            {
+              "confidence": 0.12,
+              "word": "One"
+            }
+          ],
+          "end_time": 204.92
+        },
+        {
+          "start_time": 204.92,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "two"
+            }
+          ],
+          "end_time": 205.09
+        },
+        {
+          "start_time": 205.09,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 205.59
+        },
+        {
+          "start_time": 205.59,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "retraction"
+            }
+          ],
+          "end_time": 206.37
+        },
+        {
+          "start_time": 206.76,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "after"
+            }
+          ],
+          "end_time": 207.06
+        },
+        {
+          "start_time": 207.06,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "mobilizing"
+            }
+          ],
+          "end_time": 207.76
+        },
+        {
+          "start_time": 207.76,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "this"
+            }
+          ],
+          "end_time": 208.01
+        },
+        {
+          "start_time": 208.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "this"
+            }
+          ],
+          "end_time": 208.21
+        },
+        {
+          "start_time": 208.21,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "was"
+            }
+          ],
+          "end_time": 208.57
+        },
+        {
+          "start_time": 208.57,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.17,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 208.77
+        },
+        {
+          "start_time": 208.77,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "more"
+            }
+          ],
+          "end_time": 209.03
+        },
+        {
+          "start_time": 209.03,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "of"
+            }
+          ],
+          "end_time": 209.13
+        },
+        {
+          "start_time": 209.13,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "an"
+            }
+          ],
+          "end_time": 209.32
+        },
+        {
+          "start_time": 209.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "L."
+            }
+          ],
+          "end_time": 209.64
+        },
+        {
+          "start_time": 209.64,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "shaped"
+            }
+          ],
+          "end_time": 210.22
+        },
+        {
+          "start_time": 210.95,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 211.39
+        },
+        {
+          "start_time": 211.39,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "tear"
+            }
+          ],
+          "end_time": 212.04
+        },
+        {
+          "start_time": 212.04,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "up"
+            },
+            {
+              "confidence": 0.29,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 212.22
+        },
+        {
+          "start_time": 212.22,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "period"
+            }
+          ],
+          "end_time": 212.68
+        },
+        {
+          "start_time": 212.97,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "I"
+            }
+          ],
+          "end_time": 213.18
+        },
+        {
+          "start_time": 213.18,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "was"
+            }
+          ],
+          "end_time": 213.53
+        },
+        {
+          "start_time": 213.53,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "able"
+            }
+          ],
+          "end_time": 213.82
+        },
+        {
+          "start_time": 213.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 213.93
+        },
+        {
+          "start_time": 213.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bring"
+            }
+          ],
+          "end_time": 214.09
+        },
+        {
+          "start_time": 214.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "it"
+            }
+          ],
+          "end_time": 214.18
+        },
+        {
+          "start_time": 214.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "back"
+            }
+          ],
+          "end_time": 214.43
+        },
+        {
+          "start_time": 214.43,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "to"
+            }
+          ],
+          "end_time": 214.54
+        },
+        {
+          "start_time": 214.54,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "its"
+            },
+            {
+              "confidence": 0.19,
+              "word": "with"
+            }
+          ],
+          "end_time": 214.65
+        },
+        {
+          "start_time": 214.65,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "normal"
+            }
+          ],
+          "end_time": 214.91
+        },
+        {
+          "start_time": 214.91,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "anatomic"
+            }
+          ],
+          "end_time": 215.72
+        },
+        {
+          "start_time": 215.75,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 216.19
+        },
+        {
+          "start_time": 216.22,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "attachment"
+            }
+          ],
+          "end_time": 216.89
+        },
+        {
+          "start_time": 216.89,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "without"
+            }
+          ],
+          "end_time": 217.23
+        },
+        {
+          "start_time": 217.26,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "undue"
+            }
+          ],
+          "end_time": 217.51
+        },
+        {
+          "start_time": 217.51,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "tension"
+            }
+          ],
+          "end_time": 217.94
+        },
+        {
+          "start_time": 218.5,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "the"
+            }
+          ],
+          "end_time": 218.63
+        },
+        {
+          "start_time": 218.63,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "pair"
+            },
+            {
+              "confidence": 0.43,
+              "word": "better"
+            }
+          ],
+          "end_time": 218.9
+        },
+        {
+          "start_time": 218.9,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "of"
+            }
+          ],
+          "end_time": 219.01
+        },
+        {
+          "start_time": 219.01,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "the"
+            }
+          ],
+          "end_time": 219.11
+        },
+        {
+          "start_time": 219.11,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "greater"
+            }
+          ],
+          "end_time": 219.42
+        },
+        {
+          "start_time": 219.42,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "tuberosity"
+            }
+          ],
+          "end_time": 220.07
+        },
+        {
+          "start_time": 220.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 220.18
+        },
+        {
+          "start_time": 220.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "gently"
+            }
+          ],
+          "end_time": 220.53
+        },
+        {
+          "start_time": 220.53,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "abraded"
+            }
+          ],
+          "end_time": 221.03
+        },
+        {
+          "start_time": 221.03,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "appeared"
+            },
+            {
+              "confidence": 0.17,
+              "word": "A"
+            }
+          ],
+          "end_time": 221.48
+        },
+        {
+          "start_time": 221.48,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "at"
+            },
+            {
+              "confidence": 0.11,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 221.65
+        },
+        {
+          "start_time": 221.65,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "triple"
+            }
+          ],
+          "end_time": 222.02
+        },
+        {
+          "start_time": 222.02,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "armed"
+            }
+          ],
+          "end_time": 222.48
+        },
+        {
+          "start_time": 222.65,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "suture"
+            }
+          ],
+          "end_time": 223.01
+        },
+        {
+          "start_time": 223.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anchor"
+            }
+          ],
+          "end_time": 223.26
+        },
+        {
+          "start_time": 223.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 223.37
+        },
+        {
+          "start_time": 223.37,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "placed"
+            }
+          ],
+          "end_time": 223.6
+        },
+        {
+          "start_time": 223.6,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "in"
+            }
+          ],
+          "end_time": 223.68
+        },
+        {
+          "start_time": 223.68,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "the"
+            }
+          ],
+          "end_time": 223.81
+        },
+        {
+          "start_time": 223.81,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 224.17
+        },
+        {
+          "start_time": 224.17,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "portion"
+            }
+          ],
+          "end_time": 224.66
+        },
+        {
+          "start_time": 224.69,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "of"
+            }
+          ],
+          "end_time": 224.87
+        },
+        {
+          "start_time": 224.87,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "the"
+            }
+          ],
+          "end_time": 224.97
+        },
+        {
+          "start_time": 224.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "supraspinatus"
+            }
+          ],
+          "end_time": 225.54
+        },
+        {
+          "start_time": 225.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 225.83
+        },
+        {
+          "start_time": 225.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 226.02
+        },
+        {
+          "start_time": 226.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 226.06
+        },
+        {
+          "start_time": 226.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "second"
+            }
+          ],
+          "end_time": 226.45
+        },
+        {
+          "start_time": 226.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "triple"
+            }
+          ],
+          "end_time": 226.71
+        },
+        {
+          "start_time": 226.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "armed"
+            }
+          ],
+          "end_time": 226.91
+        },
+        {
+          "start_time": 226.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anchor"
+            }
+          ],
+          "end_time": 227.27
+        },
+        {
+          "start_time": 227.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 227.75
+        },
+        {
+          "start_time": 227.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "placed"
+            }
+          ],
+          "end_time": 228.0
+        },
+        {
+          "start_time": 228.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "more"
+            }
+          ],
+          "end_time": 228.21
+        },
+        {
+          "start_time": 228.31,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "posteriorly"
+            }
+          ],
+          "end_time": 229.02
+        },
+        {
+          "start_time": 229.02,
+          "alternatives": [
+            {
+              "confidence": 0.47,
+              "word": "a"
+            },
+            {
+              "confidence": 0.19,
+              "word": "up"
+            }
+          ],
+          "end_time": 229.1
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.93,
+          "transcript": "was made with the arthroscope in all portals the pair of any remaining bony and soft tissue debris was removed attention was turned to the rotator cuff we confirmed an avulsion of the supraspinatus %HESITATION tendon with about does one two centimeters retraction after mobilizing this this was %HESITATION more of an L. shaped %HESITATION tear up period I was able to bring it back to its normal anatomic %HESITATION attachment without undue tension the pair of the greater tuberosity was gently abraded appeared at triple armed suture anchor was placed in the anterior portion of the supraspinatus tendon and a second triple armed anchor was placed more posteriorly a period "
+        },
+        {
+          "transcript": "was made with the arthroscope in all portals the pair of any remaining bony and soft tissue debris was removed attention was turned to the rotator cuff we confirmed an avulsion of the supraspinatus %HESITATION tendon with about does one two centimeters retraction after mobilizing this this was %HESITATION more of an L. shaped %HESITATION tear up period I was able to bring it back to its normal anatomic %HESITATION attachment without undue tension the better of the greater tuberosity was gently abraded appeared at triple armed suture anchor was placed in the anterior portion of the supraspinatus tendon and a second triple armed anchor was placed more posteriorly a period "
+        },
+        {
+          "transcript": "was made with the arthroscope in all portals the pair of any remaining bony and soft tissue debris was removed attention was turned to the rotator cuff we confirmed an avulsion of the supraspinatus %HESITATION tendon with about does one two centimeters retraction after mobilizing this this was %HESITATION more of an L. shaped %HESITATION tear up period I was able to bring it back to its normal anatomic %HESITATION attachment without undue tension the pair of the greater tuberosity was gently abraded appeared at triple armed suture anchor was placed in the anterior portion of the supraspinatus tendon and a second triple armed anchor was placed more posteriorly up period "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 230.56,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "using"
+            }
+          ],
+          "end_time": 230.8
+        },
+        {
+          "start_time": 230.8,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "a"
+            }
+          ],
+          "end_time": 230.85
+        },
+        {
+          "start_time": 230.85,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "variety"
+            }
+          ],
+          "end_time": 231.4
+        },
+        {
+          "start_time": 231.4,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "of"
+            }
+          ],
+          "end_time": 231.57
+        },
+        {
+          "start_time": 231.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "suture"
+            }
+          ],
+          "end_time": 231.86
+        },
+        {
+          "start_time": 231.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "passing"
+            }
+          ],
+          "end_time": 232.2
+        },
+        {
+          "start_time": 232.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "techniques"
+            }
+          ],
+          "end_time": 232.82
+        },
+        {
+          "start_time": 233.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 233.4
+        },
+        {
+          "start_time": 233.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nonabsorbable"
+            }
+          ],
+          "end_time": 233.94
+        },
+        {
+          "start_time": 233.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sutures"
+            }
+          ],
+          "end_time": 234.32
+        },
+        {
+          "start_time": 234.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "were"
+            }
+          ],
+          "end_time": 234.47
+        },
+        {
+          "start_time": 234.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "woven"
+            }
+          ],
+          "end_time": 234.88
+        },
+        {
+          "start_time": 234.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "through"
+            }
+          ],
+          "end_time": 235.08
+        },
+        {
+          "start_time": 235.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 235.34
+        },
+        {
+          "start_time": 235.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "biceps"
+            }
+          ],
+          "end_time": 235.87
+        },
+        {
+          "start_time": 235.87,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 236.39
+        },
+        {
+          "start_time": 236.79,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "and"
+            }
+          ],
+          "end_time": 236.97
+        },
+        {
+          "start_time": 236.97,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "to"
+            }
+          ],
+          "end_time": 237.07
+        },
+        {
+          "start_time": 237.07,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "the"
+            }
+          ],
+          "end_time": 237.2
+        },
+        {
+          "start_time": 237.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 237.67
+        },
+        {
+          "start_time": 237.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "limb"
+            }
+          ],
+          "end_time": 238.12
+        },
+        {
+          "start_time": 238.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 238.38
+        },
+        {
+          "start_time": 238.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 238.45
+        },
+        {
+          "start_time": 238.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "supraspinatus"
+            }
+          ],
+          "end_time": 239.15
+        },
+        {
+          "start_time": 239.15,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 239.53
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "using a variety of suture passing techniques the nonabsorbable sutures were woven through the biceps tendon and to the anterior limb of the supraspinatus tendon "
+        },
+        {
+          "transcript": "abusing a variety of suture passing techniques the nonabsorbable sutures were woven through the biceps tendon and to the anterior limb of the supraspinatus tendon "
+        },
+        {
+          "transcript": "using a variety of suture passing techniques the nonabsorbable sutures were woven through the biceps tendon and to the anterior limb of the supraspinatus tendon I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 240.56,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "we"
+            }
+          ],
+          "end_time": 240.85
+        },
+        {
+          "start_time": 240.85,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "sutured"
+            }
+          ],
+          "end_time": 241.53
+        },
+        {
+          "start_time": 241.57,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "down"
+            }
+          ],
+          "end_time": 242.1
+        },
+        {
+          "start_time": 242.1,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "the"
+            }
+          ],
+          "end_time": 242.54
+        },
+        {
+          "start_time": 242.64,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "anterior"
+            }
+          ],
+          "end_time": 243.24
+        },
+        {
+          "start_time": 243.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "lateral"
+            }
+          ],
+          "end_time": 243.7
+        },
+        {
+          "start_time": 243.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "corner"
+            }
+          ],
+          "end_time": 244.19
+        },
+        {
+          "start_time": 244.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 244.38
+        },
+        {
+          "start_time": 244.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 244.59
+        },
+        {
+          "start_time": 244.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 245.09
+        },
+        {
+          "start_time": 245.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 245.39
+        },
+        {
+          "start_time": 245.39,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "with"
+            }
+          ],
+          "end_time": 245.58
+        },
+        {
+          "start_time": 245.58,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "normal"
+            }
+          ],
+          "end_time": 245.84
+        },
+        {
+          "start_time": 245.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anatomic"
+            }
+          ],
+          "end_time": 246.5
+        },
+        {
+          "start_time": 246.5,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "position"
+            }
+          ],
+          "end_time": 247.16
+        },
+        {
+          "start_time": 247.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 247.76
+        },
+        {
+          "start_time": 247.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "we"
+            }
+          ],
+          "end_time": 247.9
+        },
+        {
+          "start_time": 247.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "then"
+            }
+          ],
+          "end_time": 248.19
+        },
+        {
+          "start_time": 248.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "passed"
+            }
+          ],
+          "end_time": 248.59
+        },
+        {
+          "start_time": 248.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "multiple"
+            }
+          ],
+          "end_time": 248.99
+        },
+        {
+          "start_time": 248.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sutures"
+            }
+          ],
+          "end_time": 249.46
+        },
+        {
+          "start_time": 249.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "through"
+            }
+          ],
+          "end_time": 249.75
+        },
+        {
+          "start_time": 249.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 250.13
+        },
+        {
+          "start_time": 250.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "avulsed"
+            }
+          ],
+          "end_time": 250.54
+        },
+        {
+          "start_time": 250.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 250.91
+        },
+        {
+          "start_time": 250.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 251.16
+        },
+        {
+          "start_time": 251.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "for"
+            }
+          ],
+          "end_time": 251.3
+        },
+        {
+          "start_time": 251.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 251.38
+        },
+        {
+          "start_time": 251.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "medial"
+            }
+          ],
+          "end_time": 251.78
+        },
+        {
+          "start_time": 251.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "row"
+            }
+          ],
+          "end_time": 251.96
+        },
+        {
+          "start_time": 251.96,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "repair"
+            }
+          ],
+          "end_time": 252.56
+        },
+        {
+          "start_time": 252.9,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "additional"
+            }
+          ],
+          "end_time": 253.37
+        },
+        {
+          "start_time": 253.37,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "sutures"
+            }
+          ],
+          "end_time": 253.8
+        },
+        {
+          "start_time": 253.8,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "were"
+            }
+          ],
+          "end_time": 253.91
+        },
+        {
+          "start_time": 253.91,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "placed"
+            }
+          ],
+          "end_time": 254.35
+        },
+        {
+          "start_time": 254.38,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 254.86
+        },
+        {
+          "start_time": 254.86,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "laterally"
+            }
+          ],
+          "end_time": 255.42
+        },
+        {
+          "start_time": 255.42,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "a"
+            }
+          ],
+          "end_time": 255.48
+        },
+        {
+          "start_time": 255.48,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "period"
+            }
+          ],
+          "end_time": 255.86
+        },
+        {
+          "start_time": 255.86,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "that"
+            }
+          ],
+          "end_time": 256.05
+        },
+        {
+          "start_time": 256.05,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "we"
+            }
+          ],
+          "end_time": 256.16
+        },
+        {
+          "start_time": 256.16,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "then"
+            }
+          ],
+          "end_time": 256.36
+        },
+        {
+          "start_time": 256.36,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "sequentially"
+            }
+          ],
+          "end_time": 256.97
+        },
+        {
+          "start_time": 256.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tied"
+            }
+          ],
+          "end_time": 257.31
+        },
+        {
+          "start_time": 257.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "down"
+            }
+          ],
+          "end_time": 257.55
+        },
+        {
+          "start_time": 257.55,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 257.85
+        },
+        {
+          "start_time": 258.3,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "sutures"
+            }
+          ],
+          "end_time": 258.94
+        },
+        {
+          "start_time": 259.46,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 259.86
+        },
+        {
+          "start_time": 259.86,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "very"
+            }
+          ],
+          "end_time": 260.24
+        },
+        {
+          "start_time": 260.24,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "nice"
+            }
+          ],
+          "end_time": 260.71
+        },
+        {
+          "start_time": 260.74,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "stable"
+            }
+          ],
+          "end_time": 261.24
+        },
+        {
+          "start_time": 261.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 261.46
+        },
+        {
+          "start_time": 261.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "anatomic"
+            }
+          ],
+          "end_time": 262.24
+        },
+        {
+          "start_time": 262.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 262.48
+        },
+        {
+          "start_time": 262.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "repair"
+            }
+          ],
+          "end_time": 262.93
+        },
+        {
+          "start_time": 262.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 263.02
+        },
+        {
+          "start_time": 263.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 263.11
+        },
+        {
+          "start_time": 263.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 263.46
+        },
+        {
+          "start_time": 263.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 263.65
+        },
+        {
+          "start_time": 263.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 263.97
+        },
+        {
+          "start_time": 263.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 264.18
+        },
+        {
+          "start_time": 264.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 264.38
+        },
+        {
+          "start_time": 264.38,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "greater"
+            }
+          ],
+          "end_time": 264.71
+        },
+        {
+          "start_time": 264.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tuberosity"
+            }
+          ],
+          "end_time": 265.31
+        },
+        {
+          "start_time": 265.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 265.54
+        },
+        {
+          "start_time": 265.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "obtained"
+            }
+          ],
+          "end_time": 266.15
+        },
+        {
+          "start_time": 266.15,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 266.56
+        },
+        {
+          "start_time": 266.56,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "period"
+            }
+          ],
+          "end_time": 267.04
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "we sutured down the anterior lateral corner of the rotator cuff with normal anatomic position %HESITATION we then passed multiple sutures through the avulsed rotator cuff for a medial row repair additional sutures were placed %HESITATION laterally a period that we then sequentially tied down the sutures %HESITATION very nice stable and anatomic %HESITATION repair of the rotator cuff tendon to the greater tuberosity was obtained %HESITATION period "
+        },
+        {
+          "transcript": "we sutured down the anterior lateral corner of the rotator cuff with normal anatomic position %HESITATION we then passed multiple sutures through the avulsed rotator cuff for a medial row repair additional sutures were placed %HESITATION laterally a period we then sequentially tied down the sutures %HESITATION very nice stable and anatomic %HESITATION repair of the rotator cuff tendon to the greater tuberosity was obtained %HESITATION period "
+        },
+        {
+          "transcript": "we sutured down the anterior lateral corner of the rotator cuff with normal anatomic position %HESITATION we then passed multiple sutures through the avulsed rotator cuff for a medial row repair additional sutures were placed %HESITATION laterally a period %HESITATION we then sequentially tied down the sutures %HESITATION very nice stable and anatomic %HESITATION repair of the rotator cuff tendon to the greater tuberosity was obtained %HESITATION period "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 268.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "additional"
+            }
+          ],
+          "end_time": 268.6
+        },
+        {
+          "start_time": 268.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sutures"
+            }
+          ],
+          "end_time": 268.97
+        },
+        {
+          "start_time": 268.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "were"
+            }
+          ],
+          "end_time": 269.05
+        },
+        {
+          "start_time": 269.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "placed"
+            }
+          ],
+          "end_time": 269.29
+        },
+        {
+          "start_time": 269.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 269.36
+        },
+        {
+          "start_time": 269.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 269.43
+        },
+        {
+          "start_time": 269.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "biceps"
+            }
+          ],
+          "end_time": 269.79
+        },
+        {
+          "start_time": 269.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 270.06
+        },
+        {
+          "start_time": 270.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "for"
+            }
+          ],
+          "end_time": 270.3
+        },
+        {
+          "start_time": 270.3,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "the"
+            }
+          ],
+          "end_time": 270.44
+        },
+        {
+          "start_time": 270.44,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "tenodesis"
+            }
+          ],
+          "end_time": 271.33
+        },
+        {
+          "start_time": 271.81,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.13,
+              "word": "in"
+            }
+          ],
+          "end_time": 272.12
+        },
+        {
+          "start_time": 272.12,
+          "alternatives": [
+            {
+              "confidence": 0.41,
+              "word": "to"
+            },
+            {
+              "confidence": 0.31,
+              "word": "the"
+            }
+          ],
+          "end_time": 272.19
+        },
+        {
+          "start_time": 273.07,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "was"
+            }
+          ],
+          "end_time": 273.22
+        },
+        {
+          "start_time": 273.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "placed"
+            }
+          ],
+          "end_time": 273.49
+        },
+        {
+          "start_time": 273.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "back"
+            }
+          ],
+          "end_time": 273.77
+        },
+        {
+          "start_time": 273.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 273.87
+        },
+        {
+          "start_time": 273.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 273.97
+        },
+        {
+          "start_time": 273.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "glenohumeral"
+            }
+          ],
+          "end_time": 274.58
+        },
+        {
+          "start_time": 274.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "joint"
+            }
+          ],
+          "end_time": 274.94
+        },
+        {
+          "start_time": 274.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "we"
+            }
+          ],
+          "end_time": 275.06
+        },
+        {
+          "start_time": 275.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "confirmed"
+            }
+          ],
+          "end_time": 275.48
+        },
+        {
+          "start_time": 275.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "a"
+            }
+          ],
+          "end_time": 275.51
+        },
+        {
+          "start_time": 275.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "very"
+            }
+          ],
+          "end_time": 275.7
+        },
+        {
+          "start_time": 275.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nice"
+            }
+          ],
+          "end_time": 275.9
+        },
+        {
+          "start_time": 275.9,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "repair"
+            }
+          ],
+          "end_time": 276.25
+        },
+        {
+          "start_time": 276.25,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "of"
+            }
+          ],
+          "end_time": 276.46
+        },
+        {
+          "start_time": 276.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 276.66
+        },
+        {
+          "start_time": 276.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rotator"
+            }
+          ],
+          "end_time": 277.08
+        },
+        {
+          "start_time": 277.08,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "cuff"
+            }
+          ],
+          "end_time": 277.39
+        },
+        {
+          "start_time": 277.39,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "the"
+            }
+          ],
+          "end_time": 277.47
+        },
+        {
+          "start_time": 277.47,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "biceps"
+            }
+          ],
+          "end_time": 277.81
+        },
+        {
+          "start_time": 277.81,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "tendon"
+            }
+          ],
+          "end_time": 278.06
+        },
+        {
+          "start_time": 278.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 278.21
+        },
+        {
+          "start_time": 278.21,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "tenotomized"
+            }
+          ],
+          "end_time": 279.1
+        },
+        {
+          "start_time": 279.57,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 279.71
+        },
+        {
+          "start_time": 279.71,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "intra"
+            }
+          ],
+          "end_time": 279.95
+        },
+        {
+          "start_time": 279.95,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "articular"
+            }
+          ],
+          "end_time": 280.43
+        },
+        {
+          "start_time": 280.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "portion"
+            }
+          ],
+          "end_time": 280.8
+        },
+        {
+          "start_time": 280.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 280.96
+        },
+        {
+          "start_time": 280.96,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "resected"
+            }
+          ],
+          "end_time": 281.49
+        },
+        {
+          "start_time": 281.49,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "appeared"
+            },
+            {
+              "confidence": 0.18,
+              "word": "appear"
+            }
+          ],
+          "end_time": 281.88
+        },
+        {
+          "start_time": 281.88,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "to"
+            }
+          ],
+          "end_time": 281.95
+        },
+        {
+          "start_time": 281.95,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "pass"
+            }
+          ],
+          "end_time": 282.18
+        },
+        {
+          "start_time": 282.28,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "the"
+            }
+          ],
+          "end_time": 282.58
+        },
+        {
+          "start_time": 282.58,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 282.86
+        },
+        {
+          "start_time": 282.86,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "was"
+            }
+          ],
+          "end_time": 282.95
+        },
+        {
+          "start_time": 282.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "again"
+            }
+          ],
+          "end_time": 283.17
+        },
+        {
+          "start_time": 283.17,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "examined"
+            }
+          ],
+          "end_time": 283.64
+        },
+        {
+          "start_time": 283.64,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "No"
+            }
+          ],
+          "end_time": 283.76
+        },
+        {
+          "start_time": 283.76,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "other"
+            }
+          ],
+          "end_time": 283.92
+        },
+        {
+          "start_time": 283.92,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "pathology"
+            }
+          ],
+          "end_time": 284.31
+        },
+        {
+          "start_time": 284.31,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "was"
+            }
+          ],
+          "end_time": 284.43
+        },
+        {
+          "start_time": 284.43,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "noted"
+            }
+          ],
+          "end_time": 284.79
+        },
+        {
+          "start_time": 285.32,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "the"
+            }
+          ],
+          "end_time": 285.43
+        },
+        {
+          "start_time": 285.43,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "incidence"
+            },
+            {
+              "confidence": 0.45,
+              "word": "intense"
+            }
+          ],
+          "end_time": 285.75
+        },
+        {
+          "start_time": 285.75,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "removed"
+            }
+          ],
+          "end_time": 286.09
+        },
+        {
+          "start_time": 286.09,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "from"
+            }
+          ],
+          "end_time": 286.23
+        },
+        {
+          "start_time": 286.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 286.31
+        },
+        {
+          "start_time": 286.31,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 286.68
+        },
+        {
+          "start_time": 286.68,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "the"
+            }
+          ],
+          "end_time": 286.79
+        },
+        {
+          "start_time": 286.79,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "portals"
+            }
+          ],
+          "end_time": 287.14
+        },
+        {
+          "start_time": 287.14,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "were"
+            }
+          ],
+          "end_time": 287.2
+        },
+        {
+          "start_time": 287.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "closed"
+            }
+          ],
+          "end_time": 287.51
+        },
+        {
+          "start_time": 287.51,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "with"
+            }
+          ],
+          "end_time": 287.65
+        },
+        {
+          "start_time": 287.65,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "interrupted"
+            }
+          ],
+          "end_time": 288.07
+        },
+        {
+          "start_time": 288.07,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "sutures"
+            }
+          ],
+          "end_time": 288.51
+        },
+        {
+          "start_time": 289.31,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "today"
+            }
+          ],
+          "end_time": 289.51
+        },
+        {
+          "start_time": 289.51,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "with"
+            }
+          ],
+          "end_time": 289.69
+        },
+        {
+          "start_time": 289.69,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "Marcaine"
+            }
+          ],
+          "end_time": 290.09
+        },
+        {
+          "start_time": 290.09,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "covered"
+            }
+          ],
+          "end_time": 290.42
+        },
+        {
+          "start_time": 290.42,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "dry"
+            }
+          ],
+          "end_time": 290.61
+        },
+        {
+          "start_time": 290.61,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "sterile"
+            }
+          ],
+          "end_time": 290.87
+        },
+        {
+          "start_time": 290.87,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "dressing"
+            }
+          ],
+          "end_time": 291.37
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.9,
+          "transcript": "additional sutures were placed to the biceps tendon for the tenodesis %HESITATION to pass the arthroscope was placed back in the glenohumeral joint we confirmed a very nice repair of the rotator cuff the biceps tendon was tenotomized the intra articular portion was resected appeared to pass the shoulder was again examined No other pathology was noted the incidence removed from the shoulder the portals were closed with interrupted sutures one for well for today with Marcaine covered dry sterile dressing "
+        },
+        {
+          "transcript": "additional sutures were placed to the biceps tendon for the tenodesis %HESITATION to pass the arthroscope was placed back in the glenohumeral joint we confirmed a very nice repair of the rotator cuff the biceps tendon was tenotomized the intra articular portion was resected appeared to pass the shoulder was again examined No other pathology was noted the intense removed from the shoulder the portals were closed with interrupted sutures one for well for today with Marcaine covered dry sterile dressing "
+        },
+        {
+          "transcript": "additional sutures were placed to the biceps tendon for the tenodesis %HESITATION to pass the arthroscope was placed back in the glenohumeral joint we confirmed a very nice repair of the rotator cuff the biceps tendon was tenotomized the intra articular portion was resected appeared to pass the shoulder was again examined No other pathology was noted the incidence removed from the shoulder the portals were closed with interrupted sutures woman for well for today with Marcaine covered dry sterile dressing "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 292.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 293.04
+        },
+        {
+          "start_time": 293.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "patient"
+            }
+          ],
+          "end_time": 293.35
+        },
+        {
+          "start_time": 293.35,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "was"
+            },
+            {
+              "confidence": 0.14,
+              "word": "is"
+            }
+          ],
+          "end_time": 293.44
+        },
+        {
+          "start_time": 293.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "placed"
+            }
+          ],
+          "end_time": 293.66
+        },
+        {
+          "start_time": 293.66,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "in"
+            }
+          ],
+          "end_time": 293.75
+        },
+        {
+          "start_time": 293.75,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "the"
+            },
+            {
+              "confidence": 0.24,
+              "word": "a"
+            }
+          ],
+          "end_time": 293.81
+        },
+        {
+          "start_time": 293.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "shoulder"
+            }
+          ],
+          "end_time": 294.11
+        },
+        {
+          "start_time": 294.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "immobilizer"
+            }
+          ],
+          "end_time": 294.78
+        },
+        {
+          "start_time": 294.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "awakened"
+            }
+          ],
+          "end_time": 295.14
+        },
+        {
+          "start_time": 295.14,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "without"
+            }
+          ],
+          "end_time": 295.37
+        },
+        {
+          "start_time": 295.37,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "difficulty"
+            }
+          ],
+          "end_time": 295.89
+        },
+        {
+          "start_time": 295.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 296.02
+        },
+        {
+          "start_time": 296.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "taken"
+            }
+          ],
+          "end_time": 296.23
+        },
+        {
+          "start_time": 296.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 296.31
+        },
+        {
+          "start_time": 296.31,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "the"
+            }
+          ],
+          "end_time": 296.42
+        },
+        {
+          "start_time": 296.42,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "cover"
+            }
+          ],
+          "end_time": 296.66
+        },
+        {
+          "start_time": 296.66,
+          "alternatives": [
+            {
+              "confidence": 0.34,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.32,
+              "word": "of"
+            }
+          ],
+          "end_time": 296.79
+        },
+        {
+          "start_time": 296.79,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "stable"
+            }
+          ],
+          "end_time": 297.12
+        },
+        {
+          "start_time": 297.84,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "you"
+            }
+          ],
+          "end_time": 298.0
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "the patient was placed in the shoulder immobilizer awakened without difficulty and taken to the cover of stable conditions bunch you "
+        },
+        {
+          "transcript": "the patient was placed in the shoulder immobilizer awakened without difficulty and taken to the cover %HESITATION stable conditions bunch you "
+        },
+        {
+          "transcript": "the patient was placed in the shoulder immobilizer awakened without difficulty and taken to the cover of stable conditions thank you "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 300.03,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "head"
+            },
+            {
+              "confidence": 0.15,
+              "word": "Hey"
+            },
+            {
+              "confidence": 0.12,
+              "word": "Pat"
+            }
+          ],
+          "end_time": 300.37
+        },
+        {
+          "start_time": 300.37,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "is"
+            }
+          ],
+          "end_time": 300.61
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.54,
+          "transcript": "head is "
+        },
+        {
+          "transcript": "Hey is "
+        },
+        {
+          "transcript": "Pat is "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}

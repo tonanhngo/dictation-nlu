@@ -1,0 +1,1950 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 8.01,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "procedure"
+            }
+          ],
+          "end_time": 8.55
+        },
+        {
+          "start_time": 8.55,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "is"
+            }
+          ],
+          "end_time": 9.02
+        },
+        {
+          "start_time": 9.24,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 9.82
+        },
+        {
+          "start_time": 9.82,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "tube"
+            }
+          ],
+          "end_time": 10.06
+        },
+        {
+          "start_time": 10.06,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "placement"
+            }
+          ],
+          "end_time": 10.9
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "procedure is gastrostomy tube placement "
+        },
+        {
+          "transcript": "%HESITATION procedure is gastrostomy tube placement "
+        },
+        {
+          "transcript": "a procedure is gastrostomy tube placement "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 17.42,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "medication"
+            }
+          ],
+          "end_time": 17.96
+        },
+        {
+          "start_time": 17.96,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "given"
+            }
+          ],
+          "end_time": 18.28
+        },
+        {
+          "start_time": 18.28,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "is"
+            }
+          ],
+          "end_time": 18.48
+        },
+        {
+          "start_time": 18.48,
+          "alternatives": [
+            {
+              "confidence": 0.39,
+              "word": "nine"
+            },
+            {
+              "confidence": 0.39,
+              "word": "none"
+            }
+          ],
+          "end_time": 19.1
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.66,
+          "transcript": "medication given is none "
+        },
+        {
+          "transcript": "medication given is nine "
+        },
+        {
+          "transcript": "medication given his nine "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 20.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "description"
+            }
+          ],
+          "end_time": 20.78
+        },
+        {
+          "start_time": 20.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 20.85
+        },
+        {
+          "start_time": 20.85,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "procedure"
+            }
+          ],
+          "end_time": 21.35
+        },
+        {
+          "start_time": 21.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "risks"
+            }
+          ],
+          "end_time": 22.02
+        },
+        {
+          "start_time": 22.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "benefits"
+            }
+          ],
+          "end_time": 22.37
+        },
+        {
+          "start_time": 22.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 22.49
+        },
+        {
+          "start_time": 22.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "alternatives"
+            }
+          ],
+          "end_time": 22.95
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.93,
+          "transcript": "description of procedure risks benefits and alternatives because the patient "
+        },
+        {
+          "transcript": "description of procedure risks benefits and alternatives close the patient "
+        },
+        {
+          "transcript": "description of procedure risks benefits and alternatives costs the patient "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 27.25,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "at"
+            },
+            {
+              "confidence": 0.31,
+              "word": "and"
+            }
+          ],
+          "end_time": 27.4
+        },
+        {
+          "start_time": 27.4,
+          "alternatives": [
+            {
+              "confidence": 0.6,
+              "word": "bedside"
+            },
+            {
+              "confidence": 0.27,
+              "word": "side"
+            }
+          ],
+          "end_time": 28.11
+        },
+        {
+          "start_time": 28.14,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 28.5
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.82,
+          "transcript": "at bedside %HESITATION "
+        },
+        {
+          "transcript": "and bed side %HESITATION "
+        },
+        {
+          "transcript": "and bedside %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 29.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "existing"
+            }
+          ],
+          "end_time": 29.87
+        },
+        {
+          "start_time": 29.87,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 30.8
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "existing gastrostomy %HESITATION "
+        },
+        {
+          "transcript": "existing gastrostomy um "
+        },
+        {
+          "transcript": "existing gastrostomy %HESITATION I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 33.54,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "to"
+            },
+            {
+              "confidence": 0.28,
+              "word": "two"
+            }
+          ],
+          "end_time": 33.92
+        },
+        {
+          "start_time": 34.01,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 34.6
+        },
+        {
+          "start_time": 36.55,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 36.91
+        },
+        {
+          "start_time": 37.16,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "I"
+            }
+          ],
+          "end_time": 37.23
+        },
+        {
+          "start_time": 37.23,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "was"
+            }
+          ],
+          "end_time": 37.33
+        },
+        {
+          "start_time": 37.33,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "asked"
+            },
+            {
+              "confidence": 0.13,
+              "word": "actually"
+            }
+          ],
+          "end_time": 37.5
+        },
+        {
+          "start_time": 37.5,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "to"
+            }
+          ],
+          "end_time": 37.59
+        },
+        {
+          "start_time": 37.59,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "existing"
+            }
+          ],
+          "end_time": 37.99
+        },
+        {
+          "start_time": 37.99,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "Foley"
+            }
+          ],
+          "end_time": 38.3
+        },
+        {
+          "start_time": 38.3,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "catheter"
+            }
+          ],
+          "end_time": 38.74
+        },
+        {
+          "start_time": 38.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 38.9
+        },
+        {
+          "start_time": 38.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "easily"
+            }
+          ],
+          "end_time": 39.19
+        },
+        {
+          "start_time": 39.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "removed"
+            }
+          ],
+          "end_time": 39.44
+        },
+        {
+          "start_time": 39.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "after"
+            }
+          ],
+          "end_time": 39.67
+        },
+        {
+          "start_time": 39.67,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "deflating"
+            }
+          ],
+          "end_time": 40.18
+        },
+        {
+          "start_time": 40.18,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "the"
+            }
+          ],
+          "end_time": 40.28
+        },
+        {
+          "start_time": 40.28,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "balloon"
+            }
+          ],
+          "end_time": 40.73
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.77,
+          "transcript": "to %HESITATION we've is removed %HESITATION I was asked to existing Foley catheter was easily removed after deflating the balloon "
+        },
+        {
+          "transcript": "to %HESITATION with the V. moved %HESITATION I was asked to existing Foley catheter was easily removed after deflating the balloon "
+        },
+        {
+          "transcript": "two %HESITATION we've is removed %HESITATION I was asked to existing Foley catheter was easily removed after deflating the balloon "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 41.57,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 41.81
+        },
+        {
+          "start_time": 41.81,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "does"
+            },
+            {
+              "confidence": 0.24,
+              "word": "those"
+            }
+          ],
+          "end_time": 42.19
+        },
+        {
+          "start_time": 42.28,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "prefilled"
+            }
+          ],
+          "end_time": 42.76
+        },
+        {
+          "start_time": 42.76,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "with"
+            }
+          ],
+          "end_time": 42.92
+        },
+        {
+          "start_time": 43.14,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "ML"
+            }
+          ],
+          "end_time": 43.55
+        },
+        {
+          "start_time": 43.6,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 43.86
+        },
+        {
+          "start_time": 43.86,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "normal"
+            }
+          ],
+          "end_time": 44.14
+        },
+        {
+          "start_time": 44.14,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "saline"
+            }
+          ],
+          "end_time": 44.75
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.89,
+          "transcript": "%HESITATION does prefilled with ten ML of normal saline "
+        },
+        {
+          "transcript": "%HESITATION those prefilled with ten ML of normal saline "
+        },
+        {
+          "transcript": "%HESITATION those pre filled with ten ML of normal saline "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 46.22,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "subsequently"
+            }
+          ],
+          "end_time": 47.05
+        },
+        {
+          "start_time": 47.33,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "and"
+            },
+            {
+              "confidence": 0.27,
+              "word": "in"
+            }
+          ],
+          "end_time": 47.58
+        },
+        {
+          "start_time": 47.58,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "you"
+            }
+          ],
+          "end_time": 47.96
+        },
+        {
+          "start_time": 48.57,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "two"
+            }
+          ],
+          "end_time": 48.75
+        },
+        {
+          "start_time": 48.75,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "French"
+            }
+          ],
+          "end_time": 49.07
+        },
+        {
+          "start_time": 49.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "balloon"
+            }
+          ],
+          "end_time": 49.4
+        },
+        {
+          "start_time": 49.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tipped"
+            }
+          ],
+          "end_time": 49.75
+        },
+        {
+          "start_time": 49.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 50.3
+        },
+        {
+          "start_time": 50.3,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "tube"
+            }
+          ],
+          "end_time": 50.63
+        },
+        {
+          "start_time": 51.12,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 51.67
+        },
+        {
+          "start_time": 51.67,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 52.02
+        },
+        {
+          "start_time": 52.19,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "inserted"
+            }
+          ],
+          "end_time": 52.78
+        },
+        {
+          "start_time": 52.78,
+          "alternatives": [
+            {
+              "confidence": 0.54,
+              "word": "through"
+            }
+          ],
+          "end_time": 52.89
+        },
+        {
+          "start_time": 52.89,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "the"
+            }
+          ],
+          "end_time": 53.02
+        },
+        {
+          "start_time": 53.15,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "through"
+            }
+          ],
+          "end_time": 53.32
+        },
+        {
+          "start_time": 53.32,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "the"
+            }
+          ],
+          "end_time": 53.43
+        },
+        {
+          "start_time": 53.43,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "existing"
+            }
+          ],
+          "end_time": 53.84
+        },
+        {
+          "start_time": 53.84,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 54.4
+        },
+        {
+          "start_time": 54.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "opening"
+            }
+          ],
+          "end_time": 54.74
+        },
+        {
+          "start_time": 54.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 54.86
+        },
+        {
+          "start_time": 54.86,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "bedside"
+            }
+          ],
+          "end_time": 55.23
+        },
+        {
+          "start_time": 55.23,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "with"
+            }
+          ],
+          "end_time": 55.39
+        },
+        {
+          "start_time": 55.39,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "relative"
+            }
+          ],
+          "end_time": 56.01
+        },
+        {
+          "start_time": 56.49,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "ease"
+            }
+          ],
+          "end_time": 57.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.93,
+          "transcript": "subsequently in you %HESITATION twenty two French balloon tipped gastrostomy tube %HESITATION was inserted through the through the existing gastrostomy opening at bedside with relative ease "
+        },
+        {
+          "transcript": "subsequently and you %HESITATION twenty two French balloon tipped gastrostomy tube %HESITATION was inserted through the through the existing gastrostomy opening at bedside with relative ease "
+        },
+        {
+          "transcript": "subsequently in you %HESITATION twenty two French balloon tipped gastrostomy tube %HESITATION was inserted through the existing gastrostomy opening at bedside with relative ease "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 58.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 58.35
+        },
+        {
+          "start_time": 58.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "balloon"
+            }
+          ],
+          "end_time": 58.62
+        },
+        {
+          "start_time": 58.62,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 58.79
+        },
+        {
+          "start_time": 58.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "inflated"
+            }
+          ],
+          "end_time": 59.26
+        },
+        {
+          "start_time": 59.26,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "with"
+            }
+          ],
+          "end_time": 59.4
+        },
+        {
+          "start_time": 59.45,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 59.7
+        },
+        {
+          "start_time": 60.02,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "males"
+            },
+            {
+              "confidence": 0.14,
+              "word": "emails"
+            }
+          ],
+          "end_time": 60.43
+        },
+        {
+          "start_time": 60.46,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "of"
+            }
+          ],
+          "end_time": 60.83
+        },
+        {
+          "start_time": 60.83,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "normal"
+            }
+          ],
+          "end_time": 61.16
+        },
+        {
+          "start_time": 61.16,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "saline"
+            }
+          ],
+          "end_time": 61.97
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.9,
+          "transcript": "the balloon was inflated with %HESITATION tendon males of normal saline "
+        },
+        {
+          "transcript": "the balloon was inflated with %HESITATION ten in males of normal saline "
+        },
+        {
+          "transcript": "the balloon was inflated with %HESITATION ten emails of normal saline "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 73.02,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "I"
+            }
+          ],
+          "end_time": 73.1
+        },
+        {
+          "start_time": 73.1,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "went"
+            }
+          ],
+          "end_time": 73.25
+        },
+        {
+          "start_time": 73.25,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "ahead"
+            }
+          ],
+          "end_time": 73.47
+        },
+        {
+          "start_time": 73.47,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "and"
+            }
+          ],
+          "end_time": 73.6
+        },
+        {
+          "start_time": 73.6,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "easily"
+            }
+          ],
+          "end_time": 73.88
+        },
+        {
+          "start_time": 73.88,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "flushed"
+            }
+          ],
+          "end_time": 74.32
+        },
+        {
+          "start_time": 74.35,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 74.61
+        },
+        {
+          "start_time": 74.62,
+          "alternatives": [
+            {
+              "confidence": 0.43,
+              "word": "they"
+            },
+            {
+              "confidence": 0.41,
+              "word": "the"
+            }
+          ],
+          "end_time": 74.78
+        },
+        {
+          "start_time": 74.78,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 75.41
+        },
+        {
+          "start_time": 75.41,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "tube"
+            }
+          ],
+          "end_time": 75.78
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.92,
+          "transcript": "I went ahead and easily flushed %HESITATION the gastrostomy tube "
+        },
+        {
+          "transcript": "I went ahead and easily flushed %HESITATION they gastrostomy tube "
+        },
+        {
+          "transcript": "I went ahead and easily flushed from the gastrostomy tube "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 77.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 78.16
+        },
+        {
+          "start_time": 78.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "water"
+            }
+          ],
+          "end_time": 78.62
+        },
+        {
+          "start_time": 78.62,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "with"
+            }
+          ],
+          "end_time": 78.84
+        },
+        {
+          "start_time": 78.84,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "no"
+            }
+          ],
+          "end_time": 78.99
+        },
+        {
+          "start_time": 78.99,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "difficulty"
+            }
+          ],
+          "end_time": 79.89
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "with water with no difficulty "
+        },
+        {
+          "transcript": "with water with no difficulty I "
+        },
+        {
+          "transcript": "with water with no difficulty %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 84.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "I"
+            }
+          ],
+          "end_time": 84.58
+        },
+        {
+          "start_time": 84.58,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "was"
+            }
+          ],
+          "end_time": 84.74
+        },
+        {
+          "start_time": 84.74,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "able"
+            }
+          ],
+          "end_time": 84.92
+        },
+        {
+          "start_time": 84.92,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "to"
+            }
+          ],
+          "end_time": 85.06
+        },
+        {
+          "start_time": 85.06,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "suction"
+            }
+          ],
+          "end_time": 85.42
+        },
+        {
+          "start_time": 85.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "fluid"
+            }
+          ],
+          "end_time": 85.79
+        },
+        {
+          "start_time": 85.79,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "back"
+            }
+          ],
+          "end_time": 86.36
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.94,
+          "transcript": "I was able to suction fluid back "
+        },
+        {
+          "transcript": "I will be able to suction fluid back "
+        },
+        {
+          "transcript": "I would be able to suction fluid back "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 101.91,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "the"
+            }
+          ],
+          "end_time": 102.02
+        },
+        {
+          "start_time": 102.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "reading"
+            }
+          ],
+          "end_time": 102.29
+        },
+        {
+          "start_time": 102.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 102.37
+        },
+        {
+          "start_time": 102.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 102.46
+        },
+        {
+          "start_time": 102.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "outer"
+            }
+          ],
+          "end_time": 102.64
+        },
+        {
+          "start_time": 102.64,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bumper"
+            }
+          ],
+          "end_time": 103.01
+        },
+        {
+          "start_time": 103.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 103.2
+        },
+        {
+          "start_time": 103.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "four"
+            }
+          ],
+          "end_time": 103.53
+        },
+        {
+          "start_time": 103.53,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "centimetres"
+            },
+            {
+              "confidence": 0.41,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 104.18
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.85,
+          "transcript": "the reading of the outer bumper is four centimeters "
+        },
+        {
+          "transcript": "the reading of the outer bumper is four centimetres "
+        },
+        {
+          "transcript": "%HESITATION the reading of the outer bumper is four centimeters "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 107.22,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "patient"
+            }
+          ],
+          "end_time": 107.56
+        },
+        {
+          "start_time": 107.56,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "other"
+            },
+            {
+              "confidence": 0.2,
+              "word": "either"
+            }
+          ],
+          "end_time": 107.73
+        },
+        {
+          "start_time": 107.73,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "procedure"
+            }
+          ],
+          "end_time": 108.21
+        },
+        {
+          "start_time": 108.21,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 108.47
+        },
+        {
+          "start_time": 108.47,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "with"
+            }
+          ],
+          "end_time": 108.77
+        },
+        {
+          "start_time": 108.77,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "no"
+            }
+          ],
+          "end_time": 108.88
+        },
+        {
+          "start_time": 108.88,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "acute"
+            }
+          ],
+          "end_time": 109.17
+        },
+        {
+          "start_time": 109.17,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "complication"
+            }
+          ],
+          "end_time": 109.77
+        },
+        {
+          "start_time": 110.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "impression"
+            }
+          ],
+          "end_time": 111.16
+        },
+        {
+          "start_time": 111.42,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "status"
+            }
+          ],
+          "end_time": 111.66
+        },
+        {
+          "start_time": 111.66,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "post"
+            }
+          ],
+          "end_time": 112.01
+        },
+        {
+          "start_time": 112.01,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.22,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 112.2
+        },
+        {
+          "start_time": 112.2,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "replacement"
+            }
+          ],
+          "end_time": 113.02
+        },
+        {
+          "start_time": 113.05,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 113.33
+        },
+        {
+          "start_time": 113.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 113.99
+        },
+        {
+          "start_time": 113.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "tube"
+            }
+          ],
+          "end_time": 114.56
+        },
+        {
+          "start_time": 115.02,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "at"
+            }
+          ],
+          "end_time": 115.18
+        },
+        {
+          "start_time": 115.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bedside"
+            }
+          ],
+          "end_time": 115.81
+        },
+        {
+          "start_time": 115.84,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "with"
+            }
+          ],
+          "end_time": 116.01
+        },
+        {
+          "start_time": 116.01,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "no"
+            }
+          ],
+          "end_time": 116.17
+        },
+        {
+          "start_time": 116.17,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "complications"
+            }
+          ],
+          "end_time": 116.93
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.95,
+          "transcript": "patient other procedure %HESITATION with no acute complication impression status post replacement of gastrostomy tube at bedside with no complications "
+        },
+        {
+          "transcript": "patient either procedure %HESITATION with no acute complication impression status post replacement of gastrostomy tube at bedside with no complications "
+        },
+        {
+          "transcript": "patient other procedure %HESITATION with no acute complication impression status post %HESITATION replacement of gastrostomy tube at bedside with no complications "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 118.41,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "recommendations"
+            }
+          ],
+          "end_time": 119.2
+        },
+        {
+          "start_time": 119.2,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 119.52
+        },
+        {
+          "start_time": 119.52,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "keep"
+            }
+          ],
+          "end_time": 119.87
+        },
+        {
+          "start_time": 119.87,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "gastrostomy"
+            }
+          ],
+          "end_time": 120.38
+        },
+        {
+          "start_time": 120.38,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "tube"
+            }
+          ],
+          "end_time": 120.67
+        },
+        {
+          "start_time": 120.67,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "to"
+            }
+          ],
+          "end_time": 121.08
+        },
+        {
+          "start_time": 121.08,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.11,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 121.65
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "recommendations %HESITATION keep gastrostomy tube to %HESITATION "
+        },
+        {
+          "transcript": "recommendation to %HESITATION keep gastrostomy tube to %HESITATION "
+        },
+        {
+          "transcript": "recommendations %HESITATION keep gastrostomy to to %HESITATION "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 126.62,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "to"
+            }
+          ],
+          "end_time": 126.76
+        },
+        {
+          "start_time": 126.76,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "connect"
+            },
+            {
+              "confidence": 0.14,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 127.17
+        },
+        {
+          "start_time": 127.17,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "to"
+            }
+          ],
+          "end_time": 127.26
+        },
+        {
+          "start_time": 127.26,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "continue"
+            }
+          ],
+          "end_time": 127.69
+        },
+        {
+          "start_time": 127.69,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "suction"
+            }
+          ],
+          "end_time": 128.11
+        },
+        {
+          "start_time": 128.11,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 128.24
+        },
+        {
+          "start_time": 128.24,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "gravity"
+            }
+          ],
+          "end_time": 128.83
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.85,
+          "transcript": "to connect to continue suction to gravity "
+        },
+        {
+          "transcript": "thanks to continue suction to gravity "
+        },
+        {
+          "transcript": "to contact to continue suction to gravity "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 132.69,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "patient"
+            }
+          ],
+          "end_time": 132.99
+        },
+        {
+          "start_time": 132.99,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "to"
+            }
+          ],
+          "end_time": 133.05
+        },
+        {
+          "start_time": 133.05,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "continue"
+            }
+          ],
+          "end_time": 133.44
+        },
+        {
+          "start_time": 133.44,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "oral"
+            }
+          ],
+          "end_time": 133.67
+        },
+        {
+          "start_time": 133.67,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "diet"
+            }
+          ],
+          "end_time": 134.26
+        },
+        {
+          "start_time": 134.31,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 134.53
+        },
+        {
+          "start_time": 134.53,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "is"
+            }
+          ],
+          "end_time": 134.64
+        },
+        {
+          "start_time": 134.64,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "seventy"
+            }
+          ],
+          "end_time": 135.14
+        },
+        {
+          "start_time": 135.14,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "four"
+            }
+          ],
+          "end_time": 135.45
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.8,
+          "transcript": "patient to continue oral diet %HESITATION is seventy four "
+        },
+        {
+          "transcript": "patient continue oral diet %HESITATION is seventy four "
+        },
+        {
+          "transcript": "patient to continue %HESITATION diet %HESITATION is seventy four "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 137.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "end"
+            }
+          ],
+          "end_time": 137.47
+        },
+        {
+          "start_time": 137.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 137.57
+        },
+        {
+          "start_time": 137.57,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "dictation"
+            }
+          ],
+          "end_time": 137.96
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.66,
+          "transcript": "end of dictation increase patient "
+        },
+        {
+          "transcript": "end of dictation increased patient "
+        },
+        {
+          "transcript": "end of dictation extrication "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}

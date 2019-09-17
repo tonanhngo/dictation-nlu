@@ -1,0 +1,4404 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 12.95,
+          "alternatives": [
+            {
+              "confidence": 0.45,
+              "word": "in"
+            },
+            {
+              "confidence": 0.32,
+              "word": "intact"
+            }
+          ],
+          "end_time": 13.12
+        },
+        {
+          "start_time": 15.85,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 16.36
+        },
+        {
+          "start_time": 16.36,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "titration"
+            }
+          ],
+          "end_time": 17.03
+        },
+        {
+          "start_time": 17.03,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "expiring"
+            }
+          ],
+          "end_time": 17.55
+        },
+        {
+          "start_time": 18.91,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "five"
+            }
+          ],
+          "end_time": 19.19
+        },
+        {
+          "start_time": 19.19,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "year"
+            }
+          ],
+          "end_time": 19.3
+        },
+        {
+          "start_time": 19.3,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "old"
+            }
+          ],
+          "end_time": 19.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.66,
+          "transcript": "in Texas a form of neck popularity with bipap titration expiring because it's a big is a sixty five year old "
+        },
+        {
+          "transcript": "the attacks as a form of neck popularity with bipap titration expiring because it's a big is a sixty five year old "
+        },
+        {
+          "transcript": "in Texas as a form of neck popularity with bipap titration expiring because it's a big is a sixty five year old "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 20.98,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "man"
+            }
+          ],
+          "end_time": 21.32
+        },
+        {
+          "start_time": 21.32,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "has"
+            },
+            {
+              "confidence": 0.12,
+              "word": "history"
+            }
+          ],
+          "end_time": 21.53
+        },
+        {
+          "start_time": 21.53,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "received"
+            },
+            {
+              "confidence": 0.15,
+              "word": "receive"
+            }
+          ],
+          "end_time": 21.88
+        },
+        {
+          "start_time": 22.9,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "apostle"
+            }
+          ],
+          "end_time": 23.33
+        },
+        {
+          "start_time": 23.33,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "are"
+            }
+          ],
+          "end_time": 23.54
+        },
+        {
+          "start_time": 23.54,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "free"
+            }
+          ],
+          "end_time": 23.73
+        },
+        {
+          "start_time": 23.73,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "with"
+            }
+          ],
+          "end_time": 23.93
+        },
+        {
+          "start_time": 24.07,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 24.67
+        },
+        {
+          "start_time": 24.67,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "titration"
+            }
+          ],
+          "end_time": 25.43
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.71,
+          "transcript": "man has received after process for but I apostle are free with bipap titration "
+        },
+        {
+          "transcript": "man has received after process for but apostle are free with bipap titration "
+        },
+        {
+          "transcript": "man has received after presents for but I apostle are free with bipap titration "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 28.64,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "social"
+            },
+            {
+              "confidence": 0.15,
+              "word": "special"
+            }
+          ],
+          "end_time": 28.94
+        },
+        {
+          "start_time": 28.94,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "please"
+            },
+            {
+              "confidence": 0.14,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 29.16
+        },
+        {
+          "start_time": 29.16,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "stay"
+            }
+          ],
+          "end_time": 29.37
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.41,
+          "transcript": "social please stay with on three "
+        },
+        {
+          "transcript": "social please stay was done three "
+        },
+        {
+          "transcript": "social please stay with done three "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 32.09,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 32.36
+        },
+        {
+          "start_time": 32.36,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "apnea"
+            }
+          ],
+          "end_time": 32.81
+        },
+        {
+          "start_time": 32.81,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "with"
+            }
+          ],
+          "end_time": 32.92
+        },
+        {
+          "start_time": 32.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "an"
+            }
+          ],
+          "end_time": 33.0
+        },
+        {
+          "start_time": 33.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "AHI"
+            }
+          ],
+          "end_time": 33.5
+        },
+        {
+          "start_time": 33.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 33.61
+        },
+        {
+          "start_time": 33.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "twenty"
+            }
+          ],
+          "end_time": 33.93
+        },
+        {
+          "start_time": 33.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nine"
+            }
+          ],
+          "end_time": 34.28
+        },
+        {
+          "start_time": 34.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 34.59
+        },
+        {
+          "start_time": 34.59,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "five"
+            }
+          ],
+          "end_time": 34.87
+        },
+        {
+          "start_time": 34.87,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "per"
+            }
+          ],
+          "end_time": 35.0
+        },
+        {
+          "start_time": 35.0,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "hour"
+            }
+          ],
+          "end_time": 35.36
+        },
+        {
+          "start_time": 35.36,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "next"
+            }
+          ],
+          "end_time": 35.65
+        },
+        {
+          "start_time": 35.65,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 36.08
+        },
+        {
+          "start_time": 36.08,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "description"
+            }
+          ],
+          "end_time": 36.72
+        },
+        {
+          "start_time": 40.21,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "channel"
+            }
+          ],
+          "end_time": 40.48
+        },
+        {
+          "start_time": 40.48,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "EEG"
+            }
+          ],
+          "end_time": 41.04
+        },
+        {
+          "start_time": 41.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "two"
+            }
+          ],
+          "end_time": 41.26
+        },
+        {
+          "start_time": 41.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "EOG"
+            }
+          ],
+          "end_time": 41.68
+        },
+        {
+          "start_time": 41.68,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "leads"
+            }
+          ],
+          "end_time": 41.98
+        },
+        {
+          "start_time": 41.98,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 42.14
+        },
+        {
+          "start_time": 42.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "chin"
+            }
+          ],
+          "end_time": 42.35
+        },
+        {
+          "start_time": 42.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "EMG"
+            }
+          ],
+          "end_time": 42.7
+        },
+        {
+          "start_time": 42.7,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "not"
+            }
+          ],
+          "end_time": 42.92
+        },
+        {
+          "start_time": 42.92,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "paralyzed"
+            }
+          ],
+          "end_time": 43.43
+        },
+        {
+          "start_time": 43.43,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "pastas"
+            }
+          ],
+          "end_time": 43.93
+        },
+        {
+          "start_time": 43.93,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "are"
+            }
+          ],
+          "end_time": 44.16
+        },
+        {
+          "start_time": 44.16,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "easy"
+            }
+          ],
+          "end_time": 44.43
+        },
+        {
+          "start_time": 44.46,
+          "alternatives": [
+            {
+              "confidence": 0.64,
+              "word": "prior"
+            }
+          ],
+          "end_time": 44.64
+        },
+        {
+          "start_time": 44.64,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "labs"
+            }
+          ],
+          "end_time": 44.92
+        },
+        {
+          "start_time": 44.92,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "to"
+            }
+          ],
+          "end_time": 45.01
+        },
+        {
+          "start_time": 45.01,
+          "alternatives": [
+            {
+              "confidence": 0.46,
+              "word": "the"
+            },
+            {
+              "confidence": 0.18,
+              "word": "be"
+            }
+          ],
+          "end_time": 45.11
+        },
+        {
+          "start_time": 47.0,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "you"
+            }
+          ],
+          "end_time": 47.13
+        },
+        {
+          "start_time": 47.13,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "open"
+            }
+          ],
+          "end_time": 47.38
+        },
+        {
+          "start_time": 47.38,
+          "alternatives": [
+            {
+              "confidence": 0.7,
+              "word": "monitored"
+            },
+            {
+              "confidence": 0.21,
+              "word": "moderate"
+            }
+          ],
+          "end_time": 47.87
+        },
+        {
+          "start_time": 47.87,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "respiration"
+            }
+          ],
+          "end_time": 48.42
+        },
+        {
+          "start_time": 48.42,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "err"
+            }
+          ],
+          "end_time": 48.58
+        },
+        {
+          "start_time": 50.19,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "to"
+            }
+          ],
+          "end_time": 50.32
+        },
+        {
+          "start_time": 50.65,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "stature"
+            }
+          ],
+          "end_time": 51.0
+        },
+        {
+          "start_time": 51.0,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "sensors"
+            }
+          ],
+          "end_time": 51.6
+        },
+        {
+          "start_time": 52.87,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "and"
+            }
+          ],
+          "end_time": 52.97
+        },
+        {
+          "start_time": 52.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pulse"
+            }
+          ],
+          "end_time": 53.21
+        },
+        {
+          "start_time": 53.21,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "oximetry"
+            }
+          ],
+          "end_time": 53.93
+        },
+        {
+          "start_time": 53.96,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "thanks"
+            }
+          ],
+          "end_time": 54.16
+        },
+        {
+          "start_time": 54.16,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "for"
+            }
+          ],
+          "end_time": 54.32
+        },
+        {
+          "start_time": 54.32,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "poor"
+            }
+          ],
+          "end_time": 54.54
+        },
+        {
+          "start_time": 55.38,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "total"
+            }
+          ],
+          "end_time": 55.64
+        },
+        {
+          "start_time": 55.64,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 55.88
+        },
+        {
+          "start_time": 55.88,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "time"
+            }
+          ],
+          "end_time": 56.09
+        },
+        {
+          "start_time": 56.09,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "was"
+            }
+          ],
+          "end_time": 56.22
+        },
+        {
+          "start_time": 56.22,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "two"
+            }
+          ],
+          "end_time": 56.35
+        },
+        {
+          "start_time": 56.35,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "hundred"
+            }
+          ],
+          "end_time": 56.69
+        },
+        {
+          "start_time": 56.69,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 56.96
+        },
+        {
+          "start_time": 56.96,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "eight"
+            }
+          ],
+          "end_time": 57.12
+        },
+        {
+          "start_time": 57.12,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "minutes"
+            }
+          ],
+          "end_time": 57.43
+        },
+        {
+          "start_time": 57.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 57.64
+        },
+        {
+          "start_time": 57.64,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "onset"
+            }
+          ],
+          "end_time": 58.03
+        },
+        {
+          "start_time": 58.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "latency"
+            }
+          ],
+          "end_time": 58.48
+        },
+        {
+          "start_time": 58.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 58.65
+        },
+        {
+          "start_time": 58.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "normal"
+            }
+          ],
+          "end_time": 59.09
+        },
+        {
+          "start_time": 59.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 59.2
+        },
+        {
+          "start_time": 59.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nineteen"
+            }
+          ],
+          "end_time": 59.61
+        },
+        {
+          "start_time": 59.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 59.9
+        },
+        {
+          "start_time": 59.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "five"
+            }
+          ],
+          "end_time": 60.17
+        },
+        {
+          "start_time": 60.17,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "minutes"
+            }
+          ],
+          "end_time": 60.43
+        },
+        {
+          "start_time": 60.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "efficiency"
+            }
+          ],
+          "end_time": 61.06
+        },
+        {
+          "start_time": 61.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 61.21
+        },
+        {
+          "start_time": 61.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "reduced"
+            }
+          ],
+          "end_time": 61.61
+        },
+        {
+          "start_time": 61.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 61.72
+        },
+        {
+          "start_time": 61.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "seventy"
+            }
+          ],
+          "end_time": 62.06
+        },
+        {
+          "start_time": 62.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "eight"
+            }
+          ],
+          "end_time": 62.26
+        },
+        {
+          "start_time": 62.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 62.48
+        },
+        {
+          "start_time": 62.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nine"
+            }
+          ],
+          "end_time": 62.66
+        },
+        {
+          "start_time": 62.66,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "percent"
+            }
+          ],
+          "end_time": 63.05
+        },
+        {
+          "start_time": 63.66,
+          "alternatives": [
+            {
+              "confidence": 0.36,
+              "word": "the"
+            },
+            {
+              "confidence": 0.33,
+              "word": "a"
+            }
+          ],
+          "end_time": 63.76
+        },
+        {
+          "start_time": 64.31,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "five"
+            }
+          ],
+          "end_time": 64.59
+        },
+        {
+          "start_time": 64.59,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "point"
+            }
+          ],
+          "end_time": 64.83
+        },
+        {
+          "start_time": 64.83,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "three"
+            }
+          ],
+          "end_time": 65.02
+        },
+        {
+          "start_time": 65.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "per"
+            }
+          ],
+          "end_time": 65.17
+        },
+        {
+          "start_time": 65.17,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "hour"
+            }
+          ],
+          "end_time": 65.49
+        },
+        {
+          "start_time": 65.49,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "stage"
+            }
+          ],
+          "end_time": 65.78
+        },
+        {
+          "start_time": 65.78,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "R."
+            }
+          ],
+          "end_time": 65.97
+        },
+        {
+          "start_time": 65.97,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 66.24
+        },
+        {
+          "start_time": 66.24,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "latency"
+            }
+          ],
+          "end_time": 66.67
+        },
+        {
+          "start_time": 66.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 66.88
+        },
+        {
+          "start_time": 66.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "normal"
+            }
+          ],
+          "end_time": 67.27
+        },
+        {
+          "start_time": 67.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 67.36
+        },
+        {
+          "start_time": 67.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 67.52
+        },
+        {
+          "start_time": 67.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hundred"
+            }
+          ],
+          "end_time": 67.85
+        },
+        {
+          "start_time": 67.85,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "twenty"
+            }
+          ],
+          "end_time": 68.13
+        },
+        {
+          "start_time": 68.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nine"
+            }
+          ],
+          "end_time": 68.35
+        },
+        {
+          "start_time": 68.35,
+          "alternatives": [
+            {
+              "confidence": 0.41,
+              "word": "nets"
+            },
+            {
+              "confidence": 0.32,
+              "word": "minutes"
+            },
+            {
+              "confidence": 0.13,
+              "word": "next"
+            }
+          ],
+          "end_time": 68.72
+        },
+        {
+          "start_time": 69.06,
+          "alternatives": [
+            {
+              "confidence": 0.56,
+              "word": "he"
+            },
+            {
+              "confidence": 0.18,
+              "word": "she"
+            }
+          ],
+          "end_time": 69.18
+        },
+        {
+          "start_time": 70.27,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "of"
+            }
+          ],
+          "end_time": 70.37
+        },
+        {
+          "start_time": 70.37,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "stage"
+            }
+          ],
+          "end_time": 70.65
+        },
+        {
+          "start_time": 70.65,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "N."
+            }
+          ],
+          "end_time": 70.77
+        },
+        {
+          "start_time": 70.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "three"
+            }
+          ],
+          "end_time": 70.99
+        },
+        {
+          "start_time": 70.99,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 71.4
+        },
+        {
+          "start_time": 71.4,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "stage"
+            }
+          ],
+          "end_time": 71.64
+        },
+        {
+          "start_time": 71.64,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "R."
+            }
+          ],
+          "end_time": 71.85
+        },
+        {
+          "start_time": 71.85,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 72.12
+        },
+        {
+          "start_time": 72.12,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "was"
+            }
+          ],
+          "end_time": 72.25
+        },
+        {
+          "start_time": 72.25,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "reduced"
+            }
+          ],
+          "end_time": 72.72
+        },
+        {
+          "start_time": 72.72,
+          "alternatives": [
+            {
+              "confidence": 0.38,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.29,
+              "word": "so"
+            },
+            {
+              "confidence": 0.27,
+              "word": "or"
+            }
+          ],
+          "end_time": 72.78
+        },
+        {
+          "start_time": 72.78,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "alpha"
+            }
+          ],
+          "end_time": 73.13
+        },
+        {
+          "start_time": 73.13,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "intrusions"
+            }
+          ],
+          "end_time": 73.59
+        },
+        {
+          "start_time": 73.59,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "seizure"
+            }
+          ],
+          "end_time": 73.9
+        },
+        {
+          "start_time": 73.9,
+          "alternatives": [
+            {
+              "confidence": 0.46,
+              "word": "cheer"
+            },
+            {
+              "confidence": 0.35,
+              "word": "tear"
+            }
+          ],
+          "end_time": 74.18
+        },
+        {
+          "start_time": 74.18,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "parasomnias"
+            }
+          ],
+          "end_time": 74.92
+        },
+        {
+          "start_time": 74.92,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "attacks"
+            }
+          ],
+          "end_time": 75.34
+        },
+        {
+          "start_time": 76.04,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "next"
+            }
+          ],
+          "end_time": 76.23
+        },
+        {
+          "start_time": 77.1,
+          "alternatives": [
+            {
+              "confidence": 0.58,
+              "word": "in"
+            }
+          ],
+          "end_time": 77.26
+        },
+        {
+          "start_time": 77.26,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "oxygen"
+            }
+          ],
+          "end_time": 77.73
+        },
+        {
+          "start_time": 77.73,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "saturation"
+            }
+          ],
+          "end_time": 78.25
+        },
+        {
+          "start_time": 78.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "during"
+            }
+          ],
+          "end_time": 78.44
+        },
+        {
+          "start_time": 78.44,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 78.7
+        },
+        {
+          "start_time": 78.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 78.82
+        },
+        {
+          "start_time": 78.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "eighty"
+            }
+          ],
+          "end_time": 79.01
+        },
+        {
+          "start_time": 79.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nine"
+            }
+          ],
+          "end_time": 79.23
+        },
+        {
+          "start_time": 79.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "percent"
+            }
+          ],
+          "end_time": 79.7
+        },
+        {
+          "start_time": 79.7,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "saturation"
+            }
+          ],
+          "end_time": 80.23
+        },
+        {
+          "start_time": 80.29,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "next"
+            }
+          ],
+          "end_time": 80.61
+        },
+        {
+          "start_time": 80.61,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "is"
+            }
+          ],
+          "end_time": 80.7
+        },
+        {
+          "start_time": 80.7,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "three"
+            }
+          ],
+          "end_time": 80.94
+        },
+        {
+          "start_time": 80.94,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "point"
+            }
+          ],
+          "end_time": 81.17
+        },
+        {
+          "start_time": 81.17,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "eight"
+            }
+          ],
+          "end_time": 81.32
+        },
+        {
+          "start_time": 81.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "per"
+            }
+          ],
+          "end_time": 81.43
+        },
+        {
+          "start_time": 81.43,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "hour"
+            }
+          ],
+          "end_time": 81.74
+        },
+        {
+          "start_time": 81.74,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "H."
+            }
+          ],
+          "end_time": 82.05
+        },
+        {
+          "start_time": 82.05,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "I."
+            }
+          ],
+          "end_time": 82.17
+        },
+        {
+          "start_time": 82.17,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "during"
+            }
+          ],
+          "end_time": 82.41
+        },
+        {
+          "start_time": 82.41,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "supine"
+            }
+          ],
+          "end_time": 82.86
+        },
+        {
+          "start_time": 82.86,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 83.1
+        },
+        {
+          "start_time": 83.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 83.23
+        },
+        {
+          "start_time": 83.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "five"
+            }
+          ],
+          "end_time": 83.49
+        },
+        {
+          "start_time": 83.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 83.69
+        },
+        {
+          "start_time": 83.69,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "two"
+            }
+          ],
+          "end_time": 83.82
+        },
+        {
+          "start_time": 83.82,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "per"
+            }
+          ],
+          "end_time": 84.03
+        },
+        {
+          "start_time": 84.03,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "hour"
+            }
+          ],
+          "end_time": 84.29
+        },
+        {
+          "start_time": 84.88,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "heart"
+            }
+          ],
+          "end_time": 85.2
+        },
+        {
+          "start_time": 85.2,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "rate"
+            }
+          ],
+          "end_time": 85.36
+        },
+        {
+          "start_time": 85.36,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "was"
+            }
+          ],
+          "end_time": 85.47
+        },
+        {
+          "start_time": 85.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "eighty"
+            }
+          ],
+          "end_time": 85.69
+        },
+        {
+          "start_time": 85.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nine"
+            }
+          ],
+          "end_time": 85.93
+        },
+        {
+          "start_time": 85.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "beats"
+            }
+          ],
+          "end_time": 86.16
+        },
+        {
+          "start_time": 86.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "per"
+            }
+          ],
+          "end_time": 86.28
+        },
+        {
+          "start_time": 86.28,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "minute"
+            }
+          ],
+          "end_time": 86.63
+        },
+        {
+          "start_time": 87.19,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "frequent"
+            }
+          ],
+          "end_time": 87.59
+        },
+        {
+          "start_time": 87.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "PVCs"
+            }
+          ],
+          "end_time": 88.44
+        },
+        {
+          "start_time": 88.44,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "with"
+            }
+          ],
+          "end_time": 88.59
+        },
+        {
+          "start_time": 88.59,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "bigeminy"
+            }
+          ],
+          "end_time": 89.32
+        },
+        {
+          "start_time": 89.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "were"
+            }
+          ],
+          "end_time": 89.44
+        },
+        {
+          "start_time": 89.44,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "noted"
+            }
+          ],
+          "end_time": 89.86
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.82,
+          "transcript": "sleep apnea with an AHI of twenty nine point five per hour next paragraph description all iPod Blasius reform CCH as Marty thanks six channel EEG two EOG leads and chin EMG not paralyzed pastas are easy prior labs to the S. G. leads her thank you open monitored respiration err for Marty the mail special to Mr stature sensors fastened down bands and pulse oximetry thanks for poor count total sleep time was two hundred thirty eight minutes sleep onset latency was normal at nineteen point five minutes efficiency was reduced at seventy eight point nine percent browse the index was five point three per hour stage R. sleep latency was normal at one hundred twenty nine nets he said angrily absence of stage N. three sleep stage R. sleep was reduced %HESITATION alpha intrusions seizure cheer parasomnias attacks next paragraph in oxygen saturation during sleep was eighty nine percent saturation next is three point eight per hour H. I. during supine sleep was five point two per hour heart rate was eighty nine beats per minute frequent PVCs with bigeminy were noted "
+        },
+        {
+          "transcript": "sleep apnea with an AHI of twenty nine point five per hour next paragraph description all iPod Blasius reform CCH as Marty thanks six channel EEG two EOG leads and chin EMG not paralyzed pastas are easy prior labs to the S. D. leads her thank you open monitored respiration err for Marty the mail special to Mr stature sensors fastened down bands and pulse oximetry thanks for poor count total sleep time was two hundred thirty eight minutes sleep onset latency was normal at nineteen point five minutes efficiency was reduced at seventy eight point nine percent browse the index was five point three per hour stage R. sleep latency was normal at one hundred twenty nine nets he said angrily absence of stage N. three sleep stage R. sleep was reduced %HESITATION alpha intrusions seizure cheer parasomnias attacks next paragraph in oxygen saturation during sleep was eighty nine percent saturation next is three point eight per hour H. I. during supine sleep was five point two per hour heart rate was eighty nine beats per minute frequent PVCs with bigeminy were noted "
+        },
+        {
+          "transcript": "sleep apnea with an AHI of twenty nine point five per hour next paragraph description all iPod Blasius reform CCH as Marty thanks six channel EEG two EOG leads and chin EMG not paralyzed pastas are easy prior labs to the S. G. leads her thank you open monitored respiration err for Marty the mail special to Mister stature sensors fastened down bands and pulse oximetry thanks for poor count total sleep time was two hundred thirty eight minutes sleep onset latency was normal at nineteen point five minutes efficiency was reduced at seventy eight point nine percent browse the index was five point three per hour stage R. sleep latency was normal at one hundred twenty nine nets he said angrily absence of stage N. three sleep stage R. sleep was reduced %HESITATION alpha intrusions seizure cheer parasomnias attacks next paragraph in oxygen saturation during sleep was eighty nine percent saturation next is three point eight per hour H. I. during supine sleep was five point two per hour heart rate was eighty nine beats per minute frequent PVCs with bigeminy were noted "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 91.85,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 92.07
+        },
+        {
+          "start_time": 92.07,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 92.54
+        },
+        {
+          "start_time": 92.6,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "respiratory"
+            }
+          ],
+          "end_time": 93.11
+        },
+        {
+          "start_time": 93.11,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "events"
+            }
+          ],
+          "end_time": 93.37
+        },
+        {
+          "start_time": 93.37,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "consisted"
+            }
+          ],
+          "end_time": 93.87
+        },
+        {
+          "start_time": 93.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 93.95
+        },
+        {
+          "start_time": 93.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "three"
+            }
+          ],
+          "end_time": 94.22
+        },
+        {
+          "start_time": 94.22,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "apneas"
+            }
+          ],
+          "end_time": 94.8
+        },
+        {
+          "start_time": 94.8,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 94.92
+        },
+        {
+          "start_time": 94.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "twelve"
+            }
+          ],
+          "end_time": 95.19
+        },
+        {
+          "start_time": 95.19,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "hypopneas"
+            }
+          ],
+          "end_time": 95.97
+        },
+        {
+          "start_time": 95.97,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "H."
+            }
+          ],
+          "end_time": 96.32
+        },
+        {
+          "start_time": 96.32,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "I."
+            },
+            {
+              "confidence": 0.11,
+              "word": "I"
+            }
+          ],
+          "end_time": 96.46
+        },
+        {
+          "start_time": 96.46,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "during"
+            }
+          ],
+          "end_time": 96.77
+        },
+        {
+          "start_time": 96.77,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "non"
+            }
+          ],
+          "end_time": 97.0
+        },
+        {
+          "start_time": 97.0,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "supine"
+            }
+          ],
+          "end_time": 97.43
+        },
+        {
+          "start_time": 97.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "stage"
+            }
+          ],
+          "end_time": 97.78
+        },
+        {
+          "start_time": 97.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "R."
+            }
+          ],
+          "end_time": 97.97
+        },
+        {
+          "start_time": 97.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 98.23
+        },
+        {
+          "start_time": 98.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 98.39
+        },
+        {
+          "start_time": 98.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 98.58
+        },
+        {
+          "start_time": 98.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 98.87
+        },
+        {
+          "start_time": 98.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "seven"
+            }
+          ],
+          "end_time": 99.08
+        },
+        {
+          "start_time": 99.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "per"
+            }
+          ],
+          "end_time": 99.23
+        },
+        {
+          "start_time": 99.23,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "hour"
+            }
+          ],
+          "end_time": 99.62
+        },
+        {
+          "start_time": 101.12,
+          "alternatives": [
+            {
+              "confidence": 0.65,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 101.38
+        },
+        {
+          "start_time": 101.38,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "were"
+            }
+          ],
+          "end_time": 101.47
+        },
+        {
+          "start_time": 101.47,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "noted"
+            }
+          ],
+          "end_time": 101.76
+        },
+        {
+          "start_time": 101.76,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "with"
+            }
+          ],
+          "end_time": 101.9
+        },
+        {
+          "start_time": 101.9,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "an"
+            }
+          ],
+          "end_time": 101.96
+        },
+        {
+          "start_time": 101.96,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "index"
+            }
+          ],
+          "end_time": 102.35
+        },
+        {
+          "start_time": 102.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 102.45
+        },
+        {
+          "start_time": 102.45,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 102.74
+        },
+        {
+          "start_time": 102.74,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "four"
+            }
+          ],
+          "end_time": 103.0
+        },
+        {
+          "start_time": 103.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 103.25
+        },
+        {
+          "start_time": 103.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "three"
+            }
+          ],
+          "end_time": 103.43
+        },
+        {
+          "start_time": 103.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "per"
+            }
+          ],
+          "end_time": 103.59
+        },
+        {
+          "start_time": 103.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hour"
+            }
+          ],
+          "end_time": 103.9
+        },
+        {
+          "start_time": 103.9,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "CMS"
+            }
+          ],
+          "end_time": 104.33
+        },
+        {
+          "start_time": 104.56,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "arousal"
+            }
+          ],
+          "end_time": 104.92
+        },
+        {
+          "start_time": 104.92,
+          "alternatives": [
+            {
+              "confidence": 0.57,
+              "word": "index"
+            }
+          ],
+          "end_time": 105.27
+        },
+        {
+          "start_time": 105.27,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "was"
+            }
+          ],
+          "end_time": 105.44
+        },
+        {
+          "start_time": 105.44,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "normal"
+            }
+          ],
+          "end_time": 105.78
+        },
+        {
+          "start_time": 105.78,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "at"
+            }
+          ],
+          "end_time": 105.85
+        },
+        {
+          "start_time": 105.91,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "one"
+            }
+          ],
+          "end_time": 106.09
+        },
+        {
+          "start_time": 106.09,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "point"
+            }
+          ],
+          "end_time": 106.41
+        },
+        {
+          "start_time": 106.41,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "three"
+            }
+          ],
+          "end_time": 106.6
+        },
+        {
+          "start_time": 106.6,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "per"
+            }
+          ],
+          "end_time": 106.75
+        },
+        {
+          "start_time": 106.75,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "hour"
+            }
+          ],
+          "end_time": 107.03
+        },
+        {
+          "start_time": 107.03,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "next"
+            }
+          ],
+          "end_time": 107.27
+        },
+        {
+          "start_time": 107.27,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "paragraph"
+            }
+          ],
+          "end_time": 107.92
+        },
+        {
+          "start_time": 108.6,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 108.97
+        },
+        {
+          "start_time": 110.98,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "was"
+            }
+          ],
+          "end_time": 111.1
+        },
+        {
+          "start_time": 111.1,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "initiated"
+            }
+          ],
+          "end_time": 111.65
+        },
+        {
+          "start_time": 111.68,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "at"
+            }
+          ],
+          "end_time": 111.94
+        },
+        {
+          "start_time": 111.94,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "<eps>"
+            },
+            {
+              "confidence": 0.2,
+              "word": "I"
+            }
+          ],
+          "end_time": 112.53
+        },
+        {
+          "start_time": 112.53,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "IPAP"
+            },
+            {
+              "confidence": 0.22,
+              "word": "have"
+            }
+          ],
+          "end_time": 112.96
+        },
+        {
+          "start_time": 112.96,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "seven"
+            }
+          ],
+          "end_time": 113.32
+        },
+        {
+          "start_time": 113.32,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 113.95
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.83,
+          "transcript": "next paragraph respiratory events consisted of three apneas and twelve hypopneas H. I. during non supine stage R. sleep was one point seven per hour press the most strength sleep were noted with an index of thirty four point three per hour CMS sash arousal index was normal at one point three per hour next paragraph bipap titration was informed bipap therapy was initiated at IPAP seven centimeters slash "
+        },
+        {
+          "transcript": "next paragraph respiratory events consisted of three apneas and twelve hypopneas H. I. during non supine stage R. sleep was one point seven per hour press the most strength sleep were noted with an index of thirty four point three per hour CMS stash arousal index was normal at one point three per hour next paragraph bipap titration was informed bipap therapy was initiated at IPAP seven centimeters slash "
+        },
+        {
+          "transcript": "next paragraph respiratory events consisted of three apneas and twelve hypopneas H. I. during non supine stage R. sleep was one point seven per hour press the most strength sleep were noted with an index of thirty four point three per hour CMS ash arousal index was normal at one point three per hour next paragraph bipap titration was informed bipap therapy was initiated at IPAP seven centimeters slash "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 115.74,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "he"
+            }
+          ],
+          "end_time": 115.91
+        },
+        {
+          "start_time": 116.41,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "three"
+            }
+          ],
+          "end_time": 116.67
+        },
+        {
+          "start_time": 116.67,
+          "alternatives": [
+            {
+              "confidence": 0.67,
+              "word": "centimeters"
+            }
+          ],
+          "end_time": 117.37
+        },
+        {
+          "start_time": 117.86,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "H."
+            }
+          ],
+          "end_time": 118.13
+        },
+        {
+          "start_time": 118.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "two"
+            }
+          ],
+          "end_time": 118.37
+        },
+        {
+          "start_time": 118.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "O."
+            }
+          ],
+          "end_time": 118.54
+        },
+        {
+          "start_time": 118.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 119.04
+        },
+        {
+          "start_time": 119.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 119.15
+        },
+        {
+          "start_time": 119.15,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "gradually"
+            }
+          ],
+          "end_time": 119.54
+        },
+        {
+          "start_time": 119.54,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "increased"
+            }
+          ],
+          "end_time": 120.16
+        },
+        {
+          "start_time": 120.16,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "iPad"
+            }
+          ],
+          "end_time": 120.74
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.82,
+          "transcript": "he tapped three centimeters H. two O. pressure and gradually increased iPad "
+        },
+        {
+          "transcript": "he tapped three centimeters H. two O. pressure and gradually increased to iPad "
+        },
+        {
+          "transcript": "he pap three centimeters H. two O. pressure and gradually increased iPad "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 122.74,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "seventeen"
+            }
+          ],
+          "end_time": 123.33
+        },
+        {
+          "start_time": 123.33,
+          "alternatives": [
+            {
+              "confidence": 0.48,
+              "word": "centimeter"
+            },
+            {
+              "confidence": 0.19,
+              "word": "centimeters"
+            },
+            {
+              "confidence": 0.13,
+              "word": "Satomi"
+            }
+          ],
+          "end_time": 123.81
+        },
+        {
+          "start_time": 126.43,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "at"
+            }
+          ],
+          "end_time": 126.55
+        },
+        {
+          "start_time": 126.55,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "this"
+            }
+          ],
+          "end_time": 126.74
+        },
+        {
+          "start_time": 126.74,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 127.15
+        },
+        {
+          "start_time": 127.15,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "respiratory"
+            }
+          ],
+          "end_time": 127.67
+        },
+        {
+          "start_time": 127.67,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "events"
+            }
+          ],
+          "end_time": 127.92
+        },
+        {
+          "start_time": 127.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 128.01
+        },
+        {
+          "start_time": 128.01,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "desaturations"
+            }
+          ],
+          "end_time": 128.82
+        },
+        {
+          "start_time": 128.82,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "were"
+            }
+          ],
+          "end_time": 128.9
+        },
+        {
+          "start_time": 128.9,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "reduced"
+            }
+          ],
+          "end_time": 129.34
+        },
+        {
+          "start_time": 129.34,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "apnea"
+            }
+          ],
+          "end_time": 129.69
+        },
+        {
+          "start_time": 129.69,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "hypopnea"
+            }
+          ],
+          "end_time": 130.16
+        },
+        {
+          "start_time": 130.16,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "index"
+            }
+          ],
+          "end_time": 130.52
+        },
+        {
+          "start_time": 130.52,
+          "alternatives": [
+            {
+              "confidence": 0.52,
+              "word": "was"
+            },
+            {
+              "confidence": 0.45,
+              "word": "of"
+            }
+          ],
+          "end_time": 130.67
+        },
+        {
+          "start_time": 130.67,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "one"
+            }
+          ],
+          "end_time": 130.89
+        },
+        {
+          "start_time": 130.89,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "point"
+            }
+          ],
+          "end_time": 131.17
+        },
+        {
+          "start_time": 131.17,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "one"
+            }
+          ],
+          "end_time": 131.32
+        },
+        {
+          "start_time": 131.32,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "per"
+            }
+          ],
+          "end_time": 131.47
+        },
+        {
+          "start_time": 131.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "hour"
+            }
+          ],
+          "end_time": 131.72
+        },
+        {
+          "start_time": 131.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "after"
+            }
+          ],
+          "end_time": 131.97
+        },
+        {
+          "start_time": 131.97,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "titration"
+            }
+          ],
+          "end_time": 132.63
+        },
+        {
+          "start_time": 134.62,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "ten"
+            }
+          ],
+          "end_time": 134.88
+        },
+        {
+          "start_time": 134.88,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "percent"
+            }
+          ],
+          "end_time": 135.3
+        },
+        {
+          "start_time": 135.3,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "expire"
+            }
+          ],
+          "end_time": 135.67
+        },
+        {
+          "start_time": 135.67,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "interpretation"
+            }
+          ],
+          "end_time": 136.34
+        },
+        {
+          "start_time": 137.05,
+          "alternatives": [
+            {
+              "confidence": 0.49,
+              "word": "this"
+            },
+            {
+              "confidence": 0.26,
+              "word": "the"
+            }
+          ],
+          "end_time": 137.26
+        },
+        {
+          "start_time": 137.26,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "area"
+            },
+            {
+              "confidence": 0.24,
+              "word": "terror"
+            }
+          ],
+          "end_time": 137.62
+        },
+        {
+          "start_time": 137.62,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "the"
+            }
+          ],
+          "end_time": 137.73
+        },
+        {
+          "start_time": 137.73,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "presence"
+            }
+          ],
+          "end_time": 138.17
+        },
+        {
+          "start_time": 138.17,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "of"
+            }
+          ],
+          "end_time": 138.4
+        },
+        {
+          "start_time": 138.55,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "obstructive"
+            }
+          ],
+          "end_time": 138.94
+        },
+        {
+          "start_time": 138.94,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 139.1
+        },
+        {
+          "start_time": 139.1,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "apnea"
+            }
+          ],
+          "end_time": 139.62
+        },
+        {
+          "start_time": 139.69,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "patient"
+            }
+          ],
+          "end_time": 139.96
+        },
+        {
+          "start_time": 139.96,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "tolerated"
+            }
+          ],
+          "end_time": 140.42
+        },
+        {
+          "start_time": 140.42,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 140.83
+        },
+        {
+          "start_time": 140.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 141.2
+        },
+        {
+          "start_time": 141.2,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "well"
+            }
+          ],
+          "end_time": 141.38
+        },
+        {
+          "start_time": 141.38,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "and"
+            }
+          ],
+          "end_time": 141.47
+        },
+        {
+          "start_time": 141.47,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "appeared"
+            }
+          ],
+          "end_time": 141.72
+        },
+        {
+          "start_time": 141.72,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "to"
+            }
+          ],
+          "end_time": 141.81
+        },
+        {
+          "start_time": 141.81,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "be"
+            }
+          ],
+          "end_time": 141.88
+        },
+        {
+          "start_time": 141.88,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "effective"
+            }
+          ],
+          "end_time": 142.28
+        },
+        {
+          "start_time": 142.35,
+          "alternatives": [
+            {
+              "confidence": 0.72,
+              "word": "therapy"
+            },
+            {
+              "confidence": 0.12,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 142.81
+        },
+        {
+          "start_time": 143.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 143.49
+        },
+        {
+          "start_time": 143.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "titration"
+            }
+          ],
+          "end_time": 144.01
+        },
+        {
+          "start_time": 144.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 144.14
+        },
+        {
+          "start_time": 144.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "adequate"
+            }
+          ],
+          "end_time": 144.65
+        },
+        {
+          "start_time": 144.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "given"
+            }
+          ],
+          "end_time": 145.05
+        },
+        {
+          "start_time": 145.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 145.59
+        },
+        {
+          "start_time": 145.59,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "absence"
+            }
+          ],
+          "end_time": 146.07
+        },
+        {
+          "start_time": 146.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 146.18
+        },
+        {
+          "start_time": 146.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "supine"
+            }
+          ],
+          "end_time": 146.73
+        },
+        {
+          "start_time": 147.01,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "stage"
+            }
+          ],
+          "end_time": 147.48
+        },
+        {
+          "start_time": 147.48,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "R."
+            }
+          ],
+          "end_time": 147.67
+        },
+        {
+          "start_time": 147.67,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 148.03
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.79,
+          "transcript": "seventeen centimeter slash P. tab thirteen salaries HDL at this pressure respiratory events and desaturations were reduced apnea hypopnea index was one point one per hour after titration hemostasis saturation of the ten percent expire interpretation this area the presence of obstructive sleep apnea patient tolerated bipap therapy well and appeared to be effective therapy bipap titration was adequate given the absence of supine stage R. sleep "
+        },
+        {
+          "transcript": "seventeen centimeter slash P. tab thirteen salaries HDL at this pressure respiratory events and desaturations were reduced apnea hypopnea index of one point one per hour after titration hemostasis saturation of the ten percent expire interpretation this area the presence of obstructive sleep apnea patient tolerated bipap therapy well and appeared to be effective therapy bipap titration was adequate given the absence of supine stage R. sleep "
+        },
+        {
+          "transcript": "seventeen centimeter slash T. tab thirteen salaries HDL at this pressure respiratory events and desaturations were reduced apnea hypopnea index was one point one per hour after titration hemostasis saturation of the ten percent expire interpretation this area the presence of obstructive sleep apnea patient tolerated bipap therapy well and appeared to be effective therapy bipap titration was adequate given the absence of supine stage R. sleep "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 149.07,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "prolonged"
+            }
+          ],
+          "end_time": 149.51
+        },
+        {
+          "start_time": 149.51,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "oxygen"
+            }
+          ],
+          "end_time": 149.99
+        },
+        {
+          "start_time": 149.99,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "desaturations"
+            }
+          ],
+          "end_time": 150.75
+        },
+        {
+          "start_time": 150.75,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "were"
+            }
+          ],
+          "end_time": 150.87
+        },
+        {
+          "start_time": 150.87,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "noted"
+            }
+          ],
+          "end_time": 151.2
+        },
+        {
+          "start_time": 151.2,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "suggestive"
+            }
+          ],
+          "end_time": 151.75
+        },
+        {
+          "start_time": 151.75,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "of"
+            }
+          ],
+          "end_time": 151.9
+        },
+        {
+          "start_time": 151.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "under"
+            }
+          ],
+          "end_time": 152.16
+        },
+        {
+          "start_time": 152.16,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "car"
+            },
+            {
+              "confidence": 0.13,
+              "word": "Kerr"
+            }
+          ],
+          "end_time": 152.51
+        },
+        {
+          "start_time": 152.56,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "underlying"
+            }
+          ],
+          "end_time": 153.05
+        },
+        {
+          "start_time": 153.05,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "cardiopulmonary"
+            }
+          ],
+          "end_time": 153.8
+        },
+        {
+          "start_time": 153.8,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "disease"
+            }
+          ],
+          "end_time": 154.29
+        },
+        {
+          "start_time": 154.32,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "aside"
+            }
+          ],
+          "end_time": 154.76
+        },
+        {
+          "start_time": 154.76,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "with"
+            }
+          ],
+          "end_time": 154.9
+        },
+        {
+          "start_time": 155.04,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "patient's"
+            }
+          ],
+          "end_time": 155.49
+        },
+        {
+          "start_time": 156.93,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "positional"
+            }
+          ],
+          "end_time": 157.29
+        },
+        {
+          "start_time": 157.29,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 157.65
+        },
+        {
+          "start_time": 157.65,
+          "alternatives": [
+            {
+              "confidence": 0.48,
+              "word": "one"
+            },
+            {
+              "confidence": 0.29,
+              "word": "white"
+            }
+          ],
+          "end_time": 157.87
+        },
+        {
+          "start_time": 159.65,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "caution"
+            }
+          ],
+          "end_time": 160.07
+        },
+        {
+          "start_time": 160.07,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "while"
+            }
+          ],
+          "end_time": 160.18
+        },
+        {
+          "start_time": 160.18,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "operating"
+            }
+          ],
+          "end_time": 160.49
+        },
+        {
+          "start_time": 160.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "machinery"
+            }
+          ],
+          "end_time": 160.82
+        },
+        {
+          "start_time": 160.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 160.91
+        },
+        {
+          "start_time": 160.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "driving"
+            }
+          ],
+          "end_time": 161.21
+        },
+        {
+          "start_time": 161.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 161.28
+        },
+        {
+          "start_time": 161.28,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "advised"
+            }
+          ],
+          "end_time": 161.77
+        },
+        {
+          "start_time": 162.31,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "the"
+            }
+          ],
+          "end_time": 162.44
+        },
+        {
+          "start_time": 162.44,
+          "alternatives": [
+            {
+              "confidence": 0.43,
+              "word": "awful"
+            },
+            {
+              "confidence": 0.23,
+              "word": "apple"
+            },
+            {
+              "confidence": 0.15,
+              "word": "optimal"
+            }
+          ],
+          "end_time": 162.81
+        },
+        {
+          "start_time": 162.81,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "transplanted"
+            }
+          ],
+          "end_time": 163.64
+        },
+        {
+          "start_time": 163.64,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "this"
+            }
+          ],
+          "end_time": 163.82
+        },
+        {
+          "start_time": 163.82,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "time"
+            }
+          ],
+          "end_time": 164.04
+        },
+        {
+          "start_time": 164.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "appears"
+            }
+          ],
+          "end_time": 164.35
+        },
+        {
+          "start_time": 164.35,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 164.43
+        },
+        {
+          "start_time": 164.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "be"
+            }
+          ],
+          "end_time": 164.58
+        },
+        {
+          "start_time": 164.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 164.81
+        },
+        {
+          "start_time": 165.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 165.57
+        },
+        {
+          "start_time": 165.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 165.91
+        },
+        {
+          "start_time": 165.91,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "at"
+            }
+          ],
+          "end_time": 166.22
+        },
+        {
+          "start_time": 166.67,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "hi"
+            },
+            {
+              "confidence": 0.19,
+              "word": "I"
+            }
+          ],
+          "end_time": 166.88
+        },
+        {
+          "start_time": 166.88,
+          "alternatives": [
+            {
+              "confidence": 0.32,
+              "word": "past"
+            },
+            {
+              "confidence": 0.26,
+              "word": "have"
+            },
+            {
+              "confidence": 0.13,
+              "word": "passed"
+            }
+          ],
+          "end_time": 167.26
+        },
+        {
+          "start_time": 167.26,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "seventeen"
+            }
+          ],
+          "end_time": 167.69
+        },
+        {
+          "start_time": 170.07,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "two"
+            }
+          ],
+          "end_time": 170.23
+        },
+        {
+          "start_time": 170.23,
+          "alternatives": [
+            {
+              "confidence": 0.63,
+              "word": "O."
+            }
+          ],
+          "end_time": 170.31
+        },
+        {
+          "start_time": 170.31,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 170.79
+        },
+        {
+          "start_time": 171.34,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "he"
+            }
+          ],
+          "end_time": 171.45
+        },
+        {
+          "start_time": 171.45,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "denies"
+            }
+          ],
+          "end_time": 171.8
+        },
+        {
+          "start_time": 171.8,
+          "alternatives": [
+            {
+              "confidence": 0.51,
+              "word": "occasional"
+            },
+            {
+              "confidence": 0.21,
+              "word": "case"
+            }
+          ],
+          "end_time": 172.22
+        },
+        {
+          "start_time": 172.22,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "use"
+            }
+          ],
+          "end_time": 172.46
+        },
+        {
+          "start_time": 172.56,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "patient"
+            }
+          ],
+          "end_time": 172.93
+        },
+        {
+          "start_time": 172.93,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "comfort"
+            }
+          ],
+          "end_time": 173.28
+        },
+        {
+          "start_time": 173.28,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "and"
+            }
+          ],
+          "end_time": 173.37
+        },
+        {
+          "start_time": 173.37,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "compliance"
+            }
+          ],
+          "end_time": 173.99
+        },
+        {
+          "start_time": 174.41,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "A"
+            }
+          ],
+          "end_time": 174.5
+        },
+        {
+          "start_time": 174.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "respironics"
+            }
+          ],
+          "end_time": 175.18
+        },
+        {
+          "start_time": 175.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "full"
+            }
+          ],
+          "end_time": 175.36
+        },
+        {
+          "start_time": 175.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "face"
+            }
+          ],
+          "end_time": 175.71
+        },
+        {
+          "start_time": 175.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "mask"
+            }
+          ],
+          "end_time": 176.03
+        },
+        {
+          "start_time": 176.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 176.28
+        },
+        {
+          "start_time": 176.28,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "used"
+            }
+          ],
+          "end_time": 176.5
+        },
+        {
+          "start_time": 176.5,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "for"
+            }
+          ],
+          "end_time": 176.58
+        },
+        {
+          "start_time": 176.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "administration"
+            }
+          ],
+          "end_time": 177.2
+        },
+        {
+          "start_time": 177.2,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 177.27
+        },
+        {
+          "start_time": 177.27,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "positive"
+            }
+          ],
+          "end_time": 177.64
+        },
+        {
+          "start_time": 177.64,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 177.94
+        },
+        {
+          "start_time": 177.94,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 178.38
+        },
+        {
+          "start_time": 178.38,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "for"
+            }
+          ],
+          "end_time": 178.64
+        },
+        {
+          "start_time": 178.64,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "the"
+            }
+          ],
+          "end_time": 178.86
+        },
+        {
+          "start_time": 178.86,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "indicated"
+            }
+          ],
+          "end_time": 179.46
+        },
+        {
+          "start_time": 179.46,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "nightly"
+            }
+          ],
+          "end_time": 179.76
+        },
+        {
+          "start_time": 179.76,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "use"
+            }
+          ],
+          "end_time": 179.93
+        },
+        {
+          "start_time": 179.93,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 180.02
+        },
+        {
+          "start_time": 180.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 180.46
+        },
+        {
+          "start_time": 180.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 180.77
+        },
+        {
+          "start_time": 180.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 180.86
+        },
+        {
+          "start_time": 180.86,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "suggested"
+            }
+          ],
+          "end_time": 181.47
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.82,
+          "transcript": "prolonged oxygen desaturations were noted suggestive of under car underlying cardiopulmonary disease aside with the patient's imagination reduction positional therapy one block hall staff uses recommended caution while operating machinery and driving is advised the awful transplanted this time appears to be with bipap therapy at hi past seventeen centimeters slash untapped thirteen centimeters H. two O. pressure he denies occasional use for patient comfort and compliance A respironics full face mask was used for administration of positive pressure therapy for the indicated nightly use of bipap therapy is suggested six five "
+        },
+        {
+          "transcript": "prolonged oxygen desaturations were noted suggestive of under car underlying cardiopulmonary disease aside with the patient's imagination reduction positional therapy one block hall staff uses recommended caution while operating machinery and driving is advised the awful transplanted this time appears to be with bipap therapy at hi past seventeen centimeter slash untapped thirteen centimeters H. two O. pressure he denies occasional use for patient comfort and compliance A respironics full face mask was used for administration of positive pressure therapy for the indicated nightly use of bipap therapy is suggested six five "
+        },
+        {
+          "transcript": "prolonged oxygen desaturations were noted suggestive of under car underlying cardiopulmonary disease aside with the patient's imagination reduction positional therapy one block hall staff uses recommended caution while operating machinery and driving is advised the awful transplanted this time appears to be with bipap therapy at hi past seventeen centimeter slashing pap thirteen centimeters H. two O. pressure he denies occasional use for patient comfort and compliance A respironics full face mask was used for administration of positive pressure therapy for the indicated nightly use of bipap therapy is suggested six five "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 183.33,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "with"
+            },
+            {
+              "confidence": 0.42,
+              "word": "without"
+            }
+          ],
+          "end_time": 183.67
+        },
+        {
+          "start_time": 183.67,
+          "alternatives": [
+            {
+              "confidence": 0.5,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 184.05
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.46,
+          "transcript": "without "
+        },
+        {
+          "transcript": "with %HESITATION "
+        },
+        {
+          "transcript": "without a "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 185.05,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "presence"
+            }
+          ],
+          "end_time": 185.48
+        },
+        {
+          "start_time": 185.51,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "of"
+            }
+          ],
+          "end_time": 185.78
+        },
+        {
+          "start_time": 185.83,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 186.04
+        },
+        {
+          "start_time": 186.04,
+          "alternatives": [
+            {
+              "confidence": 0.44,
+              "word": "prolonged"
+            },
+            {
+              "confidence": 0.29,
+              "word": "prolong"
+            }
+          ],
+          "end_time": 186.71
+        },
+        {
+          "start_time": 187.07,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 187.4
+        },
+        {
+          "start_time": 187.78,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "oxygen"
+            }
+          ],
+          "end_time": 188.33
+        },
+        {
+          "start_time": 188.33,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "desaturations"
+            }
+          ],
+          "end_time": 189.51
+        },
+        {
+          "start_time": 189.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "despite"
+            }
+          ],
+          "end_time": 190.04
+        },
+        {
+          "start_time": 190.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bipap"
+            }
+          ],
+          "end_time": 190.69
+        },
+        {
+          "start_time": 190.69,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "therapy"
+            }
+          ],
+          "end_time": 191.22
+        },
+        {
+          "start_time": 191.61,
+          "alternatives": [
+            {
+              "confidence": 0.79,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 191.91
+        },
+        {
+          "start_time": 191.97,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "not"
+            }
+          ],
+          "end_time": 192.24
+        },
+        {
+          "start_time": 192.4,
+          "alternatives": [
+            {
+              "confidence": 0.62,
+              "word": "not"
+            }
+          ],
+          "end_time": 192.7
+        },
+        {
+          "start_time": 193.05,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "nocturnal"
+            }
+          ],
+          "end_time": 194.11
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.87,
+          "transcript": "presence of %HESITATION prolonged %HESITATION oxygen desaturations despite bipap therapy %HESITATION not not nocturnal "
+        },
+        {
+          "transcript": "presence of %HESITATION prolong %HESITATION oxygen desaturations despite bipap therapy %HESITATION not not nocturnal "
+        },
+        {
+          "transcript": "presence of %HESITATION prolongs %HESITATION oxygen desaturations despite bipap therapy %HESITATION not not nocturnal "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 194.95,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "overnight"
+            }
+          ],
+          "end_time": 195.51
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.63,
+          "transcript": "overnight "
+        },
+        {
+          "transcript": "over night "
+        },
+        {
+          "transcript": "over ninety "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 199.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pulse"
+            }
+          ],
+          "end_time": 199.31
+        },
+        {
+          "start_time": 199.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "oximetry"
+            }
+          ],
+          "end_time": 199.97
+        },
+        {
+          "start_time": 199.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 200.1
+        },
+        {
+          "start_time": 200.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "home"
+            }
+          ],
+          "end_time": 200.48
+        },
+        {
+          "start_time": 200.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 200.96
+        },
+        {
+          "start_time": 200.96,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "suggested"
+            }
+          ],
+          "end_time": 201.69
+        },
+        {
+          "start_time": 201.96,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "to"
+            }
+          ],
+          "end_time": 202.08
+        },
+        {
+          "start_time": 202.08,
+          "alternatives": [
+            {
+              "confidence": 0.82,
+              "word": "determine"
+            }
+          ],
+          "end_time": 202.78
+        },
+        {
+          "start_time": 203.12,
+          "alternatives": [
+            {
+              "confidence": 0.61,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 203.49
+        },
+        {
+          "start_time": 203.6,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "nocturnal"
+            }
+          ],
+          "end_time": 204.36
+        },
+        {
+          "start_time": 205.05,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "oxygen"
+            }
+          ],
+          "end_time": 205.86
+        },
+        {
+          "start_time": 205.97,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "needs"
+            }
+          ],
+          "end_time": 206.54
+        },
+        {
+          "start_time": 206.96,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "completing"
+            }
+          ],
+          "end_time": 207.47
+        },
+        {
+          "start_time": 207.47,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 207.67
+        },
+        {
+          "start_time": 207.7,
+          "alternatives": [
+            {
+              "confidence": 0.53,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 208.03
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.92,
+          "transcript": "pulse oximetry at home is suggested to determine %HESITATION nocturnal oxygen needs completing %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "pulse oximetry at home is suggested to determine %HESITATION nocturnal oxygen needs some playing %HESITATION %HESITATION "
+        },
+        {
+          "transcript": "pulse oximetry at home is suggested to determine if %HESITATION nocturnal oxygen needs completing %HESITATION %HESITATION "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}
