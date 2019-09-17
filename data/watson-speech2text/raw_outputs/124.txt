@@ -1,0 +1,2617 @@
+{
+  "results": [
+    {
+      "word_alternatives": [
+        {
+          "start_time": 6.95,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "seen"
+            }
+          ],
+          "end_time": 7.14
+        },
+        {
+          "start_time": 7.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "today"
+            }
+          ],
+          "end_time": 7.4
+        },
+        {
+          "start_time": 7.4,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "on"
+            }
+          ],
+          "end_time": 7.58
+        },
+        {
+          "start_time": 7.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rounds"
+            }
+          ],
+          "end_time": 8.15
+        },
+        {
+          "start_time": 8.15,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "she"
+            }
+          ],
+          "end_time": 8.3
+        },
+        {
+          "start_time": 8.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "has"
+            }
+          ],
+          "end_time": 8.67
+        },
+        {
+          "start_time": 9.0,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "significant"
+            }
+          ],
+          "end_time": 9.67
+        },
+        {
+          "start_time": 9.67,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "swelling"
+            }
+          ],
+          "end_time": 10.39
+        },
+        {
+          "start_time": 10.43,
+          "alternatives": [
+            {
+              "confidence": 0.86,
+              "word": "and"
+            }
+          ],
+          "end_time": 10.93
+        },
+        {
+          "start_time": 11.36,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 11.75
+        },
+        {
+          "start_time": 11.75,
+          "alternatives": [
+            {
+              "confidence": 0.75,
+              "word": "drainage"
+            }
+          ],
+          "end_time": 12.45
+        },
+        {
+          "start_time": 12.48,
+          "alternatives": [
+            {
+              "confidence": 0.55,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.14,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 12.78
+        },
+        {
+          "start_time": 12.95,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "from"
+            }
+          ],
+          "end_time": 13.16
+        },
+        {
+          "start_time": 13.16,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "a"
+            }
+          ],
+          "end_time": 13.25
+        },
+        {
+          "start_time": 13.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "wound"
+            }
+          ],
+          "end_time": 13.76
+        },
+        {
+          "start_time": 14.07,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "or"
+            }
+          ],
+          "end_time": 14.2
+        },
+        {
+          "start_time": 14.2,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "possibly"
+            }
+          ],
+          "end_time": 14.9
+        },
+        {
+          "start_time": 14.93,
+          "alternatives": [
+            {
+              "confidence": 0.83,
+              "word": "super"
+            }
+          ],
+          "end_time": 15.39
+        },
+        {
+          "start_time": 15.55,
+          "alternatives": [
+            {
+              "confidence": 0.74,
+              "word": "or"
+            }
+          ],
+          "end_time": 15.65
+        },
+        {
+          "start_time": 15.65,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "possible"
+            }
+          ],
+          "end_time": 16.13
+        },
+        {
+          "start_time": 16.13,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "abscess"
+            }
+          ],
+          "end_time": 16.71
+        },
+        {
+          "start_time": 16.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "at"
+            }
+          ],
+          "end_time": 16.82
+        },
+        {
+          "start_time": 16.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "her"
+            }
+          ],
+          "end_time": 17.04
+        },
+        {
+          "start_time": 17.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "left"
+            }
+          ],
+          "end_time": 17.71
+        },
+        {
+          "start_time": 17.71,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "elbow"
+            }
+          ],
+          "end_time": 18.41
+        },
+        {
+          "start_time": 18.44,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "doppler"
+            }
+          ],
+          "end_time": 18.84
+        },
+        {
+          "start_time": 18.84,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "was"
+            }
+          ],
+          "end_time": 19.01
+        },
+        {
+          "start_time": 19.01,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "done"
+            }
+          ],
+          "end_time": 19.25
+        },
+        {
+          "start_time": 19.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "today"
+            }
+          ],
+          "end_time": 19.61
+        },
+        {
+          "start_time": 19.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "which"
+            }
+          ],
+          "end_time": 19.81
+        },
+        {
+          "start_time": 19.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "did"
+            }
+          ],
+          "end_time": 19.98
+        },
+        {
+          "start_time": 19.98,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "not"
+            }
+          ],
+          "end_time": 20.22
+        },
+        {
+          "start_time": 20.25,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "show"
+            }
+          ],
+          "end_time": 20.46
+        },
+        {
+          "start_time": 20.46,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "DVT"
+            }
+          ],
+          "end_time": 21.28
+        },
+        {
+          "start_time": 21.65,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "she"
+            }
+          ],
+          "end_time": 21.82
+        },
+        {
+          "start_time": 21.82,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "was"
+            }
+          ],
+          "end_time": 21.96
+        },
+        {
+          "start_time": 21.96,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "started"
+            }
+          ],
+          "end_time": 22.31
+        },
+        {
+          "start_time": 22.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "on"
+            }
+          ],
+          "end_time": 22.49
+        },
+        {
+          "start_time": 22.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "oral"
+            }
+          ],
+          "end_time": 22.79
+        },
+        {
+          "start_time": 22.79,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "antibiotics"
+            }
+          ],
+          "end_time": 23.73
+        },
+        {
+          "start_time": 24.36,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 24.65
+        },
+        {
+          "start_time": 24.65,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "last"
+            }
+          ],
+          "end_time": 25.19
+        },
+        {
+          "start_time": 25.19,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "week"
+            }
+          ],
+          "end_time": 25.63
+        },
+        {
+          "start_time": 26.1,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 26.41
+        },
+        {
+          "start_time": 26.41,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "with"
+            }
+          ],
+          "end_time": 26.67
+        },
+        {
+          "start_time": 27.22,
+          "alternatives": [
+            {
+              "confidence": 0.8,
+              "word": "wound"
+            }
+          ],
+          "end_time": 27.51
+        },
+        {
+          "start_time": 27.51,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "care"
+            }
+          ],
+          "end_time": 27.7
+        },
+        {
+          "start_time": 27.7,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "is"
+            }
+          ],
+          "end_time": 27.87
+        },
+        {
+          "start_time": 27.87,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "to"
+            }
+          ],
+          "end_time": 27.99
+        },
+        {
+          "start_time": 27.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "visit"
+            }
+          ],
+          "end_time": 28.34
+        },
+        {
+          "start_time": 28.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 28.52
+        },
+        {
+          "start_time": 28.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "her"
+            }
+          ],
+          "end_time": 28.79
+        },
+        {
+          "start_time": 29.14,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "regarding"
+            }
+          ],
+          "end_time": 29.65
+        },
+        {
+          "start_time": 29.65,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "in"
+            }
+          ],
+          "end_time": 29.73
+        },
+        {
+          "start_time": 29.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 29.88
+        },
+        {
+          "start_time": 29.88,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "area"
+            }
+          ],
+          "end_time": 30.51
+        },
+        {
+          "start_time": 30.88,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 31.07
+        },
+        {
+          "start_time": 31.07,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "she"
+            }
+          ],
+          "end_time": 31.6
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.97,
+          "transcript": "seen today on rounds she has significant swelling and %HESITATION drainage from a wound or possibly super or possible abscess at her left elbow doppler was done today which did not show DVT she was started on oral antibiotics %HESITATION last week %HESITATION with wound care is to visit with her regarding in the area %HESITATION she "
+        },
+        {
+          "transcript": "seen today on rounds she has significant swelling and %HESITATION drainage %HESITATION from a wound or possibly super or possible abscess at her left elbow doppler was done today which did not show DVT she was started on oral antibiotics %HESITATION last week %HESITATION with wound care is to visit with her regarding in the area %HESITATION she "
+        },
+        {
+          "transcript": "seen today on rounds she has significant swelling and %HESITATION drainage from a wound or possibly a super or possible abscess at her left elbow doppler was done today which did not show DVT she was started on oral antibiotics %HESITATION last week %HESITATION with wound care is to visit with her regarding in the area %HESITATION she "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 32.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "does"
+            }
+          ],
+          "end_time": 32.9
+        },
+        {
+          "start_time": 32.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "have"
+            }
+          ],
+          "end_time": 33.16
+        },
+        {
+          "start_time": 33.16,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "significant"
+            }
+          ],
+          "end_time": 33.99
+        },
+        {
+          "start_time": 33.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 34.18
+        },
+        {
+          "start_time": 34.18,
+          "alternatives": [
+            {
+              "confidence": 0.59,
+              "word": "period"
+            },
+            {
+              "confidence": 0.24,
+              "word": "Pureland"
+            }
+          ],
+          "end_time": 34.71
+        },
+        {
+          "start_time": 34.73,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "drainage"
+            }
+          ],
+          "end_time": 35.18
+        },
+        {
+          "start_time": 35.18,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "at"
+            }
+          ],
+          "end_time": 35.29
+        },
+        {
+          "start_time": 35.29,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "this"
+            }
+          ],
+          "end_time": 35.51
+        },
+        {
+          "start_time": 35.51,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "time"
+            }
+          ],
+          "end_time": 36.11
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.93,
+          "transcript": "does have significant %HESITATION period drainage at this time "
+        },
+        {
+          "transcript": "does have significant %HESITATION Pureland drainage at this time "
+        },
+        {
+          "transcript": "does have significant %HESITATION period and drainage at this time "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 42.89,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "review"
+            }
+          ],
+          "end_time": 43.25
+        },
+        {
+          "start_time": 43.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 43.36
+        },
+        {
+          "start_time": 43.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "systems"
+            }
+          ],
+          "end_time": 43.9
+        },
+        {
+          "start_time": 43.9,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "includes"
+            }
+          ],
+          "end_time": 44.53
+        },
+        {
+          "start_time": 44.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 44.69
+        },
+        {
+          "start_time": 44.69,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "pain"
+            }
+          ],
+          "end_time": 45.28
+        },
+        {
+          "start_time": 45.68,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "and"
+            }
+          ],
+          "end_time": 45.99
+        },
+        {
+          "start_time": 45.99,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "%HESITATION"
+            },
+            {
+              "confidence": 0.11,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 46.15
+        },
+        {
+          "start_time": 46.15,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 46.61
+        },
+        {
+          "start_time": 46.61,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "edema"
+            }
+          ],
+          "end_time": 47.13
+        },
+        {
+          "start_time": 47.46,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "physical"
+            }
+          ],
+          "end_time": 47.76
+        },
+        {
+          "start_time": 47.76,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "exam"
+            }
+          ],
+          "end_time": 48.12
+        },
+        {
+          "start_time": 48.12,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "vital"
+            }
+          ],
+          "end_time": 48.31
+        },
+        {
+          "start_time": 48.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "signs"
+            }
+          ],
+          "end_time": 48.58
+        },
+        {
+          "start_time": 48.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "blood"
+            }
+          ],
+          "end_time": 48.78
+        },
+        {
+          "start_time": 48.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pressure"
+            }
+          ],
+          "end_time": 49.06
+        },
+        {
+          "start_time": 49.06,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 49.21
+        },
+        {
+          "start_time": 49.21,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "thirty"
+            }
+          ],
+          "end_time": 49.64
+        },
+        {
+          "start_time": 49.93,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "over"
+            }
+          ],
+          "end_time": 50.21
+        },
+        {
+          "start_time": 50.21,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "fifty"
+            }
+          ],
+          "end_time": 50.56
+        },
+        {
+          "start_time": 50.56,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "three"
+            }
+          ],
+          "end_time": 50.84
+        },
+        {
+          "start_time": 50.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "pulse"
+            }
+          ],
+          "end_time": 51.14
+        },
+        {
+          "start_time": 51.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ninety"
+            }
+          ],
+          "end_time": 51.34
+        },
+        {
+          "start_time": 51.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 51.52
+        },
+        {
+          "start_time": 51.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "respirations"
+            }
+          ],
+          "end_time": 52.04
+        },
+        {
+          "start_time": 52.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "twenty"
+            }
+          ],
+          "end_time": 52.46
+        },
+        {
+          "start_time": 52.79,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "temperature"
+            }
+          ],
+          "end_time": 53.14
+        },
+        {
+          "start_time": 53.14,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "ninety"
+            }
+          ],
+          "end_time": 53.41
+        },
+        {
+          "start_time": 53.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "seven"
+            }
+          ],
+          "end_time": 53.73
+        },
+        {
+          "start_time": 53.73,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "point"
+            }
+          ],
+          "end_time": 54.04
+        },
+        {
+          "start_time": 54.04,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nine"
+            }
+          ],
+          "end_time": 54.3
+        },
+        {
+          "start_time": 54.3,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "degrees"
+            }
+          ],
+          "end_time": 55.05
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "review of systems includes %HESITATION pain and %HESITATION chronic edema physical exam vital signs blood pressure one thirty over fifty three pulse ninety one respirations twenty temperature ninety seven point nine degrees "
+        },
+        {
+          "transcript": "review of systems includes %HESITATION pain and chronic edema physical exam vital signs blood pressure one thirty over fifty three pulse ninety one respirations twenty temperature ninety seven point nine degrees "
+        },
+        {
+          "transcript": "review of systems includes %HESITATION pain and %HESITATION of chronic edema physical exam vital signs blood pressure one thirty over fifty three pulse ninety one respirations twenty temperature ninety seven point nine degrees "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 59.81,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "HEENT"
+            }
+          ],
+          "end_time": 60.61
+        },
+        {
+          "start_time": 60.61,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "no"
+            },
+            {
+              "confidence": 0.11,
+              "word": "No"
+            }
+          ],
+          "end_time": 60.77
+        },
+        {
+          "start_time": 60.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "JVD"
+            }
+          ],
+          "end_time": 61.21
+        },
+        {
+          "start_time": 61.21,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "noted"
+            }
+          ],
+          "end_time": 61.53
+        },
+        {
+          "start_time": 61.56,
+          "alternatives": [
+            {
+              "confidence": 0.93,
+              "word": "heart"
+            }
+          ],
+          "end_time": 61.77
+        },
+        {
+          "start_time": 61.77,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "regular"
+            }
+          ],
+          "end_time": 62.03
+        },
+        {
+          "start_time": 62.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rate"
+            }
+          ],
+          "end_time": 62.19
+        },
+        {
+          "start_time": 62.19,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 62.28
+        },
+        {
+          "start_time": 62.28,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "rhythm"
+            }
+          ],
+          "end_time": 62.57
+        },
+        {
+          "start_time": 62.6,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "lungs"
+            }
+          ],
+          "end_time": 62.98
+        },
+        {
+          "start_time": 62.98,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "no"
+            }
+          ],
+          "end_time": 63.11
+        },
+        {
+          "start_time": 63.11,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "wheezes"
+            }
+          ],
+          "end_time": 63.42
+        },
+        {
+          "start_time": 63.42,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 63.51
+        },
+        {
+          "start_time": 63.51,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rhonchi"
+            }
+          ],
+          "end_time": 63.79
+        },
+        {
+          "start_time": 63.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "are"
+            }
+          ],
+          "end_time": 63.95
+        },
+        {
+          "start_time": 63.95,
+          "alternatives": [
+            {
+              "confidence": 0.88,
+              "word": "noted"
+            }
+          ],
+          "end_time": 64.48
+        },
+        {
+          "start_time": 64.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "abdomen"
+            }
+          ],
+          "end_time": 65.25
+        },
+        {
+          "start_time": 65.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 65.37
+        },
+        {
+          "start_time": 65.37,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "soft"
+            }
+          ],
+          "end_time": 65.83
+        },
+        {
+          "start_time": 65.83,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nondistended"
+            }
+          ],
+          "end_time": 66.34
+        },
+        {
+          "start_time": 66.34,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "nontender"
+            }
+          ],
+          "end_time": 66.92
+        },
+        {
+          "start_time": 66.92,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 67.13
+        },
+        {
+          "start_time": 67.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "positive"
+            }
+          ],
+          "end_time": 67.55
+        },
+        {
+          "start_time": 67.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bowel"
+            }
+          ],
+          "end_time": 67.72
+        },
+        {
+          "start_time": 67.72,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "sounds"
+            }
+          ],
+          "end_time": 68.01
+        },
+        {
+          "start_time": 68.01,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "times"
+            }
+          ],
+          "end_time": 68.29
+        },
+        {
+          "start_time": 68.29,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "four"
+            }
+          ],
+          "end_time": 68.71
+        },
+        {
+          "start_time": 69.18,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 69.78
+        },
+        {
+          "start_time": 69.78,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 69.95
+        },
+        {
+          "start_time": 69.95,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "edema"
+            }
+          ],
+          "end_time": 70.39
+        },
+        {
+          "start_time": 70.39,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 70.52
+        },
+        {
+          "start_time": 70.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "clubbing"
+            }
+          ],
+          "end_time": 70.87
+        },
+        {
+          "start_time": 70.87,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "or"
+            }
+          ],
+          "end_time": 70.97
+        },
+        {
+          "start_time": 70.97,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "cyanosis"
+            }
+          ],
+          "end_time": 71.61
+        },
+        {
+          "start_time": 71.61,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 71.71
+        },
+        {
+          "start_time": 71.71,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 71.8
+        },
+        {
+          "start_time": 71.8,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 72.27
+        },
+        {
+          "start_time": 72.35,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "noted"
+            }
+          ],
+          "end_time": 72.72
+        },
+        {
+          "start_time": 73.43,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "skin"
+            }
+          ],
+          "end_time": 73.96
+        },
+        {
+          "start_time": 73.96,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 74.15
+        },
+        {
+          "start_time": 74.15,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rashes"
+            }
+          ],
+          "end_time": 74.71
+        },
+        {
+          "start_time": 74.71,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "noted"
+            }
+          ],
+          "end_time": 75.25
+        },
+        {
+          "start_time": 75.63,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "assessment"
+            }
+          ],
+          "end_time": 76.19
+        },
+        {
+          "start_time": 76.19,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "or"
+            },
+            {
+              "confidence": 0.27,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 76.37
+        },
+        {
+          "start_time": 76.37,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "make"
+            }
+          ],
+          "end_time": 76.54
+        },
+        {
+          "start_time": 76.54,
+          "alternatives": [
+            {
+              "confidence": 0.78,
+              "word": "that"
+            }
+          ],
+          "end_time": 76.67
+        },
+        {
+          "start_time": 76.67,
+          "alternatives": [
+            {
+              "confidence": 0.43,
+              "word": "and"
+            },
+            {
+              "confidence": 0.16,
+              "word": "in"
+            },
+            {
+              "confidence": 0.13,
+              "word": "<eps>"
+            }
+          ],
+          "end_time": 76.81
+        },
+        {
+          "start_time": 76.81,
+          "alternatives": [
+            {
+              "confidence": 0.76,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 77.11
+        },
+        {
+          "start_time": 77.24,
+          "alternatives": [
+            {
+              "confidence": 0.66,
+              "word": "made"
+            }
+          ],
+          "end_time": 77.52
+        },
+        {
+          "start_time": 77.52,
+          "alternatives": [
+            {
+              "confidence": 0.71,
+              "word": "extremities"
+            }
+          ],
+          "end_time": 78.23
+        },
+        {
+          "start_time": 78.46,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "patient"
+            }
+          ],
+          "end_time": 78.73
+        },
+        {
+          "start_time": 78.73,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "has"
+            }
+          ],
+          "end_time": 78.85
+        },
+        {
+          "start_time": 78.85,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "swelling"
+            }
+          ],
+          "end_time": 79.3
+        },
+        {
+          "start_time": 79.3,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 79.41
+        },
+        {
+          "start_time": 79.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 79.55
+        },
+        {
+          "start_time": 79.55,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "left"
+            }
+          ],
+          "end_time": 79.95
+        },
+        {
+          "start_time": 79.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "arm"
+            }
+          ],
+          "end_time": 80.31
+        },
+        {
+          "start_time": 80.31,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 80.42
+        },
+        {
+          "start_time": 80.42,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "forearm"
+            }
+          ],
+          "end_time": 81.06
+        },
+        {
+          "start_time": 81.38,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 81.56
+        },
+        {
+          "start_time": 81.56,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "there"
+            }
+          ],
+          "end_time": 81.74
+        },
+        {
+          "start_time": 81.74,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "is"
+            }
+          ],
+          "end_time": 81.91
+        },
+        {
+          "start_time": 81.91,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 82.1
+        },
+        {
+          "start_time": 82.1,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "and"
+            }
+          ],
+          "end_time": 82.37
+        },
+        {
+          "start_time": 82.44,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "reddish"
+            }
+          ],
+          "end_time": 82.95
+        },
+        {
+          "start_time": 83.35,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "abscess"
+            }
+          ],
+          "end_time": 83.96
+        },
+        {
+          "start_time": 83.96,
+          "alternatives": [
+            {
+              "confidence": 0.96,
+              "word": "of"
+            }
+          ],
+          "end_time": 84.03
+        },
+        {
+          "start_time": 84.03,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 84.13
+        },
+        {
+          "start_time": 84.13,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "left"
+            }
+          ],
+          "end_time": 84.43
+        },
+        {
+          "start_time": 84.43,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "elbow"
+            }
+          ],
+          "end_time": 84.97
+        },
+        {
+          "start_time": 85.4,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 85.75
+        },
+        {
+          "start_time": 85.75,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "with"
+            }
+          ],
+          "end_time": 86.09
+        },
+        {
+          "start_time": 86.09,
+          "alternatives": [
+            {
+              "confidence": 0.77,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 86.34
+        },
+        {
+          "start_time": 86.34,
+          "alternatives": [
+            {
+              "confidence": 0.68,
+              "word": "indicated"
+            }
+          ],
+          "end_time": 86.94
+        },
+        {
+          "start_time": 87.01,
+          "alternatives": [
+            {
+              "confidence": 0.81,
+              "word": "with"
+            }
+          ],
+          "end_time": 87.32
+        },
+        {
+          "start_time": 87.32,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 87.67
+        },
+        {
+          "start_time": 87.7,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "marked"
+            }
+          ],
+          "end_time": 88.11
+        },
+        {
+          "start_time": 88.11,
+          "alternatives": [
+            {
+              "confidence": 0.84,
+              "word": "surrounding"
+            }
+          ],
+          "end_time": 88.57
+        },
+        {
+          "start_time": 88.57,
+          "alternatives": [
+            {
+              "confidence": 0.85,
+              "word": "edema"
+            }
+          ],
+          "end_time": 89.11
+        },
+        {
+          "start_time": 89.61,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 89.91
+        },
+        {
+          "start_time": 89.91,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "there"
+            }
+          ],
+          "end_time": 90.13
+        },
+        {
+          "start_time": 90.13,
+          "alternatives": [
+            {
+              "confidence": 0.9,
+              "word": "is"
+            }
+          ],
+          "end_time": 90.37
+        },
+        {
+          "start_time": 90.37,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "of"
+            }
+          ],
+          "end_time": 90.64
+        },
+        {
+          "start_time": 91.3,
+          "alternatives": [
+            {
+              "confidence": 0.73,
+              "word": "mucous"
+            },
+            {
+              "confidence": 0.15,
+              "word": "mucus"
+            }
+          ],
+          "end_time": 91.64
+        },
+        {
+          "start_time": 91.67,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "there"
+            }
+          ],
+          "end_time": 91.83
+        },
+        {
+          "start_time": 91.83,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "is"
+            }
+          ],
+          "end_time": 91.93
+        },
+        {
+          "start_time": 91.93,
+          "alternatives": [
+            {
+              "confidence": 0.97,
+              "word": "purulent"
+            }
+          ],
+          "end_time": 92.36
+        },
+        {
+          "start_time": 92.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "drainage"
+            }
+          ],
+          "end_time": 92.79
+        },
+        {
+          "start_time": 92.79,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "noted"
+            }
+          ],
+          "end_time": 93.09
+        },
+        {
+          "start_time": 93.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "from"
+            }
+          ],
+          "end_time": 93.29
+        },
+        {
+          "start_time": 93.29,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 93.38
+        },
+        {
+          "start_time": 93.38,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "site"
+            }
+          ],
+          "end_time": 93.81
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.96,
+          "transcript": "HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft nondistended nontender with positive bowel sounds times four extremities no edema or clubbing or cyanosis of the extremities is noted skin no rashes noted assessment or make that and %HESITATION made extremities patient has swelling of the left arm and forearm %HESITATION there is %HESITATION and reddish abscess of the left elbow %HESITATION with %HESITATION indicated with %HESITATION marked surrounding edema %HESITATION there is of me mucous there is purulent drainage noted from the site "
+        },
+        {
+          "transcript": "HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft nondistended nontender with positive bowel sounds times four extremities no edema or clubbing or cyanosis of the extremities noted skin no rashes noted assessment or make that and %HESITATION made extremities patient has swelling of the left arm and forearm %HESITATION there is %HESITATION and reddish abscess of the left elbow %HESITATION with %HESITATION indicated with %HESITATION marked surrounding edema %HESITATION there is of me mucous there is purulent drainage noted from the site "
+        },
+        {
+          "transcript": "HEENT no JVD noted heart regular rate and rhythm lungs no wheezes or rhonchi are noted abdomen is soft nondistended nontender with positive bowel sounds times four extremities no edema or clubbing or cyanosis of the extremities is noted skin no rashes noted assessment or make that in %HESITATION made extremities patient has swelling of the left arm and forearm %HESITATION there is %HESITATION and reddish abscess of the left elbow %HESITATION with %HESITATION indicated with %HESITATION marked surrounding edema %HESITATION there is of me mucous there is purulent drainage noted from the site "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 96.91,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "skin"
+            }
+          ],
+          "end_time": 97.47
+        },
+        {
+          "start_time": 97.47,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "%HESITATION"
+            }
+          ],
+          "end_time": 97.69
+        },
+        {
+          "start_time": 97.69,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "please"
+            }
+          ],
+          "end_time": 97.99
+        },
+        {
+          "start_time": 97.99,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "see"
+            }
+          ],
+          "end_time": 98.19
+        },
+        {
+          "start_time": 98.19,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "above"
+            }
+          ],
+          "end_time": 98.71
+        },
+        {
+          "start_time": 98.85,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "no"
+            }
+          ],
+          "end_time": 99.1
+        },
+        {
+          "start_time": 99.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "rash"
+            }
+          ],
+          "end_time": 99.52
+        },
+        {
+          "start_time": 99.52,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "otherwise"
+            }
+          ],
+          "end_time": 100.03
+        },
+        {
+          "start_time": 100.03,
+          "alternatives": [
+            {
+              "confidence": 0.87,
+              "word": "noted"
+            }
+          ],
+          "end_time": 100.54
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.98,
+          "transcript": "skin %HESITATION please see above no rash otherwise noted "
+        },
+        {
+          "transcript": "skin please see above no rash otherwise noted "
+        },
+        {
+          "transcript": "skin %HESITATION please see above no rash otherwise noted I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 102.7,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "assessment"
+            }
+          ],
+          "end_time": 103.25
+        },
+        {
+          "start_time": 103.25,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 103.47
+        },
+        {
+          "start_time": 103.47,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "one"
+            }
+          ],
+          "end_time": 103.91
+        },
+        {
+          "start_time": 103.91,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "abscess"
+            }
+          ],
+          "end_time": 104.49
+        },
+        {
+          "start_time": 104.49,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "of"
+            }
+          ],
+          "end_time": 104.57
+        },
+        {
+          "start_time": 104.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 104.66
+        },
+        {
+          "start_time": 104.66,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "left"
+            }
+          ],
+          "end_time": 104.97
+        },
+        {
+          "start_time": 104.97,
+          "alternatives": [
+            {
+              "confidence": 0.89,
+              "word": "elbow"
+            }
+          ],
+          "end_time": 105.63
+        },
+        {
+          "start_time": 106.1,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 106.36
+        },
+        {
+          "start_time": 106.36,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 106.58
+        },
+        {
+          "start_time": 106.58,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "generalized"
+            }
+          ],
+          "end_time": 107.17
+        },
+        {
+          "start_time": 107.17,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "edema"
+            }
+          ],
+          "end_time": 107.65
+        },
+        {
+          "start_time": 107.68,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "next"
+            }
+          ],
+          "end_time": 107.91
+        },
+        {
+          "start_time": 107.91,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "number"
+            }
+          ],
+          "end_time": 108.07
+        },
+        {
+          "start_time": 108.07,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "chronic"
+            }
+          ],
+          "end_time": 108.5
+        },
+        {
+          "start_time": 108.5,
+          "alternatives": [
+            {
+              "confidence": 0.92,
+              "word": "pain"
+            }
+          ],
+          "end_time": 109.0
+        },
+        {
+          "start_time": 109.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "next"
+            }
+          ],
+          "end_time": 109.84
+        },
+        {
+          "start_time": 109.84,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "number"
+            }
+          ],
+          "end_time": 110.04
+        },
+        {
+          "start_time": 110.04,
+          "alternatives": [
+            {
+              "confidence": 0.91,
+              "word": "dementia"
+            }
+          ],
+          "end_time": 110.7
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "assessment number one abscess of the left elbow next number generalized edema next number chronic pain next number dementia "
+        },
+        {
+          "transcript": "assessment number one abscess of the left elbow next number generalized edema next number chronic pain next number dementia I "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 117.19,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "plan"
+            }
+          ],
+          "end_time": 117.84
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.99,
+          "transcript": "plan "
+        },
+        {
+          "transcript": "plan I "
+        },
+        {
+          "transcript": "plan a "
+        }
+      ],
+      "final": true
+    },
+    {
+      "word_alternatives": [
+        {
+          "start_time": 119.26,
+          "alternatives": [
+            {
+              "confidence": 0.99,
+              "word": "add"
+            }
+          ],
+          "end_time": 119.54
+        },
+        {
+          "start_time": 119.54,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "bactrim"
+            }
+          ],
+          "end_time": 120.09
+        },
+        {
+          "start_time": 120.09,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "to"
+            }
+          ],
+          "end_time": 120.26
+        },
+        {
+          "start_time": 120.26,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 120.41
+        },
+        {
+          "start_time": 120.41,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "antibiotic"
+            }
+          ],
+          "end_time": 120.88
+        },
+        {
+          "start_time": 120.88,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "she"
+            }
+          ],
+          "end_time": 120.99
+        },
+        {
+          "start_time": 120.99,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "is"
+            }
+          ],
+          "end_time": 121.08
+        },
+        {
+          "start_time": 121.08,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "currently"
+            }
+          ],
+          "end_time": 121.53
+        },
+        {
+          "start_time": 121.53,
+          "alternatives": [
+            {
+              "confidence": 0.95,
+              "word": "on"
+            }
+          ],
+          "end_time": 122.01
+        },
+        {
+          "start_time": 122.23,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "check"
+            }
+          ],
+          "end_time": 122.53
+        },
+        {
+          "start_time": 122.53,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "CBC"
+            }
+          ],
+          "end_time": 123.02
+        },
+        {
+          "start_time": 123.02,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "and"
+            }
+          ],
+          "end_time": 123.17
+        },
+        {
+          "start_time": 123.17,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "BMP"
+            }
+          ],
+          "end_time": 123.57
+        },
+        {
+          "start_time": 123.57,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "in"
+            }
+          ],
+          "end_time": 123.69
+        },
+        {
+          "start_time": 123.69,
+          "alternatives": [
+            {
+              "confidence": 1.0,
+              "word": "the"
+            }
+          ],
+          "end_time": 123.75
+        },
+        {
+          "start_time": 123.75,
+          "alternatives": [
+            {
+              "confidence": 0.98,
+              "word": "morning"
+            }
+          ],
+          "end_time": 124.24
+        },
+        {
+          "start_time": 124.48,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "local"
+            }
+          ],
+          "end_time": 124.89
+        },
+        {
+          "start_time": 124.89,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "wound"
+            }
+          ],
+          "end_time": 125.19
+        },
+        {
+          "start_time": 125.19,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "care"
+            }
+          ],
+          "end_time": 125.64
+        },
+        {
+          "start_time": 125.94,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "wound"
+            }
+          ],
+          "end_time": 126.28
+        },
+        {
+          "start_time": 126.45,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "wound"
+            }
+          ],
+          "end_time": 126.74
+        },
+        {
+          "start_time": 126.74,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "care"
+            }
+          ],
+          "end_time": 126.92
+        },
+        {
+          "start_time": 126.92,
+          "alternatives": [
+            {
+              "confidence": 0.94,
+              "word": "to"
+            }
+          ],
+          "end_time": 127.07
+        },
+        {
+          "start_time": 127.07,
+          "alternatives": [
+            {
+              "confidence": 0.69,
+              "word": "see"
+            },
+            {
+              "confidence": 0.16,
+              "word": "sleep"
+            }
+          ],
+          "end_time": 127.27
+        }
+      ],
+      "alternatives": [
+        {
+          "confidence": 0.94,
+          "transcript": "add bactrim to the antibiotic she is currently on check CBC and BMP in the morning local wound care wound wound care to see to "
+        },
+        {
+          "transcript": "add bactrim to the antibiotic she is currently on check CBC and BMP in the morning local wound care wound wound care to see "
+        },
+        {
+          "transcript": "add bactrim to the antibiotic she is currently on check CBC and BMP in the morning local wound care wound wound care to see two "
+        }
+      ],
+      "final": true
+    }
+  ],
+  "result_index": 0,
+  "warnings": [
+    "Using previous version of base model, because your custom language and acoustic model has been built with it. Please note that this version will be supported only for a limited time. Consider upgrading your custom language and acoustic model to the new base model. If you do not do that you will be automatically switched to the base model when you use the non-upgraded custom model."
+  ]
+}
