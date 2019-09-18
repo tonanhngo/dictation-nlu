@@ -25,6 +25,8 @@ import networkx as nx
 import math
 import collections
 from collections import OrderedDict
+from collections import namedtuple
+DottedDict = namedtuple
 
 ## DECOMPOSITION
 from sklearn.decomposition import NMF
@@ -49,6 +51,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
+from plotly.subplots import make_subplots
 
 ## GENERAL FUNCTIONS 
 ### NORMALIZATION
@@ -286,13 +289,139 @@ NLU['apikey']         = apikey
 NLU['apiurl']         = apiurl
 NLU['version']        = '2019-07-12'
 NLU['features']       = Features(
-                        categories= CategoriesOptions(limit=4),
-                        concepts  = ConceptsOptions(limit=20),
-                        entities  = EntitiesOptions(limit=20),
-                        keywords  = KeywordsOptions(limit=20),
+                        categories= CategoriesOptions(),
+                        concepts  = ConceptsOptions(),
+                        entities  = EntitiesOptions(),
+                        keywords  = KeywordsOptions(),
                         relations = RelationsOptions(),
                         syntax    = SyntaxOptions()
                         )
+
+##### CLASS OBJECT FOR ARCHETYPAL ANALYSIS (UNDER CONSTRUCTION). ORIGINAL FUNCIONGIN BELOW CLASS OBJECT ########
+
+class DocumentArchetypes:
+    '''
+    DocumentArchetypes performs Archetypal Analysis on a corpus consisting of a set of documents, for example a set 
+    of articles, books, news stories or medical dictations.
+    
+    Input parameters:
+    
+    PATH            - Dictionary with paths to I/O
+    PATH['data']    - Directory for input text files. Example: './data/input_texts/'
+    PATH['results'] - Directory for output.           Example: './data/output_nlu/'
+    
+    NLU                   - Dictionary with information for running Watson NLU
+    NLU['apikey']         - apikey for running Watson NLU
+    NLU['apiurl']         - URL for Watson NLU API
+    NLU['version']        - Watson NLU version, e.g. '2019-07-12'
+    NLU['features']       - Features requested from Watson NLU for each document in the set, e.g. 
+                                Features(
+                                categories= CategoriesOptions(),
+                                concepts  = ConceptsOptions(),
+                                entities  = EntitiesOptions(),
+                                keywords  = KeywordsOptions(),
+                                relations = RelationsOptions(),
+                                syntax    = SyntaxOptions()
+                                )
+
+    Attributes:
+
+        
+        self.PATH 
+    
+        
+    '''
+    from ibm_watson import NaturalLanguageUnderstandingV1 as NaLaUn
+    from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions,ConceptsOptions,EntitiesOptions,KeywordsOptions,RelationsOptions,SyntaxOptions
+    
+    def __init__(self, PATH, NLU):
+        self.PATH = PATH
+        self.NLU  = NLU
+        self.nlu_model  = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['apiurl'])  #Local Natural Language Understanding object
+        self.archetypes_dic = {}
+        
+        ################
+        ## PREPARE DATA 
+        ################
+        self.filenames = os.listdir(self.PATH['data']) 
+        self.dictation_dic = {}            #dictionary for dictation files
+        for name in self.filenames:
+            self.dictation_dic[name.replace('.txt','')] = open(self.PATH['data']+name).read()
+        
+        ###############################
+        ## PERFORM WATSON NLU ANALYSIS
+        ###############################
+        
+        self.watson = {}    #Dictionary with Watson-NLU results for each dictation
+        
+        self.watson_pkl = PATH['results']+'all_dictations_nlu.pkl'  
+        pkl_exists = os.path.exists(self.watson_pkl)
+
+        if pkl_exists:
+            self.watson = pickle.load( open( self.watson_pkl, "rb" ) )
+
+        else: #perform nlu-analysis on dictations
+            for item in list(self.dictation_dic.items()):
+                lbl  = item[0]
+                text = item[1]
+                self.watson[lbl] = self.nlu_model.analyze(text = text, features=NLU['features'])
+                f = open(PATH['results']+str(lbl)+'_nlu.pkl','wb')
+                pickle.dump(self.watson[lbl],f)
+                f.close()
+
+            f = open(self.watson_pkl,'wb')
+            pickle.dump(self.watson,f)
+            f.close() 
+
+        # Copy Watson NLU results to Pandas Dataframes
+        self.watson_nlu = {}
+        for dctn in self.watson.items():
+            self.watson_nlu[dctn[0]] = {}
+            for item in list(dctn[1].result.items()):
+                self.watson_nlu[dctn[0]][item[0]]=pd.DataFrame(list(item[1]))
+
+
+    ##############
+    # ARCHETYPAL ANALYSIS
+    ##############
+
+    def archetypes(self,typ='entities',n_archs=6,bootstrap = False, bootstrap_frac = 0.5):
+        hyperparam = (n_archs,bootstrap,bootstrap_frac)
+        if typ not in self.archetypes_dic.keys():
+            self.archetypes_dic[typ] = {}
+        if hyperparam not in self.archetypes_dic[typ].keys():
+            self.archetypes_dic[typ][hyperparam] = {}
+            df = pd.DataFrame()
+            for key in self.watson_nlu:
+                dfx = self.watson_nlu[key][typ].copy()
+                dfx['dictation'] = key
+                df = df.append(dfx,sort=True)
+            if typ is 'entities':
+                df = df[df['type']=='HealthCondition']
+                df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
+                df['relevance'] = df['rel0'] * df['confidence']
+            mat = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+            self.archetypes_dic[typ][hyperparam] = Archetypes(mat,n_archs,bootstrap = bootstrap, bootstrap_frac = bootstrap_frac)
+        return self.archetypes_dic[typ][hyperparam]
+
+
+    def display_archetype(self,typ = 'entities' , n_archs = 6, arch_nr = 0, var = 'variables', threshold = 0.1):
+        if var is 'variables':
+            arc = self.archetypes(typ,n_archs).f.T.sort_values(by=arch_nr,ascending = False)
+            result = arc[
+                        arc[arch_nr] >= (threshold * arc[arch_nr][0])
+                     ]
+            return result
+        elif var is 'dictations':
+            arc = sns.clustermap(archetypes(typ,n_archs).o).data2d
+            return arc
+
+                
+
+
+
+
+#####  ORIGINAL DRAFT - PACKAGED AS A CLASS HERE ABOVE ##################### 
 
 nlu = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['apiurl'])  #Local Natural Language Understanding object
 
@@ -354,33 +483,13 @@ for dctn in dian.items():
 # ARCHETYPAL ANALYSIS
 ##############
 
-# df = pd.DataFrame()
 
-# for key in df_dic:
-#     dfx = df_dic[key]['concepts'].copy()
-#     dfx['dictation'] = key
-#     df = df.append(dfx,sort=True)
-
-# mat = df.pivot('dictation','text','relevance')
-# m = mat.fillna(0)
-
-# archetypes = {}
-
-# n = 10     # Select number of Archetypes
-# mar = Archetypes(m,n) 
-# archetypes[n] = {}
-# for i in range(n):
-#     archetypes[n][i] = mar.f.iloc[i].sort_values(ascending=False)
-
-
-def archs(typ,n=6):
-    if not 'archetype' in globals():
-        global archetype
-        archetype = {}
-    if not typ in archetype.keys():
-        archetype[typ] = {}
-    if not n in archetype[typ].keys():
-        archetype[typ][n] = {}
+archetypes_dic = {}
+def archetypes(typ='entities',n_archs=6):
+    if typ not in archetypes_dic.keys():
+        archetypes_dic[typ] = {}
+    if n_archs not in archetypes_dic[typ].keys():
+        archetypes_dic[typ][n_archs] = {}
         df = pd.DataFrame()
         for key in df_dic:
             dfx = df_dic[key][typ].copy()
@@ -390,17 +499,25 @@ def archs(typ,n=6):
             df = df[df['type']=='HealthCondition']
             df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
             df['relevance'] = df['rel0'] * df['confidence']
-        mat = df.pivot('dictation','text','relevance')
-        m = mat.fillna(0)
-        archetype[typ][n] = Archetypes(m,n)
-#         mar = Archetypes(m,n) 
-#         for i in range(n):
-#             archetype[typ][n][i] = mar.f.iloc[i].sort_values(ascending=False)
-    return archetype[typ][n]
+        mat = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+        archetypes_dic[typ][n_archs] = Archetypes(mat,n_archs)
+    return archetypes_dic[typ][n_archs]
 
 
-aaa = archs('entities',6).f.T.iloc[:10]
 
+def display_archetype(typ = 'entities' , n_archs = 6, arch_nr = 0, var = 'variables', threshold = 0.1):
+    if var is 'variables':
+        arc = archetypes(typ,n_archs).f.T.sort_values(by=arch_nr,ascending = False)
+        result = arc[
+                    arc[arch_nr] >= (threshold * arc[arch_nr][0])
+                 ]
+        return result
+    elif var is 'dictations':
+        arc = sns.clustermap(archetypes(typ,n_archs).o).data2d
+        return arc
+
+    
+  
 
 #%%
 
@@ -422,17 +539,43 @@ app.layout = html.Div(
             ),
             
             dcc.Markdown(children='''
-                        Workspace for experiments with creating ontology in a domain such as medical dictation.
-
-                        Process:
-                        - Dictations are analyzed by IBM Watson Natural Language Understanding. 
-                        - Output variables: keywords, entities, concepts and categories.
-                        - Variable sets are clustered, using NMF Non-zero Matrix Factorization
-                        - Dictations and variables are mapped onto the clusters
+                        Archetypal Analysis of Medical Dictations. Process:
+                        1. **Natural Language Understanding**:
+                            - Dictations are analyzed by IBM Watson Natural Language Understanding. 
+                            - Output variables: keywords, entities, concepts and categories.
+                        2. **Archetypal Analysis**:
+                            - Create Archetypes: Cluster data over variables, using NMF Non-zero Matrix Factorization
+                            - *Try using TSNE*
+                            - Dictations and variables are mapped onto the Archetypes/clusters
                         ''',
                     className = 'nine columns')
         ], className = "row"),
-
+        html.Div([
+            html.H2(children='ARCHETYPES:VARIABLES',
+                    className = "nine columns",
+                    style={
+                    'margin-top': 20,
+                    'margin-right': 20
+                    },
+            )
+        ], className = "row"),
+        html.Div(
+                    [
+                        html.Label('Variables', style={'font-weight' : 'bold'}),
+                        dcc.Dropdown(
+                            id = 'Var',
+                            options=[
+                                {'label': 'Keywords'  ,'value': 'keywords'},
+                                {'label': 'Entities'  ,'value': 'entities'},
+                                {'label': 'Concepts'  ,'value': 'concepts'},
+                                {'label': 'Categories','value': 'categories'},
+                            ],
+                            value = 'keywords',
+                        ) 
+                    ],
+                    className = 'two columns',
+                    style={'margin-top': '30'}
+                ),
         html.Div(
             [
                 html.Div(
@@ -440,7 +583,7 @@ app.layout = html.Div(
                         html.Label('#Archetypes', style={'font-weight' : 'bold'}),
                         dcc.Dropdown(
                             id = 'NoA',
-                            options=[{'label':k,'value':k} for k in range(2,12)],
+                            options=[{'label':k,'value':k} for k in range(2,100)],
                             value = 6,
                             multi = False
                         ) 
@@ -450,19 +593,15 @@ app.layout = html.Div(
                 ),
                 html.Div(
                     [
-                        html.Label('Variables', style={'font-weight' : 'bold'}),
-                        dcc.RadioItems(
-                            id = 'Var',
-                            options=[
-                                {'label': 'Keywords'  ,'value': 'keywords'},
-                                {'label': 'Entities'  ,'value': 'entities'},
-                                {'label': 'Concepts'  ,'value': 'concepts'},
-                                {'label': 'Categories','value': 'categories'},
-                            ],
-                            value = 'entities',
+                        html.Label('Cut at', style={'font-weight' : 'bold'}),
+                        dcc.Dropdown(
+                            id = 'Threshold',
+                            options=[{'label':str(k)+'%','value':k/100} for k in range(1,99)],
+                            value = 0.1,
+                            multi = False
                         ) 
                     ],
-                    className = 'two columns',
+                    className = 'one columns offset-by-one',
                     style={'margin-top': '30'}
                 ),
             ], className="row"
@@ -470,37 +609,64 @@ app.layout = html.Div(
         html.Div([
             html.Div([
                 dcc.Graph(
-                    id='example-graph'
+                    id='variables-heatmap'
                 )
             ])
-        ])
-    ])
+        ]),
+        # html.Div([
+        #     html.H3('DICTATIONS MAPPED ONTO ARCHETYPES'),
+        #     dcc.Graph(id='dictations')
+        # ])
+     ])
 )
+
 
 @app.callback(
-    dash.dependencies.Output('example-graph', 'figure'),
+    dash.dependencies.Output('variables-heatmap', 'figure'),
     [dash.dependencies.Input('Var', 'value'),
-     dash.dependencies.Input('NoA', 'value')]
+     dash.dependencies.Input('NoA', 'value'),
+     dash.dependencies.Input('Threshold', 'value')]
 )
 
-def arch_heatmap(typ, n):
-    variables = (typ,n)
-    f = archs(typ,n).f.T.iloc[:6]
-    fig = go.Figure(
-                    go.Heatmap( z = f,
-                                y = f.index,
-                                x = f.columns,
-                                xgap = 1,
-                                ygap = 1,
-                    ),
-                    layout = go.Layout( xaxis={'type': 'category'},
-                                        yaxis={'type': 'category'},
-                                        font=dict(color="black",size=20)
-                    )
-    ) 
+def arch_heatmap_variables(typ, n_archs, threshold):
+    variables = (typ,n_archs,threshold)
+
+    def f(i):
+        return display_archetype(arch_nr=i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
+
+    maxrows = int(1+ n_archs//3)
+    cols = 3
+    fig = make_subplots(rows=maxrows, cols=cols, horizontal_spacing=0.2)  
+    for i in range(n_archs):
+        fig.add_trace( go.Heatmap(  z = f(i),
+                                    y = f(i).index,
+                                    x = f(i).columns,
+                                    xgap = 1,
+                                    ygap = 1,
+                        ), col = i%cols +1,row = int(i//cols)+1
+            )
+    fig.update_layout(height=400*maxrows, width=1200, title_text="Subplots")
     return fig
 
-    #%%
+
+
+# @app.callback(
+#     dash.dependencies.Output('dictations', 'figure'),
+#     [dash.dependencies.Input('Var', 'value'),
+#      dash.dependencies.Input('NoA', 'value'),
+#      dash.dependencies.Input('Threshold', 'value')]
+# )
+
+# def arch_heatmap_dictations(typ, n_archs, threshold):
+#     variables = (typ,n_archs,threshold)
+#     f = archetypes(typ,n_archs).o
+#     fig = go.Heatmap(   z = f
+#             )
+#     return fig
+
+
+
+#%%
 
 if __name__ == '__main__':
     app.run_server(port=8080, debug=True)

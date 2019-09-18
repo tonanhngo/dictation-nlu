@@ -1,0 +1,912 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     45159,        904]
+NotebookOptionsPosition[     43112,        866]
+NotebookOutlinePosition[     43449,        881]
+CellTagsIndexPosition[     43406,        878]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  "\"\</Users/davidnordfors/Documents/IBM/dictation-nlu/data\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7777527870808773`*^9, 3.777752792688706*^9}, {
+  3.777752833838787*^9, 3.777752839503215*^9}},
+ CellLabel->
+  "In[270]:=",ExpressionUUID->"c4301da1-5c65-49f9-8cd7-a842c8568176"],
+
+Cell[BoxData["\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data\"\>"],\
+ "Output",
+ CellChangeTimes->{3.777752841155389*^9},
+ CellLabel->
+  "Out[270]=",ExpressionUUID->"70d4c8c7-496c-4cf0-b260-69ed9db9ac14"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"compare", "[", "nr_", "]"}], " ", ":=", " ", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+     "mandir", " ", "=", " ", 
+      "\"\</Users/davidnordfors/Documents/IBM/dictation-nlu/data/Documents/\>\
+\""}], ";", "\[IndentingNewLine]", 
+     RowBox[{
+     "watdir", " ", "=", " ", 
+      "\"\</Users/davidnordfors/Documents/IBM/dictation-nlu/data/watson-\
+speech2text/transcriptions/\>\""}], ";", "\[IndentingNewLine]", 
+     RowBox[{
+     "comparedir", " ", "=", " ", 
+      "\"\</Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/\>\""}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"manfile", " ", "=", " ", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"mandir", ",", 
+        RowBox[{"ToString", "[", "nr", "]"}], ",", "\"\<.txt\>\""}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"watfile", " ", "=", " ", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"watdir", ",", 
+        RowBox[{"ToString", "[", "nr", "]"}], ",", "\"\<.txt\>\""}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"comparefile", " ", "=", " ", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"comparedir", ",", 
+        RowBox[{"ToString", "[", "nr", "]"}], ",", "\"\<.json\>\""}], "]"}]}],
+      ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"wattxt", " ", "=", " ", 
+      RowBox[{
+       RowBox[{"StringReplace", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Import", "[", "watfile", "]"}], "//", "ToLowerCase"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"\"\<\\\"\>\"", " ", "\[Rule]", " ", "\"\<\>\""}], ",", 
+           RowBox[{"\"\<\\n\>\"", " ", "\[Rule]", " ", "\"\<\>\""}], ",", 
+           RowBox[{"\"\<%HESITATION\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+           RowBox[{"\"\<,\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+           RowBox[{
+            RowBox[{"\"\<  \>\"", ".."}], "->", "\"\< \>\""}]}], "}"}]}], 
+        "]"}], "//", " ", 
+       RowBox[{
+        RowBox[{"StringReplace", "[", 
+         RowBox[{"#", ",", 
+          RowBox[{
+           RowBox[{"\"\< \>\"", ".."}], "->", "\"\< \>\""}]}], "]"}], 
+        "&"}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"mantxt", " ", "=", " ", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Import", "[", "manfile", "]"}], "//", "ToLowerCase"}], " ", 
+        ",", " ", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"PunctuationCharacter", " ", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<\\\"\>\"", " ", "\[Rule]", " ", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<\\n\>\"", " ", "\[Rule]", " ", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<%HESITATION\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{"\"\<,\>\"", "\[Rule]", "\"\<\>\""}], ",", 
+          RowBox[{
+           RowBox[{"\"\<  \>\"", ".."}], "->", "\"\< \>\""}]}], "}"}]}], 
+       "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"comparetxt", " ", "=", " ", 
+      RowBox[{"SequenceAlignment", "[", 
+       RowBox[{"wattxt", ",", "mantxt"}], "]"}]}], " ", ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"comparefile", ",", "comparetxt"}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.77775285049858*^9, 3.777752892572875*^9}, {
+   3.7777529382744913`*^9, 3.777753041215898*^9}, {3.777753125140086*^9, 
+   3.777753132694067*^9}, {3.7777531770925627`*^9, 3.7777532032598*^9}, {
+   3.777753241686523*^9, 3.777753315454378*^9}, 3.777754123609189*^9, {
+   3.7777542337132273`*^9, 3.777754461643313*^9}, 3.777754535197349*^9, 
+   3.77775469159408*^9, {3.777754757971991*^9, 3.7777547764709*^9}, {
+   3.7777556183756247`*^9, 3.777755619016715*^9}, {3.777756991813671*^9, 
+   3.7777570000137863`*^9}, {3.777757170700151*^9, 3.7777571857564*^9}},
+ CellLabel->
+  "In[427]:=",ExpressionUUID->"c443478c-550f-494e-a942-5a3614676f1d"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{
+  3.7777548726851473`*^9, {3.7777556215761747`*^9, 
+   3.777755621632105*^9}},ExpressionUUID->"6db1d1e9-386c-4fb7-84f9-\
+36eb10d56d32"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "watdir", " ", "=", " ", 
+   "\"\</Users/davidnordfors/Documents/IBM/dictation-nlu/data/watson-\
+speech2text/transcriptions/\>\""}], ";"}]], "Input",
+ CellLabel->
+  "In[413]:=",ExpressionUUID->"e3e8e0f5-e9b0-425b-ae20-4513ad4ee70a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", "watdir", "]"}]], "Input",
+ CellChangeTimes->{{3.777755664724965*^9, 3.777755680051807*^9}, {
+  3.7777557254076843`*^9, 3.777755729048696*^9}},
+ CellLabel->
+  "In[415]:=",ExpressionUUID->"423c043e-f939-4def-a721-51a0387ab2c6"],
+
+Cell[BoxData["\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/\
+watson-speech2text/transcriptions\"\>"], "Output",
+ CellChangeTimes->{{3.777755681479208*^9, 3.777755730711515*^9}},
+ CellLabel->
+  "Out[415]=",ExpressionUUID->"6c7d09aa-d62e-4041-b8b2-da9ca9f18b84"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"dictations", " ", "=", " ", 
+  RowBox[{"ToExpression", "@", 
+   RowBox[{"StringReplace", "[", 
+    RowBox[{
+     RowBox[{"FileNames", "[", "]"}], ",", 
+     RowBox[{"\"\<.txt\>\"", "->", "\"\<\>\""}]}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.777755735281529*^9, 3.777755848788192*^9}, 
+   3.7777562569918327`*^9},
+ CellLabel->
+  "In[428]:=",ExpressionUUID->"1afa6dbd-e9fc-400c-8261-d2a7ef92a69e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "100", ",", "101", ",", "102", ",", "103", ",", "104", ",", "105", ",", 
+   "106", ",", "107", ",", "108", ",", "109", ",", "10", ",", "110", ",", 
+   "111", ",", "112", ",", "113", ",", "114", ",", "115", ",", "116", ",", 
+   "117", ",", "118", ",", "119", ",", "11", ",", "120", ",", "121", ",", 
+   "122", ",", "123", ",", "124", ",", "125", ",", "126", ",", "127", ",", 
+   "128", ",", "129", ",", "12", ",", "130", ",", "131", ",", "132", ",", 
+   "133", ",", "134", ",", "135", ",", "136", ",", "137", ",", "138", ",", 
+   "139", ",", "13", ",", "140", ",", "141", ",", "142", ",", "143", ",", 
+   "144", ",", "145", ",", "146", ",", "147", ",", "148", ",", "149", ",", 
+   "14", ",", "150", ",", "151", ",", "152", ",", "153", ",", "154", ",", 
+   "155", ",", "156", ",", "157", ",", "158", ",", "159", ",", "15", ",", 
+   "160", ",", "161", ",", "162", ",", "163", ",", "164", ",", "165", ",", 
+   "166", ",", "167", ",", "168", ",", "169", ",", "16", ",", "170", ",", 
+   "171", ",", "172", ",", "173", ",", "174", ",", "175", ",", "176", ",", 
+   "177", ",", "178", ",", "179", ",", "17", ",", "180", ",", "181", ",", 
+   "182", ",", "183", ",", "184", ",", "185", ",", "186", ",", "187", ",", 
+   "188", ",", "189", ",", "18", ",", "190", ",", "191", ",", "192", ",", 
+   "193", ",", "194", ",", "195", ",", "196", ",", "197", ",", "198", ",", 
+   "199", ",", "19", ",", "d", ",", "1", ",", "200", ",", "201", ",", "202", 
+   ",", "203", ",", "204", ",", "205", ",", "206", ",", "207", ",", "208", 
+   ",", "209", ",", "20", ",", "210", ",", "211", ",", "212", ",", "213", ",",
+    "214", ",", "215", ",", "216", ",", "217", ",", "218", ",", "219", ",", 
+   "21", ",", "220", ",", "221", ",", "222", ",", "223", ",", "224", ",", 
+   "225", ",", "226", ",", "227", ",", "228", ",", "229", ",", "22", ",", 
+   "230", ",", "231", ",", "232", ",", "233", ",", "234", ",", "235", ",", 
+   "236", ",", "237", ",", "238", ",", "239", ",", "23", ",", "240", ",", 
+   "241", ",", "242", ",", "243", ",", "244", ",", "245", ",", "246", ",", 
+   "247", ",", "248", ",", "249", ",", "24", ",", "25", ",", "26", ",", "27", 
+   ",", "28", ",", "29", ",", "2", ",", "30", ",", "31", ",", "32", ",", "33",
+    ",", "34", ",", "35", ",", "36", ",", "37", ",", "38", ",", "39", ",", 
+   "3", ",", "40", ",", "41", ",", "42", ",", "43", ",", "44", ",", "45", ",",
+    "46", ",", "47", ",", "48", ",", "49", ",", "4", ",", "50", ",", "51", 
+   ",", "52", ",", "53", ",", "54", ",", "55", ",", "56", ",", "57", ",", 
+   "58", ",", "59", ",", "5", ",", "60", ",", "61", ",", "62", ",", "63", ",",
+    "64", ",", "65", ",", "66", ",", "67", ",", "68", ",", "69", ",", "6", 
+   ",", "70", ",", "71", ",", "72", ",", "73", ",", "74", ",", "75", ",", 
+   "76", ",", "77", ",", "78", ",", "79", ",", "7", ",", "80", ",", "81", ",",
+    "82", ",", "83", ",", "84", ",", "85", ",", "86", ",", "87", ",", "88", 
+   ",", "89", ",", "8", ",", "90", ",", "91", ",", "92", ",", "93", ",", "94",
+    ",", "95", ",", "96", ",", "97", ",", "98", ",", "99", ",", "9"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.7777558350591383`*^9, 3.777756259714756*^9, 
+  3.7777568198582563`*^9, 3.777757020392777*^9, 3.777757194250251*^9},
+ CellLabel->
+  "Out[428]=",ExpressionUUID->"143a3ebe-7282-48e8-b6c9-f8f2fa985e11"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"compare", "/@", "dictations"}]], "Input",
+ CellChangeTimes->{{3.777756305875938*^9, 3.777756327164229*^9}, 
+   3.777756379248823*^9},
+ CellLabel->
+  "In[429]:=",ExpressionUUID->"ea0fe4e3-bd4c-425b-a671-32c8397046f1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File \\!\\(\\*RowBox[{\\\"\\\\\\\"/Users/davidnordfors/Documents/IBM/\
+dictation-nlu/data/watson-speech2text/transcriptions/d.txt\\\\\\\"\\\"}]\\) \
+not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,429,56,
+   17718590131701546182,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.7777572225007687`*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"51dc453c-60ce-4d9a-9001-8e4becb049df"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringReplace","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"ToLowerCase\\\", \\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\"\\\", \\\"\[Rule]\\\", \\\
+\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"\\\\\\\\n\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"%HESITATION\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\",\\\\\\\"\\\", \
+\\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\"  \\\\\\\"\\\", \\\"..\\\"}], \\\"\[Rule]\\\", \\\
+\"\\\\\\\" \\\\\\\"\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\).\"",2,429,57,
+   17718590131701546182,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.777757222523993*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"96a083c7-88f9-4873-a8be-d95ea40c9bde"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringReplace","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"ToLowerCase\\\", \\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\"\\\", \\\"\[Rule]\\\", \\\
+\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"\\\\\\\\n\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"%HESITATION\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\",\\\\\\\"\\\", \
+\\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\"  \\\\\\\"\\\", \\\"..\\\"}], \\\"\[Rule]\\\", \\\
+\"\\\\\\\" \\\\\\\"\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\" \\\\\\\"\\\", \\\"..\\\"}], \\\"\[Rule]\\\", \
+\\\"\\\\\\\" \\\\\\\"\\\"}]}], \\\"]\\\"}]\\).\"",2,429,58,
+   17718590131701546182,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.777757222549129*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"c29564bd-ea53-499b-b513-b5ea5dc68ae7"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File \\!\\(\\*RowBox[{\\\"\\\\\\\"/Users/davidnordfors/Documents/IBM/\
+dictation-nlu/data/Documents/d.txt\\\\\\\"\\\"}]\\) not found during \
+\\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,429,59,17718590131701546182,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.7777572226070642`*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"4d5736ed-c706-4c62-8736-4bf94f05953c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringReplace","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"ToLowerCase\\\", \\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}], \
+\\\",\\\", RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"PunctuationCharacter\\\", \
+\\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"\\\\\\\\\\\\\\\"\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\
+\"\\\\\\\"\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\"\\\\\\\\n\\\\\\\"\\\", \\\"\
+\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{\\\"\\\\\\\"%HESITATION\\\\\\\"\\\", \\\"\[Rule]\\\", \
+\\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\",\\\\\\\"\\\", \
+\\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}], \\\",\\\", \
+RowBox[{RowBox[{\\\"\\\\\\\"  \\\\\\\"\\\", \\\"..\\\"}], \\\"\[Rule]\\\", \\\
+\"\\\\\\\" \\\\\\\"\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\).\"",2,429,60,
+   17718590131701546182,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.777757222619644*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"dafb8dc7-a5e2-4326-8a68-b904e4a508a0"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"StringReplace\\\", \
+\\\"::\\\", \\\"strse\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"",2,429,61,17718590131701546182,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.777757222633304*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"524d5daf-bc52-431a-82a2-45a20bbeb8b5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Export","jsonstrictencoding",
+   "\"Expression \\!\\(\\*RowBox[{\\\"\\\\\\\"SequenceAlignment\\\\\\\"\\\"}]\
+\\) cannot be exported as \\!\\(\\*RowBox[{\\\"\\\\\\\"JSON\\\\\\\"\\\"}]\\).\
+\"",2,429,62,17718590131701546182,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.7777564017197733`*^9, 3.777756849129366*^9, 
+  3.777757042029148*^9, 3.777757222644451*^9},
+ CellLabel->
+  "During evaluation of \
+In[429]:=",ExpressionUUID->"196d0e81-a608-4cd7-99bc-8ed759217000"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/100.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/101.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/102.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/103.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/104.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/105.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/106.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/107.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/108.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/109.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/10.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/110.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/111.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/112.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/113.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/114.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/115.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/116.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/117.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/118.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/119.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/11.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/120.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/121.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/122.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/123.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/124.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/125.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/126.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/127.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/128.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/129.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/12.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/130.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/131.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/132.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/133.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/134.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/135.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/136.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/137.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/138.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/139.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/13.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/140.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/141.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/142.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/143.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/144.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/145.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/146.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/147.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/148.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/149.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/14.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/150.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/151.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/152.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/153.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/154.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/155.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/156.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/157.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/158.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/159.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/15.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/160.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/161.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/162.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/163.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/164.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/165.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/166.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/167.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/168.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/169.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/16.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/170.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/171.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/172.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/173.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/174.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/175.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/176.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/177.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/178.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/179.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/17.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/180.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/181.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/182.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/183.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/184.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/185.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/186.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/187.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/188.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/189.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/18.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/190.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/191.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/192.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/193.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/194.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/195.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/196.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/197.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/198.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/199.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/19.json\"\>", ",", "$Failed", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/1.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/200.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/201.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/202.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/203.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/204.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/205.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/206.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/207.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/208.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/209.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/20.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/210.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/211.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/212.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/213.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/214.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/215.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/216.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/217.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/218.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/219.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/21.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/220.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/221.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/222.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/223.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/224.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/225.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/226.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/227.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/228.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/229.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/22.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/230.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/231.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/232.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/233.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/234.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/235.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/236.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/237.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/238.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/239.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/23.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/240.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/241.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/242.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/243.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/244.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/245.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/246.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/247.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/248.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/249.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/24.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/25.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/26.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/27.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/28.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/29.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/2.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/30.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/31.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/32.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/33.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/34.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/35.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/36.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/37.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/38.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/39.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/3.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/40.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/41.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/42.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/43.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/44.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/45.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/46.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/47.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/48.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/49.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/4.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/50.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/51.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/52.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/53.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/54.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/55.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/56.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/57.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/58.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/59.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/5.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/60.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/61.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/62.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/63.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/64.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/65.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/66.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/67.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/68.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/69.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/6.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/70.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/71.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/72.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/73.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/74.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/75.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/76.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/77.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/78.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/79.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/7.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/80.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/81.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/82.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/83.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/84.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/85.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/86.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/87.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/88.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/89.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/8.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/90.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/91.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/92.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/93.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/94.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/95.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/96.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/97.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/98.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/99.json\"\>", 
+   ",", "\<\"/Users/davidnordfors/Documents/IBM/dictation-nlu/data/Compare_\
+manual_watson/9.json\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.777756328448886*^9, 3.777756411833127*^9, 
+  3.777756896284738*^9, 3.7777570823503313`*^9, 3.777757274601821*^9},
+ CellLabel->
+  "Out[429]=",ExpressionUUID->"947d459c-7f0d-427b-b5c2-0d475d924a69"]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 331, 7, 30, "Input",ExpressionUUID->"c4301da1-5c65-49f9-8cd7-a842c8568176"],
+Cell[914, 31, 215, 4, 34, "Output",ExpressionUUID->"70d4c8c7-496c-4cf0-b260-69ed9db9ac14"]
+}, Open  ]],
+Cell[1144, 38, 4054, 87, 472, "Input",ExpressionUUID->"c443478c-550f-494e-a942-5a3614676f1d"],
+Cell[5201, 127, 182, 4, 30, "Input",ExpressionUUID->"6db1d1e9-386c-4fb7-84f9-36eb10d56d32"],
+Cell[5386, 133, 269, 7, 52, "Input",ExpressionUUID->"e3e8e0f5-e9b0-425b-ae20-4513ad4ee70a"],
+Cell[CellGroupData[{
+Cell[5680, 144, 270, 5, 30, "Input",ExpressionUUID->"423c043e-f939-4def-a721-51a0387ab2c6"],
+Cell[5953, 151, 273, 4, 34, "Output",ExpressionUUID->"6c7d09aa-d62e-4041-b8b2-da9ca9f18b84"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6263, 160, 424, 10, 30, "Input",ExpressionUUID->"1afa6dbd-e9fc-400c-8261-d2a7ef92a69e"],
+Cell[6690, 172, 3325, 47, 287, "Output",ExpressionUUID->"143a3ebe-7282-48e8-b6c9-f8f2fa985e11"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10052, 224, 240, 5, 30, "Input",ExpressionUUID->"ea0fe4e3-bd4c-425b-a671-32c8397046f1"],
+Cell[10295, 231, 567, 12, 42, "Message",ExpressionUUID->"51dc453c-60ce-4d9a-9001-8e4becb049df"],
+Cell[10865, 245, 1175, 22, 42, "Message",ExpressionUUID->"96a083c7-88f9-4873-a8be-d95ea40c9bde"],
+Cell[12043, 269, 1360, 25, 42, "Message",ExpressionUUID->"c29564bd-ea53-499b-b513-b5ea5dc68ae7"],
+Cell[13406, 296, 543, 12, 24, "Message",ExpressionUUID->"4d5736ed-c706-4c62-8736-4bf94f05953c"],
+Cell[13952, 310, 1269, 22, 59, "Message",ExpressionUUID->"dafb8dc7-a5e2-4326-8a68-b904e4a508a0"],
+Cell[15224, 334, 525, 11, 24, "Message",ExpressionUUID->"524d5daf-bc52-431a-82a2-45a20bbeb8b5"],
+Cell[15752, 347, 523, 11, 24, "Message",ExpressionUUID->"196d0e81-a608-4cd7-99bc-8ed759217000"],
+Cell[16278, 360, 26818, 503, 5298, "Output",ExpressionUUID->"947d459c-7f0d-427b-b5c2-0d475d924a69"]
+}, Open  ]]
+}
+]
+*)
+
