@@ -12,6 +12,7 @@
 ### System
 import sys
 import os
+from fnmatch import fnmatch 
 
 ### I/O
 import json
@@ -31,6 +32,7 @@ DottedDict = namedtuple
 ## DECOMPOSITION
 from sklearn.decomposition import NMF
 from scipy.linalg import svd
+from sklearn.model_selection import train_test_split
 
 ### NLU
 from ibm_watson import NaturalLanguageUnderstandingV1 as NaLaUn
@@ -54,6 +56,14 @@ import plotly.figure_factory as ff
 from plotly.subplots import make_subplots
 
 ## GENERAL FUNCTIONS 
+
+### SELECTION
+def random_split(lst,split=0.5):
+    shuffled = np.array(lst)
+    np.random.shuffle(shuffled)
+    split    = int(split * len(shuffled))
+    return  shuffled[-split:] , shuffled[:-split]
+
 ### NORMALIZATION
 #### Statistic normalization - subtract mean, scale by standard deviation
 def norm_stat(vec, weights = False):
@@ -99,6 +109,20 @@ def cleanup_chars(string,char_list = ('\n',' ')):
         result = result.replace(char,'')
     return result
 
+### OS system commands
+
+from fnmatch import fnmatch 
+def ls(search,name_only = False):
+    search_split = search.replace('/','/ ').split()
+    pattern      =         search_split[ -1]
+    path         = ''.join(search_split[:-1])
+    all_names    = np.array(os.listdir(path)) # numpy array enables Boolean Mask
+    if not name_only: # add path to each name
+        all_names    = np.array([path+name for name in all_names]) 
+    mask         = [fnmatch(name,pattern) for name in all_names]
+    result       = all_names[mask]
+    return result
+
 ##########################################
 ### IBM-WATSON/NLU API-KEY (DON'T EDIT)
 ##########################################
@@ -131,7 +155,6 @@ if not credentials_exists:
 # ## Use non-zero matrix factorization for clustering
 # ## Use singular value decomposition first state for determining overall similarity
 
-
 class Archetypes:
     '''
     Archetypes: Performs NMF of order n on X and stores the result as attributes. 
@@ -152,24 +175,49 @@ class Archetypes:
         my_archetypes.fn        - features x normalized archetypes matrix
         
     '''
-    def __init__(self,X,n,norm = norm_dot):
+    
+    def __init__(self,X,n,norm = norm_dot,bootstrap = False, bootstrap_frac = 0.5):
         self.n = n
         self.X = X
+        self.norm = norm
+        
+        if bootstrap:
+            self.bootstrap_n    = bootstrap
+            self.bootstrap_frac = bootstrap_frac
+        else:
+            self.bootstrap_n    = 1
+            self.bootstrap_frac = 1
+        
         self.model = NMF(n_components=n, init='random', random_state=0, max_iter = 1000, tol = 0.0000001)
-        self.w = self.model.fit_transform(self.X)
-        self.o = pd.DataFrame(self.w,index=self.X.index)
-        self.on = self.o.T.apply(norm).T
-        self.occ = self.on.copy()
-        self.occ['Occupations'] = self.occ.index
-#        self.occ['Occupations'] = self.occ['Occupations'].apply(onet_socp_name)
-        self.occ = self.occ.set_index('Occupations')
-        self.h = self.model.components_
-        self.f = pd.DataFrame(self.h,columns=X.columns)
-        self.fn =self.f.T.apply(norm).T
+        self.w_dic = {}
+        self.o_dic = {}
+        self.h_dic = {}
+        self.f_dic = {}   
+        
+        for j in range(self.bootstrap_n): 
+            XX = self.X.sample(int(len(self.X) *self.bootstrap_frac))
+            self.w_dic[j] = self.model.fit_transform(XX)
+            self.o_dic[j] = pd.DataFrame(self.w_dic[j],index=XX.index)
+            self.h_dic[j] = self.model.components_
+            self.f_dic[j] = pd.DataFrame(self.h_dic[j],columns=XX.columns)
+        
+        self.w = self.w_dic[0]  # TEMPORARY
+        self.o = self.o_dic[0]  # TEMPORARY
+        self.h = self.h_dic[0]  # TEMPORARY
+        self.f = self.f_dic[0]  # TEMPORARY
+
         self.plot_occupations_dic ={}
         self.plot_features_dic ={}
-
         
+#     def test_split(self, split = 0.5):
+#         xr = self.X.copy()
+#         np.random.shuffle(xr)
+#         part = int(len(xr)*split)
+#         result = {'train':xr[:len(xr)-part],'test': xr[-part:] }
+#         self.X_train = result['train']
+#         self.X_test  = result['test' ]
+#         return result
+
     def plot_features(self,fig_scale = (1,3.5),metric='cosine', method = 'single',vertical = False): 
         '''
         Plot Archetypes as x and features as y. 
@@ -270,7 +318,6 @@ class Svd:
         return cut_dic
         
 
-
 ##########################
 ## SET HYPERPARAMATERS
 #### edit below ##########
@@ -297,7 +344,6 @@ NLU['features']       = Features(
                         syntax    = SyntaxOptions()
                         )
 
-##### CLASS OBJECT FOR ARCHETYPAL ANALYSIS (UNDER CONSTRUCTION). ORIGINAL FUNCIONGIN BELOW CLASS OBJECT ########
 
 class DocumentArchetypes:
     '''
@@ -334,20 +380,33 @@ class DocumentArchetypes:
     from ibm_watson import NaturalLanguageUnderstandingV1 as NaLaUn
     from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions,ConceptsOptions,EntitiesOptions,KeywordsOptions,RelationsOptions,SyntaxOptions
     
-    def __init__(self, PATH, NLU):
-        self.PATH = PATH
-        self.NLU  = NLU
+    def __init__(self, PATH, NLU, train_test = False):
+        self.PATH       = PATH
+        self.NLU        = NLU
+        self.train_test = train_test
+        
         self.nlu_model  = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['apiurl'])  #Local Natural Language Understanding object
         self.archetypes_dic = {}
-        
+       
+ 
         ################
         ## PREPARE DATA 
         ################
-        self.filenames = os.listdir(self.PATH['data']) 
-        self.dictation_dic = {}            #dictionary for dictation files
+        self.filenames = ls(self.PATH['data']+'*.txt', name_only=True)  # all filenames ending with '.txt' 
+        self.names     = [name.replace('.txt','') for name in self.filenames]
+        self.all_names = self.names *1      # if train_test - self.names will be set to self.names_train
+        self.dictation_dic = {}             # dictionary for dictation files
         for name in self.filenames:
-            self.dictation_dic[name.replace('.txt','')] = open(self.PATH['data']+name).read()
-        
+            self.dictation_dic[name.replace('.txt','')] = open(self.PATH['data']+name, encoding="utf-8").read()
+        self.dictation_df = pd.Series(self.dictation_dic)
+            
+        ####################
+        ## TRAIN-TEST SPLIT 
+        ####################
+        if self.train_test: # 0<train_test<1 - the proportion of names to save as 'test (rounded downwards)
+            self.names_test , self.names_train = random_split(self.all_names , self.train_test)
+            self.names = self.names_train
+
         ###############################
         ## PERFORM WATSON NLU ANALYSIS
         ###############################
@@ -384,15 +443,26 @@ class DocumentArchetypes:
     ##############
     # ARCHETYPAL ANALYSIS
     ##############
-
-    def archetypes(self,typ='entities',n_archs=6,bootstrap = False, bootstrap_frac = 0.5):
-        hyperparam = (n_archs,bootstrap,bootstrap_frac)
+    
+    def build_x_matrix(self,typ='entities'):
         if typ not in self.archetypes_dic.keys():
             self.archetypes_dic[typ] = {}
-        if hyperparam not in self.archetypes_dic[typ].keys():
-            self.archetypes_dic[typ][hyperparam] = {}
+        df = pd.DataFrame()
+        for key in self.names:
+            dfx = self.watson_nlu[key][typ].copy()
+            dfx['dictation'] = key
+            df = df.append(dfx,sort=True)
+        if typ is 'entities':
+            df = df[df['type']=='HealthCondition']
+            df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
+            df['relevance'] = df['rel0'] * df['confidence']
+        self.X_matrix = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+        
+        if self.train_test:
+            self.X_matrix_train = self.X_matrix
+            
             df = pd.DataFrame()
-            for key in self.watson_nlu:
+            for key in self.names_test:
                 dfx = self.watson_nlu[key][typ].copy()
                 dfx['dictation'] = key
                 df = df.append(dfx,sort=True)
@@ -400,26 +470,32 @@ class DocumentArchetypes:
                 df = df[df['type']=='HealthCondition']
                 df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
                 df['relevance'] = df['rel0'] * df['confidence']
-            mat = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
-            self.archetypes_dic[typ][hyperparam] = Archetypes(mat,n_archs,bootstrap = bootstrap, bootstrap_frac = bootstrap_frac)
+            self.X_matrix_test = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+
+
+        
+
+    def archetypes(self,typ='entities',n_archs=6,bootstrap = False, bootstrap_frac = 0.5):
+        hyperparam = (n_archs,bootstrap,bootstrap_frac)
+        self.build_x_matrix(typ)
+        self.archetypes_dic[typ][hyperparam] = Archetypes(self.X_matrix,n_archs,bootstrap = bootstrap, bootstrap_frac = bootstrap_frac)
         return self.archetypes_dic[typ][hyperparam]
 
 
-    def display_archetype(self,typ = 'entities' , n_archs = 6, arch_nr = 0, var = 'variables', threshold = 0.1):
-        if var is 'variables':
-            arc = self.archetypes(typ,n_archs).f.T.sort_values(by=arch_nr,ascending = False)
+    def display_archetype(self,display_variable = -1, typ = 'entities' , n_archs = 6, var = 'variables', threshold = 0.1):
+        fun = {'variables' : 'self.archetypes(typ = typ,n_archs = n_archs).f.apply(scale).T ',
+               'dictations': 'self.archetypes(typ = typ,n_archs = n_archs).o.T.apply(scale)'
+               }
+        if display_variable == -1:
+            return sns.clustermap(eval(fun[var])).data2d
+        else:
+            arc = eval(fun[var]).sort_values(by=display_variable,ascending = False)
             result = arc[
-                        arc[arch_nr] >= (threshold * arc[arch_nr][0])
-                     ]
+                        arc[display_variable] >= (threshold * arc[display_variable][0])
+                        ]
             return result
-        elif var is 'dictations':
-            arc = sns.clustermap(archetypes(typ,n_archs).o).data2d
-            return arc
 
-                
-
-
-
+dan  = DocumentArchetypes(PATH,NLU,train_test = False)
 
 #####  ORIGINAL DRAFT - PACKAGED AS A CLASS HERE ABOVE ##################### 
 
@@ -431,7 +507,7 @@ nlu = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['api
 filenames = os.listdir(PATH['data']) 
 dictation_dic = {}            #dictionary for dictation files
 for name in filenames:
-    dictation_dic[name.replace('.txt','')] = open(PATH['data']+name).read()
+    dictation_dic[name.replace('.txt','')] = open(PATH['data']+name, encoding="utf-8").read()
 
     
 # Treat dictations_dic as 
@@ -633,6 +709,8 @@ def arch_heatmap_variables(typ, n_archs, threshold):
 
     def f(i):
         return display_archetype(arch_nr=i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
+    # def f(i):
+    #     return dan.display_archetype(display_variable = i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
 
     maxrows = int(1+ n_archs//3)
     cols = 3
