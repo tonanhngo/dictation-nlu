@@ -167,12 +167,8 @@ class Archetypes:
         my_archetypes.w         - NMF w-matrix 
         my_archetypes.h         - NMF h-matrix
         
-        my_archetypes.o         - occupations x archetypes matrix (from w-matrix)
-        my_archetypes.on        - occupations x normalized archetypes matrix (from w-matrix) - SOCP number as index. 
-        my_archetypes.occ       - occupations x normalized archetypes matrix - Occupation names as index
-        
+        my_archetypes.o         - objects x archetypes matrix (from w-matrix)       
         my_archetypes.f         - features x archetypes matrix (from h-matrix)
-        my_archetypes.fn        - features x normalized archetypes matrix
         
     '''
     
@@ -206,81 +202,81 @@ class Archetypes:
         self.h = self.h_dic[0]  # TEMPORARY
         self.f = self.f_dic[0]  # TEMPORARY
 
-        self.plot_occupations_dic ={}
-        self.plot_features_dic ={}
+        # self.plot_occupations_dic ={}
+        # self.plot_features_dic ={}
         
-#     def test_split(self, split = 0.5):
-#         xr = self.X.copy()
-#         np.random.shuffle(xr)
-#         part = int(len(xr)*split)
-#         result = {'train':xr[:len(xr)-part],'test': xr[-part:] }
-#         self.X_train = result['train']
-#         self.X_test  = result['test' ]
-#         return result
+# #     def test_split(self, split = 0.5):
+# #         xr = self.X.copy()
+# #         np.random.shuffle(xr)
+# #         part = int(len(xr)*split)
+# #         result = {'train':xr[:len(xr)-part],'test': xr[-part:] }
+# #         self.X_train = result['train']
+# #         self.X_test  = result['test' ]
+# #         return result
 
-    def plot_features(self,fig_scale = (1,3.5),metric='cosine', method = 'single',vertical = False): 
-        '''
-        Plot Archetypes as x and features as y. 
-        Utilizes Seaborn Clustermap, with hierarchical clustering along both axes. 
-        This clusters features and archetypes in a way that visualizes similarities and diffferences
-        between the archetypes. 
+#     def plot_features(self,fig_scale = (1,3.5),metric='cosine', method = 'single',vertical = False): 
+#         '''
+#         Plot Archetypes as x and features as y. 
+#         Utilizes Seaborn Clustermap, with hierarchical clustering along both axes. 
+#         This clusters features and archetypes in a way that visualizes similarities and diffferences
+#         between the archetypes. 
         
-        Archetypes are normalized (cosine-similarity): dot product archetype[i] @ archetype[i] = 1.
-        The plot shows intensities (= squared feature coefficients) so that the sum of intensities = 1.  
+#         Archetypes are normalized (cosine-similarity): dot product archetype[i] @ archetype[i] = 1.
+#         The plot shows intensities (= squared feature coefficients) so that the sum of intensities = 1.  
 
-        fig_scale: default values (x/1, y/3.5) scales the axes so that all feature labels are included in the plot.
+#         fig_scale: default values (x/1, y/3.5) scales the axes so that all feature labels are included in the plot.
         
-        For other hyperparameters, see seaborn.clustermap
+#         For other hyperparameters, see seaborn.clustermap
      
-        '''
-        param = (fig_scale,metric,method,vertical)
-        if param in self.plot_features_dic.keys():
-            fig = self.plot_features_dic[param]
-            return fig.fig
+#         '''
+#         param = (fig_scale,metric,method,vertical)
+#         if param in self.plot_features_dic.keys():
+#             fig = self.plot_features_dic[param]
+#             return fig.fig
 
-        df = np.square(self.fn)
+#         df = np.square(self.fn)
 
-        if vertical:
-            fig = sns.clustermap(df.T,robust = True, z_score=1,figsize=(
-                self.n/fig_scale[0],self.X.shape[1]/fig_scale[1]),method = method,metric = metric)        
-        else: # horizontal
-            fig = sns.clustermap(df,robust = True, z_score=0,figsize=(
-                self.X.shape[1]/fig_scale[1],self.n/fig_scale[0]),method = method,metric = metric)        
-        self.features_plot = fig
-        return fig
+#         if vertical:
+#             fig = sns.clustermap(df.T,robust = True, z_score=1,figsize=(
+#                 self.n/fig_scale[0],self.X.shape[1]/fig_scale[1]),method = method,metric = metric)        
+#         else: # horizontal
+#             fig = sns.clustermap(df,robust = True, z_score=0,figsize=(
+#                 self.X.shape[1]/fig_scale[1],self.n/fig_scale[0]),method = method,metric = metric)        
+#         self.features_plot = fig
+#         return fig
 
 
-    def plot_occupations(self,fig_scale = (1,3.5),metric='cosine', method = 'single',vertical = False):
-        '''
-        Plot Archetypes as x and occupations as y. 
-        Utilizes Seaborn Clustermap, with hierarchical clustering along both axes. 
-        This clusters occupations and archetypes in a way that visualizes similarities and diffferences
-        between the archetypes. 
+#     def plot_occupations(self,fig_scale = (1,3.5),metric='cosine', method = 'single',vertical = False):
+#         '''
+#         Plot Archetypes as x and occupations as y. 
+#         Utilizes Seaborn Clustermap, with hierarchical clustering along both axes. 
+#         This clusters occupations and archetypes in a way that visualizes similarities and diffferences
+#         between the archetypes. 
         
-        Occupations are normalized (cosine-similarity): dot product occupation[i] @ occupation[i] = 1.
-        The plot shows intensities (= squared feature coefficients) so that the sum of intensities = 1.  
+#         Occupations are normalized (cosine-similarity): dot product occupation[i] @ occupation[i] = 1.
+#         The plot shows intensities (= squared feature coefficients) so that the sum of intensities = 1.  
 
-        fig_scale: default values (x/1, y/3.5) scales the axes so that all feature labels are included in the plot.
+#         fig_scale: default values (x/1, y/3.5) scales the axes so that all feature labels are included in the plot.
         
-        For other hyperparameters, see seaborn.clustermap
+#         For other hyperparameters, see seaborn.clustermap
      
-        '''
-        param = (fig_scale,metric,method,vertical)
-        if param in self.plot_occupations_dic.keys():
-            fig = self.plot_occupations_dic[param]
-            #return
-            return fig.fig
+#         '''
+#         param = (fig_scale,metric,method,vertical)
+#         if param in self.plot_occupations_dic.keys():
+#             fig = self.plot_occupations_dic[param]
+#             #return
+#             return fig.fig
 
-        df = np.square(self.occ)
-        if vertical:
-            fig = sns.clustermap(df, figsize=(
-                self.n/fig_scale[0],self.X.shape[0]/fig_scale[1]),method = method,metric = metric)
-        else: # horizontal
-            fig = sns.clustermap(df.T, figsize=(
-                self.X.shape[0]/fig_scale[1],self.n/fig_scale[0]),method = method,metric = metric)
-        self.plot_occupations_dic[param] = fig
-        #return
-        return fig.fig
+#         df = np.square(self.occ)
+#         if vertical:
+#             fig = sns.clustermap(df, figsize=(
+#                 self.n/fig_scale[0],self.X.shape[0]/fig_scale[1]),method = method,metric = metric)
+#         else: # horizontal
+#             fig = sns.clustermap(df.T, figsize=(
+#                 self.X.shape[0]/fig_scale[1],self.n/fig_scale[0]),method = method,metric = metric)
+#         self.plot_occupations_dic[param] = fig
+#         #return
+#         return fig.fig
 
 
 class Svd:
@@ -345,9 +341,9 @@ NLU['features']       = Features(
                         )
 
 
-class DocumentArchetypes:
+class WatsonDocumentArchetypes:
     '''
-    DocumentArchetypes performs Archetypal Analysis on a corpus consisting of a set of documents, for example a set 
+    WatsonDocumentArchetypes performs Archetypal Analysis on a corpus consisting of a set of documents, for example a set 
     of articles, books, news stories or medical dictations.
     
     Input parameters:
@@ -380,14 +376,21 @@ class DocumentArchetypes:
     from ibm_watson import NaturalLanguageUnderstandingV1 as NaLaUn
     from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions,ConceptsOptions,EntitiesOptions,KeywordsOptions,RelationsOptions,SyntaxOptions
     
-    def __init__(self, PATH, NLU, train_test = False):
+    def __init__(self, PATH, NLU, 
+                 train_test = False):
+        
         self.PATH       = PATH
         self.NLU        = NLU
-        self.train_test = train_test
+        # To random partition documents into train/test-sets, 
+        # choose relative size of test-set, train_test (1 = 100%)
+        self.train_test = train_test  
         
         self.nlu_model  = NaLaUn(version=NLU['version'] , iam_apikey = NLU['apikey'], url = NLU['apiurl'])  #Local Natural Language Understanding object
-        self.archetypes_dic = {}
-       
+            # Initiate X_matrix dictionaries
+        self.X_matrix_dic = {}
+        self.X_matrix_train_dic = {}
+        self.X_matrix_test_dic  = {}
+        self.archetypes_dic = {} 
  
         ################
         ## PREPARE DATA 
@@ -443,23 +446,37 @@ class DocumentArchetypes:
     ##############
     # ARCHETYPAL ANALYSIS
     ##############
-    
-    def build_x_matrix(self,typ='entities'):
-        if typ not in self.archetypes_dic.keys():
-            self.archetypes_dic[typ] = {}
-        df = pd.DataFrame()
-        for key in self.names:
-            dfx = self.watson_nlu[key][typ].copy()
-            dfx['dictation'] = key
-            df = df.append(dfx,sort=True)
-        if typ is 'entities':
-            df = df[df['type']=='HealthCondition']
-            df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
-            df['relevance'] = df['rel0'] * df['confidence']
-        self.X_matrix = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+
+    # CONSTRUCT X- MATRIX
+    def X_matrix(self,typ = 'entities'):
+        '''
+        Construct the archetypal analysis X-matrix by pivoting the dataframe in the 
+        dictionary my_wda.watson_nlu that contains the Watson NLU analysis in question
+        
+        X_matrix(typ)
+            rows   : Dictations 
+            columns: Variables; keywords/entities/concepts, from Watson NLU analysis
+            values : Weights, from Watson NLU analysis
+        
+        the constructed X_matrix(typ) is saved as X_matrix_dic[typ]
+        
+        if my_wda.train_test has a value (not False) X_matrix_train_dic[typ] and X_matrix_test[typ]
+        are added computed and added to their respective dicionaries
+        '''
+        if typ not in self.X_matrix_dic.keys():
+            df = pd.DataFrame()
+            for key in self.names:
+                dfx = self.watson_nlu[key][typ].copy()
+                dfx['dictation'] = key
+                df = df.append(dfx,sort=True)
+            if typ is 'entities':
+                df = df[df['type']=='HealthCondition']
+                df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
+                df['relevance'] = df['rel0'] * df['confidence']
+            self.X_matrix_dic[typ] = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
         
         if self.train_test:
-            self.X_matrix_train = self.X_matrix
+            self.X_matrix_train_dic[typ] = self.X_matrix_dic[typ]
             
             df = pd.DataFrame()
             for key in self.names_test:
@@ -470,32 +487,35 @@ class DocumentArchetypes:
                 df = df[df['type']=='HealthCondition']
                 df.rename({'relevance': 'rel0'}, axis=1,inplace=True)
                 df['relevance'] = df['rel0'] * df['confidence']
-            self.X_matrix_test = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+            self.X_matrix_test_dic[typ] = df.pivot_table(index='dictation',columns='text',values='relevance').fillna(0)
+        return self.X_matrix_dic[typ]
 
-
-        
-
+    # CALCULATE ARCHETYPES
     def archetypes(self,typ='entities',n_archs=6,bootstrap = False, bootstrap_frac = 0.5):
+        if typ not in self.archetypes_dic.keys():
+            self.archetypes_dic[typ] = {}
         hyperparam = (n_archs,bootstrap,bootstrap_frac)
-        self.build_x_matrix(typ)
-        self.archetypes_dic[typ][hyperparam] = Archetypes(self.X_matrix,n_archs,bootstrap = bootstrap, bootstrap_frac = bootstrap_frac)
+        self.X_matrix(typ)
+        self.archetypes_dic[typ][hyperparam] = Archetypes(self.X_matrix(typ),n_archs,bootstrap = bootstrap, bootstrap_frac = bootstrap_frac)
         return self.archetypes_dic[typ][hyperparam]
 
 
-    def display_archetype(self,display_variable = -1, typ = 'entities' , n_archs = 6, var = 'variables', threshold = 0.1):
-        fun = {'variables' : 'self.archetypes(typ = typ,n_archs = n_archs).f.apply(scale).T ',
-               'dictations': 'self.archetypes(typ = typ,n_archs = n_archs).o.T.apply(scale)'
+    def display_archetype(self,arch_nr = -1, typ = 'entities' , n_archs = 6, var = 'variables', threshold = 0.1, norm = scale):
+        fun = {'variables' : 'self.archetypes(typ = typ,n_archs = n_archs).f.T ',
+               'dictations': 'self.archetypes(typ = typ,n_archs = n_archs).o'
                }
-        if display_variable == -1:
-            return sns.clustermap(eval(fun[var])).data2d
+        f  = eval(fun[var])
+        fn = f.apply(norm)
+        if arch_nr == -1:
+            return sns.clustermap(f).data2d
         else:
-            arc = eval(fun[var]).sort_values(by=display_variable,ascending = False)
+            arc = f.sort_values(by=arch_nr,ascending = False)
             result = arc[
-                        arc[display_variable] >= (threshold * arc[display_variable][0])
+                        arc[arch_nr] >= (threshold * arc[arch_nr][0])
                         ]
-            return result
+        return result
 
-dan  = DocumentArchetypes(PATH,NLU,train_test = False)
+dan  = WatsonDocumentArchetypes(PATH,NLU,train_test = False)
 
 #####  ORIGINAL DRAFT - PACKAGED AS A CLASS HERE ABOVE ##################### 
 
@@ -567,7 +587,7 @@ def archetypes(typ='entities',n_archs=6):
     if n_archs not in archetypes_dic[typ].keys():
         archetypes_dic[typ][n_archs] = {}
         df = pd.DataFrame()
-        for key in df_dic:
+        for key in df_dic.keys():
             dfx = df_dic[key][typ].copy()
             dfx['dictation'] = key
             df = df.append(dfx,sort=True)
@@ -707,11 +727,10 @@ app.layout = html.Div(
 def arch_heatmap_variables(typ, n_archs, threshold):
     variables = (typ,n_archs,threshold)
 
-    def f(i):
-        return display_archetype(arch_nr=i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
     # def f(i):
-    #     return dan.display_archetype(display_variable = i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
-
+    #     return display_archetype(arch_nr=i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
+    def f(i):
+        return dan.display_archetype(arch_nr=i,typ=typ,n_archs=n_archs,threshold=threshold).sort_values(by=i) #Sort by archetype i
     maxrows = int(1+ n_archs//3)
     cols = 3
     fig = make_subplots(rows=maxrows, cols=cols, horizontal_spacing=0.2)  
@@ -750,3 +769,6 @@ if __name__ == '__main__':
     app.run_server(port=8080, debug=True)
 
 
+
+
+#%%
