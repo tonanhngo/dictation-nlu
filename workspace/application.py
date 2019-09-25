@@ -513,7 +513,7 @@ class WatsonDocumentArchetypes:
             result = arc[
                         arc[arch_nr] >= (threshold * arc[arch_nr][0])
                         ]
-        return result
+            return result
 
 dan  = WatsonDocumentArchetypes(PATH,NLU,train_test = False)
 
